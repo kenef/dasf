@@ -1,6 +1,6 @@
 /* Over riding sponsors 2015 */
 th {
-	border: none;
+  border: none;
 }
 
 /* setting line height for all lists */
@@ -10,9 +10,9 @@ li {
 
 /* Over writing default for background and background-color on sub menus */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-	background: none;
-	background-color: none;
-	color: #43b3e6;
+  background: none;
+  background-color: none;
+  color: #43b3e6;
 }
 
 .nav-pills > li > a:hover {
@@ -27,9 +27,9 @@ li {
 }
 
 .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a, .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a:hover, .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a:focus {
-	background: none;
-	background-color: none;
-	color: #26a69a;
+  background: none;
+  background-color: none;
+  color: #26a69a;
 }
 
 .pane-menu-exhibitor-sub-menu .nav-pills > li > a:hover {
@@ -48,9 +48,9 @@ li {
 
 /* recoloring the text in sub nav on Fair Info page */
 .pane-menu-fair-info-sub-nav-desktop .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-	background: none;
-	background-color: none;
-	color: #428bca;
+  background: none;
+  background-color: none;
+  color: #428bca;
 }
 
 .pane-menu-fair-info-sub-nav-desktop .nav-pills > li > a:hover {
@@ -300,3 +300,259 @@ p {
   line-height: 26px;
 }
 
+
+/* ------------------------------- styling "buy tickets" section of concerts pages */
+/* sponsors */
+.row > .col-md-4.event-sponsor {
+    display: inline-block;
+    width: 36%;
+    margin: auto;
+    text-align: center;
+    float: left;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 260px;
+    border: 1px solid #ffffff;
+}
+
+@media (max-width:940px){
+    .row > .col-md-4.event-sponsor {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        text-align:center;
+        float: left;
+        background: #9C51A1;
+        background-color: #9C51A1;
+        height: 260px;
+        border: 1px solid #ffffff;
+    }
+}
+
+.event-sponsor h3, .event-sponsor a {
+    color: #ffffff;
+}
+
+.event-sponsor h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* lawn area */
+.row > .col-md-4.event-price--lawn {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    text-align:center;
+    float: left;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 260px;
+    border: 1px solid #ffffff;
+
+}
+
+.event-price--lawn a {
+    padding: 10px 25px;
+    margin: auto;
+    border: 1px solid #fff;
+    font-size: 22px;
+    background: #7E4784;
+    width: auto;
+}
+
+.event-price--lawn a:hover {
+    color: #fff;
+}
+
+.event-price--lawn h4 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.event-price--lawn h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 400 !important;
+}
+
+.event-price--lawn h4 {
+    color: #ffffff;
+}
+
+.event-price--lawn h3 {
+    color: #ffffff;
+}
+
+.event-price--lawn a {
+    color: #ffffff;
+}
+
+@media (max-width:1300px){
+
+    .event-price--lawn a {
+        padding: 5px 10px;
+        margin: auto;
+        border: 1px solid #fff;
+        font-size: 14px;
+        background: #7E4784;
+        width: auto;
+    }
+
+    .event-price--lawn h3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        font-weight: 400 !important;
+    }
+}
+
+@media (max-width:940px){
+    .row > .col-md-4.event-price--lawn {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        text-align:center;
+        float: left;
+        background: #9C51A1;
+        background-color: #9C51A1;
+        height: 260px;
+        border: 1px solid #ffffff;
+    }
+    .event-price--lawn a {
+        padding: 15px 27px;
+        margin: auto;
+        border: 1px solid #fff;
+        font-size: 26px;
+        background: #7E4784;
+        width: auto;
+    }
+    .event-price--lawn h3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 34px;
+        font-weight: 400 !important;
+    }
+}
+
+
+/* reserved area */
+.row > .col-md-4.event-price--reserved {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    text-align:center;
+    float: left;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 260px;
+    border: 1px solid #ffffff;
+}
+
+.event-price--reserved a {
+    padding: 10px 25px;
+    margin: auto;
+    border: 1px solid #fff;
+    font-size: 22px;
+    background: #7E4784;
+    width: auto;
+}
+
+.event-price--reserved a:hover {
+    color: #fff;
+}
+
+.event-price--reserved h4 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.event-price--reserved h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 400 !important;
+}
+
+.event-price--reserved h4 {
+    color: #ffffff;
+}
+
+.event-price--reserved h3 {
+    color: #ffffff;
+}
+
+.event-price--reserved a {
+    color: #ffffff;
+}
+
+@media (max-width:1300px){
+
+    .event-price--reserved a {
+        padding: 5px 10px;
+        margin: auto;
+        border: 1px solid #fff;
+        font-size: 14px;
+        background: #7E4784;
+        width: auto;
+    }
+
+    .event-price--reserved h3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        font-weight: 400 !important;
+    }
+}
+
+@media (max-width:940px){
+    .row > .col-md-4.event-price--reserved {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        text-align:center;
+        float: left;
+        background: #9C51A1;
+        background-color: #9C51A1;
+        height: 260px;
+        border: 1px solid #ffffff;
+    }
+    .col-md-4.event-price--reserved a {
+        padding: 15px 27px;
+        margin: auto;
+        border: 1px solid #fff;
+        font-size: 26px;
+        background: #7E4784;
+        width: auto;
+    }
+    .col-md-4.event-price--reserved h3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 34px;
+        font-weight: 400 !important;
+    }
+}
+
+@media (max-width:850px){
+    .row > .col-md-4.event-price--reserved {
+        min-height: 295px;
+    }
+}
+
+@media (max-width:768px){
+    .row > .col-md-4.event-price--reserved {
+        min-height: 260px;
+    }
+}
+/* row wrapper */
+.row > .event-price--lawn, .row > .event-sponsor {
+    display: inline-block;
+    margin-left: none;
+    margin-right: none;
+    width: 100%;
+}
+/* ------------------------------------- end concerts page "buy tickets" styling */
