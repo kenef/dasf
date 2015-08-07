@@ -1,0 +1,180 @@
+// Styles for individual pages
+// --------------------------------------------------
+
+.row {
+	margin:0;
+}
+
+.internal-sponsors {
+	background:orange;
+	padding: 30px 0 20px 0;
+	.region-sponsors {
+		text-align:center;
+		margin-top:35px;
+		li {
+		    display: inline-block;
+		    vertical-align: middle;
+		    margin: 0 20px 30px 20px;
+		}
+	}
+}
+
+//Large blocks on HP
+.front-large-block {
+    padding: 0;
+    //min-height: 400px;
+    //max-height: 400px;
+    //border:1px solid #fff;
+    &.alpha {
+      border-top: none;
+      border-bottom: none;
+      border-right: none;
+      border-left:1px solid #fff;
+    }
+    &.bravo {
+      border-top:none;
+      border-bottom:none;
+      border-left:1px solid #fff;
+      border-right:none
+    }
+    &.charlie {
+      border-top:1px solid #fff;
+      border-bottom:1px solid #fff;
+      border-left:none;
+      border-right:none
+    }
+    &.delta {
+      border-top:1px solid #fff;
+      border-bottom:1px solid #fff;
+      border-left:1px solid #fff;
+      border-right:none
+    }
+    & img {
+	    //min-height: 400px;
+	    //max-height: 400px
+    }
+}
+
+//Smaller Blocks on HP
+.front-little-block {
+    padding: 0;
+    //min-height:215px;
+    //max-height: 215px;
+    border:1px solid #fff;
+    &.echo {
+      border-top:none;
+      border-bottom:none;
+    }
+    &.foxtrot {
+      border-left:none;
+      border-top:none;
+      border-bottom: none;
+    }
+    &.golf {
+     border-bottom: none;
+    }
+    &.hotel {
+      border-left:none;
+      border-bottom: none;
+    }
+    & img {
+	    //min-height:215px;
+	    //max-height:215px
+    }
+    & p {
+      margin:0;
+    }
+
+}
+
+.internal-sponsors {
+  padding: 1em 0 0 0;
+  background: none;
+  text-align: center;
+  //border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.top-footer {
+  width: 100%;
+  min-height: 200px;
+  background-image: url(../../footerbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  color: #000;
+  a {
+    color:#37474f;
+  }
+  h2, h3, h4 {
+    color: #000;
+  }
+  h2 {
+    font-size:25px;
+  }
+  h3 {
+    font-size:20px;
+  }
+}
+
+.bottom-footer {
+	background: #fff;
+    color: #37474f;
+	height: 60px;
+	padding: 25px 0;
+	font-size: 12px;
+	line-height: _normalize_lineheight(10px, -1);
+	line-height: _normalize_lineheight(10px, -1)/16pxrem;
+    margin-bottom: 1em;
+    p {
+      margin: 3px 0;
+    }
+}
+
+img.panopoly-image-full {
+	margin:0 !important;
+}
+
+#page-content-wrapper {
+padding: 0;
+}
+
+.container-fluid {
+padding: 0;
+}
+
+.col-md-12.front-header.panel-panel {
+padding: 0;
+
+}
+
+.col-md-12.front-concerts.panel-panel {
+padding: 0;
+margin-bottom: 28.2%;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #fff;
+}
+
+.front-large-block {
+padding: 0;
+}
+
+.front-little-block {
+padding: 0;
+}
+
+section.insider {
+  margin-bottom: 1em;
+}
+
+.field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
+  font-size:32px;
+  color:$purple;
+}
+
+.field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a:before {
+  display:inline-block;
+  content:"@";
+}

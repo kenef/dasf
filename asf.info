@@ -1,0 +1,48 @@
+name        = ASF
+description = A theme based on Radix.
+screenshot  = screenshot.png
+core        = 7.x
+
+; Base - Radix
+base theme  = radix
+
+
+; Regions
+regions[menus] = Menu
+regions[content] = Content
+regions[sponsors] = Sponsors
+regions[topfooterone] = Top Footer One
+regions[topfootertwo] = Top Footer Two
+regions[topfooterthree] = Top Footer Three
+regions[bottomfooterone] = Bottom Footer One
+regions[bottomfootertwo] = Bottom Footer Two
+
+; Panels
+plugins[panels][layouts] = panels/layouts
+plugins[panels][styles] = panels/styles
+
+; Panels layouts. You can place multiple layouts under the "layouts" folder.
+plugins[panels][layouts] = layouts
+
+; CSS - General
+stylesheets[all][]     = assets/stylesheets/screen.css
+stylesheets[all][]     = assets/stylesheets/screen.css
+stylesheets[all][]     = assets/stylesheets/ken.css
+stylesheets[print][]   = assets/javascripts/sidr/stylesheets/jquery.sidr.light.css
+
+; CSS - Conditional
+stylesheets-conditional[lte IE 9][all][] = assets/stylesheets/ie.css
+stylesheets-conditional[IE 7][all][] = assets/stylesheets/ie7.css
+stylesheets-conditional[IE 8][all][] = assets/stylesheets/ie8.css
+
+; Javascript
+scripts[] = assets/javascripts/script.js
+scripts[] = assets/javascripts/sidr/jquery.sidr.min.js
+
+
+; Information added by Drupal.org packaging script on 2015-03-02
+version = "7.x-3.0-rc2"
+core = "7.x"
+project = "radix"
+datestamp = "1425325991"
+

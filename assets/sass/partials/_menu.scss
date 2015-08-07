@@ -1,0 +1,346 @@
+// Styles for Menus and Navs
+// --------------------------------------------------
+
+//Desktop
+
+#wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding: 0 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #fff;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 5px #000;
+}
+
+.right-sidebar a {
+    color: #37474f;
+    text-decoration: underline;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+#sidebar-wrapper{ 
+	.menu.nav {
+	    position: absolute;
+	    top: 200px;
+	    width: 250px;
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	}
+
+img.logo {
+	width: 55%;
+    //padding:2em;
+    margin-top: 1em;
+    //text-align: center;
+}
+
+	.menu.nav li {
+	  //text-indent: 20px;
+      line-height: 40px;
+      list-style: none;
+	}
+
+	.menu.nav li a {
+	    display: block;
+	    text-decoration: none;
+	    color: #999999;
+	}
+
+	.menu.nav li a:hover {
+	    text-decoration: none;
+	    color: #fff;
+	    background: rgba(255,255,255,0.2);
+	}
+
+	.menu.nav  li a:active,
+	.menu.nav li a:focus {
+	    text-decoration: none;
+	}
+
+	.menu.nav  > .leaf {
+	    height: 45px;
+	    font-size: 18px;
+	    //line-height: 60px;
+	}
+
+	.menu.nav  > .leaf a {
+	    color: #37474f;
+	}
+
+	.menu.nav  > .leaf a:hover {
+	    color: #fff;
+	    background: none;
+	}
+}
+
+#sidebar-wrapper .menu.nav li a.active {
+  background: $info;
+  color:#fff;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+    #right-sidebar {
+      display: block;
+      width:250px;
+      height: auto;
+      position: fixed;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-image: url(http://i.imgur.com/X4h2Jk2.jpg?1);
+      background-position: -415px 0px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+}
+
+//My Fair
+#right-sidebar {
+  //display: none;
+}
+
+
+//Sub Nav Desktop
+
+.pane-menu-fair-info-sub-nav-desktop {
+	text-align:right;
+	a {
+		color:$subnav;
+	}
+}
+
+//Sub Nav Mobile
+
+.responsive-menus {
+	background: #fff;
+	&.responsified {
+		.responsive-menus-simple {
+			background: #fff;
+			box-shadow:none;	
+			li {
+				background:#fff;
+				a {
+				    color: #000;
+				    text-transform: none;
+				    border-bottom: 1px solid #EDEDED !important;
+				}
+			}
+		}
+	}
+ 	&.responsified span {
+	    &.toggler {
+	      background: #fff;
+	      color: #505050;
+	      box-shadow: none;
+	      padding: 1em;
+	      border-bottom:0;
+	      border: 1px solid #EDEDED;
+	      border-radius: 0;
+	    }
+  	}
+}
+
+#sidebar-wrapper .menu.nav > .leaf a:hover {
+  color:$info;
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 4px 15px;
+  color: #B1B7BA;
+}
+
+/* adding font-weight and color to hovered sub-nav links on Fair Info page*/
+.menu-block-wrapper.menu-block-ctools-menu-fair-info-sub-nav-desktop-1.menu-name-menu-fair-info-sub-nav-desktop.parent-mlid-0.menu-level-1 a:hover{
+    font-weight: 700;
+    color: $headers;
+}
+
+.nav-pills > li > a:hover {
+  background-color: $info;
+  background: $info;
+  color: #fff;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: $info;
+  background: $info;
+  color: #fff;
+}
+
+#sidebar-wrapper .menu.nav > .leaf a:hover, #sidebar-wrapper .menu.nav > .leaf a:active, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background: $info;
+  color: #fff;
+}
+
+#sidebar-wrapper .active, #sidebar-wrapper .active:a {
+  background:$info;
+  color:#fff;
+}
+
+//Hover Menu
+#sidebar-wrapper .menu.nav li.menu-link-home a.active {
+  background: $bluegray;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-concerts a:hover {
+  background:$purple;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-exhibits a:hover {
+  background:$teal;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-contests a:hover{
+  background:$contets;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-buy-tickets a:hover {
+  background:$tickets;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a:hover{
+  background:$teal;
+}
+
+//Table for facility
+
+table .header, th .header, td .header {
+  color: #8f3276 !important;
+  background: rgba(255, 255, 255, 0.35) !important;
+}
+
+table .header-purple, th .header-purple, td .header-purple {
+  background: #8f3276 !important;
+  color: #fff;
+}
+
+
+
+//Active
+#sidebar-wrapper .menu.nav li.menu-link-home a.active {
+  background: $bluegray;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-concerts a.active {
+  background:$purple;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-exhibits a.active {
+  background:$teal;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-contests a.active {
+  background:$contets;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-buy-tickets a.active {
+  background:$tickets;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a.active {
+  background:$teal;
+}
+
+a#menu-toggle {
+  width: 100%;
+  border-radius: 0;
+}
+
+//Footer Menu
+
+.internal-footmenu {
+  padding: 25px 0;
+}
+
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  li {
+    list-style: none;
+    margin: 0;
+  }
+}
+
+//Secondary Top
+nav.secondary ul li a {
+  display:inline !important;
+  color:white;
+  font-size:12px;
+
+}
+
+nav.secondary ul {
+  background:$orange;
+  text-align:center;
+}
+
+nav.secondary ul li {
+  display: inline;;
+
+}

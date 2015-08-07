@@ -1,0 +1,200 @@
+//
+// CSS Helpers
+// --------------------------------------------------
+
+a {
+  color:#37474f;
+}
+
+.col-md-12 {
+    padding: 0;
+}
+
+//Need to move to own partial or in a footer partial
+.signup {
+  display: block;
+  width: 90%;
+  background: none;
+  text-align: center;
+  border: 1px solid #37474f;
+  padding: 1em;
+  color: #fff;
+  margin-top: 2em;
+  a {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size:1.5em;
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  &:hover {
+    background: #37474f;
+    color: #fff;
+    text-decoration: none;
+    //border:1px solid #fff;
+  }
+}
+
+//the 1000000th time I am doing something stupid for ths
+.caption {
+  background: rgba(190, 18, 208, 0.6);
+  position: relative;
+  margin-top: -55px;
+  color: #fff;
+  font-size: 2em;
+  padding: 0px 10px;
+}
+
+.purple-caption {
+  background: rgba(190, 18, 208, 0.6);
+}
+
+.caption.orange {
+  background: rgba(255, 167, 38, 0.8);
+}
+
+.caption.green {
+  background: rgba(102, 187, 106, 0.91);
+}
+
+.col-md-12.front-concerts.panel-panel img {
+  width: 100%;
+}
+
+span.view-more {
+  border: 1px solid #fff;
+  padding: 3px 10px;
+  border-radius: 5px;
+  float: right;
+  font-size: 20px;
+  margin-top: 3px;
+}
+
+.panel-pane.pane-views-panes.pane-home-page-slide-show-panel-pane-1 .pane-title {
+  display: none;
+}
+
+img.att-sponsor {
+  //width: 100%;
+  margin-top: 25px;
+  width: 100px;
+}
+
+img.bp-sponsor {
+  //width: 100%;
+  padding: 1em;
+  margin-top: -10px;
+  width: 100px;
+}
+
+img.mta-sponsor {
+  padding: 1em;
+  //width: 100%;
+  width: 120px;
+}
+
+img.kendall-sponsor {
+  padding: 1em;
+  margin-top: 12px;
+  width: 130px;
+}
+
+img.akair-sponsor {
+  //width: 100%;
+  width: 125px;
+  margin-top:19px;
+}
+
+img.craig-sponsor {
+  //width: 100%;
+  padding: 1em;
+  width: 132px;
+}
+
+//Hey Steven, should move this to its own partial for this template which is used for events too
+.view-concert-landing .views-row {
+  color: $concerts;
+  padding: 2em;
+  margin-bottom: 1em;
+  -webkit-box-shadow: -1px 1px 47px -17px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 47px -17px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 47px -17px rgba(0, 0, 0, 0.75);
+  .concert-landing {
+    color: $concerts;
+  }
+  .concerts-buy {
+    display: inline-block;
+    margin-top: 2em;
+    a {
+      background: purple;
+      padding: 1em;
+      color: #fff;
+    }
+  }
+  .concerts-moreinfo {
+    display:inline-block;
+    a {
+      background: $concerts;
+      padding: 1em;
+      color: #fff;
+    }
+  }
+}
+
+/* adding padding to bottom of buttons */
+.concerts-buy  {
+    padding-bottom: 30px;
+}
+
+.concerts-moreinfo  {
+    padding-bottom: 30px;
+}
+
+.field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above .field-label {
+  display: none;
+}
+
+.field.field-name-field-repeat-dates-and-times.field-type-datetime.field-label-above .field-label {
+  display: none;
+}
+
+.entity.entity-field-collection-item.field-collection-item-field-repeating-dates-and-time.clearfix {
+  margin-bottom: 1em;
+}
+
+.internal-header {
+  margin-bottom: 1em;
+}
+
+.views-field.views-field-title {
+  display: inline-block;
+  margin-right:20px;
+}
+
+.views-field.views-field-field-repeat-dates-and-times {
+  display: inline-block;
+  margin-right:20px;
+}
+
+.views-field.views-field-field-venue {
+  display: inline-block;
+  margin-right:20px;
+}
+
+.views-field.views-field-field-event-sponsors {
+  display: inline-block;
+  margin-right: 10px;
+  font-style: italic;
+}
+
+span.views-label.views-label-field-event-sponsors {
+  margin-right: 5px;
+}
+
+.views-field.views-field-field-event-tagline {
+  display: inline-block;
+  margin-right: 20px;
+}
+

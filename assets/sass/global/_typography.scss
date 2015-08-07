@@ -1,0 +1,23 @@
+// Typography
+// --------------------------------------------------
+
+//Font Import
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400|Cinzel:400,700);
+
+body {
+	font-family: $font-family-open-sans;
+	font-size: 14px;
+}
+
+
+h1, h2, h3, h4, h5 {
+	font-family: $font-family-open-sans;
+	color:$headers;
+
+}
+
+/* fixing h3 sub headings on Fair Pages */
+.pod > h3 {
+    font-size: 25px;
+}

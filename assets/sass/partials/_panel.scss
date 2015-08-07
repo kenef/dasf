@@ -1,0 +1,22 @@
+// Styles for panels and panes.
+// --------------------------------------------------
+
+table {
+	td {
+		border:none;
+	}
+	tbody {
+		border:none;
+	}
+	tr {
+		&.even {
+			background:#fff;
+			border:none;
+		}
+		&.odd {
+			background: $table;
+			border:none;
+		}
+	}
+}
+
