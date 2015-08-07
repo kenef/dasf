@@ -3,6 +3,11 @@ th {
 	border: none;
 }
 
+/* setting line height for all lists */
+li {
+    line-height: 26px;
+}
+
 /* Over writing default for background and background-color on sub menus */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
 	background: none;
@@ -114,6 +119,7 @@ th {
 table th,
 table td {
   border-top: none;
+  font-weight: 500;
 }
 
 /* adding padding to the bottom of the content of fair pages */
@@ -220,6 +226,11 @@ img.myfair-icon {
 
 #right-sidebar {
     padding: 20px;
+    box-shadow: 0 0 5px #000;
+}
+
+.col-md-12.internal-header.panel-panel {
+     padding:0;
 }
 
 [8/6/15, 7:50:45 PM] Steven Loyer: .right-sidebar h2 {
@@ -273,6 +284,8 @@ img.myfair-icon {
     text-decoration:underline;
     color: #37474f;
 }
+
+
 /* end changes from Steven */
 
 
@@ -286,3 +299,4 @@ p {
   margin: 0 0 11px;
   line-height: 26px;
 }
+
