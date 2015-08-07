@@ -12910,8 +12910,3 @@ span.views-label.views-label-field-event-sponsors {
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
   font-size: 19px;
 }
-
-/* line 3, ../sass/partials/_field.scss */
-.hello {
-  color: red;
-}
