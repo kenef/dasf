@@ -17,7 +17,6 @@
             $menuhtml = drupal_render($menu);
             print_r($menuhtml);?>
         </nav>
-        
     </div>
     <div id="page-content-wrapper">
         <div class="front container-fluid">
@@ -162,5 +161,12 @@
             </footer>
         </div>
     </div>
-    <div class="right-sidebar" id="right-sidebar"></div>
+    <div class="right-sidebar" id="right-sidebar">
+        <img src="http://alaskastatefair.org/sites/default/files/styles/panopoly_image_original/public/myfairiconbluegrey.png?itok=5sYFh5--" class="myfair-icon" alt="MyFair">
+        <?php
+        //D7
+        $block = module_invoke('block', 'block_view', '10');
+        print render($block['content']);
+        ?>
+    </div>
 </div>
