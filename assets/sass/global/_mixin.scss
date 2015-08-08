@@ -41,7 +41,7 @@
 		}
 	}
 	table tr.odd {
-	    background: lighten($imagecolor, 15%); 
+	    background: rgna($imagecolor, .25); 
 	}
 
 	table .header, th .header, td .header {
