@@ -4,7 +4,7 @@
 @mixin page-header($imagecolor) {
 	.field-type-image {
 		background-color: $imagecolor;
-		&img.panopoly-image-full {
+		& img.panopoly-image-full {
 			opacity: 0.1;
 		}
 	}
