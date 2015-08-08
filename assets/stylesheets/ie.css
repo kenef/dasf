@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/* line 82, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
+.fa-backward:before {
+  content: "";
+}
+
 /* line 83, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
 .fa-play:before {
   content: "";
@@ -3252,20 +3257,20 @@ html.js fieldset.collapsed {
   /* LTR */
 }
 
-/* line 8, ../sass/global/_typography.scss */
+/* line 9, ../sass/global/_typography.scss */
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
-/* line 14, ../sass/global/_typography.scss */
+/* line 15, ../sass/global/_typography.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Open Sans", sans-serif;
   color: #0BB9F4;
 }
 
 /* fixing h3 sub headings on Fair Pages */
-/* line 21, ../sass/global/_typography.scss */
+/* line 22, ../sass/global/_typography.scss */
 .pod > h3 {
   font-size: 25px;
 }
