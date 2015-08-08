@@ -314,7 +314,7 @@ p {
     border: 1px solid #ffffff;
 }
 
-@media (max-width:1000px){
+@media (max-width:1036px){
     .row > .col-md-4.event-sponsor {
         display: inline-block;
         width: 100%;
@@ -334,7 +334,8 @@ p {
 .event-sponsor h3 {
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
+    margin-top: 25px;
 }
 
 /* lawn area */
@@ -388,7 +389,7 @@ p {
     color: #ffffff;
 }
 
-@media (max-width:1300px){
+@media (max-width:2000px){
 
     .event-price--lawn a {
         padding: 5px 10px;
@@ -402,12 +403,12 @@ p {
     .event-price--lawn h3 {
         margin-top: 30px;
         margin-bottom: 30px;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 400 !important;
     }
 }
 
-@media (max-width:1000px){
+@media (max-width:1036px){
     .row > .col-md-4.event-price--lawn {
         display: inline-block;
         width: 100%;
@@ -485,7 +486,7 @@ p {
     color: #ffffff;
 }
 
-@media (max-width:1300px){
+@media (max-width:2000px){
 
     .event-price--reserved a {
         padding: 5px 10px;
@@ -499,12 +500,12 @@ p {
     .event-price--reserved h3 {
         margin-top: 30px;
         margin-bottom: 30px;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 400 !important;
     }
 }
 
-@media (max-width:1000px){
+@media (max-width:1036px){
     .row > .col-md-4.event-price--reserved {
         display: inline-block;
         width: 100%;
@@ -555,11 +556,18 @@ p {
     margin-left: -3%;
 }
 
-@media (max-width:1000px){
+@media (max-width:1036px){
     .field.field-name-field-additional-information {
         width: 114%;
         margin-left: -7%;
     }
 }
+
+/* restricting image size */
+img.media-element.file-default.panopoly-image-original {
+    max-width: 180px;
+    max-height: 108px;
+}
+
 /* ------------------------------------- end concerts page "buy tickets" styling */
 
