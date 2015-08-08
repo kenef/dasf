@@ -12575,7 +12575,7 @@ h1, h2, h3, h4, h5 {
 
 /* line 280, ../sass/partials/_menu.scss */
 table .header, th .header, td .header {
-  color: #8f3276 !important;
+  color: #000 !important;
   background: rgba(255, 255, 255, 0.35) !important;
 }
 
