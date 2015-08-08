@@ -579,3 +579,9 @@ p {
     line-height: 25px;
     padding-top: 10px;
 }
+
+/* overwriting Exibitor sub nav for hover effect */
+.pane-menu-menu-exhibitor-sub-menu a:hover {
+    color: #1FA79B;
+    font-weight: 600;
+}
