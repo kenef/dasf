@@ -2,6 +2,9 @@
 // SASS Mixins
 // --------------------------------------------------
 @mixin page-header($imagecolor) {
+	.nav.secondary ul {
+		background:$imagecolor;
+	}
 	.field-type-image {
 		background-color: $imagecolor;
 		& img.panopoly-image-full {

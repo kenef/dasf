@@ -12923,19 +12923,27 @@ span.views-label.views-label-field-event-sponsors {
 }
 
 /* line 5, ../sass/global/_mixin.scss */
+.page-node-87 .nav.secondary ul {
+  background: #43b3e6;
+}
+/* line 8, ../sass/global/_mixin.scss */
 .page-node-87 .field-type-image {
   background-color: #43b3e6;
 }
-/* line 7, ../sass/global/_mixin.scss */
+/* line 10, ../sass/global/_mixin.scss */
 .page-node-87 .field-type-image img.panopoly-image-full {
   opacity: 0.1;
 }
 
 /* line 5, ../sass/global/_mixin.scss */
+.page-node-257 .nav.secondary ul, .page-node-263 .nav.secondary ul {
+  background: #26a69a;
+}
+/* line 8, ../sass/global/_mixin.scss */
 .page-node-257 .field-type-image, .page-node-263 .field-type-image {
   background-color: #26a69a;
 }
-/* line 7, ../sass/global/_mixin.scss */
+/* line 10, ../sass/global/_mixin.scss */
 .page-node-257 .field-type-image img.panopoly-image-full, .page-node-263 .field-type-image img.panopoly-image-full {
   opacity: 0.1;
 }
