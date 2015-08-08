@@ -12922,11 +12922,20 @@ span.views-label.views-label-field-event-sponsors {
   margin-top: 15%;
 }
 
-/* line 11, ../sass/partials/_image-headers.scss */
-.page-node-257 .field-type-image, .page-node-87 .field-type-image {
-  background-color: #26A69A;
+/* line 5, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-image {
+  background-color: #43b3e6;
 }
-/* line 13, ../sass/partials/_image-headers.scss */
-.page-node-257 .field-type-image img.panopoly-image-full, .page-node-87 .field-type-image img.panopoly-image-full {
+/* line 7, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-imageimg.panopoly-image-full {
+  opacity: 0.1;
+}
+
+/* line 5, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-image {
+  background-color: #26a69a;
+}
+/* line 7, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-imageimg.panopoly-image-full {
   opacity: 0.1;
 }
