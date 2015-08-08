@@ -12924,7 +12924,7 @@ span.views-label.views-label-field-event-sponsors {
 
 /* line 5, ../sass/global/_mixin.scss */
 .page-node-87 nav.secondary ul {
-  background: #43b3e6;
+  background: #43b3e6 !important;
 }
 /* line 8, ../sass/global/_mixin.scss */
 .page-node-87 .field-type-image {
@@ -12937,7 +12937,7 @@ span.views-label.views-label-field-event-sponsors {
 
 /* line 5, ../sass/global/_mixin.scss */
 .page-node-257 nav.secondary ul, .page-node-263 nav.secondary ul {
-  background: #26a69a;
+  background: #26a69a !important;
 }
 /* line 8, ../sass/global/_mixin.scss */
 .page-node-257 .field-type-image, .page-node-263 .field-type-image {
