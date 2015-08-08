@@ -3602,47 +3602,52 @@ table .header-purple, th .header-purple, td .header-purple {
 }
 
 /* line 313, ../sass/partials/_menu.scss */
+#sidebar-wrapper .menu.nav li.menu-link-discounts a.active {
+  background: #ef5350;
+}
+
+/* line 318, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a.active {
   background: #4caf50;
 }
 
-/* line 317, ../sass/partials/_menu.scss */
+/* line 322, ../sass/partials/_menu.scss */
 a#menu-toggle {
   width: 100%;
   border-radius: 0;
 }
 
-/* line 324, ../sass/partials/_menu.scss */
+/* line 329, ../sass/partials/_menu.scss */
 .internal-footmenu {
   padding: 25px 0;
 }
 
-/* line 328, ../sass/partials/_menu.scss */
+/* line 333, ../sass/partials/_menu.scss */
 .footer-menu {
   margin: 0;
   padding: 0;
   text-align: left;
 }
-/* line 332, ../sass/partials/_menu.scss */
+/* line 337, ../sass/partials/_menu.scss */
 .footer-menu li {
   list-style: none;
   margin: 0;
 }
 
-/* line 339, ../sass/partials/_menu.scss */
+/* line 344, ../sass/partials/_menu.scss */
 nav.secondary ul li a {
   display: inline !important;
   color: white;
   font-size: 12px;
 }
 
-/* line 346, ../sass/partials/_menu.scss */
+/* line 351, ../sass/partials/_menu.scss */
 nav.secondary ul {
   background: #ffa726;
   text-align: center;
 }
 
-/* line 351, ../sass/partials/_menu.scss */
+/* line 356, ../sass/partials/_menu.scss */
 nav.secondary ul li {
   display: inline;
 }
@@ -4101,17 +4106,4 @@ span.views-label.views-label-field-event-sponsors {
 /* line 39, ../sass/global/_mixin.scss */
 .page-node-100 .pane-node-field-fair-content a {
   color: #8bc34a;
-}
-/* line 43, ../sass/global/_mixin.scss */
-.page-node-100 table tr.odd {
-  background: rgba(139, 195, 74, 0.2);
-}
-/* line 47, ../sass/global/_mixin.scss */
-.page-node-100 table .header, .page-node-100 th .header, .page-node-100 td .header {
-  background: none !important;
-}
-
-/* line 6, ../sass/global/_mixin.scss */
-.page-node-264 nav.secondary ul {
-  background: #4caf50;
 }
