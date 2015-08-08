@@ -22,7 +22,6 @@
         <div class="front container-fluid">
             <div class="row">
                 <div class="col-md-12 front-header panel-panel">
-
                             <?php
                                 $view = views_get_view_result('announcments', $display_id = 'announcment_block');
                                 $result = count($view);
@@ -34,7 +33,7 @@
                                         <?php echo views_embed_view('announcments', $display_id = 'announcment_block'); ?>
                                         </div>
                                     </div>
-                    <?php
+                                <?php
                                 }
                             ?>
                     <div class="panel-panel-inner">
@@ -161,7 +160,7 @@
             </footer>
         </div>
     </div>
-    <div class="right-sidebar hidden-sm hidden-md" id="right-sidebar">
+    <div class="right-sidebar hidden-sm" id="right-sidebar">
         <img src="http://alaskastatefair.org/sites/default/files/styles/panopoly_image_original/public/myfairiconbluegrey.png?itok=5sYFh5--" class="myfair-icon" alt="MyFair">
         <?php
         //D7
