@@ -3,7 +3,7 @@
 // --------------------------------------------------
 @mixin page-header($imagecolor) {
 	nav.secondary ul {
-		background:$imagecolor !important;
+		background:$imagecolor;
 	}
 	.field-type-image {
 		background-color: $imagecolor;
