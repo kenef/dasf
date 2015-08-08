@@ -3266,7 +3266,7 @@ body {
 /* line 15, ../sass/global/_typography.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Open Sans", sans-serif;
-  color: #0BB9F4;
+  color: #43b3e6;
 }
 
 /* fixing h3 sub headings on Fair Pages */
@@ -3551,7 +3551,7 @@ h1, h2, h3, h4, h5 {
 
 /* line 266, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a:hover {
-  background: #26a69a;
+  background: #4caf50;
 }
 
 /* line 272, ../sass/partials/_menu.scss */
@@ -3593,7 +3593,7 @@ table .header-purple, th .header-purple, td .header-purple {
 
 /* line 305, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a.active {
-  background: #26a69a;
+  background: #4caf50;
 }
 
 /* line 309, ../sass/partials/_menu.scss */
@@ -3806,4 +3806,289 @@ img.panopoly-image-full {
 /* line 160, ../sass/partials/_page.scss */
 .front-large-block {
   padding: 0;
+}
+
+/* line 164, ../sass/partials/_page.scss */
+.front-little-block {
+  padding: 0;
+}
+
+/* line 168, ../sass/partials/_page.scss */
+section.insider {
+  margin-bottom: 1em;
+}
+
+/* line 172, ../sass/partials/_page.scss */
+.field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
+  font-size: 32px;
+  color: #9b51a0;
+}
+
+/* line 177, ../sass/partials/_page.scss */
+.field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a:before {
+  display: inline-block;
+  content: "@";
+}
+
+/* line 5, ../sass/partials/_panel.scss */
+table td {
+  border: none;
+}
+/* line 8, ../sass/partials/_panel.scss */
+table tbody {
+  border: none;
+}
+/* line 12, ../sass/partials/_panel.scss */
+table tr.even {
+  background: #fff;
+  border: none;
+}
+/* line 16, ../sass/partials/_panel.scss */
+table tr.odd {
+  background: #E8F6FD;
+  border: none;
+}
+
+/* line 7, ../sass/partials/_view.scss */
+.views_slideshow_cycle_main {
+  width: 100%;
+}
+/* line 9, ../sass/partials/_view.scss */
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto !important;
+}
+/* line 10, ../sass/partials/_view.scss */
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: auto !important;
+}
+/* line 11, ../sass/partials/_view.scss */
+.views_slideshow_cycle_main .field-content {
+  max-width: 100%;
+  width: 100%;
+}
+/* line 12, ../sass/partials/_view.scss */
+.views_slideshow_cycle_main .field-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, ../sass/partials/_view.scss */
+.concert-landing-venue ul li {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 20, ../sass/partials/_view.scss */
+span.views-label.views-label-field-event-sponsors {
+  display: inline-block;
+}
+
+/* line 24, ../sass/partials/_view.scss */
+.field-content {
+  display: inline;
+}
+
+/* line 28, ../sass/partials/_view.scss */
+.views-field.views-field-field-event-sponsors.concert-landing-sponsors {
+  margin-bottom: 1em;
+}
+
+/* line 32, ../sass/partials/_view.scss */
+.field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
+  font-size: 19px;
+}
+
+/* line 1, ../sass/partials/_image-headers.scss */
+.page-title {
+  position: absolute;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-top: 11%;
+}
+
+/* line 6, ../sass/global/_mixin.scss */
+.page-node-87 nav.secondary ul, .page-node-480 nav.secondary ul {
+  background: #43b3e6;
+}
+/* line 10, ../sass/global/_mixin.scss */
+.page-node-87 .field-type-image, .page-node-480 .field-type-image {
+  background-color: #43b3e6;
+}
+/* line 12, ../sass/global/_mixin.scss */
+.page-node-87 .field-type-image img.panopoly-image-full, .page-node-480 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-87 .pane-bundle-image, .page-node-480 .pane-bundle-image {
+  height: 240px;
+  max-height: 240px;
+  overflow: hidden;
+}
+/* line 24, ../sass/global/_mixin.scss */
+.page-node-87 .pane-node-field-fair-content h2, .page-node-480 .pane-node-field-fair-content h2 {
+  color: #43b3e6;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-87 .pane-node-field-fair-content h3, .page-node-480 .pane-node-field-fair-content h3 {
+  color: #43b3e6;
+}
+/* line 30, ../sass/global/_mixin.scss */
+.page-node-87 .pane-node-field-fair-content h4, .page-node-480 .pane-node-field-fair-content h4 {
+  color: #43b3e6;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-87 .pane-node-field-fair-content h5, .page-node-480 .pane-node-field-fair-content h5 {
+  color: #43b3e6;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-87 .pane-node-field-fair-content a, .page-node-480 .pane-node-field-fair-content a {
+  color: #43b3e6;
+}
+/* line 43, ../sass/global/_mixin.scss */
+.page-node-87 table tr.odd, .page-node-480 table tr.odd {
+  background: #87ceef;
+}
+/* line 47, ../sass/global/_mixin.scss */
+.page-node-87 table .header, .page-node-87 th .header, .page-node-87 td .header, .page-node-480 table .header, .page-node-480 th .header, .page-node-480 td .header {
+  background: none !important;
+}
+
+/* line 6, ../sass/global/_mixin.scss */
+.page-node-257 nav.secondary ul, .page-node-263 nav.secondary ul {
+  background: #26a69a;
+}
+/* line 10, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-image, .page-node-263 .field-type-image {
+  background-color: #26a69a;
+}
+/* line 12, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-image img.panopoly-image-full, .page-node-263 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-257 .pane-bundle-image, .page-node-263 .pane-bundle-image {
+  height: 240px;
+  max-height: 240px;
+  overflow: hidden;
+}
+/* line 24, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h2, .page-node-263 .pane-node-field-fair-content h2 {
+  color: #26a69a;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h3, .page-node-263 .pane-node-field-fair-content h3 {
+  color: #26a69a;
+}
+/* line 30, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h4, .page-node-263 .pane-node-field-fair-content h4 {
+  color: #26a69a;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h5, .page-node-263 .pane-node-field-fair-content h5 {
+  color: #26a69a;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content a, .page-node-263 .pane-node-field-fair-content a {
+  color: #26a69a;
+}
+/* line 43, ../sass/global/_mixin.scss */
+.page-node-257 table tr.odd, .page-node-263 table tr.odd {
+  background: #44d4c7;
+}
+/* line 47, ../sass/global/_mixin.scss */
+.page-node-257 table .header, .page-node-257 th .header, .page-node-257 td .header, .page-node-263 table .header, .page-node-263 th .header, .page-node-263 td .header {
+  background: none !important;
+}
+
+/* line 6, ../sass/global/_mixin.scss */
+.page-node-100 nav.secondary ul {
+  background: #66bb6a;
+}
+/* line 10, ../sass/global/_mixin.scss */
+.page-node-100 .field-type-image {
+  background-color: #66bb6a;
+}
+/* line 12, ../sass/global/_mixin.scss */
+.page-node-100 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-100 .pane-bundle-image {
+  height: 240px;
+  max-height: 240px;
+  overflow: hidden;
+}
+/* line 24, ../sass/global/_mixin.scss */
+.page-node-100 .pane-node-field-fair-content h2 {
+  color: #66bb6a;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-100 .pane-node-field-fair-content h3 {
+  color: #66bb6a;
+}
+/* line 30, ../sass/global/_mixin.scss */
+.page-node-100 .pane-node-field-fair-content h4 {
+  color: #66bb6a;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-100 .pane-node-field-fair-content h5 {
+  color: #66bb6a;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-100 .pane-node-field-fair-content a {
+  color: #66bb6a;
+}
+/* line 43, ../sass/global/_mixin.scss */
+.page-node-100 table tr.odd {
+  background: #9bd39e;
+}
+/* line 47, ../sass/global/_mixin.scss */
+.page-node-100 table .header, .page-node-100 th .header, .page-node-100 td .header {
+  background: none !important;
+}
+
+/* line 6, ../sass/global/_mixin.scss */
+.page-node-264 nav.secondary ul {
+  background: #4caf50;
+}
+/* line 10, ../sass/global/_mixin.scss */
+.page-node-264 .field-type-image {
+  background-color: #4caf50;
+}
+/* line 12, ../sass/global/_mixin.scss */
+.page-node-264 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-264 .pane-bundle-image {
+  height: 240px;
+  max-height: 240px;
+  overflow: hidden;
+}
+/* line 24, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h2 {
+  color: #4caf50;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h3 {
+  color: #4caf50;
+}
+/* line 30, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h4 {
+  color: #4caf50;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h5 {
+  color: #4caf50;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content a {
+  color: #4caf50;
 }

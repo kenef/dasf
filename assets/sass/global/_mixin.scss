@@ -19,4 +19,32 @@
 	    max-height: 240px;
 	    overflow: hidden;
 	}
+	//This controls are H2, H3, H4, H5 colors
+	.pane-node-field-fair-content {
+		& h2 {
+			color:$imagecolor;
+		}
+		& h3 {
+			color:$imagecolor;			
+		}
+		& h4 {
+			color:$imagecolor;			
+		}
+		& h5 {
+			color:$imagecolor;	
+		}
+	}
+	//This controls our link color
+	.pane-node-field-fair-content {
+		& a {
+		color:$imagecolor;
+		}
+	}
+	table tr.odd {
+	    background: lighten($imagecolor, 15%); 
+	}
+
+	table .header, th .header, td .header {
+	    background: none !important;
+	}
 }
