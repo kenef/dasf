@@ -345,6 +345,9 @@ nav.secondary ul li a {
   display:inline !important;
   color:white;
   font-size:12px;
+  &:hover {
+    color: $bluegray;
+  }
 
 }
 

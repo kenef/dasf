@@ -37,10 +37,7 @@
 	//This controls our link color
 	.pane-node-field-fair-content {
 		& a {
-		color:$imagecolor;
-			&:hover {
-				color: #37474f;
-			}
+			color:$imagecolor;
 		}
 	}
 	table tr.odd {

@@ -3639,14 +3639,18 @@ nav.secondary ul li a {
   color: white;
   font-size: 12px;
 }
+/* line 348, ../sass/partials/_menu.scss */
+nav.secondary ul li a:hover {
+  color: #37474f;
+}
 
-/* line 351, ../sass/partials/_menu.scss */
+/* line 354, ../sass/partials/_menu.scss */
 nav.secondary ul {
   background: #ffa726;
   text-align: center;
 }
 
-/* line 356, ../sass/partials/_menu.scss */
+/* line 359, ../sass/partials/_menu.scss */
 nav.secondary ul li {
   display: inline;
 }
@@ -3965,15 +3969,11 @@ span.views-label.views-label-field-event-sponsors {
 .page-node-480 .pane-node-field-fair-content a {
   color: #ef5350;
 }
-/* line 41, ../sass/global/_mixin.scss */
-.page-node-480 .pane-node-field-fair-content a :hover {
-  color: #37474f;
-}
-/* line 46, ../sass/global/_mixin.scss */
+/* line 43, ../sass/global/_mixin.scss */
 .page-node-480 table tr.odd {
   background: rgba(239, 83, 80, 0.2);
 }
-/* line 50, ../sass/global/_mixin.scss */
+/* line 47, ../sass/global/_mixin.scss */
 .page-node-480 table .header, .page-node-480 th .header, .page-node-480 td .header {
   background: none !important;
 }
@@ -4016,15 +4016,11 @@ span.views-label.views-label-field-event-sponsors {
 .page-node-87 .pane-node-field-fair-content a {
   color: #43b3e6;
 }
-/* line 41, ../sass/global/_mixin.scss */
-.page-node-87 .pane-node-field-fair-content a :hover {
-  color: #37474f;
-}
-/* line 46, ../sass/global/_mixin.scss */
+/* line 43, ../sass/global/_mixin.scss */
 .page-node-87 table tr.odd {
   background: rgba(67, 179, 230, 0.2);
 }
-/* line 50, ../sass/global/_mixin.scss */
+/* line 47, ../sass/global/_mixin.scss */
 .page-node-87 table .header, .page-node-87 th .header, .page-node-87 td .header {
   background: none !important;
 }
@@ -4067,15 +4063,11 @@ span.views-label.views-label-field-event-sponsors {
 .page-node-257 .pane-node-field-fair-content a, .page-node-263 .pane-node-field-fair-content a {
   color: #26a69a;
 }
-/* line 41, ../sass/global/_mixin.scss */
-.page-node-257 .pane-node-field-fair-content a :hover, .page-node-263 .pane-node-field-fair-content a :hover {
-  color: #37474f;
-}
-/* line 46, ../sass/global/_mixin.scss */
+/* line 43, ../sass/global/_mixin.scss */
 .page-node-257 table tr.odd, .page-node-263 table tr.odd {
   background: rgba(38, 166, 154, 0.2);
 }
-/* line 50, ../sass/global/_mixin.scss */
+/* line 47, ../sass/global/_mixin.scss */
 .page-node-257 table .header, .page-node-257 th .header, .page-node-257 td .header, .page-node-263 table .header, .page-node-263 th .header, .page-node-263 td .header {
   background: none !important;
 }
@@ -4104,5 +4096,17 @@ span.views-label.views-label-field-event-sponsors {
 }
 /* line 27, ../sass/global/_mixin.scss */
 .page-node-100 .pane-node-field-fair-content h3 {
+  color: #8bc34a;
+}
+/* line 30, ../sass/global/_mixin.scss */
+.page-node-100 .pane-node-field-fair-content h4 {
+  color: #8bc34a;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-100 .pane-node-field-fair-content h5 {
+  color: #8bc34a;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-100 .pane-node-field-fair-content a {
   color: #8bc34a;
 }
