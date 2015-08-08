@@ -7,6 +7,16 @@
     margin-top: 11%;
 }
 
+//Buy Tickets 
+.page-node-100 {
+	@include page-header($tickets);
+}
+
+//Concerts 
+.page-node-274 {
+	@include page-header($concerts);
+}
+
 //Discounts 
 .page-node-480 {
 	@include page-header($red);
@@ -17,15 +27,9 @@
 	@include page-header($light-blue);
 }
 
-
 //Exhibits page & contests
 .page-node-257, .page-node-263 {
 	@include page-header($teal);
-}
-
-//Buy Tickets 
-.page-node-100 {
-	@include page-header($tickets);
 }
 
 //France 
