@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 internal-content panel-panel">
+            <div class="col-md-12 internal-content panel-panel nosub">
                 <?php print $content['content']; ?>
             </div>
         </div>
