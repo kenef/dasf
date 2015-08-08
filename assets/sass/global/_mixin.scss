@@ -2,13 +2,21 @@
 // SASS Mixins
 // --------------------------------------------------
 @mixin page-header($imagecolor) {
+	//This Controls Menu color
 	nav.secondary ul {
 		background:$imagecolor;
 	}
+	//This controls banners
 	.field-type-image {
 		background-color: $imagecolor;
 		& img.panopoly-image-full {
 			opacity: 0.1;
 		}
+	}
+	//This controls image height of banners
+	.pane-bundle-image {
+	    height: 240px;
+	    max-height: 240px;
+	    overflow: hidden;
 	}
 }
