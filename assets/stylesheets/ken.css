@@ -573,3 +573,9 @@ p {
 .page-node-102 .table-wide {
     margin-top: 50px;
 }
+
+/* overwriting line-height and padding for sub-navs */
+.internal-subnav li {
+    line-height: 25px;
+    padding-top: 10px;
+}
