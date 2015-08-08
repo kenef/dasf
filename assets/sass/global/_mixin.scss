@@ -37,11 +37,11 @@
 	//This controls our link color
 	.pane-node-field-fair-content {
 		& a {
-		color:$imagecolor;
+			color:$imagecolor;
 		}
 	}
 	table tr.odd {
-	    background: rgna($imagecolor, .25); 
+	    background: rgba($imagecolor, .20); 
 	}
 
 	table .header, th .header, td .header {

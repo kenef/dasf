@@ -251,6 +251,10 @@ img.logo {
   background:$purple;
 }
 
+#sidebar-wrapper .menu.nav li.menu-link-discounts a:hover {
+  background:$red;
+}
+
 #sidebar-wrapper .menu.nav li.menu-link-exhibits a:hover {
   background:$teal;
 }
@@ -267,11 +271,15 @@ img.logo {
   background:$france;
 }
 
+#sidebar-wrapper .menu.nav li.menu-link-discounts a:hover{
+  background:$red;
+}
+
 //Table for facility
 
 table .header, th .header, td .header {
-  color: #8f3276 !important;
-  background: rgba(255, 255, 255, 0.35) !important;
+  color: #000 !important;
+  //background: rgba(255, 255, 255, 0.35) !important;
 }
 
 table .header-purple, th .header-purple, td .header-purple {
@@ -301,6 +309,11 @@ table .header-purple, th .header-purple, td .header-purple {
 #sidebar-wrapper .menu.nav li.menu-link-buy-tickets a.active {
   background:$tickets;
 }
+
+#sidebar-wrapper .menu.nav li.menu-link-discounts a.active {
+  background:$red;
+}
+
 
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a.active {
   background:$france;
@@ -332,6 +345,9 @@ nav.secondary ul li a {
   display:inline !important;
   color:white;
   font-size:12px;
+  &:hover {
+    color: $bluegray;
+  }
 
 }
 
