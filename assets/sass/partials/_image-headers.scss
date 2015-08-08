@@ -7,12 +7,13 @@
     margin-top: 15%;
 }
 
+//Fair info
 .page-node-87 {
 	@include page-header($light-blue);
 }
 
 
-//Exhibits page
-.page-node-257 {
+//Exhibits page & contests
+.page-node-257, .page-node-263 {
 	@include page-header($teal);
 }
