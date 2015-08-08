@@ -251,6 +251,10 @@ img.logo {
   background:$purple;
 }
 
+#sidebar-wrapper .menu.nav li.menu-link-discounts a:hover {
+  background:$red;
+}
+
 #sidebar-wrapper .menu.nav li.menu-link-exhibits a:hover {
   background:$teal;
 }
@@ -264,6 +268,10 @@ img.logo {
 }
 
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a:hover{
+  background:$france;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-discounts a:hover{
   background:$france;
 }
 
