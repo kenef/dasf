@@ -22,3 +22,8 @@
 .page-node-100 {
 	@include page-header($tickets);
 }
+
+//France 
+.page-node-264 {
+	@include page-header($france);
+}
