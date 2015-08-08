@@ -7,8 +7,13 @@
     margin-top: 11%;
 }
 
-//Fair info //Discounts
-.page-node-87, .page-node-480 {
+//Discounts 
+.page-node-480 {
+	@include page-header($red);
+}
+
+//Fair info 
+.page-node-87 {
 	@include page-header($light-blue);
 }
 
