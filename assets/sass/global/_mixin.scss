@@ -38,6 +38,9 @@
 	.pane-node-field-fair-content {
 		& a {
 		color:$imagecolor;
+			&:hover {
+				color: #37474f;
+			}
 		}
 	}
 	table tr.odd {
