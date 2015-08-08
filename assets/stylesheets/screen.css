@@ -12275,7 +12275,7 @@ body {
 /* line 15, ../sass/global/_typography.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Open Sans", sans-serif;
-  color: #0BB9F4;
+  color: #43b3e6;
 }
 
 /* fixing h3 sub headings on Fair Pages */
@@ -12940,6 +12940,14 @@ span.views-label.views-label-field-event-sponsors {
   max-height: 240px;
   overflow: hidden;
 }
+/* line 23, ../sass/global/_mixin.scss */
+.page-node-87 h2, .page-node-87 h3, .page-node-87 h4, .page-node-87 h5, .page-node-480 h2, .page-node-480 h3, .page-node-480 h4, .page-node-480 h5 {
+  color: #43b3e6;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-87 a, .page-node-480 a {
+  color: #43b3e6;
+}
 
 /* line 6, ../sass/global/_mixin.scss */
 .page-node-257 nav.secondary ul, .page-node-263 nav.secondary ul {
@@ -12958,6 +12966,14 @@ span.views-label.views-label-field-event-sponsors {
   height: 240px;
   max-height: 240px;
   overflow: hidden;
+}
+/* line 23, ../sass/global/_mixin.scss */
+.page-node-257 h2, .page-node-257 h3, .page-node-257 h4, .page-node-257 h5, .page-node-263 h2, .page-node-263 h3, .page-node-263 h4, .page-node-263 h5 {
+  color: #26a69a;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-257 a, .page-node-263 a {
+  color: #26a69a;
 }
 
 /* line 6, ../sass/global/_mixin.scss */
@@ -12978,6 +12994,14 @@ span.views-label.views-label-field-event-sponsors {
   max-height: 240px;
   overflow: hidden;
 }
+/* line 23, ../sass/global/_mixin.scss */
+.page-node-100 h2, .page-node-100 h3, .page-node-100 h4, .page-node-100 h5 {
+  color: #66bb6a;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-100 a {
+  color: #66bb6a;
+}
 
 /* line 6, ../sass/global/_mixin.scss */
 .page-node-264 nav.secondary ul {
@@ -12996,4 +13020,12 @@ span.views-label.views-label-field-event-sponsors {
   height: 240px;
   max-height: 240px;
   overflow: hidden;
+}
+/* line 23, ../sass/global/_mixin.scss */
+.page-node-264 h2, .page-node-264 h3, .page-node-264 h4, .page-node-264 h5 {
+  color: #4caf50;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-264 a {
+  color: #4caf50;
 }
