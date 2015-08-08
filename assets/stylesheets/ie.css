@@ -3978,51 +3978,9 @@ span.views-label.views-label-field-event-sponsors {
   background: none !important;
 }
 
-/* line 6, ../sass/global/_mixin.scss */
+/* line 17, ../sass/partials/_image-headers.scss */
 .page-node-274 nav.secondary ul {
   background: #9b51a0;
-}
-/* line 10, ../sass/global/_mixin.scss */
-.page-node-274 .field-type-image {
-  background-color: #9b51a0;
-}
-/* line 12, ../sass/global/_mixin.scss */
-.page-node-274 .field-type-image img.panopoly-image-full {
-  opacity: 0.1;
-}
-/* line 17, ../sass/global/_mixin.scss */
-.page-node-274 .pane-bundle-image {
-  height: 240px;
-  max-height: 240px;
-  overflow: hidden;
-}
-/* line 24, ../sass/global/_mixin.scss */
-.page-node-274 .pane-node-field-fair-content h2 {
-  color: #9b51a0;
-}
-/* line 27, ../sass/global/_mixin.scss */
-.page-node-274 .pane-node-field-fair-content h3 {
-  color: #9b51a0;
-}
-/* line 30, ../sass/global/_mixin.scss */
-.page-node-274 .pane-node-field-fair-content h4 {
-  color: #9b51a0;
-}
-/* line 33, ../sass/global/_mixin.scss */
-.page-node-274 .pane-node-field-fair-content h5 {
-  color: #9b51a0;
-}
-/* line 39, ../sass/global/_mixin.scss */
-.page-node-274 .pane-node-field-fair-content a {
-  color: #9b51a0;
-}
-/* line 43, ../sass/global/_mixin.scss */
-.page-node-274 table tr.odd {
-  background: rgba(155, 81, 160, 0.2);
-}
-/* line 47, ../sass/global/_mixin.scss */
-.page-node-274 table .header, .page-node-274 th .header, .page-node-274 td .header {
-  background: none !important;
 }
 
 /* line 6, ../sass/global/_mixin.scss */
@@ -4126,4 +4084,34 @@ span.views-label.views-label-field-event-sponsors {
 /* line 10, ../sass/global/_mixin.scss */
 .page-node-257 .field-type-image, .page-node-263 .field-type-image {
   background-color: #26a69a;
+}
+/* line 12, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-image img.panopoly-image-full, .page-node-263 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-257 .pane-bundle-image, .page-node-263 .pane-bundle-image {
+  height: 240px;
+  max-height: 240px;
+  overflow: hidden;
+}
+/* line 24, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h2, .page-node-263 .pane-node-field-fair-content h2 {
+  color: #26a69a;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h3, .page-node-263 .pane-node-field-fair-content h3 {
+  color: #26a69a;
+}
+/* line 30, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h4, .page-node-263 .pane-node-field-fair-content h4 {
+  color: #26a69a;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h5, .page-node-263 .pane-node-field-fair-content h5 {
+  color: #26a69a;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content a, .page-node-263 .pane-node-field-fair-content a {
+  color: #26a69a;
 }

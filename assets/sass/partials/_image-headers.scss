@@ -14,7 +14,9 @@
 
 //Concerts 
 .page-node-274 {
-	@include page-header($concerts);
+	nav.secondary ul {
+		background:$concerts;
+	}
 }
 
 //Discounts 
