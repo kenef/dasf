@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/* line 81, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
+.fa-fast-backward:before {
+  content: "";
+}
+
 /* line 82, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
 .fa-backward:before {
   content: "";

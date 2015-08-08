@@ -198,3 +198,7 @@ span.views-label.views-label-field-event-sponsors {
   margin-right: 20px;
 }
 
+//Making venues not clickable
+.field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
+  pointer-events: none;
+}
