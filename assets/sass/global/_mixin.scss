@@ -40,4 +40,11 @@
 		color:$imagecolor;
 		}
 	}
+	table tr.odd {
+	    background: lighten($imagecolor, 25%); 
+	}
+
+	table .header, th .header, td .header {
+	    background: none !important;
+	}
 }
