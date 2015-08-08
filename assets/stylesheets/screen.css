@@ -12923,19 +12923,19 @@ span.views-label.views-label-field-event-sponsors {
 }
 
 /* line 6, ../sass/global/_mixin.scss */
-.page-node-87 nav.secondary ul {
+.page-node-87 nav.secondary ul, .page-node-480 nav.secondary ul {
   background: #43b3e6;
 }
 /* line 10, ../sass/global/_mixin.scss */
-.page-node-87 .field-type-image {
+.page-node-87 .field-type-image, .page-node-480 .field-type-image {
   background-color: #43b3e6;
 }
 /* line 12, ../sass/global/_mixin.scss */
-.page-node-87 .field-type-image img.panopoly-image-full {
+.page-node-87 .field-type-image img.panopoly-image-full, .page-node-480 .field-type-image img.panopoly-image-full {
   opacity: 0.1;
 }
 /* line 17, ../sass/global/_mixin.scss */
-.page-node-87 .pane-bundle-image {
+.page-node-87 .pane-bundle-image, .page-node-480 .pane-bundle-image {
   height: 240px;
   max-height: 240px;
   overflow: hidden;
