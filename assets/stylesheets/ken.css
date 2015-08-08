@@ -564,7 +564,12 @@ p {
 }
 
 .node-type-events img.media-element.file-default.panopoly-image-original {
-      max-width: 180px;
-      max-height: 108px;
+    max-width: 180px;
+    max-height: 108px;
 }
 /* ------------------------------------- end concerts page "buy tickets" styling */
+
+/* adding padding to table on facility rental page */
+.table.table-wide {
+    margin-top: 50px;
+}
