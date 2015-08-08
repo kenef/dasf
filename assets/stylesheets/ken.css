@@ -280,7 +280,7 @@ img.myfair-icon {
     padding: 20px;
 }
 
-[8/6/15, 7:55:12 PM] Steven Loyer: .right-sidebar a {
+.right-sidebar a {
     text-decoration:underline;
     color: #37474f;
 }
@@ -302,6 +302,7 @@ p {
 
 
 /* ------------------------------- styling "buy tickets" section of concerts pages */
+
 /* sponsors */
 .row > .col-md-4.event-sponsor {
     display: inline-block;
@@ -563,11 +564,9 @@ p {
     }
 }
 
-/* restricting image size */
-img.media-element.file-default.panopoly-image-original {
-    max-width: 180px;
-    max-height: 108px;
+.node-type-events img.media-element.file-default.panopoly-image-original {
+      max-width: 180px;
+      max-height: 108px;
 }
-
 /* ------------------------------------- end concerts page "buy tickets" styling */
 
