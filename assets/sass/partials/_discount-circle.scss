@@ -1,0 +1,17 @@
+.discount-circle {
+	width: 68px;
+	height: 68px;
+	background: red;
+  color: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  text-align:center;
+  p {
+    font-size:10px;
+    padding:17px 10px 0px 10px
+  }
+  .large {
+    font-size:18px;
+  }
+}
