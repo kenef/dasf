@@ -12962,7 +12962,7 @@ span.views-label.views-label-field-event-sponsors {
 }
 /* line 43, ../sass/global/_mixin.scss */
 .page-node-87 table tr.odd, .page-node-480 table tr.odd {
-  background: #87ceef;
+  background: rgna(#43b3e6, 0.25);
 }
 /* line 47, ../sass/global/_mixin.scss */
 .page-node-87 table .header, .page-node-87 th .header, .page-node-87 td .header, .page-node-480 table .header, .page-node-480 th .header, .page-node-480 td .header {
@@ -13009,7 +13009,7 @@ span.views-label.views-label-field-event-sponsors {
 }
 /* line 43, ../sass/global/_mixin.scss */
 .page-node-257 table tr.odd, .page-node-263 table tr.odd {
-  background: #44d4c7;
+  background: rgna(#26a69a, 0.25);
 }
 /* line 47, ../sass/global/_mixin.scss */
 .page-node-257 table .header, .page-node-257 th .header, .page-node-257 td .header, .page-node-263 table .header, .page-node-263 th .header, .page-node-263 td .header {
@@ -13056,7 +13056,7 @@ span.views-label.views-label-field-event-sponsors {
 }
 /* line 43, ../sass/global/_mixin.scss */
 .page-node-100 table tr.odd {
-  background: #9bd39e;
+  background: rgna(#66bb6a, 0.25);
 }
 /* line 47, ../sass/global/_mixin.scss */
 .page-node-100 table .header, .page-node-100 th .header, .page-node-100 td .header {
@@ -13103,7 +13103,7 @@ span.views-label.views-label-field-event-sponsors {
 }
 /* line 43, ../sass/global/_mixin.scss */
 .page-node-264 table tr.odd {
-  background: #80c883;
+  background: rgna(#4caf50, 0.25);
 }
 /* line 47, ../sass/global/_mixin.scss */
 .page-node-264 table .header, .page-node-264 th .header, .page-node-264 td .header {
