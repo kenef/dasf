@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400|Cinzel:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
 /* line 5, ../sass/global/_helper.scss */
 a {
   color: #37474f;
@@ -11966,7 +11967,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -12265,20 +12266,20 @@ html.js fieldset.collapsed {
   /* LTR */
 }
 
-/* line 8, ../sass/global/_typography.scss */
+/* line 9, ../sass/global/_typography.scss */
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
-/* line 14, ../sass/global/_typography.scss */
+/* line 15, ../sass/global/_typography.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Open Sans", sans-serif;
   color: #0BB9F4;
 }
 
 /* fixing h3 sub headings on Fair Pages */
-/* line 21, ../sass/global/_typography.scss */
+/* line 22, ../sass/global/_typography.scss */
 .pod > h3 {
   font-size: 25px;
 }
@@ -12909,4 +12910,32 @@ span.views-label.views-label-field-event-sponsors {
 /* line 32, ../sass/partials/_view.scss */
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
   font-size: 19px;
+}
+
+/* line 1, ../sass/partials/_image-headers.scss */
+.page-title {
+  position: absolute;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-top: 15%;
+}
+
+/* line 5, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-image {
+  background-color: #43b3e6;
+}
+/* line 7, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+
+/* line 5, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-image {
+  background-color: #26a69a;
+}
+/* line 7, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
 }

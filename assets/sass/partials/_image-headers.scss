@@ -1,0 +1,18 @@
+.page-title {
+    position: absolute;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.page-node-257 {
+	@include page-header($light-blue);
+}
+
+
+//Exhibits page
+.page-node-257 {
+	@include page-header($teal);
+}
