@@ -305,23 +305,21 @@ p {
 /* sponsors */
 .row > .col-md-4.event-sponsor {
     display: inline-block;
-    width: 36%;
-    margin: auto;
+    width: 40%;
+    margin: 0;
     text-align: center;
-    float: left;
     background: #9C51A1;
     background-color: #9C51A1;
     height: 260px;
     border: 1px solid #ffffff;
 }
 
-@media (max-width:940px){
+@media (max-width:1000px){
     .row > .col-md-4.event-sponsor {
         display: inline-block;
         width: 100%;
-        margin: auto;
+        margin: 0;
         text-align:center;
-        float: left;
         background: #9C51A1;
         background-color: #9C51A1;
         height: 260px;
@@ -343,9 +341,8 @@ p {
 .row > .col-md-4.event-price--lawn {
     display: inline-block;
     width: 30%;
-    margin: auto;
+    margin: 0;
     text-align:center;
-    float: left;
     background: #9C51A1;
     background-color: #9C51A1;
     height: 260px;
@@ -355,7 +352,7 @@ p {
 
 .event-price--lawn a {
     padding: 10px 25px;
-    margin: auto;
+    margin: 0;
     border: 1px solid #fff;
     font-size: 22px;
     background: #7E4784;
@@ -395,7 +392,7 @@ p {
 
     .event-price--lawn a {
         padding: 5px 10px;
-        margin: auto;
+        margin: 0;
         border: 1px solid #fff;
         font-size: 14px;
         background: #7E4784;
@@ -410,13 +407,12 @@ p {
     }
 }
 
-@media (max-width:940px){
+@media (max-width:1000px){
     .row > .col-md-4.event-price--lawn {
         display: inline-block;
         width: 100%;
-        margin: auto;
+        margin: 0;
         text-align:center;
-        float: left;
         background: #9C51A1;
         background-color: #9C51A1;
         height: 260px;
@@ -424,7 +420,7 @@ p {
     }
     .event-price--lawn a {
         padding: 15px 27px;
-        margin: auto;
+        margin: 0;
         border: 1px solid #fff;
         font-size: 26px;
         background: #7E4784;
@@ -443,9 +439,8 @@ p {
 .row > .col-md-4.event-price--reserved {
     display: inline-block;
     width: 30%;
-    margin: auto;
+    margin: 0;
     text-align:center;
-    float: left;
     background: #9C51A1;
     background-color: #9C51A1;
     height: 260px;
@@ -454,7 +449,7 @@ p {
 
 .event-price--reserved a {
     padding: 10px 25px;
-    margin: auto;
+    margin: 0;
     border: 1px solid #fff;
     font-size: 22px;
     background: #7E4784;
@@ -494,7 +489,7 @@ p {
 
     .event-price--reserved a {
         padding: 5px 10px;
-        margin: auto;
+        margin: 0;
         border: 1px solid #fff;
         font-size: 14px;
         background: #7E4784;
@@ -509,13 +504,12 @@ p {
     }
 }
 
-@media (max-width:940px){
+@media (max-width:1000px){
     .row > .col-md-4.event-price--reserved {
         display: inline-block;
         width: 100%;
-        margin: auto;
+        margin: 0;
         text-align:center;
-        float: left;
         background: #9C51A1;
         background-color: #9C51A1;
         height: 260px;
@@ -523,7 +517,7 @@ p {
     }
     .col-md-4.event-price--reserved a {
         padding: 15px 27px;
-        margin: auto;
+        margin: 0;
         border: 1px solid #fff;
         font-size: 26px;
         background: #7E4784;
@@ -555,4 +549,17 @@ p {
     margin-right: none;
     width: 100%;
 }
+
+.field.field-name-field-additional-information {
+    width: 106%;
+    margin-left: -3%;
+}
+
+@media (max-width:1000px){
+    .field.field-name-field-additional-information {
+        width: 114%;
+        margin-left: -7%;
+    }
+}
 /* ------------------------------------- end concerts page "buy tickets" styling */
+
