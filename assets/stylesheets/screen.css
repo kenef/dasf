@@ -12363,7 +12363,7 @@ h1, h2, h3, h4, h5 {
 }
 /* line 74, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li {
-  line-height: 40px;
+  line-height: 28px;
   list-style: none;
 }
 /* line 80, ../sass/partials/_menu.scss */
@@ -12385,8 +12385,8 @@ h1, h2, h3, h4, h5 {
 }
 /* line 97, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav > .leaf {
-  height: 45px;
-  font-size: 18px;
+  height: 40px;
+  font-size: 14px;
 }
 /* line 103, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav > .leaf a {
@@ -13188,4 +13188,25 @@ span.views-label.views-label-field-event-sponsors {
 /* line 47, ../sass/global/_mixin.scss */
 .page-node-264 table .header, .page-node-264 th .header, .page-node-264 td .header {
   background: none !important;
+}
+
+/* line 1, ../sass/partials/_discount-circle.scss */
+.discount-circle {
+  width: 68px;
+  height: 68px;
+  background: red;
+  color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  text-align: center;
+}
+/* line 10, ../sass/partials/_discount-circle.scss */
+.discount-circle p {
+  font-size: 10px;
+  padding: 17px 10px 0px 10px;
+}
+/* line 14, ../sass/partials/_discount-circle.scss */
+.discount-circle .large {
+  font-size: 18px;
 }
