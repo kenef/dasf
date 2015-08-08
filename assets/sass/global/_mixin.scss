@@ -2,7 +2,7 @@
 // SASS Mixins
 // --------------------------------------------------
 @mixin page-header($imagecolor) {
-	.nav.secondary ul {
+	nav.secondary ul {
 		background:$imagecolor;
 	}
 	.field-type-image {
