@@ -12919,31 +12919,62 @@ span.views-label.views-label-field-event-sponsors {
   color: #fff;
   width: 100%;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 11%;
 }
 
-/* line 5, ../sass/global/_mixin.scss */
-.page-node-87 .nav.secondary ul {
+/* line 6, ../sass/global/_mixin.scss */
+.page-node-87 nav.secondary ul, .page-node-480 nav.secondary ul {
   background: #43b3e6;
 }
-/* line 8, ../sass/global/_mixin.scss */
-.page-node-87 .field-type-image {
+/* line 10, ../sass/global/_mixin.scss */
+.page-node-87 .field-type-image, .page-node-480 .field-type-image {
   background-color: #43b3e6;
 }
-/* line 10, ../sass/global/_mixin.scss */
-.page-node-87 .field-type-image img.panopoly-image-full {
+/* line 12, ../sass/global/_mixin.scss */
+.page-node-87 .field-type-image img.panopoly-image-full, .page-node-480 .field-type-image img.panopoly-image-full {
   opacity: 0.1;
 }
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-87 .pane-bundle-image, .page-node-480 .pane-bundle-image {
+  height: 240px;
+  max-height: 240px;
+  overflow: hidden;
+}
 
-/* line 5, ../sass/global/_mixin.scss */
-.page-node-257 .nav.secondary ul, .page-node-263 .nav.secondary ul {
+/* line 6, ../sass/global/_mixin.scss */
+.page-node-257 nav.secondary ul, .page-node-263 nav.secondary ul {
   background: #26a69a;
 }
-/* line 8, ../sass/global/_mixin.scss */
+/* line 10, ../sass/global/_mixin.scss */
 .page-node-257 .field-type-image, .page-node-263 .field-type-image {
   background-color: #26a69a;
 }
-/* line 10, ../sass/global/_mixin.scss */
+/* line 12, ../sass/global/_mixin.scss */
 .page-node-257 .field-type-image img.panopoly-image-full, .page-node-263 .field-type-image img.panopoly-image-full {
   opacity: 0.1;
+}
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-257 .pane-bundle-image, .page-node-263 .pane-bundle-image {
+  height: 240px;
+  max-height: 240px;
+  overflow: hidden;
+}
+
+/* line 6, ../sass/global/_mixin.scss */
+.page-node-100 nav.secondary ul {
+  background: #66bb6a;
+}
+/* line 10, ../sass/global/_mixin.scss */
+.page-node-100 .field-type-image {
+  background-color: #66bb6a;
+}
+/* line 12, ../sass/global/_mixin.scss */
+.page-node-100 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-100 .pane-bundle-image {
+  height: 240px;
+  max-height: 240px;
+  overflow: hidden;
 }

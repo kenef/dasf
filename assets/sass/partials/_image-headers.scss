@@ -4,11 +4,11 @@
     color: #fff;
     width: 100%;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 11%;
 }
 
-//Fair info
-.page-node-87 {
+//Fair info //Discounts
+.page-node-87, .page-node-480 {
 	@include page-header($light-blue);
 }
 
@@ -16,4 +16,9 @@
 //Exhibits page & contests
 .page-node-257, .page-node-263 {
 	@include page-header($teal);
+}
+
+//Buy Tickets 
+.page-node-100 {
+	@include page-header($tickets);
 }
