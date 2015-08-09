@@ -153,7 +153,8 @@ em {
 }
 
 .col-md-3.internal-subnav.panel-panel {
-    margin-top: 39px;
+    margin-top: 0px;
+    padding:0;
 }
 
 [8/6/15, 6:54:19 PM] Steven Loyer: p {
