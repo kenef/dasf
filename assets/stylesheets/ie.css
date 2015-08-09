@@ -3350,7 +3350,7 @@ h1, h2, h3, h4, h5 {
 /* line 67, ../sass/partials/_menu.scss */
 #sidebar-wrapper img.logo {
   width: 55%;
-  margin-top: 1em;
+  margin-top: 45px;
 }
 /* line 74, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li {
