@@ -137,10 +137,6 @@ table.price-table {
     margin-bottom: 30px;
 }
 
-/* Changes from Steven */
-[8/6/15, 6:54:30 PM] Steven Loyer:     font-size: 14px;
-}
-
 em {
     font-size: 12px;
     line-height: 17px;
@@ -157,22 +153,22 @@ em {
     padding:0;
 }
 
-[8/6/15, 6:54:19 PM] Steven Loyer: p {
+p {
   font-size: 14px;
   line-height: 26px;
 }
 
-[8/6/15, 6:55:56 PM] Steven Loyer: .pod > h3 {
+.pod > h3 {
     font-size: 22px;
     margin-bottom: -5px;
 }
 
-h3, .h3 {
+h3  {
     margin-top: 40px;
     margin-bottom: 11px;
 }
 
-h1, .h1, h2, .h2 {
+h1, h2 {
     margin-top: 50px;
     margin-bottom: 11px;
 }
@@ -183,8 +179,8 @@ td {
 
 .right-sidebar h2 {
     font-family: 'Cinzel', serif;
-    color:#37474f
-;margin-top: 0;
+    color:#37474f;
+    margin-top: 0;
 }
 
 .right-sidebar h3, h4, h5 {
@@ -585,4 +581,10 @@ p {
 .pane-menu-menu-exhibitor-sub-menu a:hover {
     color: #1FA79B;
     font-weight: 600;
+}
+
+.responsive-menus.responsified span.toggler {
+padding:10px;
+font-size:14px;
+width:100%;
 }
