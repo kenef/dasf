@@ -21,7 +21,11 @@
 }
 
 
+//li fix
 
+li {
+    line-height: 26px;
+}
 
 //Desktop
 
@@ -297,6 +301,90 @@ img.logo {
   background:$red;
 }
 
+//Over writing default for background and background-color on sub menus 
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background: none;
+  background-color: none;
+  color: #43b3e6;
+}
+
+.nav-pills > li > a:hover {
+  background-color: none;
+  background: none;
+  color: #fff;
+}
+
+//Exhibitor Sub menu overwrites
+.pane-menu-exhibitor-sub-menu a {
+  color: #778899;
+}
+
+.pane-menu-exhibitor-sub-menu .nav-pills > li.active > a, .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a:hover, .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a:focus {
+  background: none;
+  background-color: none;
+  color: #26a69a;
+}
+
+.pane-menu-exhibitor-sub-menu .nav-pills > li > a:hover {
+  color: #26a69a;
+}
+
+//Aligning all sub nav's to the right
+.internal-subnav {
+  text-align: right;
+}
+
+// recoloring the anchors in sub nav on Fair Info page
+.pane-menu-fair-info-sub-nav-desktop a {
+  color: #778899;
+}
+
+//Recoloring the text in sub nav on Fair Info page */
+.pane-menu-fair-info-sub-nav-desktop .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background: none;
+  background-color: none;
+  color: #428bca;
+}
+
+.pane-menu-fair-info-sub-nav-desktop .nav-pills > li > a:hover {
+  color: #428bca;
+}
+
+//Overwrite for all sub menus 
+.nav > li > a:hover, .nav > li > a:focus {
+  background:none;
+}
+
+/* Overwrite text color of sub menu for About Us page */
+.pane-menu-about-us-menu a {
+  color: #778899;
+}
+
+.pane-menu-about-us-menu .nav-pills > li > a:hover {
+  color: #428bca;
+}
+
+/* Overwrite text color of sub menu for Vendors page */
+.menu-name-menu-vendors-sub-nav a {
+  color: #778899;
+}
+
+.menu-name-menu-vendors-sub-nav .nav-pills > li > a:hover {
+  color: #428bca;
+}
+
+//Overwrite text color of Sponsorships page
+.pane-menu-sponsor-sub-nav a {
+  color: #778899;
+}
+
+.pane-menu-sponsor-sub-nav .nav-pills > li > a:hover {
+  color: #428bca;
+}
+
+
+
 //Table for facility
 
 table .header, th .header, td .header {
@@ -379,6 +467,28 @@ nav.secondary ul {
 }
 
 nav.secondary ul li {
-  display: inline;;
+  display: inline;
+}
 
+.col-md-3.internal-subnav.panel-panel {
+    margin-top: 0px;
+    padding:0;
+}
+
+//overwriting line-height and padding for sub-navs */
+.internal-subnav li {
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+/* overwriting Exibitor sub nav for hover effect */
+.pane-menu-menu-exhibitor-sub-menu a:hover {
+    color: #1FA79B;
+    font-weight: 600;
+}
+
+.responsive-menus.responsified span.toggler {
+padding:10px;
+font-size:14px;
+width:100%;
 }

@@ -1,0 +1,28 @@
+th {
+  border: none;
+}
+
+table th,
+table td {
+  border-top: none;
+  font-weight: 500;
+}
+
+// Making the "BUY" links in tables align right */
+td.price-table-buy {
+  text-align: right;
+}
+
+// Adding space below the pricing tables */
+table.price-table {
+    margin-bottom: 30px;
+}
+
+td {
+  font-size: 14px;
+}
+
+// Adding padding to table on facility rental page */
+.page-node-102 .table-wide {
+    margin-top: 50px;
+}

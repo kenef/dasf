@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/* line 80, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
+.fa-step-backward:before {
+  content: "";
+}
+
 /* line 81, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
 .fa-fast-backward:before {
   content: "";
@@ -3274,8 +3279,39 @@ h1, h2, h3, h4, h5 {
   color: #43b3e6;
 }
 
+/* line 20, ../sass/global/_typography.scss */
+h1, h2 {
+  margin-top: 50px;
+  margin-bottom: 11px;
+}
+
+/* line 25, ../sass/global/_typography.scss */
+.pod > h3 {
+  font-size: 22px;
+  margin-bottom: -5px;
+}
+
+/* line 30, ../sass/global/_typography.scss */
+h3 {
+  margin-top: 40px;
+  margin-bottom: 11px;
+}
+
+/* line 35, ../sass/global/_typography.scss */
+p {
+  font-size: 14px;
+  margin: 0 0 11px;
+  line-height: 26px;
+}
+
+/* line 41, ../sass/global/_typography.scss */
+em {
+  font-size: 12px;
+  line-height: 17px;
+}
+
 /* fixing h3 sub headings on Fair Pages */
-/* line 22, ../sass/global/_typography.scss */
+/* line 47, ../sass/global/_typography.scss */
 .pod > h3 {
   font-size: 25px;
 }
@@ -3297,7 +3333,12 @@ h1, h2, h3, h4, h5 {
     padding-right: 250px;
   }
 }
-/* line 28, ../sass/partials/_menu.scss */
+/* line 26, ../sass/partials/_menu.scss */
+li {
+  line-height: 26px;
+}
+
+/* line 32, ../sass/partials/_menu.scss */
 #wrapper {
   padding-left: 0;
   padding-right: 0;
@@ -3307,12 +3348,12 @@ h1, h2, h3, h4, h5 {
   transition: all 0.5s ease;
 }
 
-/* line 37, ../sass/partials/_menu.scss */
+/* line 41, ../sass/partials/_menu.scss */
 #wrapper.toggled {
   padding: 0 250px;
 }
 
-/* line 41, ../sass/partials/_menu.scss */
+/* line 45, ../sass/partials/_menu.scss */
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
@@ -3330,32 +3371,32 @@ h1, h2, h3, h4, h5 {
   box-shadow: 0 0 5px #000;
 }
 
-/* line 58, ../sass/partials/_menu.scss */
+/* line 62, ../sass/partials/_menu.scss */
 .right-sidebar a {
   color: #37474f;
   text-decoration: underline;
 }
 
-/* line 63, ../sass/partials/_menu.scss */
+/* line 67, ../sass/partials/_menu.scss */
 #wrapper.toggled #sidebar-wrapper {
   width: 250px;
 }
 
-/* line 67, ../sass/partials/_menu.scss */
+/* line 71, ../sass/partials/_menu.scss */
 #page-content-wrapper {
   width: 100%;
   position: absolute;
   padding: 15px;
 }
 
-/* line 73, ../sass/partials/_menu.scss */
+/* line 77, ../sass/partials/_menu.scss */
 #wrapper.toggled #page-content-wrapper {
   position: absolute;
   margin-right: -250px;
 }
 
 /* Sidebar Styles */
-/* line 80, ../sass/partials/_menu.scss */
+/* line 84, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav {
   position: absolute;
   top: 200px;
@@ -3364,89 +3405,89 @@ h1, h2, h3, h4, h5 {
   padding: 0;
   list-style: none;
 }
-/* line 89, ../sass/partials/_menu.scss */
+/* line 93, ../sass/partials/_menu.scss */
 #sidebar-wrapper img.logo {
   width: 55%;
   margin-top: 45px;
 }
-/* line 96, ../sass/partials/_menu.scss */
+/* line 100, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li {
   line-height: 28px;
   list-style: none;
 }
-/* line 102, ../sass/partials/_menu.scss */
+/* line 106, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li a {
   display: block;
   text-decoration: none;
   color: #999999;
 }
-/* line 108, ../sass/partials/_menu.scss */
+/* line 112, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li a:hover {
   text-decoration: none;
   color: #fff;
   background: rgba(255, 255, 255, 0.2);
 }
-/* line 114, ../sass/partials/_menu.scss */
+/* line 118, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li a:active,
 #sidebar-wrapper .menu.nav li a:focus {
   text-decoration: none;
 }
-/* line 119, ../sass/partials/_menu.scss */
+/* line 123, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav > .leaf {
   height: 40px;
   font-size: 14px;
 }
-/* line 125, ../sass/partials/_menu.scss */
+/* line 129, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav > .leaf a {
   color: #37474f;
 }
-/* line 129, ../sass/partials/_menu.scss */
+/* line 133, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav > .leaf a:hover {
   color: #fff;
   background: none;
 }
 
-/* line 135, ../sass/partials/_menu.scss */
+/* line 139, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li a.active {
   background: #43b3e6;
   color: #fff;
 }
 
 @media (min-width: 768px) {
-  /* line 141, ../sass/partials/_menu.scss */
+  /* line 145, ../sass/partials/_menu.scss */
   #wrapper {
     padding-left: 250px;
     padding-right: 250px;
   }
 
-  /* line 146, ../sass/partials/_menu.scss */
+  /* line 150, ../sass/partials/_menu.scss */
   #wrapper.toggled {
     padding-left: 0;
   }
 
-  /* line 150, ../sass/partials/_menu.scss */
+  /* line 154, ../sass/partials/_menu.scss */
   #sidebar-wrapper {
     width: 250px;
   }
 
-  /* line 154, ../sass/partials/_menu.scss */
+  /* line 158, ../sass/partials/_menu.scss */
   #wrapper.toggled #sidebar-wrapper {
     width: 0;
   }
 
-  /* line 158, ../sass/partials/_menu.scss */
+  /* line 162, ../sass/partials/_menu.scss */
   #page-content-wrapper {
     padding: 20px;
     position: relative;
   }
 
-  /* line 163, ../sass/partials/_menu.scss */
+  /* line 167, ../sass/partials/_menu.scss */
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0;
   }
 
-  /* line 167, ../sass/partials/_menu.scss */
+  /* line 171, ../sass/partials/_menu.scss */
   #right-sidebar {
     display: block;
     width: 250px;
@@ -3461,35 +3502,35 @@ h1, h2, h3, h4, h5 {
     background-size: cover;
   }
 }
-/* line 190, ../sass/partials/_menu.scss */
+/* line 194, ../sass/partials/_menu.scss */
 .pane-menu-fair-info-sub-nav-desktop {
   text-align: right;
 }
-/* line 192, ../sass/partials/_menu.scss */
+/* line 196, ../sass/partials/_menu.scss */
 .pane-menu-fair-info-sub-nav-desktop a {
   color: #ABABAB;
 }
 
-/* line 199, ../sass/partials/_menu.scss */
+/* line 203, ../sass/partials/_menu.scss */
 .responsive-menus {
   background: #fff;
 }
-/* line 202, ../sass/partials/_menu.scss */
+/* line 206, ../sass/partials/_menu.scss */
 .responsive-menus.responsified .responsive-menus-simple {
   background: #fff;
   box-shadow: none;
 }
-/* line 205, ../sass/partials/_menu.scss */
+/* line 209, ../sass/partials/_menu.scss */
 .responsive-menus.responsified .responsive-menus-simple li {
   background: #fff;
 }
-/* line 207, ../sass/partials/_menu.scss */
+/* line 211, ../sass/partials/_menu.scss */
 .responsive-menus.responsified .responsive-menus-simple li a {
   color: #000;
   text-transform: none;
   border-bottom: 1px solid #EDEDED !important;
 }
-/* line 216, ../sass/partials/_menu.scss */
+/* line 220, ../sass/partials/_menu.scss */
 .responsive-menus.responsified span.toggler {
   background: #fff;
   color: #505050;
@@ -3500,12 +3541,12 @@ h1, h2, h3, h4, h5 {
   border-radius: 0;
 }
 
-/* line 228, ../sass/partials/_menu.scss */
+/* line 232, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav > .leaf a:hover {
   color: #43b3e6;
 }
 
-/* line 232, ../sass/partials/_menu.scss */
+/* line 236, ../sass/partials/_menu.scss */
 .nav > li > a {
   position: relative;
   display: block;
@@ -3514,167 +3555,283 @@ h1, h2, h3, h4, h5 {
 }
 
 /* adding font-weight and color to hovered sub-nav links on Fair Info page*/
-/* line 240, ../sass/partials/_menu.scss */
+/* line 244, ../sass/partials/_menu.scss */
 .menu-block-wrapper.menu-block-ctools-menu-fair-info-sub-nav-desktop-1.menu-name-menu-fair-info-sub-nav-desktop.parent-mlid-0.menu-level-1 a:hover {
   font-weight: 700;
   color: #0BB9F4;
 }
 
-/* line 245, ../sass/partials/_menu.scss */
+/* line 249, ../sass/partials/_menu.scss */
 .nav-pills > li > a:hover {
   background-color: #43b3e6;
   background: #43b3e6;
   color: #fff;
 }
 
-/* line 251, ../sass/partials/_menu.scss */
+/* line 255, ../sass/partials/_menu.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background-color: #43b3e6;
   background: #43b3e6;
   color: #fff;
 }
 
-/* line 257, ../sass/partials/_menu.scss */
+/* line 261, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav > .leaf a:hover, #sidebar-wrapper .menu.nav > .leaf a:active, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: #43b3e6;
   color: #fff;
 }
 
-/* line 262, ../sass/partials/_menu.scss */
+/* line 266, ../sass/partials/_menu.scss */
 #sidebar-wrapper .active, #sidebar-wrapper .active:a {
   background: #43b3e6;
   color: #fff;
 }
 
-/* line 268, ../sass/partials/_menu.scss */
+/* line 272, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-home a.active {
   background: #37474f;
 }
 
-/* line 272, ../sass/partials/_menu.scss */
+/* line 276, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-concerts a:hover {
   background: #9b51a0;
 }
 
-/* line 276, ../sass/partials/_menu.scss */
+/* line 280, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-discounts a:hover {
   background: #ef5350;
 }
 
-/* line 280, ../sass/partials/_menu.scss */
+/* line 284, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-exhibits a:hover {
   background: #26a69a;
 }
 
-/* line 284, ../sass/partials/_menu.scss */
+/* line 288, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-contests a:hover {
   background: #26a69a;
 }
 
-/* line 288, ../sass/partials/_menu.scss */
+/* line 292, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-buy-tickets a:hover {
   background: #8bc34a;
 }
 
-/* line 292, ../sass/partials/_menu.scss */
+/* line 296, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a:hover {
   background: #4caf50;
 }
 
-/* line 296, ../sass/partials/_menu.scss */
+/* line 300, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-discounts a:hover {
   background: #ef5350;
 }
 
-/* line 302, ../sass/partials/_menu.scss */
+/* line 306, ../sass/partials/_menu.scss */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background: none;
+  background-color: none;
+  color: #43b3e6;
+}
+
+/* line 312, ../sass/partials/_menu.scss */
+.nav-pills > li > a:hover {
+  background-color: none;
+  background: none;
+  color: #fff;
+}
+
+/* line 319, ../sass/partials/_menu.scss */
+.pane-menu-exhibitor-sub-menu a {
+  color: #778899;
+}
+
+/* line 323, ../sass/partials/_menu.scss */
+.pane-menu-exhibitor-sub-menu .nav-pills > li.active > a, .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a:hover, .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a:focus {
+  background: none;
+  background-color: none;
+  color: #26a69a;
+}
+
+/* line 329, ../sass/partials/_menu.scss */
+.pane-menu-exhibitor-sub-menu .nav-pills > li > a:hover {
+  color: #26a69a;
+}
+
+/* line 334, ../sass/partials/_menu.scss */
+.internal-subnav {
+  text-align: right;
+}
+
+/* line 339, ../sass/partials/_menu.scss */
+.pane-menu-fair-info-sub-nav-desktop a {
+  color: #778899;
+}
+
+/* line 344, ../sass/partials/_menu.scss */
+.pane-menu-fair-info-sub-nav-desktop .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background: none;
+  background-color: none;
+  color: #428bca;
+}
+
+/* line 350, ../sass/partials/_menu.scss */
+.pane-menu-fair-info-sub-nav-desktop .nav-pills > li > a:hover {
+  color: #428bca;
+}
+
+/* line 355, ../sass/partials/_menu.scss */
+.nav > li > a:hover, .nav > li > a:focus {
+  background: none;
+}
+
+/* Overwrite text color of sub menu for About Us page */
+/* line 360, ../sass/partials/_menu.scss */
+.pane-menu-about-us-menu a {
+  color: #778899;
+}
+
+/* line 364, ../sass/partials/_menu.scss */
+.pane-menu-about-us-menu .nav-pills > li > a:hover {
+  color: #428bca;
+}
+
+/* Overwrite text color of sub menu for Vendors page */
+/* line 369, ../sass/partials/_menu.scss */
+.menu-name-menu-vendors-sub-nav a {
+  color: #778899;
+}
+
+/* line 373, ../sass/partials/_menu.scss */
+.menu-name-menu-vendors-sub-nav .nav-pills > li > a:hover {
+  color: #428bca;
+}
+
+/* line 378, ../sass/partials/_menu.scss */
+.pane-menu-sponsor-sub-nav a {
+  color: #778899;
+}
+
+/* line 382, ../sass/partials/_menu.scss */
+.pane-menu-sponsor-sub-nav .nav-pills > li > a:hover {
+  color: #428bca;
+}
+
+/* line 390, ../sass/partials/_menu.scss */
 table .header, th .header, td .header {
   color: #000 !important;
 }
 
-/* line 307, ../sass/partials/_menu.scss */
+/* line 395, ../sass/partials/_menu.scss */
 table .header-purple, th .header-purple, td .header-purple {
   background: #8f3276 !important;
   color: #fff;
 }
 
-/* line 315, ../sass/partials/_menu.scss */
+/* line 403, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-home a.active {
   background: #37474f;
 }
 
-/* line 319, ../sass/partials/_menu.scss */
+/* line 407, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-concerts a.active {
   background: #9b51a0;
 }
 
-/* line 323, ../sass/partials/_menu.scss */
+/* line 411, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-exhibits a.active {
   background: #26a69a;
 }
 
-/* line 327, ../sass/partials/_menu.scss */
+/* line 415, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-contests a.active {
   background: #26a69a;
 }
 
-/* line 331, ../sass/partials/_menu.scss */
+/* line 419, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-buy-tickets a.active {
   background: #8bc34a;
 }
 
-/* line 335, ../sass/partials/_menu.scss */
+/* line 423, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-discounts a.active {
   background: #ef5350;
 }
 
-/* line 340, ../sass/partials/_menu.scss */
+/* line 428, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a.active {
   background: #4caf50;
 }
 
-/* line 344, ../sass/partials/_menu.scss */
+/* line 432, ../sass/partials/_menu.scss */
 a#menu-toggle {
   width: 100%;
   border-radius: 0;
 }
 
-/* line 351, ../sass/partials/_menu.scss */
+/* line 439, ../sass/partials/_menu.scss */
 .internal-footmenu {
   padding: 25px 0;
 }
 
-/* line 355, ../sass/partials/_menu.scss */
+/* line 443, ../sass/partials/_menu.scss */
 .footer-menu {
   margin: 0;
   padding: 0;
   text-align: left;
 }
-/* line 359, ../sass/partials/_menu.scss */
+/* line 447, ../sass/partials/_menu.scss */
 .footer-menu li {
   list-style: none;
   margin: 0;
 }
 
-/* line 366, ../sass/partials/_menu.scss */
+/* line 454, ../sass/partials/_menu.scss */
 nav.secondary ul li a {
   display: inline !important;
   color: white;
   font-size: 12px;
 }
-/* line 370, ../sass/partials/_menu.scss */
+/* line 458, ../sass/partials/_menu.scss */
 nav.secondary ul li a:hover {
   color: #37474f;
 }
 
-/* line 376, ../sass/partials/_menu.scss */
+/* line 464, ../sass/partials/_menu.scss */
 nav.secondary ul {
   background: #ffa726;
   text-align: center;
 }
 
-/* line 381, ../sass/partials/_menu.scss */
+/* line 469, ../sass/partials/_menu.scss */
 nav.secondary ul li {
   display: inline;
+}
+
+/* line 473, ../sass/partials/_menu.scss */
+.col-md-3.internal-subnav.panel-panel {
+  margin-top: 0px;
+  padding: 0;
+}
+
+/* line 479, ../sass/partials/_menu.scss */
+.internal-subnav li {
+  line-height: 25px;
+  padding-top: 10px;
+}
+
+/* overwriting Exibitor sub nav for hover effect */
+/* line 485, ../sass/partials/_menu.scss */
+.pane-menu-menu-exhibitor-sub-menu a:hover {
+  color: #1FA79B;
+  font-weight: 600;
+}
+
+/* line 490, ../sass/partials/_menu.scss */
+.responsive-menus.responsified span.toggler {
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
 }
 
 /* line 4, ../sass/partials/_page.scss */
@@ -3682,54 +3839,59 @@ nav.secondary ul li {
   margin: 0;
 }
 
-/* line 9, ../sass/partials/_page.scss */
+/* line 8, ../sass/partials/_page.scss */
+.col-md-12.internal-header.panel-panel, .internal-header.panel-panel.calendar-calendar, .view .row > .internal-header.panel-panel.list-group {
+  padding: 0;
+}
+
+/* line 13, ../sass/partials/_page.scss */
 .nosub {
   padding-left: 25%;
 }
 
-/* line 13, ../sass/partials/_page.scss */
+/* line 17, ../sass/partials/_page.scss */
 .internal-sponsors {
   background: orange;
   padding: 30px 0 20px 0;
 }
-/* line 16, ../sass/partials/_page.scss */
+/* line 20, ../sass/partials/_page.scss */
 .internal-sponsors .region-sponsors {
   text-align: center;
   margin-top: 35px;
 }
-/* line 19, ../sass/partials/_page.scss */
+/* line 23, ../sass/partials/_page.scss */
 .internal-sponsors .region-sponsors li {
   display: inline-block;
   vertical-align: middle;
   margin: 0 20px 30px 20px;
 }
 
-/* line 28, ../sass/partials/_page.scss */
+/* line 32, ../sass/partials/_page.scss */
 .front-large-block {
   padding: 0;
 }
-/* line 33, ../sass/partials/_page.scss */
+/* line 37, ../sass/partials/_page.scss */
 .front-large-block.alpha {
   border-top: none;
   border-bottom: none;
   border-right: none;
   border-left: 1px solid #fff;
 }
-/* line 39, ../sass/partials/_page.scss */
+/* line 43, ../sass/partials/_page.scss */
 .front-large-block.bravo {
   border-top: none;
   border-bottom: none;
   border-left: 1px solid #fff;
   border-right: none;
 }
-/* line 45, ../sass/partials/_page.scss */
+/* line 49, ../sass/partials/_page.scss */
 .front-large-block.charlie {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   border-left: none;
   border-right: none;
 }
-/* line 51, ../sass/partials/_page.scss */
+/* line 55, ../sass/partials/_page.scss */
 .front-large-block.delta {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -3737,37 +3899,37 @@ nav.secondary ul li {
   border-right: none;
 }
 
-/* line 64, ../sass/partials/_page.scss */
+/* line 68, ../sass/partials/_page.scss */
 .front-little-block {
   padding: 0;
   border: 1px solid #fff;
 }
-/* line 69, ../sass/partials/_page.scss */
+/* line 73, ../sass/partials/_page.scss */
 .front-little-block.echo {
   border-top: none;
   border-bottom: none;
 }
-/* line 73, ../sass/partials/_page.scss */
+/* line 77, ../sass/partials/_page.scss */
 .front-little-block.foxtrot {
   border-left: none;
   border-top: none;
   border-bottom: none;
 }
-/* line 78, ../sass/partials/_page.scss */
+/* line 82, ../sass/partials/_page.scss */
 .front-little-block.golf {
   border-bottom: none;
 }
-/* line 81, ../sass/partials/_page.scss */
+/* line 85, ../sass/partials/_page.scss */
 .front-little-block.hotel {
   border-left: none;
   border-bottom: none;
 }
-/* line 89, ../sass/partials/_page.scss */
+/* line 93, ../sass/partials/_page.scss */
 .front-little-block p {
   margin: 0;
 }
 
-/* line 95, ../sass/partials/_page.scss */
+/* line 99, ../sass/partials/_page.scss */
 .internal-sponsors {
   padding: 1em 0 0 0;
   background: none;
@@ -3775,7 +3937,7 @@ nav.secondary ul li {
   border-bottom: 1px solid #fff;
 }
 
-/* line 103, ../sass/partials/_page.scss */
+/* line 107, ../sass/partials/_page.scss */
 .top-footer {
   width: 100%;
   min-height: 200px;
@@ -3787,24 +3949,24 @@ nav.secondary ul li {
   padding-top: 30px;
   color: #000;
 }
-/* line 113, ../sass/partials/_page.scss */
+/* line 117, ../sass/partials/_page.scss */
 .top-footer a {
   color: #37474f;
 }
-/* line 116, ../sass/partials/_page.scss */
+/* line 120, ../sass/partials/_page.scss */
 .top-footer h2, .top-footer h3, .top-footer h4 {
   color: #000;
 }
-/* line 119, ../sass/partials/_page.scss */
+/* line 123, ../sass/partials/_page.scss */
 .top-footer h2 {
   font-size: 25px;
 }
-/* line 122, ../sass/partials/_page.scss */
+/* line 126, ../sass/partials/_page.scss */
 .top-footer h3 {
   font-size: 20px;
 }
 
-/* line 127, ../sass/partials/_page.scss */
+/* line 131, ../sass/partials/_page.scss */
 .bottom-footer {
   background: #fff;
   color: #37474f;
@@ -3815,32 +3977,32 @@ nav.secondary ul li {
   line-height: _normalize_lineheight(10px, -1)/16pxrem;
   margin-bottom: 1em;
 }
-/* line 136, ../sass/partials/_page.scss */
+/* line 140, ../sass/partials/_page.scss */
 .bottom-footer p {
   margin: 3px 0;
 }
 
-/* line 141, ../sass/partials/_page.scss */
+/* line 145, ../sass/partials/_page.scss */
 img.panopoly-image-full {
   margin: 0 !important;
 }
 
-/* line 145, ../sass/partials/_page.scss */
+/* line 149, ../sass/partials/_page.scss */
 #page-content-wrapper {
   padding: 0;
 }
 
-/* line 149, ../sass/partials/_page.scss */
+/* line 153, ../sass/partials/_page.scss */
 .container-fluid {
   padding: 0;
 }
 
-/* line 153, ../sass/partials/_page.scss */
+/* line 157, ../sass/partials/_page.scss */
 .col-md-12.front-header.panel-panel, .front-header.panel-panel.calendar-calendar, .view .row > .front-header.panel-panel.list-group {
   padding: 0;
 }
 
-/* line 158, ../sass/partials/_page.scss */
+/* line 162, ../sass/partials/_page.scss */
 .col-md-12.front-concerts.panel-panel, .front-concerts.panel-panel.calendar-calendar, .view .row > .front-concerts.panel-panel.list-group {
   padding: 0;
   margin-bottom: 28.2%;
@@ -3848,31 +4010,38 @@ img.panopoly-image-full {
   border-bottom: 1px solid #fff;
 }
 
-/* line 165, ../sass/partials/_page.scss */
+/* line 169, ../sass/partials/_page.scss */
 .front-large-block {
   padding: 0;
 }
 
-/* line 169, ../sass/partials/_page.scss */
+/* line 173, ../sass/partials/_page.scss */
 .front-little-block {
   padding: 0;
 }
 
-/* line 173, ../sass/partials/_page.scss */
+/* line 177, ../sass/partials/_page.scss */
 section.insider {
   margin-bottom: 1em;
 }
 
-/* line 177, ../sass/partials/_page.scss */
+/* line 181, ../sass/partials/_page.scss */
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
   font-size: 32px;
   color: #9b51a0;
 }
 
-/* line 182, ../sass/partials/_page.scss */
+/* line 186, ../sass/partials/_page.scss */
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a:before {
   display: inline-block;
   content: "@";
+}
+
+/* line 191, ../sass/partials/_page.scss */
+.panel-pane.pane-entity-field.pane-node-field-fair-content {
+  padding-right: 40px;
+  padding-left: 5px;
+  margin-bottom: 60px;
 }
 
 /* line 5, ../sass/partials/_panel.scss */
@@ -3946,6 +4115,329 @@ span.views-label.views-label-field-event-sponsors {
 /* line 32, ../sass/partials/_view.scss */
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
   font-size: 19px;
+}
+
+/* line 2, ../sass/partials/_myfair.scss */
+.myfair-icon img {
+  display: block;
+  width: 47%;
+  margin: 0 auto;
+  margin-top: 55px;
+  margin-bottom: 28px;
+}
+
+/* line 1, ../sass/partials/_sponsors.scss */
+.event-sponsor {
+  display: inline-block;
+  width: 40%;
+  margin: 0;
+  text-align: center;
+  background: #9C51A1;
+  background-color: #9C51A1;
+  height: 200px;
+  border: 1px solid #ffffff;
+}
+/* line 10, ../sass/partials/_sponsors.scss */
+.event-sponsor a {
+  color: #fff;
+}
+/* line 13, ../sass/partials/_sponsors.scss */
+.event-sponsor h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+/* line 21, ../sass/partials/_sponsors.scss */
+.event-price--lawn {
+  display: inline-block;
+  width: 30%;
+  margin: 0;
+  text-align: center;
+  background: #9C51A1;
+  background-color: #9C51A1;
+  height: 200px;
+  border: 1px solid #ffffff;
+}
+/* line 30, ../sass/partials/_sponsors.scss */
+.event-price--lawn a {
+  color: #fff;
+  padding: 10px 25px;
+  margin: 0;
+  border: 1px solid #fff;
+  font-size: 22px;
+  background: #7E4784;
+}
+/* line 37, ../sass/partials/_sponsors.scss */
+.event-price--lawn a:hover {
+  color: #fff;
+}
+/* line 41, ../sass/partials/_sponsors.scss */
+.event-price--lawn h3, .event-price--lawn h4 {
+  color: #fff;
+}
+@media (max-width: 2000px) {
+  /* line 45, ../sass/partials/_sponsors.scss */
+  .event-price--lawn a {
+    padding: 5px 10px;
+    margin: 0;
+    border: 1px solid #fff;
+    font-size: 14px;
+    background: #7E4784;
+    width: auto;
+  }
+  /* line 53, ../sass/partials/_sponsors.scss */
+  .event-price--lawn h3 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400 !important;
+  }
+}
+@media (max-width: 1036px) {
+  /* line 21, ../sass/partials/_sponsors.scss */
+  .event-price--lawn {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 200px;
+    border: 1px solid #ffffff;
+  }
+}
+/* line 70, ../sass/partials/_sponsors.scss */
+.event-price--lawn a {
+  padding: 5px 10px;
+  margin: 0;
+  border: 1px solid #fff;
+  font-size: 14px;
+  background: #7E4784;
+  width: auto;
+}
+/* line 78, ../sass/partials/_sponsors.scss */
+.event-price--lawn h3 {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400 !important;
+}
+
+/* line 86, ../sass/partials/_sponsors.scss */
+.event-price--reserved {
+  display: inline-block;
+  width: 30%;
+  margin: 0;
+  text-align: center;
+  background: #9C51A1;
+  background-color: #9C51A1;
+  height: 200px;
+  border: 1px solid #ffffff;
+}
+/* line 95, ../sass/partials/_sponsors.scss */
+.event-price--reserved a {
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0;
+  border: 1px solid #fff;
+  font-size: 14px;
+  background: #7E4784;
+  width: auto;
+}
+/* line 103, ../sass/partials/_sponsors.scss */
+.event-price--reserved a:hover {
+  color: #fff;
+}
+/* line 107, ../sass/partials/_sponsors.scss */
+.event-price--reserved h4 {
+  color: #fff;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+/* line 113, ../sass/partials/_sponsors.scss */
+.event-price--reserved h3 {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400 !important;
+}
+@media (max-width: 2000px) {
+  /* line 121, ../sass/partials/_sponsors.scss */
+  .event-price--reserved a {
+    padding: 5px 10px;
+    margin: 0;
+    border: 1px solid #fff;
+    font-size: 14px;
+    background: #7E4784;
+    width: auto;
+  }
+  /* line 129, ../sass/partials/_sponsors.scss */
+  .event-price--reserved h3 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400 !important;
+  }
+}
+@media (max-width: 1036px) {
+  /* line 86, ../sass/partials/_sponsors.scss */
+  .event-price--reserved {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 200px;
+    border: 1px solid #ffffff;
+  }
+  /* line 145, ../sass/partials/_sponsors.scss */
+  .event-price--reserved a {
+    padding: 5px 10px;
+    margin: 0;
+    border: 1px solid #fff;
+    font-size: 14px;
+    background: #7E4784;
+    width: auto;
+  }
+  /* line 153, ../sass/partials/_sponsors.scss */
+  .event-price--reserved h3 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400 !important;
+  }
+}
+@media (max-width: 850px) {
+  /* line 86, ../sass/partials/_sponsors.scss */
+  .event-price--reserved {
+    min-height: 295px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 86, ../sass/partials/_sponsors.scss */
+  .event-price--reserved {
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 1036px) {
+  /* line 170, ../sass/partials/_sponsors.scss */
+  .row > .col-md-4.event-sponsor {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 200px;
+    border: 1px solid #ffffff;
+  }
+}
+/* line 182, ../sass/partials/_sponsors.scss */
+.row > .event-price--lawn, .row > .event-sponsor {
+  display: inline-block;
+  margin-left: none;
+  margin-right: none;
+  width: 100%;
+}
+
+/* line 189, ../sass/partials/_sponsors.scss */
+.field.field-name-field-additional-information {
+  width: 106%;
+  margin-left: -3%;
+}
+
+@media (max-width: 1036px) {
+  /* line 195, ../sass/partials/_sponsors.scss */
+  .field.field-name-field-additional-information {
+    width: 114%;
+    margin-left: -7%;
+  }
+}
+/* line 201, ../sass/partials/_sponsors.scss */
+.node-type-events img.media-element.file-default.panopoly-image-original {
+  max-width: 180px;
+  max-height: 108px;
+}
+
+/* line 3, ../sass/partials/_right-sidebar.scss */
+.right-sidebar {
+  padding: 20px;
+  box-shadow: 0 0 5px #000;
+  color: #37474f;
+}
+/* line 7, ../sass/partials/_right-sidebar.scss */
+.right-sidebar ul {
+  padding-left: 26px;
+  text-align: left !important;
+}
+/* line 10, ../sass/partials/_right-sidebar.scss */
+.right-sidebar ul li {
+  margin-bottom: 1em;
+  text-indent: 1px;
+}
+/* line 15, ../sass/partials/_right-sidebar.scss */
+.right-sidebar a {
+  text-decoration: underline;
+  color: #37474f;
+}
+/* line 19, ../sass/partials/_right-sidebar.scss */
+.right-sidebar h2 {
+  font-family: 'Cinzel', serif;
+  color: #37474f;
+  margin-top: 0;
+}
+/* line 24, ../sass/partials/_right-sidebar.scss */
+.right-sidebar h3, .right-sidebar h4, .right-sidebar h5 {
+  color: #37474f;
+  line-height: 25px;
+}
+/* line 28, ../sass/partials/_right-sidebar.scss */
+.right-sidebar h4 {
+  margin-bottom: 4px;
+  font-size: 19px;
+}
+/* line 32, ../sass/partials/_right-sidebar.scss */
+.right-sidebar h5 {
+  line-height: 22px;
+}
+
+/* line 1, ../sass/partials/_table.scss */
+th {
+  border: none;
+}
+
+/* line 5, ../sass/partials/_table.scss */
+table th,
+table td {
+  border-top: none;
+  font-weight: 500;
+}
+
+/* line 12, ../sass/partials/_table.scss */
+td.price-table-buy {
+  text-align: right;
+}
+
+/* line 17, ../sass/partials/_table.scss */
+table.price-table {
+  margin-bottom: 30px;
+}
+
+/* line 21, ../sass/partials/_table.scss */
+td {
+  font-size: 14px;
+}
+
+/* line 26, ../sass/partials/_table.scss */
+.page-node-102 .table-wide {
+  margin-top: 50px;
 }
 
 /* line 1, ../sass/partials/_image-headers.scss */
@@ -4025,108 +4517,4 @@ span.views-label.views-label-field-event-sponsors {
 .page-node-480 .pane-bundle-image {
   max-height: 240px;
   overflow: hidden;
-}
-/* line 24, ../sass/global/_mixin.scss */
-.page-node-480 .pane-node-field-fair-content h2 {
-  color: #ef5350;
-}
-/* line 27, ../sass/global/_mixin.scss */
-.page-node-480 .pane-node-field-fair-content h3 {
-  color: #ef5350;
-}
-/* line 30, ../sass/global/_mixin.scss */
-.page-node-480 .pane-node-field-fair-content h4 {
-  color: #ef5350;
-}
-/* line 33, ../sass/global/_mixin.scss */
-.page-node-480 .pane-node-field-fair-content h5 {
-  color: #ef5350;
-}
-/* line 39, ../sass/global/_mixin.scss */
-.page-node-480 .pane-node-field-fair-content a {
-  color: #ef5350;
-}
-/* line 43, ../sass/global/_mixin.scss */
-.page-node-480 table tr.odd {
-  background: rgba(239, 83, 80, 0.2);
-}
-/* line 47, ../sass/global/_mixin.scss */
-.page-node-480 table .header, .page-node-480 th .header, .page-node-480 td .header {
-  background: none !important;
-}
-
-/* line 6, ../sass/global/_mixin.scss */
-.page-node-87 nav.secondary ul {
-  background: #43b3e6;
-}
-/* line 10, ../sass/global/_mixin.scss */
-.page-node-87 .field-type-image {
-  background-color: #43b3e6;
-}
-/* line 12, ../sass/global/_mixin.scss */
-.page-node-87 .field-type-image img.panopoly-image-full {
-  opacity: 0.1;
-}
-/* line 17, ../sass/global/_mixin.scss */
-.page-node-87 .pane-bundle-image {
-  max-height: 240px;
-  overflow: hidden;
-}
-/* line 24, ../sass/global/_mixin.scss */
-.page-node-87 .pane-node-field-fair-content h2 {
-  color: #43b3e6;
-}
-/* line 27, ../sass/global/_mixin.scss */
-.page-node-87 .pane-node-field-fair-content h3 {
-  color: #43b3e6;
-}
-/* line 30, ../sass/global/_mixin.scss */
-.page-node-87 .pane-node-field-fair-content h4 {
-  color: #43b3e6;
-}
-/* line 33, ../sass/global/_mixin.scss */
-.page-node-87 .pane-node-field-fair-content h5 {
-  color: #43b3e6;
-}
-/* line 39, ../sass/global/_mixin.scss */
-.page-node-87 .pane-node-field-fair-content a {
-  color: #43b3e6;
-}
-/* line 43, ../sass/global/_mixin.scss */
-.page-node-87 table tr.odd {
-  background: rgba(67, 179, 230, 0.2);
-}
-/* line 47, ../sass/global/_mixin.scss */
-.page-node-87 table .header, .page-node-87 th .header, .page-node-87 td .header {
-  background: none !important;
-}
-
-/* line 6, ../sass/global/_mixin.scss */
-.page-node-257 nav.secondary ul, .page-node-263 nav.secondary ul {
-  background: #26a69a;
-}
-/* line 10, ../sass/global/_mixin.scss */
-.page-node-257 .field-type-image, .page-node-263 .field-type-image {
-  background-color: #26a69a;
-}
-/* line 12, ../sass/global/_mixin.scss */
-.page-node-257 .field-type-image img.panopoly-image-full, .page-node-263 .field-type-image img.panopoly-image-full {
-  opacity: 0.1;
-}
-/* line 17, ../sass/global/_mixin.scss */
-.page-node-257 .pane-bundle-image, .page-node-263 .pane-bundle-image {
-  max-height: 240px;
-  overflow: hidden;
-}
-/* line 24, ../sass/global/_mixin.scss */
-.page-node-257 .pane-node-field-fair-content h2, .page-node-263 .pane-node-field-fair-content h2 {
-  color: #26a69a;
-}
-/* line 27, ../sass/global/_mixin.scss */
-.page-node-257 .pane-node-field-fair-content h3, .page-node-263 .pane-node-field-fair-content h3 {
-  color: #26a69a;
-}
-/* line 30, ../sass/global/_mixin.scss */
-.page-node-257 .pane-node-field-fair-content h4, .page-node-263 .pane-node-field-fair-content h4 {
-  color: #26a69a;
 }

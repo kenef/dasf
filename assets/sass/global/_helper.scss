@@ -10,6 +10,12 @@ a {
     padding: 0;
 }
 
+/* adding padding to the bottom of the content of fair pages */
+.container-fluid {
+  padding-bottom: 50px;
+}
+
+
 //Need to move to own partial or in a footer partial
 .signup {
   display: block;

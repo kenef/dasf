@@ -1,0 +1,204 @@
+.event-sponsor {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    text-align: center;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 200px;
+    border: 1px solid #ffffff;
+    a {
+    	color: #fff;
+    }
+    & h3 {
+    	color: #fff;
+	    font-size: 18px;
+	    font-weight: 400;
+	    margin-bottom: 15px;
+	    margin-top: 25px;
+    }
+}
+.event-price--lawn {
+    display: inline-block;
+    width: 30%;
+    margin: 0;
+    text-align: center;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 200px;
+    border: 1px solid #ffffff;
+    a {
+    	color:#fff;
+    	padding: 10px 25px;
+	    margin: 0;
+	    border: 1px solid #fff;
+	    font-size: 22px;
+	    background: #7E4784;
+	    &:hover {
+	    	color:#fff;
+	    }
+    }
+    & h3, h4 {
+    	color:#fff;
+    }
+	@media (max-width:2000px){
+	    & a {
+	        padding: 5px 10px;
+	        margin: 0;
+	        border: 1px solid #fff;
+	        font-size: 14px;
+	        background: #7E4784;
+	        width: auto;
+	    }
+	    & h3 {
+	        margin-top: 30px;
+	        margin-bottom: 0;
+	        font-size: 18px;
+	        font-weight: 400 !important;
+	    }
+	}
+	@media (max-width:1036px) {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        text-align:center;
+        background: #9C51A1;
+        background-color: #9C51A1;
+        height: 200px;
+        border: 1px solid #ffffff;
+	}
+   & a {
+        padding: 5px 10px;
+        margin: 0;
+        border: 1px solid #fff;
+        font-size: 14px;
+        background: #7E4784;
+        width: auto;
+    }
+    & h3 {
+        margin-top: 30px;
+        margin-bottom: 0;
+        font-size: 18px;
+        font-weight: 400 !important;
+    } 
+}
+
+.event-price--reserved {
+    display: inline-block;
+    width: 30%;
+    margin: 0;
+    text-align:center;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 200px;
+    border: 1px solid #ffffff;
+    a {
+    	color:#fff;
+	    padding: 5px 10px;
+	    margin: 0;
+	    border: 1px solid #fff;
+	    font-size: 14px;
+	    background: #7E4784;
+	    width: auto;
+	    &:hover {
+	    	color: #fff;
+	    }
+    }
+    & h4 {
+    	color:#fff;
+        margin-top: 8px;
+	    margin-bottom: 25px;
+	    font-size: 32px;
+    }
+    & h3 {
+    	color: #fff;
+	    margin-top: 30px;
+	    margin-bottom: 0;
+	    font-size: 18px;
+	    font-weight: 400 !important;
+    }
+	@media (max-width:2000px){
+	     a {
+	        padding: 5px 10px;
+	        margin: 0;
+	        border: 1px solid #fff;
+	        font-size: 14px;
+	        background: #7E4784;
+	        width: auto;
+	    }
+	    & h3 {
+	        margin-top: 30px;
+	        margin-bottom: 0;
+	        font-size: 18px;
+	        font-weight: 400 !important;
+	    }
+	}
+	@media (max-width:1036px) {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        text-align:center;
+        background: #9C51A1;
+        background-color: #9C51A1;
+        height: 200px;
+        border: 1px solid #ffffff;
+	    a {
+	        padding: 5px 10px;
+	        margin: 0;
+	        border: 1px solid #fff;
+	        font-size: 14px;
+	        background: #7E4784;
+	        width: auto;
+	    }
+	    & h3 {
+	        margin-top: 30px;
+	        margin-bottom: 0;
+	        font-size: 18px;
+	        font-weight: 400 !important;
+	    }
+	}
+	@media (max-width:850px){
+		min-height: 295px;
+	}
+	@media (max-width:767px){
+		min-height: 200px;
+	}
+}
+
+
+@media (max-width:1036px){
+    .row > .col-md-4.event-sponsor {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        text-align:center;
+        background: #9C51A1;
+        background-color: #9C51A1;
+        height: 200px;
+        border: 1px solid #ffffff;
+    }
+}
+
+.row > .event-price--lawn, .row > .event-sponsor {
+    display: inline-block;
+    margin-left: none;
+    margin-right: none;
+    width: 100%;
+}
+
+.field.field-name-field-additional-information {
+    width: 106%;
+    margin-left: -3%;
+}
+
+@media (max-width:1036px){
+    .field.field-name-field-additional-information {
+        width: 114%;
+        margin-left: -7%;
+    }
+}
+
+.node-type-events img.media-element.file-default.panopoly-image-original {
+    max-width: 180px;
+    max-height: 108px;
+}

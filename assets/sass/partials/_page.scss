@@ -5,6 +5,10 @@
 	margin:0;
 }
 
+.col-md-12.internal-header.panel-panel {
+     padding:0;
+}
+
 //No Sub - Making up for empty space
 .nosub {
   padding-left: 25%;
@@ -182,4 +186,10 @@ section.insider {
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a:before {
   display:inline-block;
   content:"@";
+}
+
+.panel-pane.pane-entity-field.pane-node-field-fair-content {
+    padding-right: 40px;
+    padding-left: 5px;
+    margin-bottom: 60px;
 }
