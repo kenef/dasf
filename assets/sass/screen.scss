@@ -50,6 +50,7 @@
 // Theme CSS
 // --------------------------------------------------
 @import "global/typography";
+@import "partials/concerts";
 @import "partials/layout";
 @import "partials/structure";
 @import "partials/menu";
@@ -62,9 +63,13 @@
 @import "partials/term";
 @import "partials/node";
 @import "partials/user";
+@import "partials/_footer";
 @import "partials/_field";
 @import "partials/_myfair";
+@import "partials/_slides";
 @import "partials/_sponsors";
+@import "partials/sponsor-bar";
+@import "partials/signup";
 @import "partials/_right-sidebar";
 @import "partials/_table.scss";
 @import "partials/image-headers";

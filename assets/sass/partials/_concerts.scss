@@ -1,0 +1,46 @@
+.view-concert-landing .views-row {
+  color: $concerts;
+  padding: 2em;
+  margin-bottom: 1em;
+  -webkit-box-shadow: -1px 1px 47px -17px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 47px -17px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 47px -17px rgba(0, 0, 0, 0.75);
+  .concert-landing {
+    color: $concerts;
+  }
+  .concerts-buy {
+    display: inline-block;
+    margin-top: 2em;
+    a {
+      background: purple;
+      padding: 1em;
+      color: #fff;
+    }
+  }
+  .concerts-moreinfo {
+    display:inline-block;
+    a {
+      background: $concerts;
+      padding: 1em;
+      color: #fff;
+    }
+  }
+}
+
+.col-md-12.front-concerts.panel-panel img {
+  width: 100%;
+}
+
+/* adding padding to bottom of buttons */
+.concerts-buy  {
+    padding-bottom: 30px;
+}
+
+.concerts-moreinfo  {
+    padding-bottom: 30px;
+}
+
+//Making venues not clickable
+.field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
+  pointer-events: none;
+}
