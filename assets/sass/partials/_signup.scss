@@ -1,0 +1,26 @@
+//Need to move to own partial or in a footer partial
+.signup {
+  display: block;
+  width: 90%;
+  background: none;
+  text-align: center;
+  border: 1px solid #37474f;
+  padding: 1em;
+  color: #fff;
+  margin-top: 2em;
+  a {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size:1.5em;
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  &:hover {
+    background: #37474f;
+    color: #fff;
+    text-decoration: none;
+    //border:1px solid #fff;
+  }
+}

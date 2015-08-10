@@ -15,7 +15,32 @@ body {
 h1, h2, h3, h4, h5 {
 	font-family: $font-family-open-sans;
 	color:$info;
+}
 
+h1, h2 {
+    margin-top: 50px;
+    margin-bottom: 11px;
+}
+
+.pod > h3 {
+    font-size: 22px;
+    margin-bottom: -5px;
+}
+
+h3  {
+    margin-top: 40px;
+    margin-bottom: 11px;
+}
+
+p {
+  font-size: 14px;
+  margin: 0 0 11px;
+  line-height: 26px;
+}
+
+em {
+    font-size: 12px;
+    line-height: 17px;
 }
 
 /* fixing h3 sub headings on Fair Pages */

@@ -28,7 +28,7 @@
                             $menuhtml = drupal_render($menu);
                             print_r($menuhtml);?>
                         </nav>
-                        <a href="#menu-toggle" class="btn btn-default hidden-md hidden-lg"" id="menu-toggle">☰ Main Menu</a>
+                        <a href="#menu-toggle" class="btn btn-default hidden-md hidden-lg" id="menu-toggle">☰ Main Menu</a>
                         <?php print $content['header']; ?>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
             </footer>
         </div>
     </div>
-    <div class="right-sidebar" id="right-sidebar">
+    <div class="right-sidebar hidden-sm" id="right-sidebar">
         <img src="http://alaskastatefair.org/sites/default/files/styles/panopoly_image_original/public/myfairiconbluegrey.png?itok=5sYFh5--" class="myfair-icon" alt="MyFair">
         <?php
         //D7

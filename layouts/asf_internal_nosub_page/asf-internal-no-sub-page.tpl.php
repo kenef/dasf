@@ -91,7 +91,7 @@
             </div>
         </footer>
     </div>
-    <div class="right-sidebar" id="right-sidebar">
+    <div class="right-sidebar hidden-sm" id="right-sidebar">
         <img src="http://alaskastatefair.org/sites/default/files/styles/panopoly_image_original/public/myfairiconbluegrey.png?itok=5sYFh5--" class="myfair-icon" alt="MyFair">
         <?php
         //D7

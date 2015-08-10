@@ -1,3 +1,9 @@
+//The name of the file is misleading - Originally it was just to control image 
+//color on the page but it turned into changing pretty much every color on the page
+//So this file changes colors of Image, text, tables etc
+//This file relies on the page-header mixin which name is also misleading
+
+
 .page-title {
     position: absolute;
     font-family: 'Cinzel Decorative', cursive;
