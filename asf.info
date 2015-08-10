@@ -27,7 +27,6 @@ plugins[panels][layouts] = layouts
 ; CSS - General
 stylesheets[all][]     = assets/stylesheets/screen.css
 stylesheets[all][]     = assets/stylesheets/screen.css
-stylesheets[all][]     = assets/stylesheets/ken.css
 stylesheets[print][]   = assets/javascripts/sidr/stylesheets/jquery.sidr.light.css
 
 ; CSS - Conditional
