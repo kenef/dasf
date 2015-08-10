@@ -13138,8 +13138,8 @@ span.views-label.views-label-field-event-sponsors {
   font-size: 19px;
 }
 
-/* line 2, ../sass/partials/_myfair.scss */
-.myfair-icon img {
+/* line 1, ../sass/partials/_myfair.scss */
+.myfair-icon {
   display: block;
   width: 47%;
   margin: 0 auto;
