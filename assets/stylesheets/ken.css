@@ -589,11 +589,20 @@ p {
 
 /* hiding "Fair Page" Page title and adding top margin to content 
 for flowers pages of the type alaskastatefairi.org/flower-type/ */
+/*----- Euphorbia Lathyris -----*/
 .page-node-492 .field-label {
     display: none;
 }
+
 .page-node-492 .field-items {
     margin-top: 60px;
 }
-=======
->>>>>>> 1d283768c71ef17d4d9bd26fc7e31f6962a8b710
+
+/*----- Humulus Lupulus -----*/
+.page-node-493 .field-label {
+    display: none;
+}
+
+.page-node-493 .field-items {
+    margin-top: 60px;
+}
