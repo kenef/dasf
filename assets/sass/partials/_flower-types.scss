@@ -1,0 +1,43 @@
+
+// hiding "Fair Page" Page title and adding top margin to content 
+// for flowers pages of the type alaskastatefairi.org/flower-type/
+@mixin flower-pages-label {
+	display: none;
+}
+
+@mixin flower-pages-items {
+	margin-top: 60px;
+}
+
+/*----- Euphorbia Lathyris -----*/
+.page-node-492 {
+	.field-label {
+		@include flower-pages-label;
+	}
+
+	.field-items {
+		@include flower-pages-items;
+	}
+}
+
+/*----- Humulus Lupulus -----*/
+.page-node-493 {
+	.field-label {
+		@include flower-pages-label;
+	}
+
+	.field-items {
+		@include flower-pages-items;
+	}
+}
+
+/*----- Nicandra Physalodes ‘Violacea’ -----*/
+.page-node-494 {
+	.field-label {
+		@include flower-pages-label;
+	}
+
+	.field-items {
+		@include flower-pages-items;
+	}
+}
