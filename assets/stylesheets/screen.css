@@ -13733,10 +13733,11 @@ td {
 }
 /* line 10, ../sass/partials/_discount-circle.scss */
 .discount-circle p {
+  line-height: 16px;
   font-size: 10px;
   padding: 17px 10px 0px 10px;
 }
-/* line 14, ../sass/partials/_discount-circle.scss */
+/* line 15, ../sass/partials/_discount-circle.scss */
 .discount-circle .large {
   font-size: 18px;
 }
