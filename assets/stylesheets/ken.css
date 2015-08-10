@@ -585,3 +585,12 @@ p {
     color: #1FA79B;
     font-weight: 600;
 }
+
+/* hiding "Fair Page" Page title and adding top margin to content 
+for flowers pages of the type alaskastatefairi.org/flower-type/ */
+.page-node-492 .field-label {
+    display: none;
+}
+.page-node-492 .field-items {
+    margin-top: 60px;
+}
