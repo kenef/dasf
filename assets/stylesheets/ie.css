@@ -4000,7 +4000,7 @@ table tr.odd {
   font-size: 20px;
 }
 
-/* line 25, ../sass/partials/_footer.scss */
+/* line 26, ../sass/partials/_footer.scss */
 .bottom-footer {
   background: #fff;
   color: #37474f;
@@ -4011,7 +4011,7 @@ table tr.odd {
   line-height: _normalize_lineheight(10px, -1)/16pxrem;
   margin-bottom: 1em;
 }
-/* line 34, ../sass/partials/_footer.scss */
+/* line 35, ../sass/partials/_footer.scss */
 .bottom-footer p {
   margin: 3px 0;
 }
