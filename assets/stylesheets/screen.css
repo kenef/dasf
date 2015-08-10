@@ -12134,6 +12134,36 @@ html.js fieldset.collapsed {
   /* LTR */
 }
 
+/*----- Euphorbia Lathyris -----*/
+/* line 14, ../sass/partials/_flower-types.scss */
+.page-node-492 .field-label {
+  display: none;
+}
+/* line 18, ../sass/partials/_flower-types.scss */
+.page-node-492 .field-items {
+  margin-top: 60px;
+}
+
+/*----- Humulus Lupulus -----*/
+/* line 25, ../sass/partials/_flower-types.scss */
+.page-node-493 .field-label {
+  display: none;
+}
+/* line 29, ../sass/partials/_flower-types.scss */
+.page-node-493 .field-items {
+  margin-top: 60px;
+}
+
+/*----- Nicandra Physalodes ‘Violacea’ -----*/
+/* line 36, ../sass/partials/_flower-types.scss */
+.page-node-494 .field-label {
+  display: none;
+}
+/* line 40, ../sass/partials/_flower-types.scss */
+.page-node-494 .field-items {
+  margin-top: 60px;
+}
+
 /* line 9, ../sass/global/_typography.scss */
 body {
   font-family: "Open Sans", sans-serif;

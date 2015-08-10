@@ -3142,6 +3142,36 @@ html.js fieldset.collapsed {
   /* LTR */
 }
 
+/*----- Euphorbia Lathyris -----*/
+/* line 14, ../sass/partials/_flower-types.scss */
+.page-node-492 .field-label {
+  display: none;
+}
+/* line 18, ../sass/partials/_flower-types.scss */
+.page-node-492 .field-items {
+  margin-top: 60px;
+}
+
+/*----- Humulus Lupulus -----*/
+/* line 25, ../sass/partials/_flower-types.scss */
+.page-node-493 .field-label {
+  display: none;
+}
+/* line 29, ../sass/partials/_flower-types.scss */
+.page-node-493 .field-items {
+  margin-top: 60px;
+}
+
+/*----- Nicandra Physalodes ‘Violacea’ -----*/
+/* line 36, ../sass/partials/_flower-types.scss */
+.page-node-494 .field-label {
+  display: none;
+}
+/* line 40, ../sass/partials/_flower-types.scss */
+.page-node-494 .field-items {
+  margin-top: 60px;
+}
+
 /* line 9, ../sass/global/_typography.scss */
 body {
   font-family: "Open Sans", sans-serif;
@@ -4554,26 +4584,4 @@ td {
 /* line 43, ../sass/global/_mixin.scss */
 .page-node-480 table tr.odd {
   background: rgba(239, 83, 80, 0.2);
-}
-/* line 47, ../sass/global/_mixin.scss */
-.page-node-480 table .header, .page-node-480 th .header, .page-node-480 td .header {
-  background: none !important;
-}
-
-/* line 6, ../sass/global/_mixin.scss */
-.page-node-87 nav.secondary ul {
-  background: #43b3e6;
-}
-/* line 10, ../sass/global/_mixin.scss */
-.page-node-87 .field-type-image {
-  background-color: #43b3e6;
-}
-/* line 12, ../sass/global/_mixin.scss */
-.page-node-87 .field-type-image img.panopoly-image-full {
-  opacity: 0.1;
-}
-/* line 17, ../sass/global/_mixin.scss */
-.page-node-87 .pane-bundle-image {
-  max-height: 240px;
-  overflow: hidden;
 }
