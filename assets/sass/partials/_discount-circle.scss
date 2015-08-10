@@ -26,3 +26,14 @@
     float: left;
     margin-right: 27px;
 }
+
+@media (max-width: 1206px ){
+  .page-node-480 .heading h2 {
+      width: 100%;
+  }
+
+  .page-node-480 .discount-circle {
+      float: left;
+      margin-right: none;
+  }
+}
