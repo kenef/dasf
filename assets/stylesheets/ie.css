@@ -3338,8 +3338,8 @@ em {
   color: #fff;
 }
 
-/* line 124, ../sass/partials/_concerts.scss */
-.node-type-events img.media-element.file-default.panopoly-image-original {
+/* line 126, ../sass/partials/_concerts.scss */
+.node-type-events .event-sponsor .panopoly-image-original {
   max-width: 148px;
   text-align: center;
   margin-left: auto;
