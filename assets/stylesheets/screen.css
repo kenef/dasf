@@ -12135,12 +12135,16 @@ html.js fieldset.collapsed {
 }
 
 /*----- Euphorbia Lathyris -----*/
-/* line 15, ../sass/partials/_flower-types.scss */
-.page-node-492 .field-label, .page-node-493 .field-label, .page-node-494 .field-label {
+/* line 18, ../sass/partials/_flower-types.scss */
+.page-node-492 .field-label, .page-node-493 .field-label, .page-node-494 .field-label, .page-node-495 .field-label, .page-node-496 .field-label,
+.page-node-497 .field-label, .page-node-498 .field-label, .page-node-499 .field-label, .page-node-500 .field-label, .page-node-501 .field-label,
+.page-node-502 .field-label, .page-node-503 .field-label, .page-node-504 .field-label, .page-node-505 .field-label, .page-node-506 .field-label {
   display: none;
 }
-/* line 19, ../sass/partials/_flower-types.scss */
-.page-node-492 .field-items, .page-node-493 .field-items, .page-node-494 .field-items {
+/* line 22, ../sass/partials/_flower-types.scss */
+.page-node-492 .field-items, .page-node-493 .field-items, .page-node-494 .field-items, .page-node-495 .field-items, .page-node-496 .field-items,
+.page-node-497 .field-items, .page-node-498 .field-items, .page-node-499 .field-items, .page-node-500 .field-items, .page-node-501 .field-items,
+.page-node-502 .field-items, .page-node-503 .field-items, .page-node-504 .field-items, .page-node-505 .field-items, .page-node-506 .field-items {
   margin-top: 60px;
 }
 
