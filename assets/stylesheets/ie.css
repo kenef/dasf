@@ -4415,11 +4415,10 @@ table tr.odd {
 /* line 206, ../sass/partials/_sponsors.scss */
 .field.field-name-field-additional-information {
   width: 106%;
-  margin-left: -3%;
 }
 
 @media (max-width: 1036px) {
-  /* line 212, ../sass/partials/_sponsors.scss */
+  /* line 211, ../sass/partials/_sponsors.scss */
   .field.field-name-field-additional-information {
     width: 114%;
     margin-left: -7%;
