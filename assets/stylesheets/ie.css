@@ -4085,7 +4085,6 @@ table tr.odd {
 /* line 18, ../sass/partials/_sponsors.scss */
 .event-sponsor {
   display: inline-block;
-  width: 40%;
   margin: 0;
   text-align: center;
   background: #9C51A1;
