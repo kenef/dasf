@@ -3300,7 +3300,7 @@ em {
 }
 /* line 86, ../sass/partials/_concerts.scss */
 .node-type-events .event-sponsor img {
-  width: 90%;
+  width: 50%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
