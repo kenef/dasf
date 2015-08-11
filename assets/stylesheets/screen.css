@@ -11835,7 +11835,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -12278,6 +12278,27 @@ em {
 /* line 69, ../sass/partials/_concerts.scss */
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
   pointer-events: none;
+}
+
+/* line 75, ../sass/partials/_concerts.scss */
+.node-type-events .event-sponsor {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  background: #9C51A1;
+  background-color: #9C51A1;
+  height: 200px;
+  border: 1px solid #ffffff;
+}
+/* line 84, ../sass/partials/_concerts.scss */
+.node-type-events .event-price--lawn, .node-type-events .event-price--reserved {
+  width: 30%;
+  margin: 0;
+  text-align: center;
+  background: #9C51A1;
+  background-color: #9C51A1;
+  height: 200px;
+  border: 1px solid #ffffff;
 }
 
 @media (min-width: 400px) {

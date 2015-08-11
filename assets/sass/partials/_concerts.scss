@@ -69,3 +69,25 @@
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
   pointer-events: none;
 }
+
+// making buttons at bottom of concerts pages consistent
+.node-type-events {
+  .event-sponsor {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 200px;
+    border: 1px solid #ffffff;
+  }
+  .event-price--lawn, .event-price--reserved {
+    width: 30%;
+    margin: 0;
+    text-align: center;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 200px;
+    border: 1px solid #ffffff;
+  }
+}
