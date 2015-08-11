@@ -13741,3 +13741,27 @@ td {
 .discount-circle .large {
   font-size: 18px;
 }
+
+/* line 21, ../sass/partials/_discount-circle.scss */
+.page-node-480 .heading h2 {
+  width: 90%;
+}
+
+/* line 25, ../sass/partials/_discount-circle.scss */
+.page-node-480 .discount-circle {
+  float: left;
+  margin-right: 27px;
+}
+
+@media (max-width: 1206px) {
+  /* line 31, ../sass/partials/_discount-circle.scss */
+  .page-node-480 .heading h2 {
+    width: 100%;
+  }
+
+  /* line 35, ../sass/partials/_discount-circle.scss */
+  .page-node-480 .discount-circle {
+    float: left;
+    margin-right: none;
+  }
+}

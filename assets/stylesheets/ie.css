@@ -4584,7 +4584,6 @@ td {
 /* line 43, ../sass/global/_mixin.scss */
 .page-node-480 table tr.odd {
   background: rgba(239, 83, 80, 0.2);
-<<<<<<< HEAD
 }
 /* line 47, ../sass/global/_mixin.scss */
 .page-node-480 table .header, .page-node-480 th .header, .page-node-480 td .header {
@@ -4749,4 +4748,28 @@ td {
 /* line 15, ../sass/partials/_discount-circle.scss */
 .discount-circle .large {
   font-size: 18px;
+}
+
+/* line 21, ../sass/partials/_discount-circle.scss */
+.page-node-480 .heading h2 {
+  width: 90%;
+}
+
+/* line 25, ../sass/partials/_discount-circle.scss */
+.page-node-480 .discount-circle {
+  float: left;
+  margin-right: 27px;
+}
+
+@media (max-width: 1206px) {
+  /* line 31, ../sass/partials/_discount-circle.scss */
+  .page-node-480 .heading h2 {
+    width: 100%;
+  }
+
+  /* line 35, ../sass/partials/_discount-circle.scss */
+  .page-node-480 .discount-circle {
+    float: left;
+    margin-right: none;
+  }
 }

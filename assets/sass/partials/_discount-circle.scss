@@ -17,23 +17,27 @@
   }
 }
 
-// Making discount circles align left next to h2 -Ken
-.page-node-480 .heading h2 {
-    width: 90%;
-}
+// Making discount circles align right next to h2 -Ken
+.page-node-480 {
+  .heading {
+    h2 {
+      width: 90%;
+      float: left;
+    }
+  }
+  .discount-circle {
+    margin-left: 27px;
+  }
 
-.page-node-480 .discount-circle {
-    float: left;
-    margin-right: 27px;
-}
-
-@media (max-width: 1206px ){
-  .page-node-480 .heading h2 {
-      width: 100%;
+  @media (max-width: 1206px ){
+    .heading {
+      h2 {
+       width: 100%;
+      }
+    }
   }
 
   .page-node-480 .discount-circle {
-      float: left;
-      margin-right: none;
+    margin-left: none;
   }
 }
