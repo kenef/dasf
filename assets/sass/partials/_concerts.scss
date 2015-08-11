@@ -80,6 +80,13 @@
     background-color: #9C51A1;
     height: 200px;
     border: 1px solid #ffffff;
+
+    img {
+      max-width: 148px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   .event-price--lawn, .event-price--reserved {
     width: 30%;
