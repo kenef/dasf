@@ -81,6 +81,12 @@
     height: 200px;
     border: 1px solid #ffffff;
 
+    img {
+      width: 90%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   .event-price--lawn, .event-price--reserved {
     width: 30%;
