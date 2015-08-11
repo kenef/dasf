@@ -17,6 +17,7 @@
   }
 }
 
+<<<<<<< HEAD
 // Making discount circles align right next to h2 -Ken
 .page-node-480 {
   .heading {
@@ -39,5 +40,23 @@
 
   .page-node-480 .discount-circle {
     margin-left: none;
+
+// Making discount circles align left next to h2 -Ken
+.page-node-480 {
+  .heading h2 {
+    width: 90%;
+  }
+  .discount-circle {
+    float: left;
+    margin-right: 27px;
+  }
+  @media (max-width: 1206px ){
+    .heading h2 {
+      width: 100%;
+    }
+    .discount-circle {
+      float: left;
+      margin-right: none;
+    }
   }
 }

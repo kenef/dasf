@@ -11835,7 +11835,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -12135,32 +12135,12 @@ html.js fieldset.collapsed {
 }
 
 /*----- Euphorbia Lathyris -----*/
-/* line 14, ../sass/partials/_flower-types.scss */
-.page-node-492 .field-label {
+/* line 15, ../sass/partials/_flower-types.scss */
+.page-node-492 .field-label, .page-node-493 .field-label, .page-node-494 .field-label {
   display: none;
 }
-/* line 18, ../sass/partials/_flower-types.scss */
-.page-node-492 .field-items {
-  margin-top: 60px;
-}
-
-/*----- Humulus Lupulus -----*/
-/* line 25, ../sass/partials/_flower-types.scss */
-.page-node-493 .field-label {
-  display: none;
-}
-/* line 29, ../sass/partials/_flower-types.scss */
-.page-node-493 .field-items {
-  margin-top: 60px;
-}
-
-/*----- Nicandra Physalodes ‘Violacea’ -----*/
-/* line 36, ../sass/partials/_flower-types.scss */
-.page-node-494 .field-label {
-  display: none;
-}
-/* line 40, ../sass/partials/_flower-types.scss */
-.page-node-494 .field-items {
+/* line 19, ../sass/partials/_flower-types.scss */
+.page-node-492 .field-items, .page-node-493 .field-items, .page-node-494 .field-items {
   margin-top: 60px;
 }
 
@@ -13742,6 +13722,7 @@ td {
   font-size: 18px;
 }
 
+<<<<<<< HEAD
 /* line 23, ../sass/partials/_discount-circle.scss */
 .page-node-480 .heading h2 {
   width: 90%;
@@ -13760,4 +13741,24 @@ td {
 /* line 40, ../sass/partials/_discount-circle.scss */
 .page-node-480 .page-node-480 .discount-circle {
   margin-left: none;
+
+/* line 22, ../sass/partials/_discount-circle.scss */
+.page-node-480 .heading h2 {
+  width: 90%;
+}
+/* line 25, ../sass/partials/_discount-circle.scss */
+.page-node-480 .discount-circle {
+  float: left;
+  margin-right: 27px;
+}
+@media (max-width: 1206px) {
+  /* line 30, ../sass/partials/_discount-circle.scss */
+  .page-node-480 .heading h2 {
+    width: 100%;
+  }
+  /* line 33, ../sass/partials/_discount-circle.scss */
+  .page-node-480 .discount-circle {
+    float: left;
+    margin-right: none;
+  }
 }

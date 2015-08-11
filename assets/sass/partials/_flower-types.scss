@@ -9,30 +9,9 @@
 	margin-top: 60px;
 }
 
+
 /*----- Euphorbia Lathyris -----*/
-.page-node-492 {
-	.field-label {
-		@include flower-pages-label;
-	}
-
-	.field-items {
-		@include flower-pages-items;
-	}
-}
-
-/*----- Humulus Lupulus -----*/
-.page-node-493 {
-	.field-label {
-		@include flower-pages-label;
-	}
-
-	.field-items {
-		@include flower-pages-items;
-	}
-}
-
-/*----- Nicandra Physalodes ‘Violacea’ -----*/
-.page-node-494 {
+.page-node-492, .page-node-493, .page-node-494  {
 	.field-label {
 		@include flower-pages-label;
 	}
