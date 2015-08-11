@@ -4703,8 +4703,26 @@ td {
   background: none !important;
 }
 
-/* line 1, ../sass/partials/_discount-circle.scss */
-.discount-circle {
+/* line 3, ../sass/partials/_discount-circle.scss */
+.page-node-480 .heading h2 {
+  width: 80%;
+}
+@media (max-width: 1206px) {
+  /* line 7, ../sass/partials/_discount-circle.scss */
+  .page-node-480 .heading h2 {
+    width: 100%;
+  }
+}
+
+/* line 13, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper {
+  display: inline-block;
+  float: right;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+/* line 19, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper .discount-circle {
   width: 68px;
   height: 68px;
   background: red;
@@ -4715,25 +4733,15 @@ td {
   text-align: center;
   margin-top: 9px;
   float: right;
+  padding-bottom: 12px;
 }
-/* line 13, ../sass/partials/_discount-circle.scss */
-.discount-circle p {
+/* line 32, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper .discount-circle p {
   line-height: 16px;
   font-size: 10px;
   padding: 17px 10px 0px 10px;
 }
-/* line 18, ../sass/partials/_discount-circle.scss */
-.discount-circle .large {
+/* line 37, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper .discount-circle .large {
   font-size: 18px;
-}
-
-/* line 25, ../sass/partials/_discount-circle.scss */
-.page-node-480 .heading h2 {
-  width: 80%;
-}
-@media (max-width: 1206px) {
-  /* line 29, ../sass/partials/_discount-circle.scss */
-  .page-node-480 .heading h2 {
-    width: 100%;
-  }
 }
