@@ -2,20 +2,35 @@
   .field-name-title {
     padding-left: 5px;   
   }
+
   .field-name-field-repeating-dates-and-time.field-type-field-collection {
     padding-left:5px;
   }
+
   .nosub {
     padding-left:5px
   }
 }
 
 @media (min-width: 1080px) {
-  .field-name-title{
+  .field-name-title {
     padding-left:250px;
   }
   .field-name-field-repeating-dates-and-time.field-type-field-collection {
     padding-left:250px;
+  }
+  @media (min-width: 1080px) {
+    .field-name-title{
+      padding-left:250px;
+    }
+
+    .field-name-field-repeating-dates-and-time.field-type-field-collection {
+      padding-left:250px;
+    }
+
+    .nosub {
+      padding-left:250px
+    }
   }
 }
 
@@ -30,6 +45,7 @@
   .concert-landing {
     color: $concerts;
   }
+
   .concerts-buy {
     display: inline-block;
     margin-top: 2em;
@@ -39,6 +55,7 @@
       color: #fff;
     }
   }
+
   .concerts-moreinfo {
     display:inline-block;
     a {
@@ -65,4 +82,68 @@
 //Making venues not clickable
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
   pointer-events: none;
+}
+
+// making buttons at bottom of concerts pages consistent
+.node-type-events {
+  .event-sponsor {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 200px;
+    border: 1px solid #ffffff;
+
+    img {
+      width: 90%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (max-width: 1200px){
+      display: inline-block;
+      margin: none;
+      width: 100%;
+      height:  auto;
+    }
+  }
+  .event-price--lawn, .event-price--reserved {
+    width: 30%;
+    margin: 0;
+    text-align: center;
+    background: #9C51A1;
+    background-color: #9C51A1;
+    height: 200px;
+    border: 1px solid #ffffff;
+
+    @media (max-width: 1200px){
+      display: inline-block;
+      margin: none;
+      width: 100%;
+    }
+
+    h3 {
+      margin-top: 30px;
+      margin-bottom: 0;
+      font-size: 18px;
+      font-weight: 400 !important;
+    }
+
+    h4 {
+      color: #fff;
+      font-size: 20px;
+    }
+
+    a {
+      padding: 5px 10px;
+      margin: 0;
+      border: 1px solid #fff;
+      font-size: 14px;
+      background: #7E4784;
+      width: auto;
+      color: #fff;
+    }
+  }
 }
