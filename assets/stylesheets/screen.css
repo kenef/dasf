@@ -12308,7 +12308,6 @@ em {
 }
 /* line 104, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn, .node-type-events .event-price--reserved {
-  width: 30%;
   margin: 0;
   text-align: center;
   background: #9C51A1;
@@ -12324,19 +12323,19 @@ em {
     width: 100%;
   }
 }
-/* line 119, ../sass/partials/_concerts.scss */
+/* line 118, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn h3, .node-type-events .event-price--reserved h3 {
   margin-top: 30px;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 400 !important;
 }
-/* line 126, ../sass/partials/_concerts.scss */
+/* line 125, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn h4, .node-type-events .event-price--reserved h4 {
   color: #fff;
   font-size: 20px;
 }
-/* line 131, ../sass/partials/_concerts.scss */
+/* line 130, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn a, .node-type-events .event-price--reserved a {
   padding: 5px 10px;
   margin: 0;
@@ -13696,48 +13695,48 @@ td {
 }
 
 /* line 6, ../sass/global/_mixin.scss */
-.page-node-257 nav.secondary ul, .page-node-263 nav.secondary ul {
+.page-node-19 nav.secondary ul, .page-node-257 nav.secondary ul, .page-node-258 nav.secondary ul, .page-node-259 nav.secondary ul, .page-node-260 nav.secondary ul, .page-node-261 nav.secondary ul, .page-node-263 nav.secondary ul, .page-node-472 nav.secondary ul {
   background: #26a69a;
 }
 /* line 10, ../sass/global/_mixin.scss */
-.page-node-257 .field-type-image, .page-node-263 .field-type-image {
+.page-node-19 .field-type-image, .page-node-257 .field-type-image, .page-node-258 .field-type-image, .page-node-259 .field-type-image, .page-node-260 .field-type-image, .page-node-261 .field-type-image, .page-node-263 .field-type-image, .page-node-472 .field-type-image {
   background-color: #26a69a;
 }
 /* line 12, ../sass/global/_mixin.scss */
-.page-node-257 .field-type-image img.panopoly-image-full, .page-node-263 .field-type-image img.panopoly-image-full {
+.page-node-19 .field-type-image img.panopoly-image-full, .page-node-257 .field-type-image img.panopoly-image-full, .page-node-258 .field-type-image img.panopoly-image-full, .page-node-259 .field-type-image img.panopoly-image-full, .page-node-260 .field-type-image img.panopoly-image-full, .page-node-261 .field-type-image img.panopoly-image-full, .page-node-263 .field-type-image img.panopoly-image-full, .page-node-472 .field-type-image img.panopoly-image-full {
   opacity: 0.1;
 }
 /* line 17, ../sass/global/_mixin.scss */
-.page-node-257 .pane-bundle-image, .page-node-263 .pane-bundle-image {
+.page-node-19 .pane-bundle-image, .page-node-257 .pane-bundle-image, .page-node-258 .pane-bundle-image, .page-node-259 .pane-bundle-image, .page-node-260 .pane-bundle-image, .page-node-261 .pane-bundle-image, .page-node-263 .pane-bundle-image, .page-node-472 .pane-bundle-image {
   max-height: 240px;
   overflow: hidden;
 }
 /* line 24, ../sass/global/_mixin.scss */
-.page-node-257 .pane-node-field-fair-content h2, .page-node-263 .pane-node-field-fair-content h2 {
+.page-node-19 .pane-node-field-fair-content h2, .page-node-257 .pane-node-field-fair-content h2, .page-node-258 .pane-node-field-fair-content h2, .page-node-259 .pane-node-field-fair-content h2, .page-node-260 .pane-node-field-fair-content h2, .page-node-261 .pane-node-field-fair-content h2, .page-node-263 .pane-node-field-fair-content h2, .page-node-472 .pane-node-field-fair-content h2 {
   color: #26a69a;
 }
 /* line 27, ../sass/global/_mixin.scss */
-.page-node-257 .pane-node-field-fair-content h3, .page-node-263 .pane-node-field-fair-content h3 {
+.page-node-19 .pane-node-field-fair-content h3, .page-node-257 .pane-node-field-fair-content h3, .page-node-258 .pane-node-field-fair-content h3, .page-node-259 .pane-node-field-fair-content h3, .page-node-260 .pane-node-field-fair-content h3, .page-node-261 .pane-node-field-fair-content h3, .page-node-263 .pane-node-field-fair-content h3, .page-node-472 .pane-node-field-fair-content h3 {
   color: #26a69a;
 }
 /* line 30, ../sass/global/_mixin.scss */
-.page-node-257 .pane-node-field-fair-content h4, .page-node-263 .pane-node-field-fair-content h4 {
+.page-node-19 .pane-node-field-fair-content h4, .page-node-257 .pane-node-field-fair-content h4, .page-node-258 .pane-node-field-fair-content h4, .page-node-259 .pane-node-field-fair-content h4, .page-node-260 .pane-node-field-fair-content h4, .page-node-261 .pane-node-field-fair-content h4, .page-node-263 .pane-node-field-fair-content h4, .page-node-472 .pane-node-field-fair-content h4 {
   color: #26a69a;
 }
 /* line 33, ../sass/global/_mixin.scss */
-.page-node-257 .pane-node-field-fair-content h5, .page-node-263 .pane-node-field-fair-content h5 {
+.page-node-19 .pane-node-field-fair-content h5, .page-node-257 .pane-node-field-fair-content h5, .page-node-258 .pane-node-field-fair-content h5, .page-node-259 .pane-node-field-fair-content h5, .page-node-260 .pane-node-field-fair-content h5, .page-node-261 .pane-node-field-fair-content h5, .page-node-263 .pane-node-field-fair-content h5, .page-node-472 .pane-node-field-fair-content h5 {
   color: #26a69a;
 }
 /* line 39, ../sass/global/_mixin.scss */
-.page-node-257 .pane-node-field-fair-content a, .page-node-263 .pane-node-field-fair-content a {
+.page-node-19 .pane-node-field-fair-content a, .page-node-257 .pane-node-field-fair-content a, .page-node-258 .pane-node-field-fair-content a, .page-node-259 .pane-node-field-fair-content a, .page-node-260 .pane-node-field-fair-content a, .page-node-261 .pane-node-field-fair-content a, .page-node-263 .pane-node-field-fair-content a, .page-node-472 .pane-node-field-fair-content a {
   color: #26a69a;
 }
 /* line 43, ../sass/global/_mixin.scss */
-.page-node-257 table tr.odd, .page-node-263 table tr.odd {
+.page-node-19 table tr.odd, .page-node-257 table tr.odd, .page-node-258 table tr.odd, .page-node-259 table tr.odd, .page-node-260 table tr.odd, .page-node-261 table tr.odd, .page-node-263 table tr.odd, .page-node-472 table tr.odd {
   background: rgba(38, 166, 154, 0.2);
 }
 /* line 47, ../sass/global/_mixin.scss */
-.page-node-257 table .header, .page-node-257 th .header, .page-node-257 td .header, .page-node-263 table .header, .page-node-263 th .header, .page-node-263 td .header {
+.page-node-19 table .header, .page-node-19 th .header, .page-node-19 td .header, .page-node-257 table .header, .page-node-257 th .header, .page-node-257 td .header, .page-node-258 table .header, .page-node-258 th .header, .page-node-258 td .header, .page-node-259 table .header, .page-node-259 th .header, .page-node-259 td .header, .page-node-260 table .header, .page-node-260 th .header, .page-node-260 td .header, .page-node-261 table .header, .page-node-261 th .header, .page-node-261 td .header, .page-node-263 table .header, .page-node-263 th .header, .page-node-263 td .header, .page-node-472 table .header, .page-node-472 th .header, .page-node-472 td .header {
   background: none !important;
 }
 
