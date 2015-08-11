@@ -12330,6 +12330,14 @@ em {
   color: #fff;
 }
 
+/* line 124, ../sass/partials/_concerts.scss */
+.node-type-events img.media-element.file-default.panopoly-image-original {
+  max-width: 148px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: 400px) {
   /* line 7, ../sass/partials/_menu.scss */
   #wrapper {
