@@ -12211,11 +12211,11 @@ em {
 }
 @media (min-width: 1080px) {
   /* line 13, ../sass/partials/_concerts.scss */
-  .node-type-events .node-type-events .field-name-title {
+  .node-type-events .field-name-title {
     padding-left: 250px;
   }
   /* line 16, ../sass/partials/_concerts.scss */
-  .node-type-events .node-type-events .field.field-name-field-repeating-dates-and-time.field-type-field-collection {
+  .node-type-events .field-name-field-repeating-dates-and-time.field-type-field-collection {
     padding-left: 250px;
   }
   /* line 19, ../sass/partials/_concerts.scss */

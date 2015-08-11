@@ -4562,3 +4562,217 @@ td {
 .page-node-480 .field-type-image img.panopoly-image-full {
   opacity: 0.1;
 }
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-480 .pane-bundle-image {
+  max-height: 240px;
+  overflow: hidden;
+}
+/* line 24, ../sass/global/_mixin.scss */
+.page-node-480 .pane-node-field-fair-content h2 {
+  color: #ef5350;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-480 .pane-node-field-fair-content h3 {
+  color: #ef5350;
+}
+/* line 30, ../sass/global/_mixin.scss */
+.page-node-480 .pane-node-field-fair-content h4 {
+  color: #ef5350;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-480 .pane-node-field-fair-content h5 {
+  color: #ef5350;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-480 .pane-node-field-fair-content a {
+  color: #ef5350;
+}
+/* line 43, ../sass/global/_mixin.scss */
+.page-node-480 table tr.odd {
+  background: rgba(239, 83, 80, 0.2);
+}
+/* line 47, ../sass/global/_mixin.scss */
+.page-node-480 table .header, .page-node-480 th .header, .page-node-480 td .header {
+  background: none !important;
+}
+
+/* line 6, ../sass/global/_mixin.scss */
+.page-node-87 nav.secondary ul {
+  background: #43b3e6;
+}
+/* line 10, ../sass/global/_mixin.scss */
+.page-node-87 .field-type-image {
+  background-color: #43b3e6;
+}
+/* line 12, ../sass/global/_mixin.scss */
+.page-node-87 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-87 .pane-bundle-image {
+  max-height: 240px;
+  overflow: hidden;
+}
+/* line 24, ../sass/global/_mixin.scss */
+.page-node-87 .pane-node-field-fair-content h2 {
+  color: #43b3e6;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-87 .pane-node-field-fair-content h3 {
+  color: #43b3e6;
+}
+/* line 30, ../sass/global/_mixin.scss */
+.page-node-87 .pane-node-field-fair-content h4 {
+  color: #43b3e6;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-87 .pane-node-field-fair-content h5 {
+  color: #43b3e6;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-87 .pane-node-field-fair-content a {
+  color: #43b3e6;
+}
+/* line 43, ../sass/global/_mixin.scss */
+.page-node-87 table tr.odd {
+  background: rgba(67, 179, 230, 0.2);
+}
+/* line 47, ../sass/global/_mixin.scss */
+.page-node-87 table .header, .page-node-87 th .header, .page-node-87 td .header {
+  background: none !important;
+}
+
+/* line 6, ../sass/global/_mixin.scss */
+.page-node-257 nav.secondary ul, .page-node-263 nav.secondary ul {
+  background: #26a69a;
+}
+/* line 10, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-image, .page-node-263 .field-type-image {
+  background-color: #26a69a;
+}
+/* line 12, ../sass/global/_mixin.scss */
+.page-node-257 .field-type-image img.panopoly-image-full, .page-node-263 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-257 .pane-bundle-image, .page-node-263 .pane-bundle-image {
+  max-height: 240px;
+  overflow: hidden;
+}
+/* line 24, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h2, .page-node-263 .pane-node-field-fair-content h2 {
+  color: #26a69a;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h3, .page-node-263 .pane-node-field-fair-content h3 {
+  color: #26a69a;
+}
+/* line 30, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h4, .page-node-263 .pane-node-field-fair-content h4 {
+  color: #26a69a;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content h5, .page-node-263 .pane-node-field-fair-content h5 {
+  color: #26a69a;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-257 .pane-node-field-fair-content a, .page-node-263 .pane-node-field-fair-content a {
+  color: #26a69a;
+}
+/* line 43, ../sass/global/_mixin.scss */
+.page-node-257 table tr.odd, .page-node-263 table tr.odd {
+  background: rgba(38, 166, 154, 0.2);
+}
+/* line 47, ../sass/global/_mixin.scss */
+.page-node-257 table .header, .page-node-257 th .header, .page-node-257 td .header, .page-node-263 table .header, .page-node-263 th .header, .page-node-263 td .header {
+  background: none !important;
+}
+
+/* line 6, ../sass/global/_mixin.scss */
+.page-node-264 nav.secondary ul {
+  background: #4caf50;
+}
+/* line 10, ../sass/global/_mixin.scss */
+.page-node-264 .field-type-image {
+  background-color: #4caf50;
+}
+/* line 12, ../sass/global/_mixin.scss */
+.page-node-264 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+/* line 17, ../sass/global/_mixin.scss */
+.page-node-264 .pane-bundle-image {
+  max-height: 240px;
+  overflow: hidden;
+}
+/* line 24, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h2 {
+  color: #4caf50;
+}
+/* line 27, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h3 {
+  color: #4caf50;
+}
+/* line 30, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h4 {
+  color: #4caf50;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h5 {
+  color: #4caf50;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content a {
+  color: #4caf50;
+}
+/* line 43, ../sass/global/_mixin.scss */
+.page-node-264 table tr.odd {
+  background: rgba(76, 175, 80, 0.2);
+}
+/* line 47, ../sass/global/_mixin.scss */
+.page-node-264 table .header, .page-node-264 th .header, .page-node-264 td .header {
+  background: none !important;
+}
+
+/* line 3, ../sass/partials/_discount-circle.scss */
+.page-node-480 .heading h2 {
+  width: 80%;
+}
+@media (max-width: 1206px) {
+  /* line 7, ../sass/partials/_discount-circle.scss */
+  .page-node-480 .heading h2 {
+    width: 100%;
+  }
+}
+
+/* line 13, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper {
+  display: inline-block;
+  float: right;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+/* line 19, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper .discount-circle {
+  width: 68px;
+  height: 68px;
+  background: red;
+  color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 9px;
+  float: right;
+  padding-bottom: 12px;
+}
+/* line 32, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper .discount-circle p {
+  line-height: 16px;
+  font-size: 10px;
+  padding: 17px 10px 0px 10px;
+}
+/* line 37, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper .discount-circle .large {
+  font-size: 18px;
+}
