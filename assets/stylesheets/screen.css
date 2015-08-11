@@ -12199,14 +12199,32 @@ em {
 
 /* line 2, ../sass/partials/_concerts.scss */
 .node-type-events .field-name-title {
-  padding-left: 250px;
+  padding-left: 5px;
 }
 /* line 5, ../sass/partials/_concerts.scss */
-.node-type-events .field.field-name-field-repeating-dates-and-time.field-type-field-collection {
-  padding-left: 250px;
+.node-type-events .field-name-field-repeating-dates-and-time.field-type-field-collection {
+  padding-left: 5px;
+}
+/* line 8, ../sass/partials/_concerts.scss */
+.node-type-events .nosub {
+  padding-left: 5px;
+}
+@media (min-width: 1080px) {
+  /* line 13, ../sass/partials/_concerts.scss */
+  .node-type-events .node-type-events .field-name-title {
+    padding-left: 250px;
+  }
+  /* line 16, ../sass/partials/_concerts.scss */
+  .node-type-events .node-type-events .field.field-name-field-repeating-dates-and-time.field-type-field-collection {
+    padding-left: 250px;
+  }
+  /* line 19, ../sass/partials/_concerts.scss */
+  .node-type-events .nosub {
+    padding-left: 250px;
+  }
 }
 
-/* line 10, ../sass/partials/_concerts.scss */
+/* line 26, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row {
   color: #9b51a0;
   padding: 2em;
@@ -12215,49 +12233,49 @@ em {
   -moz-box-shadow: -1px 1px 47px -17px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 1px 47px -17px rgba(0, 0, 0, 0.75);
 }
-/* line 17, ../sass/partials/_concerts.scss */
+/* line 33, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row .concert-landing {
   color: #9b51a0;
 }
-/* line 20, ../sass/partials/_concerts.scss */
+/* line 36, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row .concerts-buy {
   display: inline-block;
   margin-top: 2em;
 }
-/* line 23, ../sass/partials/_concerts.scss */
+/* line 39, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row .concerts-buy a {
   background: purple;
   padding: 1em;
   color: #fff;
 }
-/* line 29, ../sass/partials/_concerts.scss */
+/* line 45, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row .concerts-moreinfo {
   display: inline-block;
 }
-/* line 31, ../sass/partials/_concerts.scss */
+/* line 47, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row .concerts-moreinfo a {
   background: #9b51a0;
   padding: 1em;
   color: #fff;
 }
 
-/* line 39, ../sass/partials/_concerts.scss */
+/* line 55, ../sass/partials/_concerts.scss */
 .col-md-12.front-concerts.panel-panel img, .front-concerts.panel-panel.calendar-calendar img, .view .row > .front-concerts.panel-panel.list-group img {
   width: 100%;
 }
 
 /* adding padding to bottom of buttons */
-/* line 44, ../sass/partials/_concerts.scss */
+/* line 60, ../sass/partials/_concerts.scss */
 .concerts-buy {
   padding-bottom: 30px;
 }
 
-/* line 48, ../sass/partials/_concerts.scss */
+/* line 64, ../sass/partials/_concerts.scss */
 .concerts-moreinfo {
   padding-bottom: 30px;
 }
 
-/* line 53, ../sass/partials/_concerts.scss */
+/* line 69, ../sass/partials/_concerts.scss */
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
   pointer-events: none;
 }
