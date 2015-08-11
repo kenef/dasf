@@ -2,9 +2,11 @@
   .field-name-title {
     padding-left: 5px;   
   }
+  
   .field-name-field-repeating-dates-and-time.field-type-field-collection {
     padding-left:5px;
   }
+
   .nosub {
     padding-left:5px
   }
@@ -13,9 +15,11 @@
     .field-name-title{
       padding-left:250px;
     }
+
     .field-name-field-repeating-dates-and-time.field-type-field-collection {
       padding-left:250px;
     }
+
     .nosub {
       padding-left:250px
     }
@@ -33,6 +37,7 @@
   .concert-landing {
     color: $concerts;
   }
+
   .concerts-buy {
     display: inline-block;
     margin-top: 2em;
@@ -42,6 +47,7 @@
       color: #fff;
     }
   }
+
   .concerts-moreinfo {
     display:inline-block;
     a {
@@ -87,6 +93,12 @@
       margin-left: auto;
       margin-right: auto;
     }
+
+    @media (max-width: 1200px){
+      display: inline-block;
+      margin: none;
+      width: 100%;
+    }
   }
   .event-price--lawn, .event-price--reserved {
     width: 30%;
@@ -96,6 +108,12 @@
     background-color: #9C51A1;
     height: 200px;
     border: 1px solid #ffffff;
+
+    @media (max-width: 1200px){
+      display: inline-block;
+      margin: none;
+      width: 100%;
+    }
 
     h3 {
       margin-top: 30px;
@@ -118,13 +136,5 @@
       width: auto;
       color: #fff;
     }
-  }
-}
-
-@media (max-width: 1200px){
-  .event-price--lawn, .event-price--reserved, .event-sponsor {
-    width: 100%;
-    display: inline-block;
-    margin: none;
   }
 }
