@@ -2,6 +2,15 @@
 // SASS Mixins
 // --------------------------------------------------
 @mixin page-header($imagecolor) {
+	#sidebar-wrapper .menu.nav > .leaf a {
+		color: $imagecolor;
+	}
+	#sidebar-wrapper .menu.nav li a.active {
+		color: #fff;
+	}
+	#sidebar-wrapper .menu.nav > .leaf a:hover {
+		color:#fff;
+	}
 	//This Controls Menu color
 	nav.secondary ul {
 		background:$imagecolor;

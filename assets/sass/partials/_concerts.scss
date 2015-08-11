@@ -10,7 +10,15 @@
   .nosub {
     padding-left:5px
   }
+}
 
+@media (min-width: 1080px) {
+  .field-name-title {
+    padding-left:250px;
+  }
+  .field-name-field-repeating-dates-and-time.field-type-field-collection {
+    padding-left:250px;
+  }
   @media (min-width: 1080px) {
     .field-name-title{
       padding-left:250px;

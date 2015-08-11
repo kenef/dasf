@@ -6,6 +6,7 @@
 @media (min-width: 400px) {
     #wrapper {
         padding-right:0;
+
     }
 
     .right-sidebar {
@@ -155,7 +156,7 @@ img.logo {
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;
-        padding-right: 250px;
+        //padding-right: 250px;
     }
 
     #wrapper.toggled {
@@ -180,7 +181,7 @@ img.logo {
         margin-right: 0;
     }
     #right-sidebar {
-      display: block;
+      display: none;
       width:250px;
       height: auto;
       position: fixed;
