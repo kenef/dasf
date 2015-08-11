@@ -13394,8 +13394,7 @@ table tr.odd {
 }
 /* line 218, ../sass/partials/_sponsors.scss */
 .node-type-events img.media-element.file-default.panopoly-image-original {
-  max-width: 180px;
-  max-height: 108px;
+  width: 90%;
 }
 
 /* line 1, ../sass/partials/_sponsor-bar.scss */
