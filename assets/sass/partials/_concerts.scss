@@ -120,3 +120,11 @@
     }
   }
 }
+
+@media (max-width: 1200px){
+  .event-price--lawn, .event-price--reserved, .event-sponsor {
+    width: 100%;
+    display: inline-block;
+    margin: none;
+  }
+}

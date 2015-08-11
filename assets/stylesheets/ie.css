@@ -3338,6 +3338,14 @@ em {
   color: #fff;
 }
 
+@media (max-width: 1200px) {
+  /* line 125, ../sass/partials/_concerts.scss */
+  .event-price--lawn, .event-price--reserved, .event-sponsor {
+    width: 100%;
+    display: inline-block;
+    margin: none;
+  }
+}
 @media (min-width: 400px) {
   /* line 7, ../sass/partials/_menu.scss */
   #wrapper {
