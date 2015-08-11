@@ -89,5 +89,26 @@
     background-color: #9C51A1;
     height: 200px;
     border: 1px solid #ffffff;
+
+    h3 {
+      margin-top: 30px;
+      margin-bottom: 0;
+      font-size: 18px;
+      font-weight: 400 !important;
+    }
+
+    h4 {
+      color: #fff;
+    }
+
+    a {
+      padding: 5px 10px;
+      margin: 0;
+      border: 1px solid #fff;
+      font-size: 14px;
+      background: #7E4784;
+      width: auto;
+      color: #fff;
+    }
   }
 }

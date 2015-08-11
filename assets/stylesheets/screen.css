@@ -12300,6 +12300,27 @@ em {
   height: 200px;
   border: 1px solid #ffffff;
 }
+/* line 93, ../sass/partials/_concerts.scss */
+.node-type-events .event-price--lawn h3, .node-type-events .event-price--reserved h3 {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400 !important;
+}
+/* line 100, ../sass/partials/_concerts.scss */
+.node-type-events .event-price--lawn h4, .node-type-events .event-price--reserved h4 {
+  color: #fff;
+}
+/* line 104, ../sass/partials/_concerts.scss */
+.node-type-events .event-price--lawn a, .node-type-events .event-price--reserved a {
+  padding: 5px 10px;
+  margin: 0;
+  border: 1px solid #fff;
+  font-size: 14px;
+  background: #7E4784;
+  width: auto;
+  color: #fff;
+}
 
 @media (min-width: 400px) {
   /* line 7, ../sass/partials/_menu.scss */
