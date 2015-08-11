@@ -3311,9 +3311,10 @@ em {
     display: inline-block;
     margin: none;
     width: 100%;
+    height: auto;
   }
 }
-/* line 103, ../sass/partials/_concerts.scss */
+/* line 104, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn, .node-type-events .event-price--reserved {
   width: 30%;
   margin: 0;
@@ -3324,26 +3325,26 @@ em {
   border: 1px solid #ffffff;
 }
 @media (max-width: 1200px) {
-  /* line 103, ../sass/partials/_concerts.scss */
+  /* line 104, ../sass/partials/_concerts.scss */
   .node-type-events .event-price--lawn, .node-type-events .event-price--reserved {
     display: inline-block;
     margin: none;
     width: 100%;
   }
 }
-/* line 118, ../sass/partials/_concerts.scss */
+/* line 119, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn h3, .node-type-events .event-price--reserved h3 {
   margin-top: 30px;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 400 !important;
 }
-/* line 125, ../sass/partials/_concerts.scss */
+/* line 126, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn h4, .node-type-events .event-price--reserved h4 {
   color: #fff;
   font-size: 20px;
 }
-/* line 130, ../sass/partials/_concerts.scss */
+/* line 131, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn a, .node-type-events .event-price--reserved a {
   padding: 5px 10px;
   margin: 0;
