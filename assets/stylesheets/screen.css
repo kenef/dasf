@@ -11835,7 +11835,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -12334,8 +12334,14 @@ em {
 .node-type-events .event-price--lawn h4, .node-type-events .event-price--reserved h4 {
   color: #fff;
   font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 25px;
 }
+<<<<<<< HEAD
 /* line 126, ../sass/partials/_concerts.scss */
+=======
+/* line 128, ../sass/partials/_concerts.scss */
+>>>>>>> a0d8025ddc4e7a2473ca2398e9416a640c667b63
 .node-type-events .event-price--lawn a, .node-type-events .event-price--reserved a {
   padding: 5px 10px;
   margin: 0;
@@ -13405,11 +13411,10 @@ table tr.odd {
 /* line 206, ../sass/partials/_sponsors.scss */
 .field.field-name-field-additional-information {
   width: 106%;
-  margin-left: -3%;
 }
 
 @media (max-width: 1036px) {
-  /* line 212, ../sass/partials/_sponsors.scss */
+  /* line 211, ../sass/partials/_sponsors.scss */
   .field.field-name-field-additional-information {
     width: 114%;
     margin-left: -7%;

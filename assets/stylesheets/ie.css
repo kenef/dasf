@@ -2843,7 +2843,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -3342,8 +3342,14 @@ em {
 .node-type-events .event-price--lawn h4, .node-type-events .event-price--reserved h4 {
   color: #fff;
   font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 25px;
 }
+<<<<<<< HEAD
 /* line 126, ../sass/partials/_concerts.scss */
+=======
+/* line 128, ../sass/partials/_concerts.scss */
+>>>>>>> a0d8025ddc4e7a2473ca2398e9416a640c667b63
 .node-type-events .event-price--lawn a, .node-type-events .event-price--reserved a {
   padding: 5px 10px;
   margin: 0;
@@ -4413,11 +4419,10 @@ table tr.odd {
 /* line 206, ../sass/partials/_sponsors.scss */
 .field.field-name-field-additional-information {
   width: 106%;
-  margin-left: -3%;
 }
 
 @media (max-width: 1036px) {
-  /* line 212, ../sass/partials/_sponsors.scss */
+  /* line 211, ../sass/partials/_sponsors.scss */
   .field.field-name-field-additional-information {
     width: 114%;
     margin-left: -7%;
@@ -4776,6 +4781,8 @@ td {
 }
 /* line 21, ../sass/global/_mixin.scss */
 .page-node-19 .field-type-image img.panopoly-image-full, .page-node-257 .field-type-image img.panopoly-image-full, .page-node-258 .field-type-image img.panopoly-image-full, .page-node-259 .field-type-image img.panopoly-image-full, .page-node-260 .field-type-image img.panopoly-image-full, .page-node-261 .field-type-image img.panopoly-image-full, .page-node-263 .field-type-image img.panopoly-image-full, .page-node-472 .field-type-image img.panopoly-image-full {
+<<<<<<< HEAD
+=======
   opacity: 0.1;
 }
 /* line 26, ../sass/global/_mixin.scss */
@@ -4783,3 +4790,137 @@ td {
   max-height: 240px;
   overflow: hidden;
 }
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-19 .pane-node-field-fair-content h2, .page-node-257 .pane-node-field-fair-content h2, .page-node-258 .pane-node-field-fair-content h2, .page-node-259 .pane-node-field-fair-content h2, .page-node-260 .pane-node-field-fair-content h2, .page-node-261 .pane-node-field-fair-content h2, .page-node-263 .pane-node-field-fair-content h2, .page-node-472 .pane-node-field-fair-content h2 {
+  color: #26a69a;
+}
+/* line 36, ../sass/global/_mixin.scss */
+.page-node-19 .pane-node-field-fair-content h3, .page-node-257 .pane-node-field-fair-content h3, .page-node-258 .pane-node-field-fair-content h3, .page-node-259 .pane-node-field-fair-content h3, .page-node-260 .pane-node-field-fair-content h3, .page-node-261 .pane-node-field-fair-content h3, .page-node-263 .pane-node-field-fair-content h3, .page-node-472 .pane-node-field-fair-content h3 {
+  color: #26a69a;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-19 .pane-node-field-fair-content h4, .page-node-257 .pane-node-field-fair-content h4, .page-node-258 .pane-node-field-fair-content h4, .page-node-259 .pane-node-field-fair-content h4, .page-node-260 .pane-node-field-fair-content h4, .page-node-261 .pane-node-field-fair-content h4, .page-node-263 .pane-node-field-fair-content h4, .page-node-472 .pane-node-field-fair-content h4 {
+  color: #26a69a;
+}
+/* line 42, ../sass/global/_mixin.scss */
+.page-node-19 .pane-node-field-fair-content h5, .page-node-257 .pane-node-field-fair-content h5, .page-node-258 .pane-node-field-fair-content h5, .page-node-259 .pane-node-field-fair-content h5, .page-node-260 .pane-node-field-fair-content h5, .page-node-261 .pane-node-field-fair-content h5, .page-node-263 .pane-node-field-fair-content h5, .page-node-472 .pane-node-field-fair-content h5 {
+  color: #26a69a;
+}
+/* line 48, ../sass/global/_mixin.scss */
+.page-node-19 .pane-node-field-fair-content a, .page-node-257 .pane-node-field-fair-content a, .page-node-258 .pane-node-field-fair-content a, .page-node-259 .pane-node-field-fair-content a, .page-node-260 .pane-node-field-fair-content a, .page-node-261 .pane-node-field-fair-content a, .page-node-263 .pane-node-field-fair-content a, .page-node-472 .pane-node-field-fair-content a {
+  color: #26a69a;
+}
+/* line 52, ../sass/global/_mixin.scss */
+.page-node-19 table tr.odd, .page-node-257 table tr.odd, .page-node-258 table tr.odd, .page-node-259 table tr.odd, .page-node-260 table tr.odd, .page-node-261 table tr.odd, .page-node-263 table tr.odd, .page-node-472 table tr.odd {
+  background: rgba(38, 166, 154, 0.2);
+}
+/* line 56, ../sass/global/_mixin.scss */
+.page-node-19 table .header, .page-node-19 th .header, .page-node-19 td .header, .page-node-257 table .header, .page-node-257 th .header, .page-node-257 td .header, .page-node-258 table .header, .page-node-258 th .header, .page-node-258 td .header, .page-node-259 table .header, .page-node-259 th .header, .page-node-259 td .header, .page-node-260 table .header, .page-node-260 th .header, .page-node-260 td .header, .page-node-261 table .header, .page-node-261 th .header, .page-node-261 td .header, .page-node-263 table .header, .page-node-263 th .header, .page-node-263 td .header, .page-node-472 table .header, .page-node-472 th .header, .page-node-472 td .header {
+  background: none !important;
+}
+
+/* line 5, ../sass/global/_mixin.scss */
+.page-node-264 #sidebar-wrapper .menu.nav > .leaf a {
+  color: #4caf50;
+}
+/* line 8, ../sass/global/_mixin.scss */
+.page-node-264 #sidebar-wrapper .menu.nav li a.active {
+  color: #fff;
+}
+/* line 11, ../sass/global/_mixin.scss */
+.page-node-264 #sidebar-wrapper .menu.nav > .leaf a:hover {
+  color: #fff;
+}
+/* line 15, ../sass/global/_mixin.scss */
+.page-node-264 nav.secondary ul {
+  background: #4caf50;
+}
+/* line 19, ../sass/global/_mixin.scss */
+.page-node-264 .field-type-image {
+  background-color: #4caf50;
+}
+/* line 21, ../sass/global/_mixin.scss */
+.page-node-264 .field-type-image img.panopoly-image-full {
+>>>>>>> a0d8025ddc4e7a2473ca2398e9416a640c667b63
+  opacity: 0.1;
+}
+/* line 26, ../sass/global/_mixin.scss */
+.page-node-19 .pane-bundle-image, .page-node-257 .pane-bundle-image, .page-node-258 .pane-bundle-image, .page-node-259 .pane-bundle-image, .page-node-260 .pane-bundle-image, .page-node-261 .pane-bundle-image, .page-node-263 .pane-bundle-image, .page-node-472 .pane-bundle-image {
+  max-height: 240px;
+  overflow: hidden;
+<<<<<<< HEAD
+}
+=======
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h2 {
+  color: #4caf50;
+}
+/* line 36, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h3 {
+  color: #4caf50;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h4 {
+  color: #4caf50;
+}
+/* line 42, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content h5 {
+  color: #4caf50;
+}
+/* line 48, ../sass/global/_mixin.scss */
+.page-node-264 .pane-node-field-fair-content a {
+  color: #4caf50;
+}
+/* line 52, ../sass/global/_mixin.scss */
+.page-node-264 table tr.odd {
+  background: rgba(76, 175, 80, 0.2);
+}
+/* line 56, ../sass/global/_mixin.scss */
+.page-node-264 table .header, .page-node-264 th .header, .page-node-264 td .header {
+  background: none !important;
+}
+
+/* line 3, ../sass/partials/_discount-circle.scss */
+.page-node-480 .heading h2 {
+  width: 80%;
+}
+@media (max-width: 1206px) {
+  /* line 7, ../sass/partials/_discount-circle.scss */
+  .page-node-480 .heading h2 {
+    width: 100%;
+  }
+}
+
+/* line 13, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper {
+  display: inline-block;
+  float: right;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+/* line 19, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper .discount-circle {
+  width: 68px;
+  height: 68px;
+  background: red;
+  color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 9px;
+  float: right;
+  padding-bottom: 12px;
+}
+/* line 32, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper .discount-circle p {
+  line-height: 16px;
+  font-size: 10px;
+  padding: 17px 10px 0px 10px;
+}
+/* line 37, ../sass/partials/_discount-circle.scss */
+.discount-button-wrapper .discount-circle .large {
+  font-size: 18px;
+}
+>>>>>>> a0d8025ddc4e7a2473ca2398e9416a640c667b63
