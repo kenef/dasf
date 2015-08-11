@@ -12337,7 +12337,11 @@ em {
   margin-top: 8px;
   margin-bottom: 25px;
 }
+<<<<<<< HEAD
+/* line 126, ../sass/partials/_concerts.scss */
+=======
 /* line 128, ../sass/partials/_concerts.scss */
+>>>>>>> a0d8025ddc4e7a2473ca2398e9416a640c667b63
 .node-type-events .event-price--lawn a, .node-type-events .event-price--reserved a {
   padding: 5px 10px;
   margin: 0;
