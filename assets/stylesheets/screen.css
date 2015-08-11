@@ -13706,7 +13706,7 @@ td {
   border-radius: 50px;
   text-align: center;
   margin-top: 9px;
-  float: left;
+  float: right;
 }
 /* line 13, ../sass/partials/_discount-circle.scss */
 .discount-circle p {
