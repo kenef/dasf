@@ -4713,34 +4713,27 @@ td {
   -webkit-border-radius: 50px;
   border-radius: 50px;
   text-align: center;
+  margin-top: 9px;
+  float: left;
 }
-/* line 10, ../sass/partials/_discount-circle.scss */
+/* line 13, ../sass/partials/_discount-circle.scss */
 .discount-circle p {
   line-height: 16px;
   font-size: 10px;
   padding: 17px 10px 0px 10px;
 }
-/* line 15, ../sass/partials/_discount-circle.scss */
+/* line 18, ../sass/partials/_discount-circle.scss */
 .discount-circle .large {
   font-size: 18px;
 }
 
-/* line 22, ../sass/partials/_discount-circle.scss */
+/* line 25, ../sass/partials/_discount-circle.scss */
 .page-node-480 .heading h2 {
   width: 80%;
-}
-/* line 25, ../sass/partials/_discount-circle.scss */
-.page-node-480 .discount-circle {
-  float: right;
 }
 @media (max-width: 1206px) {
   /* line 29, ../sass/partials/_discount-circle.scss */
   .page-node-480 .heading h2 {
     width: 100%;
-  }
-  /* line 32, ../sass/partials/_discount-circle.scss */
-  .page-node-480 .discount-circle {
-    float: left;
-    margin-right: none;
   }
 }

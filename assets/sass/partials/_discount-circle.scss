@@ -7,6 +7,9 @@
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
   text-align:center;
+  margin-top: 9px;
+  float: left;
+
   p {
     line-height: 16px;
     font-size:10px;
@@ -21,9 +24,6 @@
 .page-node-480 {
   .heading h2 {
     width: 80%;
-  }
-  .discount-circle {
-    float: right;
   }
   @media (max-width: 1206px ){
     .heading h2 {
