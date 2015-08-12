@@ -3343,13 +3343,9 @@ em {
   color: #fff;
   font-size: 20px;
   margin-top: 8px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
-<<<<<<< HEAD
-/* line 126, ../sass/partials/_concerts.scss */
-=======
 /* line 128, ../sass/partials/_concerts.scss */
->>>>>>> a0d8025ddc4e7a2473ca2398e9416a640c667b63
 .node-type-events .event-price--lawn a, .node-type-events .event-price--reserved a {
   padding: 5px 10px;
   margin: 0;
@@ -4781,8 +4777,6 @@ td {
 }
 /* line 21, ../sass/global/_mixin.scss */
 .page-node-19 .field-type-image img.panopoly-image-full, .page-node-257 .field-type-image img.panopoly-image-full, .page-node-258 .field-type-image img.panopoly-image-full, .page-node-259 .field-type-image img.panopoly-image-full, .page-node-260 .field-type-image img.panopoly-image-full, .page-node-261 .field-type-image img.panopoly-image-full, .page-node-263 .field-type-image img.panopoly-image-full, .page-node-472 .field-type-image img.panopoly-image-full {
-<<<<<<< HEAD
-=======
   opacity: 0.1;
 }
 /* line 26, ../sass/global/_mixin.scss */
@@ -4841,16 +4835,12 @@ td {
 }
 /* line 21, ../sass/global/_mixin.scss */
 .page-node-264 .field-type-image img.panopoly-image-full {
->>>>>>> a0d8025ddc4e7a2473ca2398e9416a640c667b63
   opacity: 0.1;
 }
 /* line 26, ../sass/global/_mixin.scss */
-.page-node-19 .pane-bundle-image, .page-node-257 .pane-bundle-image, .page-node-258 .pane-bundle-image, .page-node-259 .pane-bundle-image, .page-node-260 .pane-bundle-image, .page-node-261 .pane-bundle-image, .page-node-263 .pane-bundle-image, .page-node-472 .pane-bundle-image {
+.page-node-264 .pane-bundle-image {
   max-height: 240px;
   overflow: hidden;
-<<<<<<< HEAD
-}
-=======
 }
 /* line 33, ../sass/global/_mixin.scss */
 .page-node-264 .pane-node-field-fair-content h2 {
@@ -4923,4 +4913,3 @@ td {
 .discount-button-wrapper .discount-circle .large {
   font-size: 18px;
 }
->>>>>>> a0d8025ddc4e7a2473ca2398e9416a640c667b63
