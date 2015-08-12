@@ -210,6 +210,17 @@ img.logo {
 	}
 }
 
+// subnav for all pages including sub navs
+.internal-subnav ul {
+  ul {
+    margin-top: 40px;
+  }
+
+  li {
+    line-height: 15px;
+  }
+}
+
 //Sub Nav Mobile
 
 .responsive-menus {
