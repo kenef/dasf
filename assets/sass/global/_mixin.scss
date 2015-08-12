@@ -57,3 +57,21 @@
 	    background: none !important;
 	}
 }
+
+
+//This Mixin is schedule color controls
+@mixin schedule-color($color) {
+    .schedule-block__title {
+    	color: $color;
+    }
+    .schedule-block__tagline {
+		color: $color;
+    }
+    .schedule-block__sponsors {
+		color: $color;
+    }
+    .schedule-block__time {
+		color: #fff;
+		background-color: $color;
+    }
+}

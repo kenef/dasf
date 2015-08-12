@@ -1,0 +1,31 @@
+.schedule-block {
+    width: 100%;
+    box-shadow: 0px 0px 9px #37474F;
+    padding: 1em;
+    margin-bottom: 1em;
+    min-height: 39px;
+    .schedule-block__title {
+        float: left;
+        width: 41.6666%;
+        font-weight: 900;
+    }
+    .schedule-block__tagline {
+        float: left;
+        width: 44%;
+        margin-left: -41.6666%;
+        display: block;
+        margin-top: 21px;
+    }
+    .schedule-block__sponsors {
+        float: left;
+        width: 41.6666%;
+        & .italic {
+            float:left;
+            margin-left: 5px;
+        }
+    }
+    .schedule-block__time {
+        float: right;
+    }
+    //Lets set the colors for the cats.
+}
