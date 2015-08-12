@@ -80,8 +80,16 @@
     text-align: center;
     background: #9C51A1;
     background-color: #9C51A1;
-    height: 200px;
+    height: 160px;
     border: 1px solid #ffffff;
+
+    h3 {
+      color: #fff;
+      font-size: 12px;
+      margin-bottom: 15px;
+      margin-top: 25px;
+      font-weight: 400;
+    }
 
     img {
       width: 50%;
@@ -102,7 +110,7 @@
     text-align: center;
     background: #9C51A1;
     background-color: #9C51A1;
-    height: 200px;
+    height: 160px;
     border: 1px solid #ffffff;
 
     @media (max-width: 1200px){
@@ -121,8 +129,8 @@
     h4 {
       color: #fff;
       font-size: 20px;
-      margin-top: 8px;
-      margin-bottom: 20px;
+      margin-top: 5px;
+      margin-bottom: 16px;
     }
 
     a {
