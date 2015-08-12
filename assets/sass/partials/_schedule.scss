@@ -28,4 +28,40 @@
         float: right;
     }
     //Lets set the colors for the cats.
+    .Art-Crafts {
+        @include schedule-color($arts-crafts);
+    }
+    .Attraction {
+        @include schedule-color($attractions);
+    }
+    .Concert {
+        @include schedule-color($concerts);
+    }
+    .Contests {
+        @include schedule-color($contests);
+    }
+    .Cullinary {
+        @include schedule-color($cullinary);
+    }
+    .Educational {
+        @include schedule-color($educational);
+    }
+    .Entertainment {
+        @include schedule-color($entertainment);
+    }
+    .Equestrian {
+        @include schedule-color($equestrian);
+    }
+    .Exhibits {
+        @include schedule-color($exhibits);
+    }
+    .Farming {
+        @include schedule-color($farming);
+    }
+    .Music {
+        @include schedule-color($music);
+    }
+    .Performance {
+        @include schedule-color($performance);
+    }
 }
