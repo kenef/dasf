@@ -3355,11 +3355,7 @@ em {
   margin-top: 5px;
   margin-bottom: 16px;
 }
-<<<<<<< HEAD
-/* line 128, ../sass/partials/_concerts.scss */
-=======
 /* line 138, ../sass/partials/_concerts.scss */
->>>>>>> 30259d25b5d570185237322ad157d39cd33b581f
 .node-type-events .event-price--lawn a, .node-type-events .event-price--reserved a {
   padding: 5px 10px;
   margin: 0;
@@ -4800,8 +4796,6 @@ td {
 }
 /* line 21, ../sass/global/_mixin.scss */
 .page-node-19 .field-type-image img.panopoly-image-full, .page-node-257 .field-type-image img.panopoly-image-full, .page-node-258 .field-type-image img.panopoly-image-full, .page-node-259 .field-type-image img.panopoly-image-full, .page-node-260 .field-type-image img.panopoly-image-full, .page-node-261 .field-type-image img.panopoly-image-full, .page-node-263 .field-type-image img.panopoly-image-full, .page-node-472 .field-type-image img.panopoly-image-full {
-<<<<<<< HEAD
-=======
   opacity: 0.1;
 }
 /* line 26, ../sass/global/_mixin.scss */
@@ -4860,16 +4854,12 @@ td {
 }
 /* line 21, ../sass/global/_mixin.scss */
 .page-node-264 .field-type-image img.panopoly-image-full {
->>>>>>> 30259d25b5d570185237322ad157d39cd33b581f
   opacity: 0.1;
 }
 /* line 26, ../sass/global/_mixin.scss */
 .page-node-264 .pane-bundle-image {
   max-height: 240px;
   overflow: hidden;
-<<<<<<< HEAD
-}
-=======
 }
 /* line 33, ../sass/global/_mixin.scss */
 .page-node-264 .pane-node-field-fair-content h2 {
@@ -4942,4 +4932,79 @@ td {
 .discount-button-wrapper .discount-circle .large {
   font-size: 18px;
 }
->>>>>>> 30259d25b5d570185237322ad157d39cd33b581f
+
+/* line 1, ../sass/partials/_schedule.scss */
+.schedule-block {
+  width: 100%;
+  box-shadow: 0px 0px 9px #37474F;
+  margin-bottom: 1em;
+  min-height: 75px;
+}
+/* line 6, ../sass/partials/_schedule.scss */
+.schedule-block .schedule-block__title {
+  float: left;
+  width: 45%;
+  font-weight: 900;
+  padding: 1em;
+}
+/* line 12, ../sass/partials/_schedule.scss */
+.schedule-block .schedule-block__tagline {
+  float: left;
+  width: 44%;
+  margin-left: -45%;
+  display: block;
+  margin-top: 21px;
+  padding: 1em;
+}
+/* line 20, ../sass/partials/_schedule.scss */
+.schedule-block .schedule-block__sponsors {
+  float: left;
+  width: 41.6666%;
+  padding: 1em;
+}
+/* line 24, ../sass/partials/_schedule.scss */
+.schedule-block .schedule-block__sponsors .italic {
+  float: left;
+  margin-left: 5px;
+}
+/* line 29, ../sass/partials/_schedule.scss */
+.schedule-block .schedule-block__time {
+  float: right;
+  height: 75px;
+  width: 50px;
+  text-align: center;
+}
+/* line 34, ../sass/partials/_schedule.scss */
+.schedule-block .schedule-block__time .date-display-single {
+  display: block;
+  margin-top: 25px;
+}
+/* line 64, ../sass/global/_mixin.scss */
+.schedule-block.Art-Crafts .schedule-block__title {
+  color: #E91E63;
+}
+/* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Art-Crafts .schedule-block__tagline {
+  color: #E91E63;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Art-Crafts .schedule-block__sponsors {
+  color: #E91E63;
+}
+/* line 73, ../sass/global/_mixin.scss */
+.schedule-block.Art-Crafts .schedule-block__time {
+  color: #fff;
+  background-color: #E91E63;
+}
+/* line 64, ../sass/global/_mixin.scss */
+.schedule-block.Attraction .schedule-block__title {
+  color: #9C27B0;
+}
+/* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Attraction .schedule-block__tagline {
+  color: #9C27B0;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Attraction .schedule-block__sponsors {
+  color: #9C27B0;
+}

@@ -1,24 +1,26 @@
 .schedule-block {
     width: 100%;
     box-shadow: 0px 0px 9px #37474F;
-    padding: 1em;
     margin-bottom: 1em;
-    min-height: 39px;
+    min-height: 75px;
     .schedule-block__title {
         float: left;
-        width: 41.6666%;
+        width: 45%;
         font-weight: 900;
+        padding: 1em;
     }
     .schedule-block__tagline {
         float: left;
         width: 44%;
-        margin-left: -41.6666%;
+        margin-left: -45%;
         display: block;
         margin-top: 21px;
+        padding: 1em;
     }
     .schedule-block__sponsors {
         float: left;
         width: 41.6666%;
+        padding: 1em;
         & .italic {
             float:left;
             margin-left: 5px;
@@ -26,42 +28,49 @@
     }
     .schedule-block__time {
         float: right;
+        height: 75px;
+        width: 50px;
+        text-align: center;
+        .date-display-single {
+            display: block;
+            margin-top: 25px;
+        }
     }
     //Lets set the colors for the cats.
-    .Art-Crafts {
-        @include schedule-color($arts-crafts);
+    &.Art-Crafts {
+        @include schedule-color($artscrafts);
     }
-    .Attraction {
+    &.Attraction {
         @include schedule-color($attractions);
     }
-    .Concert {
+    &.Concert {
         @include schedule-color($concerts);
     }
-    .Contests {
+    &.Contests {
         @include schedule-color($contests);
     }
-    .Cullinary {
-        @include schedule-color($cullinary);
+    &.Cullinary {
+        @include schedule-color($culinary);
     }
-    .Educational {
+    &.Educational {
         @include schedule-color($educational);
     }
-    .Entertainment {
+    &.Entertainment {
         @include schedule-color($entertainment);
     }
-    .Equestrian {
+    &.Equestrian {
         @include schedule-color($equestrian);
     }
-    .Exhibits {
+    &.Exhibits {
         @include schedule-color($exhibits);
     }
-    .Farming {
+    &.Farming {
         @include schedule-color($farming);
     }
-    .Music {
+    &.Music {
         @include schedule-color($music);
     }
-    .Performance {
+    &.Performance {
         @include schedule-color($performance);
     }
 }
