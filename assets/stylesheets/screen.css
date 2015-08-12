@@ -12287,12 +12287,22 @@ em {
   text-align: center;
   background: #9C51A1;
   background-color: #9C51A1;
-  height: 200px;
+  height: 160px;
   border: 1px solid #ffffff;
 }
 /* line 86, ../sass/partials/_concerts.scss */
+.node-type-events .event-sponsor h3 {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  font-weight: 400;
+}
+/* line 94, ../sass/partials/_concerts.scss */
 .node-type-events .event-sponsor img {
-  width: 90%;
+  width: 50%;
+  max-height: 85px;
+  max-width: 115px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -12306,38 +12316,42 @@ em {
     height: auto;
   }
 }
-/* line 100, ../sass/partials/_concerts.scss */
+/* line 110, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn, .node-type-events .event-price--reserved {
   margin: 0;
   text-align: center;
   background: #9C51A1;
   background-color: #9C51A1;
-  height: 200px;
+  height: 160px;
   border: 1px solid #ffffff;
 }
 @media (max-width: 1200px) {
-  /* line 100, ../sass/partials/_concerts.scss */
+  /* line 110, ../sass/partials/_concerts.scss */
   .node-type-events .event-price--lawn, .node-type-events .event-price--reserved {
     display: inline-block;
     margin: none;
     width: 100%;
   }
 }
-/* line 114, ../sass/partials/_concerts.scss */
+/* line 124, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn h3, .node-type-events .event-price--reserved h3 {
   margin-top: 30px;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 400 !important;
 }
-/* line 121, ../sass/partials/_concerts.scss */
+/* line 131, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn h4, .node-type-events .event-price--reserved h4 {
   color: #fff;
   font-size: 20px;
-  margin-top: 8px;
-  margin-bottom: 25px;
+  margin-top: 5px;
+  margin-bottom: 16px;
 }
+<<<<<<< HEAD
 /* line 128, ../sass/partials/_concerts.scss */
+=======
+/* line 138, ../sass/partials/_concerts.scss */
+>>>>>>> 30259d25b5d570185237322ad157d39cd33b581f
 .node-type-events .event-price--lawn a, .node-type-events .event-price--reserved a {
   padding: 5px 10px;
   margin: 0;
@@ -12554,25 +12568,34 @@ li {
 }
 
 /* line 215, ../sass/partials/_menu.scss */
+.internal-subnav ul {
+  margin-top: 40px;
+}
+/* line 217, ../sass/partials/_menu.scss */
+.internal-subnav ul li {
+  line-height: 15px;
+}
+
+/* line 225, ../sass/partials/_menu.scss */
 .responsive-menus {
   background: #fff;
 }
-/* line 218, ../sass/partials/_menu.scss */
+/* line 228, ../sass/partials/_menu.scss */
 .responsive-menus.responsified .responsive-menus-simple {
   background: #fff;
   box-shadow: none;
 }
-/* line 221, ../sass/partials/_menu.scss */
+/* line 231, ../sass/partials/_menu.scss */
 .responsive-menus.responsified .responsive-menus-simple li {
   background: #fff;
 }
-/* line 223, ../sass/partials/_menu.scss */
+/* line 233, ../sass/partials/_menu.scss */
 .responsive-menus.responsified .responsive-menus-simple li a {
   color: #000;
   text-transform: none;
   border-bottom: 1px solid #EDEDED !important;
 }
-/* line 232, ../sass/partials/_menu.scss */
+/* line 242, ../sass/partials/_menu.scss */
 .responsive-menus.responsified span.toggler {
   background: #fff;
   color: #505050;
@@ -12583,12 +12606,12 @@ li {
   border-radius: 0;
 }
 
-/* line 244, ../sass/partials/_menu.scss */
+/* line 254, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav > .leaf a:hover {
   color: #43b3e6;
 }
 
-/* line 248, ../sass/partials/_menu.scss */
+/* line 258, ../sass/partials/_menu.scss */
 .nav > li > a {
   position: relative;
   display: block;
@@ -12597,279 +12620,279 @@ li {
 }
 
 /* adding font-weight and color to hovered sub-nav links on Fair Info page*/
-/* line 256, ../sass/partials/_menu.scss */
+/* line 266, ../sass/partials/_menu.scss */
 .menu-block-wrapper.menu-block-ctools-menu-fair-info-sub-nav-desktop-1.menu-name-menu-fair-info-sub-nav-desktop.parent-mlid-0.menu-level-1 a:hover {
   font-weight: 700;
   color: #0BB9F4;
 }
 
-/* line 261, ../sass/partials/_menu.scss */
+/* line 271, ../sass/partials/_menu.scss */
 .nav-pills > li > a:hover {
   background-color: #43b3e6;
   background: #43b3e6;
   color: #fff;
 }
 
-/* line 267, ../sass/partials/_menu.scss */
+/* line 277, ../sass/partials/_menu.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background-color: #43b3e6;
   background: #43b3e6;
   color: #fff;
 }
 
-/* line 273, ../sass/partials/_menu.scss */
+/* line 283, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav > .leaf a:hover, #sidebar-wrapper .menu.nav > .leaf a:active, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: #43b3e6;
   color: #fff;
 }
 
-/* line 278, ../sass/partials/_menu.scss */
+/* line 288, ../sass/partials/_menu.scss */
 #sidebar-wrapper .active, #sidebar-wrapper .active:a {
   background: #43b3e6;
   color: #fff;
 }
 
-/* line 284, ../sass/partials/_menu.scss */
+/* line 294, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-home a.active {
   background: #37474f;
 }
 
-/* line 288, ../sass/partials/_menu.scss */
+/* line 298, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-concerts a:hover {
   background: #9b51a0;
 }
 
-/* line 292, ../sass/partials/_menu.scss */
+/* line 302, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-discounts a:hover {
   background: #ef5350;
 }
 
-/* line 296, ../sass/partials/_menu.scss */
+/* line 306, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-exhibits a:hover {
   background: #26a69a;
 }
 
-/* line 300, ../sass/partials/_menu.scss */
+/* line 310, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-contests a:hover {
   background: #26a69a;
 }
 
-/* line 304, ../sass/partials/_menu.scss */
+/* line 314, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-buy-tickets a:hover {
   background: #8bc34a;
 }
 
-/* line 308, ../sass/partials/_menu.scss */
+/* line 318, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a:hover {
   background: #4caf50;
 }
 
-/* line 312, ../sass/partials/_menu.scss */
+/* line 322, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-discounts a:hover {
   background: #ef5350;
 }
 
-/* line 318, ../sass/partials/_menu.scss */
+/* line 328, ../sass/partials/_menu.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: none;
   background-color: none;
   color: #43b3e6;
 }
 
-/* line 324, ../sass/partials/_menu.scss */
+/* line 334, ../sass/partials/_menu.scss */
 .nav-pills > li > a:hover {
   background-color: none;
   background: none;
   color: #fff;
 }
 
-/* line 331, ../sass/partials/_menu.scss */
+/* line 341, ../sass/partials/_menu.scss */
 .pane-menu-exhibitor-sub-menu a {
   color: #778899;
 }
 
-/* line 335, ../sass/partials/_menu.scss */
+/* line 345, ../sass/partials/_menu.scss */
 .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a, .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a:hover, .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a:focus {
   background: none;
   background-color: none;
   color: #26a69a;
 }
 
-/* line 341, ../sass/partials/_menu.scss */
+/* line 351, ../sass/partials/_menu.scss */
 .pane-menu-exhibitor-sub-menu .nav-pills > li > a:hover {
   color: #26a69a;
 }
 
-/* line 346, ../sass/partials/_menu.scss */
+/* line 356, ../sass/partials/_menu.scss */
 .internal-subnav {
   text-align: right;
 }
 
-/* line 351, ../sass/partials/_menu.scss */
+/* line 361, ../sass/partials/_menu.scss */
 .pane-menu-fair-info-sub-nav-desktop a {
   color: #778899;
 }
 
-/* line 356, ../sass/partials/_menu.scss */
+/* line 366, ../sass/partials/_menu.scss */
 .pane-menu-fair-info-sub-nav-desktop .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: none;
   background-color: none;
   color: #428bca;
 }
 
-/* line 362, ../sass/partials/_menu.scss */
+/* line 372, ../sass/partials/_menu.scss */
 .pane-menu-fair-info-sub-nav-desktop .nav-pills > li > a:hover {
   color: #428bca;
 }
 
-/* line 367, ../sass/partials/_menu.scss */
+/* line 377, ../sass/partials/_menu.scss */
 .nav > li > a:hover, .nav > li > a:focus {
   background: none;
 }
 
 /* Overwrite text color of sub menu for About Us page */
-/* line 372, ../sass/partials/_menu.scss */
+/* line 382, ../sass/partials/_menu.scss */
 .pane-menu-about-us-menu a {
   color: #778899;
 }
 
-/* line 376, ../sass/partials/_menu.scss */
+/* line 386, ../sass/partials/_menu.scss */
 .pane-menu-about-us-menu .nav-pills > li > a:hover {
   color: #428bca;
 }
 
 /* Overwrite text color of sub menu for Vendors page */
-/* line 381, ../sass/partials/_menu.scss */
+/* line 391, ../sass/partials/_menu.scss */
 .menu-name-menu-vendors-sub-nav a {
   color: #778899;
 }
 
-/* line 385, ../sass/partials/_menu.scss */
+/* line 395, ../sass/partials/_menu.scss */
 .menu-name-menu-vendors-sub-nav .nav-pills > li > a:hover {
   color: #428bca;
 }
 
-/* line 390, ../sass/partials/_menu.scss */
+/* line 400, ../sass/partials/_menu.scss */
 .pane-menu-sponsor-sub-nav a {
   color: #778899;
 }
 
-/* line 394, ../sass/partials/_menu.scss */
+/* line 404, ../sass/partials/_menu.scss */
 .pane-menu-sponsor-sub-nav .nav-pills > li > a:hover {
   color: #428bca;
 }
 
-/* line 402, ../sass/partials/_menu.scss */
+/* line 412, ../sass/partials/_menu.scss */
 table .header, th .header, td .header {
   color: #000 !important;
 }
 
-/* line 407, ../sass/partials/_menu.scss */
+/* line 417, ../sass/partials/_menu.scss */
 table .header-purple, th .header-purple, td .header-purple {
   background: #8f3276 !important;
   color: #fff;
 }
 
-/* line 415, ../sass/partials/_menu.scss */
+/* line 425, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-home a.active {
   background: #37474f;
 }
 
-/* line 419, ../sass/partials/_menu.scss */
+/* line 429, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-concerts a.active {
   background: #9b51a0;
 }
 
-/* line 423, ../sass/partials/_menu.scss */
+/* line 433, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-exhibits a.active {
   background: #26a69a;
 }
 
-/* line 427, ../sass/partials/_menu.scss */
+/* line 437, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-contests a.active {
   background: #26a69a;
 }
 
-/* line 431, ../sass/partials/_menu.scss */
+/* line 441, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-buy-tickets a.active {
   background: #8bc34a;
 }
 
-/* line 435, ../sass/partials/_menu.scss */
+/* line 445, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-discounts a.active {
   background: #ef5350;
 }
 
-/* line 440, ../sass/partials/_menu.scss */
+/* line 450, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a.active {
   background: #4caf50;
 }
 
-/* line 444, ../sass/partials/_menu.scss */
+/* line 454, ../sass/partials/_menu.scss */
 a#menu-toggle {
   width: 100%;
   border-radius: 0;
 }
 
-/* line 451, ../sass/partials/_menu.scss */
+/* line 461, ../sass/partials/_menu.scss */
 .internal-footmenu {
   padding: 25px 0;
 }
 
-/* line 455, ../sass/partials/_menu.scss */
+/* line 465, ../sass/partials/_menu.scss */
 .footer-menu {
   margin: 0;
   padding: 0;
   text-align: left;
 }
-/* line 459, ../sass/partials/_menu.scss */
+/* line 469, ../sass/partials/_menu.scss */
 .footer-menu li {
   list-style: none;
   margin: 0;
 }
 
-/* line 466, ../sass/partials/_menu.scss */
+/* line 476, ../sass/partials/_menu.scss */
 nav.secondary ul li a {
   display: inline !important;
   color: white;
   font-size: 12px;
 }
-/* line 470, ../sass/partials/_menu.scss */
+/* line 480, ../sass/partials/_menu.scss */
 nav.secondary ul li a:hover {
   color: #37474f;
 }
 
-/* line 476, ../sass/partials/_menu.scss */
+/* line 486, ../sass/partials/_menu.scss */
 nav.secondary ul {
   background: #ffa726;
   text-align: center;
 }
 
-/* line 481, ../sass/partials/_menu.scss */
+/* line 491, ../sass/partials/_menu.scss */
 nav.secondary ul li {
   display: inline;
 }
 
-/* line 485, ../sass/partials/_menu.scss */
+/* line 495, ../sass/partials/_menu.scss */
 .col-md-3.internal-subnav.panel-panel {
   margin-top: 0px;
   padding: 0;
 }
 
-/* line 491, ../sass/partials/_menu.scss */
+/* line 501, ../sass/partials/_menu.scss */
 .internal-subnav li {
   line-height: 25px;
   padding-top: 10px;
 }
 
 /* overwriting Exibitor sub nav for hover effect */
-/* line 497, ../sass/partials/_menu.scss */
+/* line 507, ../sass/partials/_menu.scss */
 .pane-menu-menu-exhibitor-sub-menu a:hover {
   color: #1FA79B;
   font-weight: 600;
 }
 
-/* line 502, ../sass/partials/_menu.scss */
+/* line 512, ../sass/partials/_menu.scss */
 .responsive-menus.responsified span.toggler {
   padding: 10px;
   font-size: 14px;
