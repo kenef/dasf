@@ -3572,11 +3572,11 @@ li {
 }
 
 /* line 215, ../sass/partials/_menu.scss */
-.internal-subnav ul ul {
+.internal-subnav ul {
   margin-top: 40px;
 }
 /* line 219, ../sass/partials/_menu.scss */
-.internal-subnav ul li {
+.internal-subnav li {
   line-height: 15px;
 }
 
