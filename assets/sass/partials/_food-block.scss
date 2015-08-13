@@ -36,23 +36,23 @@
     }
 
     &.food-block.Purple {
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #9C51A1 90%, #9C51A1 100%);
-        color: #9C51A1;
+    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
+        color: #673ab7;
 	}
 
 	&.food-block.Green {
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #49AF4C 90%, #49AF4C 100%);
-        color: #49AF4C;
+    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
+        color: #8bc34a;
 	}
 
 	&.food-block.Red {
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #F14F4A 90%, #F14F4A 100%);
-        color: #F14F4A;
+    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
+        color: #f44336;
 	}
 
 	&.food-block.Yellow {
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #FFFF00 90%, #FFFF00 100%);
-        color: #FFFF00;
+    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffc107 90%, #ffc107 100%);
+        color: #ffc107;
 	}
 
 }
@@ -60,25 +60,25 @@
 .Purple {
 
     .food-block__title {
-        color: #9C51A1;
+        color: #673ab7;
     }
 }
 
 .Green {
 
     .food-block__title {
-        color: #49AF4C;
+        color: #8bc34a;
     }
 }
 
 .Red {
     .food-block__title {
-        color: #F14F4A;
+        color: #f44336;
     }
 }
 
 .Yellow {
     .food-block__title {
-        color: #FFFF00;
+        color: #ffc107;
     }
 }
