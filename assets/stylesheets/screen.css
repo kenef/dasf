@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400|Cinzel:400,700);
 @import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400|Cinzel:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
 /* line 5, ../sass/global/_helper.scss */
 a {
   color: #37474f;
@@ -11835,7 +11837,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -14174,4 +14176,48 @@ td {
 .schedule-block.Performance .schedule-block__time {
   color: #fff;
   background-color: #CDDC39;
+}
+
+/* line 5, ../sass/partials/_food-block.scss */
+.food-block {
+  display: block;
+  width: 90%;
+  height: 100%;
+  margin: 6px 0;
+  padding: 25px 20px;
+  box-shadow: 0px 0px 20px #666666;
+}
+/* line 13, ../sass/partials/_food-block.scss */
+.food-block .food-block__title {
+  font-family: "Open Sans", sans-serif;
+  color: #43b3e6;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* line 21, ../sass/partials/_food-block.scss */
+.food-block .food-block__description {
+  line-height: 22px;
+  width: 90%;
+  padding-left: 10px;
+}
+/* line 27, ../sass/partials/_food-block.scss */
+.food-block .food-block__cabin {
+  padding-left: 10px;
+}
+/* line 31, ../sass/partials/_food-block.scss */
+.food-block.food-block.Purple {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #9c51a1 90%, #9c51a1 100%);
+}
+/* line 35, ../sass/partials/_food-block.scss */
+.food-block.food-block.Green {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #49af4c 90%, #49af4c 100%);
+}
+/* line 39, ../sass/partials/_food-block.scss */
+.food-block.food-block.Red {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f14f4a 90%, #f14f4a 100%);
+}
+/* line 43, ../sass/partials/_food-block.scss */
+.food-block.food-block.Yellow {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffff00 90%, #ffff00 100%);
 }
