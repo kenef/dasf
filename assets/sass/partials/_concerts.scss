@@ -3,17 +3,17 @@
     padding-left: 5px;   
   }
   .field-name-field-repeating-dates-and-time.field-type-field-collection {
-    padding-left:5px;
+    //padding-left:5px;
   }
   .nosub {
     padding-left:5px
   }
   @media (min-width: 1080px) {
     .field-name-title{
-      padding-left:250px;
+      //padding-left:250px;
     }
     .field-name-field-repeating-dates-and-time.field-type-field-collection {
-      padding-left:250px;
+      //padding-left:250px;
     }
     .nosub {
       padding-left:250px
@@ -21,6 +21,12 @@
   }
 }
 
+.pane-node-field-event-image img {
+    max-width: 100%;     
+    width: 100% !important;    
+    height: auto;     
+    margin-bottom: .5em;
+}
 
 
 .view-concert-landing .views-row {

@@ -12201,30 +12201,26 @@ em {
 .node-type-events .field-name-title {
   padding-left: 5px;
 }
-/* line 5, ../sass/partials/_concerts.scss */
-.node-type-events .field-name-field-repeating-dates-and-time.field-type-field-collection {
-  padding-left: 5px;
-}
 /* line 8, ../sass/partials/_concerts.scss */
 .node-type-events .nosub {
   padding-left: 5px;
 }
 @media (min-width: 1080px) {
-  /* line 12, ../sass/partials/_concerts.scss */
-  .node-type-events .field-name-title {
-    padding-left: 250px;
-  }
-  /* line 15, ../sass/partials/_concerts.scss */
-  .node-type-events .field-name-field-repeating-dates-and-time.field-type-field-collection {
-    padding-left: 250px;
-  }
   /* line 18, ../sass/partials/_concerts.scss */
   .node-type-events .nosub {
     padding-left: 250px;
   }
 }
 
-/* line 26, ../sass/partials/_concerts.scss */
+/* line 24, ../sass/partials/_concerts.scss */
+.pane-node-field-event-image img {
+  max-width: 100%;
+  width: 100% !important;
+  height: auto;
+  margin-bottom: .5em;
+}
+
+/* line 32, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row {
   color: #5E35B1;
   padding: 2em;
@@ -12233,54 +12229,54 @@ em {
   -moz-box-shadow: -1px 1px 47px -17px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 1px 47px -17px rgba(0, 0, 0, 0.75);
 }
-/* line 33, ../sass/partials/_concerts.scss */
+/* line 39, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row .concert-landing {
   color: #5E35B1;
 }
-/* line 37, ../sass/partials/_concerts.scss */
+/* line 43, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row .concerts-buy {
   display: inline-block;
   margin-top: 2em;
 }
-/* line 40, ../sass/partials/_concerts.scss */
+/* line 46, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row .concerts-buy a {
   background: purple;
   padding: 1em;
   color: #fff;
 }
-/* line 47, ../sass/partials/_concerts.scss */
+/* line 53, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row .concerts-moreinfo {
   display: inline-block;
 }
-/* line 49, ../sass/partials/_concerts.scss */
+/* line 55, ../sass/partials/_concerts.scss */
 .view-concert-landing .views-row .concerts-moreinfo a {
   background: #5E35B1;
   padding: 1em;
   color: #fff;
 }
 
-/* line 57, ../sass/partials/_concerts.scss */
+/* line 63, ../sass/partials/_concerts.scss */
 .col-md-12.front-concerts.panel-panel img, .front-concerts.panel-panel.calendar-calendar img, .view .row > .front-concerts.panel-panel.list-group img {
   width: 100%;
 }
 
 /* adding padding to bottom of buttons */
-/* line 62, ../sass/partials/_concerts.scss */
+/* line 68, ../sass/partials/_concerts.scss */
 .concerts-buy {
   padding-bottom: 30px;
 }
 
-/* line 66, ../sass/partials/_concerts.scss */
+/* line 72, ../sass/partials/_concerts.scss */
 .concerts-moreinfo {
   padding-bottom: 30px;
 }
 
-/* line 71, ../sass/partials/_concerts.scss */
+/* line 77, ../sass/partials/_concerts.scss */
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
   pointer-events: none;
 }
 
-/* line 77, ../sass/partials/_concerts.scss */
+/* line 83, ../sass/partials/_concerts.scss */
 .node-type-events .event-sponsor {
   display: inline-block;
   margin: 0;
@@ -12290,7 +12286,7 @@ em {
   height: 160px;
   border: 1px solid #ffffff;
 }
-/* line 86, ../sass/partials/_concerts.scss */
+/* line 92, ../sass/partials/_concerts.scss */
 .node-type-events .event-sponsor h3 {
   color: #fff;
   font-size: 12px;
@@ -12298,7 +12294,7 @@ em {
   margin-top: 25px;
   font-weight: 400;
 }
-/* line 94, ../sass/partials/_concerts.scss */
+/* line 100, ../sass/partials/_concerts.scss */
 .node-type-events .event-sponsor img {
   width: 50%;
   max-height: 85px;
@@ -12308,7 +12304,7 @@ em {
   margin-right: auto;
 }
 @media (max-width: 1200px) {
-  /* line 77, ../sass/partials/_concerts.scss */
+  /* line 83, ../sass/partials/_concerts.scss */
   .node-type-events .event-sponsor {
     display: inline-block;
     margin: none;
@@ -12316,7 +12312,7 @@ em {
     height: auto;
   }
 }
-/* line 110, ../sass/partials/_concerts.scss */
+/* line 116, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn, .node-type-events .event-price--reserved {
   margin: 0;
   text-align: center;
@@ -12326,28 +12322,28 @@ em {
   border: 1px solid #ffffff;
 }
 @media (max-width: 1200px) {
-  /* line 110, ../sass/partials/_concerts.scss */
+  /* line 116, ../sass/partials/_concerts.scss */
   .node-type-events .event-price--lawn, .node-type-events .event-price--reserved {
     display: inline-block;
     margin: none;
     width: 100%;
   }
 }
-/* line 124, ../sass/partials/_concerts.scss */
+/* line 130, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn h3, .node-type-events .event-price--reserved h3 {
   margin-top: 30px;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 400 !important;
 }
-/* line 131, ../sass/partials/_concerts.scss */
+/* line 137, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn h4, .node-type-events .event-price--reserved h4 {
   color: #fff;
   font-size: 20px;
   margin-top: 5px;
   margin-bottom: 16px;
 }
-/* line 138, ../sass/partials/_concerts.scss */
+/* line 144, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn a, .node-type-events .event-price--reserved a {
   padding: 5px 10px;
   margin: 0;
@@ -13935,7 +13931,7 @@ td {
 /* line 6, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__title {
   float: left;
-  width: 45%;
+  width: 50%;
   font-weight: 900;
   padding: 1em;
 }
@@ -13943,7 +13939,7 @@ td {
 .schedule-block .schedule-block__tagline {
   float: left;
   width: 44%;
-  margin-left: -45%;
+  margin-left: -50%;
   display: block;
   margin-top: 21px;
   padding: 1em;
@@ -14174,4 +14170,13 @@ td {
 .schedule-block.Performance .schedule-block__time {
   color: #fff;
   background-color: #CDDC39;
+}
+
+/* line 79, ../sass/partials/_schedule.scss */
+.quicktabs-tabs.quicktabs-style-nostyle {
+  background-color: purple;
+}
+/* line 83, ../sass/partials/_schedule.scss */
+.quicktabs-tabs.quicktabs-style-nostyle ul li a {
+  color: #fff;
 }

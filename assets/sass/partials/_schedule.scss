@@ -5,14 +5,14 @@
     min-height: 75px;
     .schedule-block__title {
         float: left;
-        width: 45%;
+        width: 50%;
         font-weight: 900;
         padding: 1em;
     }
     .schedule-block__tagline {
         float: left;
         width: 44%;
-        margin-left: -45%;
+        margin-left: -50%;
         display: block;
         margin-top: 21px;
         padding: 1em;
@@ -72,5 +72,17 @@
     }
     &.Performance {
         @include schedule-color($performance);
+    }
+}
+
+//Quick Tabs
+.quicktabs-tabs.quicktabs-style-nostyle {
+    background-color: purple;
+    ul {
+        li {
+            a {
+                color: #fff;
+            }
+        }
     }
 }
