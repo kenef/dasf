@@ -5201,7 +5201,7 @@ td {
   height: 100%;
   margin: 6px 0;
   padding: 12px 20px;
-  box-shadow: 0px 0px 20px #666666;
+  box-shadow: 0px 0px 5px #666666;
 }
 /* line 14, ../sass/partials/_food-block.scss */
 .food-block .food-block__title {
@@ -5215,7 +5215,7 @@ td {
 }
 /* line 24, ../sass/partials/_food-block.scss */
 .food-block .food-block__description {
-  line-height: 22px;
+  line-height: 18px;
   width: 90%;
   margin-left: 10px;
 }
