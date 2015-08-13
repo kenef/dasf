@@ -3,6 +3,8 @@
 @import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400|Cinzel:400,700);
 @import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400|Cinzel:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
 /* line 5, ../sass/global/_helper.scss */
 a {
   color: #37474f;
@@ -11837,7 +11839,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -14255,4 +14257,81 @@ td {
 /* line 81, ../sass/partials/_food-block.scss */
 .Yellow .food-block__title {
   color: #ffc107;
+}
+
+/* line 6, ../sass/partials/_rides.scss */
+.rides {
+  display: block;
+  width: 90%;
+  height: 100%;
+  margin: 6px 0;
+  padding: 12px 20px;
+  box-shadow: 0px 0px 5px #666666;
+}
+/* line 14, ../sass/partials/_rides.scss */
+.rides .rides__title {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  margin-right: 10%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* line 23, ../sass/partials/_rides.scss */
+.rides .rides__title a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* line 29, ../sass/partials/_rides.scss */
+.rides .rides__description, .rides .rides__height-adult, .rides .rides__height-alone, .rides .rides__tickets, .rides .rides__thrill {
+  line-height: 18px;
+  width: 90%;
+  margin-left: 10px;
+}
+/* line 35, ../sass/partials/_rides.scss */
+.rides .rides__description p {
+  line-height: 18px;
+}
+/* line 39, ../sass/partials/_rides.scss */
+.rides.rides.Kiddy {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
+  color: #673ab7;
+}
+/* line 44, ../sass/partials/_rides.scss */
+.rides.rides.Family {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
+  color: #8bc34a;
+}
+/* line 49, ../sass/partials/_rides.scss */
+.rides.rides.Thrill {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
+  color: #f44336;
+}
+
+/* line 57, ../sass/partials/_rides.scss */
+.Kiddy .rides__title a {
+  color: #673ab7;
+}
+/* line 61, ../sass/partials/_rides.scss */
+.Kiddy .rides__thrill a {
+  color: #673ab7;
+}
+
+/* line 68, ../sass/partials/_rides.scss */
+.Family .rides__title a {
+  color: #8bc34a;
+}
+/* line 72, ../sass/partials/_rides.scss */
+.Family .rides__thrill a {
+  color: #8bc34a;
+}
+
+/* line 78, ../sass/partials/_rides.scss */
+.Thrill .rides__title a {
+  color: #f44336;
+}
+/* line 82, ../sass/partials/_rides.scss */
+.Thrill .rides__thrill a {
+  color: #f44336;
 }

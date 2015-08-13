@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+/* line 101, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
+.fa-ban:before {
+  content: "";
+}
+
+/* line 102, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
+.fa-arrow-left:before {
+  content: "";
+}
+
 /* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
 .fa-arrow-right:before {
   content: "";
@@ -2853,7 +2863,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -5026,4 +5036,326 @@ td {
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Concert .schedule-block__tagline {
   color: #5E35B1;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Concert .schedule-block__sponsors {
+  color: #5E35B1;
+}
+/* line 73, ../sass/global/_mixin.scss */
+.schedule-block.Concert .schedule-block__time {
+  color: #fff;
+  background-color: #5E35B1;
+}
+/* line 64, ../sass/global/_mixin.scss */
+.schedule-block.Contests .schedule-block__title {
+  color: #3F51B5;
+}
+/* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Contests .schedule-block__tagline {
+  color: #3F51B5;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Contests .schedule-block__sponsors {
+  color: #3F51B5;
+}
+/* line 73, ../sass/global/_mixin.scss */
+.schedule-block.Contests .schedule-block__time {
+  color: #fff;
+  background-color: #3F51B5;
+}
+/* line 64, ../sass/global/_mixin.scss */
+.schedule-block.Cullinary .schedule-block__title {
+  color: #219653;
+}
+/* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Cullinary .schedule-block__tagline {
+  color: #219653;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Cullinary .schedule-block__sponsors {
+  color: #219653;
+}
+/* line 73, ../sass/global/_mixin.scss */
+.schedule-block.Cullinary .schedule-block__time {
+  color: #fff;
+  background-color: #219653;
+}
+/* line 64, ../sass/global/_mixin.scss */
+.schedule-block.Educational .schedule-block__title {
+  color: #03A9F4;
+}
+/* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Educational .schedule-block__tagline {
+  color: #03A9F4;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Educational .schedule-block__sponsors {
+  color: #03A9F4;
+}
+/* line 73, ../sass/global/_mixin.scss */
+.schedule-block.Educational .schedule-block__time {
+  color: #fff;
+  background-color: #03A9F4;
+}
+/* line 64, ../sass/global/_mixin.scss */
+.schedule-block.Entertainment .schedule-block__title {
+  color: #00BCD4;
+}
+/* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Entertainment .schedule-block__tagline {
+  color: #00BCD4;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Entertainment .schedule-block__sponsors {
+  color: #00BCD4;
+}
+/* line 73, ../sass/global/_mixin.scss */
+.schedule-block.Entertainment .schedule-block__time {
+  color: #fff;
+  background-color: #00BCD4;
+}
+/* line 64, ../sass/global/_mixin.scss */
+.schedule-block.Equestrian .schedule-block__title {
+  color: #009688;
+}
+/* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Equestrian .schedule-block__tagline {
+  color: #009688;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Equestrian .schedule-block__sponsors {
+  color: #009688;
+}
+/* line 73, ../sass/global/_mixin.scss */
+.schedule-block.Equestrian .schedule-block__time {
+  color: #fff;
+  background-color: #009688;
+}
+/* line 64, ../sass/global/_mixin.scss */
+.schedule-block.Exhibits .schedule-block__title {
+  color: #26a69a;
+}
+/* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Exhibits .schedule-block__tagline {
+  color: #26a69a;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Exhibits .schedule-block__sponsors {
+  color: #26a69a;
+}
+/* line 73, ../sass/global/_mixin.scss */
+.schedule-block.Exhibits .schedule-block__time {
+  color: #fff;
+  background-color: #26a69a;
+}
+/* line 64, ../sass/global/_mixin.scss */
+.schedule-block.Farming .schedule-block__title {
+  color: #4CAF50;
+}
+/* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Farming .schedule-block__tagline {
+  color: #4CAF50;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Farming .schedule-block__sponsors {
+  color: #4CAF50;
+}
+/* line 73, ../sass/global/_mixin.scss */
+.schedule-block.Farming .schedule-block__time {
+  color: #fff;
+  background-color: #4CAF50;
+}
+/* line 64, ../sass/global/_mixin.scss */
+.schedule-block.Music .schedule-block__title {
+  color: #8BC34A;
+}
+/* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Music .schedule-block__tagline {
+  color: #8BC34A;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Music .schedule-block__sponsors {
+  color: #8BC34A;
+}
+/* line 73, ../sass/global/_mixin.scss */
+.schedule-block.Music .schedule-block__time {
+  color: #fff;
+  background-color: #8BC34A;
+}
+/* line 64, ../sass/global/_mixin.scss */
+.schedule-block.Performance .schedule-block__title {
+  color: #CDDC39;
+}
+/* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Performance .schedule-block__tagline {
+  color: #CDDC39;
+}
+/* line 70, ../sass/global/_mixin.scss */
+.schedule-block.Performance .schedule-block__sponsors {
+  color: #CDDC39;
+}
+/* line 73, ../sass/global/_mixin.scss */
+.schedule-block.Performance .schedule-block__time {
+  color: #fff;
+  background-color: #CDDC39;
+}
+
+/* line 79, ../sass/partials/_schedule.scss */
+.quicktabs-tabs.quicktabs-style-nostyle {
+  background-color: purple;
+}
+/* line 83, ../sass/partials/_schedule.scss */
+.quicktabs-tabs.quicktabs-style-nostyle ul li a {
+  color: #fff;
+}
+
+/* line 6, ../sass/partials/_food-block.scss */
+.food-block {
+  display: block;
+  width: 90%;
+  height: 100%;
+  margin: 6px 0;
+  padding: 12px 20px;
+  box-shadow: 0px 0px 5px #666666;
+}
+/* line 14, ../sass/partials/_food-block.scss */
+.food-block .food-block__title {
+  font-family: "Open Sans", sans-serif;
+  color: #43b3e6;
+  margin-top: 10px;
+  margin-right: 10%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* line 24, ../sass/partials/_food-block.scss */
+.food-block .food-block__description {
+  line-height: 18px;
+  width: 90%;
+  margin-left: 10px;
+}
+/* line 30, ../sass/partials/_food-block.scss */
+.food-block .food-block__description p {
+  line-height: 18px;
+}
+/* line 34, ../sass/partials/_food-block.scss */
+.food-block .food-block__cabin {
+  margin-left: 10px;
+}
+/* line 38, ../sass/partials/_food-block.scss */
+.food-block.food-block.Purple {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
+  color: #673ab7;
+}
+/* line 43, ../sass/partials/_food-block.scss */
+.food-block.food-block.Green {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
+  color: #8bc34a;
+}
+/* line 48, ../sass/partials/_food-block.scss */
+.food-block.food-block.Red {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
+  color: #f44336;
+}
+/* line 53, ../sass/partials/_food-block.scss */
+.food-block.food-block.Yellow {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffc107 90%, #ffc107 100%);
+  color: #ffc107;
+}
+
+/* line 62, ../sass/partials/_food-block.scss */
+.Purple .food-block__title {
+  color: #673ab7;
+}
+
+/* line 69, ../sass/partials/_food-block.scss */
+.Green .food-block__title {
+  color: #8bc34a;
+}
+
+/* line 75, ../sass/partials/_food-block.scss */
+.Red .food-block__title {
+  color: #f44336;
+}
+
+/* line 81, ../sass/partials/_food-block.scss */
+.Yellow .food-block__title {
+  color: #ffc107;
+}
+
+/* line 6, ../sass/partials/_rides.scss */
+.rides {
+  display: block;
+  width: 90%;
+  height: 100%;
+  margin: 6px 0;
+  padding: 12px 20px;
+  box-shadow: 0px 0px 5px #666666;
+}
+/* line 14, ../sass/partials/_rides.scss */
+.rides .rides__title {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  margin-right: 10%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* line 23, ../sass/partials/_rides.scss */
+.rides .rides__title a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* line 29, ../sass/partials/_rides.scss */
+.rides .rides__description, .rides .rides__height-adult, .rides .rides__height-alone, .rides .rides__tickets, .rides .rides__thrill {
+  line-height: 18px;
+  width: 90%;
+  margin-left: 10px;
+}
+/* line 35, ../sass/partials/_rides.scss */
+.rides .rides__description p {
+  line-height: 18px;
+}
+/* line 39, ../sass/partials/_rides.scss */
+.rides.rides.Kiddy {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
+  color: #673ab7;
+}
+/* line 44, ../sass/partials/_rides.scss */
+.rides.rides.Family {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
+  color: #8bc34a;
+}
+/* line 49, ../sass/partials/_rides.scss */
+.rides.rides.Thrill {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
+  color: #f44336;
+}
+
+/* line 57, ../sass/partials/_rides.scss */
+.Kiddy .rides__title a {
+  color: #673ab7;
+}
+/* line 61, ../sass/partials/_rides.scss */
+.Kiddy .rides__thrill a {
+  color: #673ab7;
+}
+
+/* line 68, ../sass/partials/_rides.scss */
+.Family .rides__title a {
+  color: #8bc34a;
+}
+/* line 72, ../sass/partials/_rides.scss */
+.Family .rides__thrill a {
+  color: #8bc34a;
+}
+
+/* line 78, ../sass/partials/_rides.scss */
+.Thrill .rides__title a {
+  color: #f44336;
+}
+/* line 82, ../sass/partials/_rides.scss */
+.Thrill .rides__thrill a {
+  color: #f44336;
 }
