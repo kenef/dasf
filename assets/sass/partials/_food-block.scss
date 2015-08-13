@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
 
 
+
 .food-block {
     display: block;
     width: 90%;
@@ -49,4 +50,31 @@
     	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #FFFF00 90%, #FFFF00 100%);
         color: #FFFF00;
 	}
+
+}
+
+.Purple {
+
+    .food-block__title {
+        color: #9C51A1;
+    }
+}
+
+.Green {
+
+    .food-block__title {
+        color: #49AF4C;
+    }
+}
+
+.Red {
+    .food-block__title {
+        color: #F14F4A;
+    }
+}
+
+.Yellow {
+    .food-block__title {
+        color: #FFFF00;
+    }
 }
