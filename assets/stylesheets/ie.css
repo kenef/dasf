@@ -5209,32 +5209,37 @@ td {
   color: #43b3e6;
   margin-top: 10px;
   margin-right: 10%;
+  margin-left: 10px;
   font-weight: 500;
   font-size: 20px;
 }
-/* line 22, ../sass/partials/_food-block.scss */
+/* line 23, ../sass/partials/_food-block.scss */
 .food-block .food-block__description {
   line-height: 22px;
   width: 90%;
-  padding-left: 10px;
+  margin-left: 10px;
 }
-/* line 28, ../sass/partials/_food-block.scss */
+/* line 29, ../sass/partials/_food-block.scss */
 .food-block .food-block__cabin {
-  padding-left: 10px;
+  margin-left: 10px;
 }
-/* line 32, ../sass/partials/_food-block.scss */
+/* line 33, ../sass/partials/_food-block.scss */
 .food-block.food-block.Purple {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #9c51a1 90%, #9c51a1 100%);
+  color: #9C51A1;
 }
-/* line 36, ../sass/partials/_food-block.scss */
+/* line 38, ../sass/partials/_food-block.scss */
 .food-block.food-block.Green {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #49af4c 90%, #49af4c 100%);
+  color: #49AF4C;
 }
-/* line 40, ../sass/partials/_food-block.scss */
+/* line 43, ../sass/partials/_food-block.scss */
 .food-block.food-block.Red {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f14f4a 90%, #f14f4a 100%);
+  color: #F14F4A;
 }
-/* line 44, ../sass/partials/_food-block.scss */
+/* line 48, ../sass/partials/_food-block.scss */
 .food-block.food-block.Yellow {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffff00 90%, #ffff00 100%);
+  color: #FFFF00;
 }

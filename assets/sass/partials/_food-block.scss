@@ -15,6 +15,7 @@
 		color:$info;
 		margin-top: 10px;
         margin-right: 10%;
+        margin-left: 10px;
 	    font-weight: 500;
 	    font-size: 20px;
     }
@@ -22,26 +23,30 @@
     .food-block__description {
 	    line-height: 22px;
 	    width: 90%;
-	    padding-left:10px;
+	    margin-left: 10px;
     }
 
     .food-block__cabin {
-  		padding-left:10px;
+  		margin-left: 10px;
     }
 
     &.food-block.Purple {
     	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #9C51A1 90%, #9C51A1 100%);
+        color: #9C51A1;
 	}
 
 	&.food-block.Green {
     	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #49AF4C 90%, #49AF4C 100%);
+        color: #49AF4C;
 	}
 
 	&.food-block.Red {
     	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #F14F4A 90%, #F14F4A 100%);
+        color: #F14F4A;
 	}
 
 	&.food-block.Yellow {
     	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #FFFF00 90%, #FFFF00 100%);
+        color: #FFFF00;
 	}
 }
