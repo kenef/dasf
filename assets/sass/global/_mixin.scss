@@ -62,7 +62,12 @@
 //This Mixin is schedule color controls
 @mixin schedule-color($color) {
     .schedule-block__title {
-    	color: $color;
+    	a {
+    		color: $color; 
+    		&:hover {
+    			text-decoration: underline;
+    		}
+    	}
     }
     .schedule-block__tagline {
 		color: $color;
