@@ -37,9 +37,14 @@
         padding: 0;
         color: #ffffff;
         text-align: center;
+        font-size: 32px;
 
         span {
             display: block;
+        }
+
+        .rides__tickets-label {
+            font-size: 14px;
         }
     }
 
