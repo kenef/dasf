@@ -30,7 +30,26 @@
 	    display: none;
 	}
 
-	div#cboxMiddleLeft {
+	.share {
+	    position: absolute;
+	    display:block;
+	    text-align: right;
+	    float: right;
+	    right: 20px;
+	    top: 200px;
+	    ul {
+	    	margin:0;
+	    }
+	    li {
+	    	display: inline;
+	    }
+	    img {
+	    	width:8%;
+	    }
+	}
+
+
+	#cboxMiddleLeft {
 	    width: 0;
 	}
 
