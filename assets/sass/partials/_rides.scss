@@ -6,7 +6,7 @@
 .rides {
     display: block;
     width: 100%;
-    height: 100%;
+    min-height: 185px;
     margin: 6px 0;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -64,17 +64,24 @@
         background-color: #673ab7;
         color: #673ab7;
         width: 80px;
-        height: 80px;
+        min-height: 185px;
+        margin-top: -12px;
     }
 
     &.rides__tickets.Family {
         background-color: #8bc34a;
         color: #8bc34a;
+        width: 80px;
+        min-height: 185px;
+        margin-top: -12px;
     }
 
     &.rides__tickets.Thrill {
         background-color: #f44336;
         color: #f44336;
+        width: 80px;
+        min-height: 185px;
+        margin-top: -12px;
     }
 }
 
