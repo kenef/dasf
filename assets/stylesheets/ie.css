@@ -5297,9 +5297,6 @@ td {
 /* line 34, ../sass/partials/_food-block.scss */
 .food-block .food-block__cabin {
   margin-left: 10px;
-<<<<<<< HEAD
-}
-=======
 }
 /* line 38, ../sass/partials/_food-block.scss */
 .food-block.food-block.Purple {
@@ -5478,51 +5475,51 @@ td {
 .rides .rides__tickets {
   float: right;
   padding: 0;
+  color: #ffffff;
 }
-/* line 40, ../sass/partials/_rides.scss */
+/* line 41, ../sass/partials/_rides.scss */
 .rides .rides__description p {
   line-height: 18px;
 }
-/* line 44, ../sass/partials/_rides.scss */
+/* line 45, ../sass/partials/_rides.scss */
 .rides.rides.Kiddy {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
   color: #673ab7;
 }
-/* line 49, ../sass/partials/_rides.scss */
+/* line 50, ../sass/partials/_rides.scss */
 .rides.rides.Family {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
   color: #8bc34a;
 }
-/* line 54, ../sass/partials/_rides.scss */
+/* line 55, ../sass/partials/_rides.scss */
 .rides.rides.Thrill {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
   color: #f44336;
 }
 
-/* line 62, ../sass/partials/_rides.scss */
+/* line 63, ../sass/partials/_rides.scss */
 .Kiddy .rides__title a {
   color: #673ab7;
 }
-/* line 66, ../sass/partials/_rides.scss */
+/* line 67, ../sass/partials/_rides.scss */
 .Kiddy .rides__thrill a {
   color: #673ab7;
 }
 
-/* line 73, ../sass/partials/_rides.scss */
+/* line 74, ../sass/partials/_rides.scss */
 .Family .rides__title a {
   color: #8bc34a;
 }
-/* line 77, ../sass/partials/_rides.scss */
+/* line 78, ../sass/partials/_rides.scss */
 .Family .rides__thrill a {
   color: #8bc34a;
 }
 
-/* line 83, ../sass/partials/_rides.scss */
+/* line 84, ../sass/partials/_rides.scss */
 .Thrill .rides__title a {
   color: #f44336;
 }
-/* line 87, ../sass/partials/_rides.scss */
+/* line 88, ../sass/partials/_rides.scss */
 .Thrill .rides__thrill a {
   color: #f44336;
 }
->>>>>>> de709477cf4f114952868e26f92eb021084060e0
