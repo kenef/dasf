@@ -14576,7 +14576,7 @@ td {
 /* line 38, ../sass/partials/_rides.scss */
 .rides .rides__tickets {
   float: right;
-  padding: 0;
+  padding-top: 22px;
   color: #ffffff;
   text-align: center;
   font-size: 32px;
