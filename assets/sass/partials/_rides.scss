@@ -60,12 +60,16 @@
         padding-right: 12px;
     }
 
-    &.Kiddy .rides__tickets {
-        background-color: #673ab7;
+    &.Kiddy {
         color: #673ab7;
-        width: 80px;
-        min-height: 185px;
-        margin-top: -12px;
+
+        .rides__tickets {
+            background-color: #673ab7;
+            color: #ffffff;
+            width: 80px;
+            min-height: 185px;
+            margin-top: -12px;
+        }
     }
 
     &.Family .rides__tickets {
