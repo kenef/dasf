@@ -10,6 +10,9 @@
     height: 50px;
     background-size: contain;
     background-position: 0px 2px;
+    &:hover {
+    	background-position: 0px 2px;
+    }
 }
 
 #cboxLoadedContent {
