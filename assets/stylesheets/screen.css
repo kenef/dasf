@@ -14601,7 +14601,7 @@ td {
   padding-right: 12px;
 }
 /* line 63, ../sass/partials/_rides.scss */
-.rides .Kiddy.rides__tickets {
+.rides.rides__tickets.Kiddy {
   background-color: #673ab7;
   color: #673ab7;
   width: 80px;
@@ -14609,7 +14609,7 @@ td {
   margin-top: -12px;
 }
 /* line 71, ../sass/partials/_rides.scss */
-.rides .Family.rides__tickets {
+.rides.rides__tickets.Family {
   background-color: #8bc34a;
   color: #8bc34a;
   width: 80px;
@@ -14617,7 +14617,7 @@ td {
   margin-top: -12px;
 }
 /* line 79, ../sass/partials/_rides.scss */
-.rides .Thrill.rides__tickets {
+.rides.rides__tickets.Thrill {
   background-color: #f44336;
   color: #f44336;
   width: 80px;
