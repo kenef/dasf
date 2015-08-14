@@ -3964,11 +3964,6 @@ nav.secondary ul li {
     padding-left: 250px;
   }
 }
-/* line 29, ../sass/partials/_page.scss */
-.internal-header {
-  margin-bottom: 1em;
-}
-
 /* line 33, ../sass/partials/_page.scss */
 img.panopoly-image-full {
   margin: 0 !important;
