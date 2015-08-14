@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-/* line 101, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
-.fa-ban:before {
-  content: "";
-}
-
-/* line 102, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
-.fa-arrow-left:before {
-  content: "";
-}
-
 /* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
 .fa-arrow-right:before {
   content: "";
@@ -2863,7 +2853,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -3702,231 +3692,261 @@ li {
 }
 
 /* line 306, ../sass/partials/_menu.scss */
+#sidebar-wrapper .menu.nav li.menu-link-schedule a:hover {
+  background: #8bc34a;
+}
+
+/* line 311, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-exhibits a:hover {
   background: #26a69a;
 }
 
-/* line 310, ../sass/partials/_menu.scss */
+/* line 315, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-contests a:hover {
   background: #26a69a;
 }
 
-/* line 314, ../sass/partials/_menu.scss */
+/* line 319, ../sass/partials/_menu.scss */
+#sidebar-wrapper .menu.nav li.menu-link-rides a:hover {
+  background: #F44336;
+}
+
+/* line 323, ../sass/partials/_menu.scss */
+#sidebar-wrapper .menu.nav li.menu-link-food-guide a:hover {
+  background: #FFC107;
+}
+
+/* line 327, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-buy-tickets a:hover {
   background: #8bc34a;
 }
 
-/* line 318, ../sass/partials/_menu.scss */
+/* line 331, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a:hover {
   background: #4caf50;
 }
 
-/* line 322, ../sass/partials/_menu.scss */
+/* line 335, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-discounts a:hover {
   background: #ef5350;
 }
 
-/* line 328, ../sass/partials/_menu.scss */
+/* line 341, ../sass/partials/_menu.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: none;
   background-color: none;
   color: #43b3e6;
 }
 
-/* line 334, ../sass/partials/_menu.scss */
+/* line 347, ../sass/partials/_menu.scss */
 .nav-pills > li > a:hover {
   background-color: none;
   background: none;
   color: #fff;
 }
 
-/* line 341, ../sass/partials/_menu.scss */
+/* line 354, ../sass/partials/_menu.scss */
 .pane-menu-exhibitor-sub-menu a {
   color: #778899;
 }
 
-/* line 345, ../sass/partials/_menu.scss */
+/* line 358, ../sass/partials/_menu.scss */
 .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a, .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a:hover, .pane-menu-exhibitor-sub-menu .nav-pills > li.active > a:focus {
   background: none;
   background-color: none;
   color: #26a69a;
 }
 
-/* line 351, ../sass/partials/_menu.scss */
+/* line 364, ../sass/partials/_menu.scss */
 .pane-menu-exhibitor-sub-menu .nav-pills > li > a:hover {
   color: #26a69a;
 }
 
-/* line 356, ../sass/partials/_menu.scss */
+/* line 369, ../sass/partials/_menu.scss */
 .internal-subnav {
   text-align: right;
 }
 
-/* line 361, ../sass/partials/_menu.scss */
+/* line 374, ../sass/partials/_menu.scss */
 .pane-menu-fair-info-sub-nav-desktop a {
   color: #778899;
 }
 
-/* line 366, ../sass/partials/_menu.scss */
+/* line 379, ../sass/partials/_menu.scss */
 .pane-menu-fair-info-sub-nav-desktop .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: none;
   background-color: none;
   color: #428bca;
 }
 
-/* line 372, ../sass/partials/_menu.scss */
+/* line 385, ../sass/partials/_menu.scss */
 .pane-menu-fair-info-sub-nav-desktop .nav-pills > li > a:hover {
   color: #428bca;
 }
 
-/* line 377, ../sass/partials/_menu.scss */
+/* line 390, ../sass/partials/_menu.scss */
 .nav > li > a:hover, .nav > li > a:focus {
   background: none;
 }
 
 /* Overwrite text color of sub menu for About Us page */
-/* line 382, ../sass/partials/_menu.scss */
+/* line 395, ../sass/partials/_menu.scss */
 .pane-menu-about-us-menu a {
   color: #778899;
 }
 
-/* line 386, ../sass/partials/_menu.scss */
+/* line 399, ../sass/partials/_menu.scss */
 .pane-menu-about-us-menu .nav-pills > li > a:hover {
   color: #428bca;
 }
 
 /* Overwrite text color of sub menu for Vendors page */
-/* line 391, ../sass/partials/_menu.scss */
+/* line 404, ../sass/partials/_menu.scss */
 .menu-name-menu-vendors-sub-nav a {
   color: #778899;
 }
 
-/* line 395, ../sass/partials/_menu.scss */
+/* line 408, ../sass/partials/_menu.scss */
 .menu-name-menu-vendors-sub-nav .nav-pills > li > a:hover {
   color: #428bca;
 }
 
-/* line 400, ../sass/partials/_menu.scss */
+/* line 413, ../sass/partials/_menu.scss */
 .pane-menu-sponsor-sub-nav a {
   color: #778899;
 }
 
-/* line 404, ../sass/partials/_menu.scss */
+/* line 417, ../sass/partials/_menu.scss */
 .pane-menu-sponsor-sub-nav .nav-pills > li > a:hover {
   color: #428bca;
 }
 
-/* line 412, ../sass/partials/_menu.scss */
+/* line 425, ../sass/partials/_menu.scss */
 table .header, th .header, td .header {
   color: #000 !important;
 }
 
-/* line 417, ../sass/partials/_menu.scss */
+/* line 430, ../sass/partials/_menu.scss */
 table .header-purple, th .header-purple, td .header-purple {
   background: #8f3276 !important;
   color: #fff;
 }
 
-/* line 425, ../sass/partials/_menu.scss */
+/* line 438, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-home a.active {
   background: #37474f;
 }
 
-/* line 429, ../sass/partials/_menu.scss */
+/* line 442, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-concerts a.active {
   background: #5E35B1;
 }
 
-/* line 433, ../sass/partials/_menu.scss */
+/* line 446, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-exhibits a.active {
   background: #26a69a;
 }
 
-/* line 437, ../sass/partials/_menu.scss */
+/* line 450, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-contests a.active {
   background: #26a69a;
 }
 
-/* line 441, ../sass/partials/_menu.scss */
+/* line 455, ../sass/partials/_menu.scss */
+#sidebar-wrapper .menu.nav li.menu-link-schedule a.active {
+  background: #8bc34a;
+}
+
+/* line 459, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-buy-tickets a.active {
   background: #8bc34a;
 }
 
-/* line 445, ../sass/partials/_menu.scss */
+/* line 463, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-discounts a.active {
   background: #ef5350;
 }
 
-/* line 450, ../sass/partials/_menu.scss */
+/* line 467, ../sass/partials/_menu.scss */
+#sidebar-wrapper .menu.nav li.menu-link-food-guide a.active {
+  background: #FFC107;
+}
+
+/* line 471, ../sass/partials/_menu.scss */
+#sidebar-wrapper .menu.nav li.menu-link-rides a.active {
+  background: #F44336;
+}
+
+/* line 476, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a.active {
   background: #4caf50;
 }
 
-/* line 454, ../sass/partials/_menu.scss */
+/* line 480, ../sass/partials/_menu.scss */
 a#menu-toggle {
   width: 100%;
   border-radius: 0;
 }
 
-/* line 461, ../sass/partials/_menu.scss */
+/* line 487, ../sass/partials/_menu.scss */
 .internal-footmenu {
   padding: 25px 0;
 }
 
-/* line 465, ../sass/partials/_menu.scss */
+/* line 491, ../sass/partials/_menu.scss */
 .footer-menu {
   margin: 0;
   padding: 0;
   text-align: left;
 }
-/* line 469, ../sass/partials/_menu.scss */
+/* line 495, ../sass/partials/_menu.scss */
 .footer-menu li {
   list-style: none;
   margin: 0;
 }
 
-/* line 476, ../sass/partials/_menu.scss */
+/* line 502, ../sass/partials/_menu.scss */
 nav.secondary ul li a {
   display: inline !important;
   color: white;
   font-size: 12px;
 }
-/* line 480, ../sass/partials/_menu.scss */
+/* line 506, ../sass/partials/_menu.scss */
 nav.secondary ul li a:hover {
   color: #37474f;
 }
 
-/* line 486, ../sass/partials/_menu.scss */
+/* line 512, ../sass/partials/_menu.scss */
 nav.secondary ul {
   background: #ffa726;
   text-align: center;
 }
 
-/* line 491, ../sass/partials/_menu.scss */
+/* line 517, ../sass/partials/_menu.scss */
 nav.secondary ul li {
   display: inline;
 }
 
-/* line 495, ../sass/partials/_menu.scss */
+/* line 521, ../sass/partials/_menu.scss */
 .col-md-3.internal-subnav.panel-panel {
   margin-top: 0px;
   padding: 0;
 }
 
-/* line 501, ../sass/partials/_menu.scss */
+/* line 527, ../sass/partials/_menu.scss */
 .internal-subnav li {
   line-height: 25px;
   padding-top: 10px;
 }
 
 /* overwriting Exibitor sub nav for hover effect */
-/* line 507, ../sass/partials/_menu.scss */
+/* line 533, ../sass/partials/_menu.scss */
 .pane-menu-menu-exhibitor-sub-menu a:hover {
   color: #1FA79B;
   font-weight: 600;
 }
 
-/* line 512, ../sass/partials/_menu.scss */
+/* line 538, ../sass/partials/_menu.scss */
 .responsive-menus.responsified span.toggler {
   padding: 10px;
   font-size: 14px;
@@ -4637,60 +4657,60 @@ td {
 }
 
 /* line 5, ../sass/global/_mixin.scss */
-.page-node-100 #sidebar-wrapper .menu.nav > .leaf a {
+.page-node-100 #sidebar-wrapper .menu.nav > .leaf a, .page-node-560 #sidebar-wrapper .menu.nav > .leaf a {
   color: #8bc34a;
 }
 /* line 8, ../sass/global/_mixin.scss */
-.page-node-100 #sidebar-wrapper .menu.nav li a.active {
+.page-node-100 #sidebar-wrapper .menu.nav li a.active, .page-node-560 #sidebar-wrapper .menu.nav li a.active {
   color: #fff;
 }
 /* line 11, ../sass/global/_mixin.scss */
-.page-node-100 #sidebar-wrapper .menu.nav > .leaf a:hover {
+.page-node-100 #sidebar-wrapper .menu.nav > .leaf a:hover, .page-node-560 #sidebar-wrapper .menu.nav > .leaf a:hover {
   color: #fff;
 }
 /* line 15, ../sass/global/_mixin.scss */
-.page-node-100 nav.secondary ul {
+.page-node-100 nav.secondary ul, .page-node-560 nav.secondary ul {
   background: #8bc34a;
 }
 /* line 19, ../sass/global/_mixin.scss */
-.page-node-100 .field-type-image {
+.page-node-100 .field-type-image, .page-node-560 .field-type-image {
   background-color: #8bc34a;
 }
 /* line 21, ../sass/global/_mixin.scss */
-.page-node-100 .field-type-image img.panopoly-image-full {
+.page-node-100 .field-type-image img.panopoly-image-full, .page-node-560 .field-type-image img.panopoly-image-full {
   opacity: 0.1;
 }
 /* line 26, ../sass/global/_mixin.scss */
-.page-node-100 .pane-bundle-image {
+.page-node-100 .pane-bundle-image, .page-node-560 .pane-bundle-image {
   max-height: 240px;
   overflow: hidden;
 }
 /* line 33, ../sass/global/_mixin.scss */
-.page-node-100 .pane-node-field-fair-content h2 {
+.page-node-100 .pane-node-field-fair-content h2, .page-node-560 .pane-node-field-fair-content h2 {
   color: #8bc34a;
 }
 /* line 36, ../sass/global/_mixin.scss */
-.page-node-100 .pane-node-field-fair-content h3 {
+.page-node-100 .pane-node-field-fair-content h3, .page-node-560 .pane-node-field-fair-content h3 {
   color: #8bc34a;
 }
 /* line 39, ../sass/global/_mixin.scss */
-.page-node-100 .pane-node-field-fair-content h4 {
+.page-node-100 .pane-node-field-fair-content h4, .page-node-560 .pane-node-field-fair-content h4 {
   color: #8bc34a;
 }
 /* line 42, ../sass/global/_mixin.scss */
-.page-node-100 .pane-node-field-fair-content h5 {
+.page-node-100 .pane-node-field-fair-content h5, .page-node-560 .pane-node-field-fair-content h5 {
   color: #8bc34a;
 }
 /* line 48, ../sass/global/_mixin.scss */
-.page-node-100 .pane-node-field-fair-content a {
+.page-node-100 .pane-node-field-fair-content a, .page-node-560 .pane-node-field-fair-content a {
   color: #8bc34a;
 }
 /* line 52, ../sass/global/_mixin.scss */
-.page-node-100 table tr.odd {
+.page-node-100 table tr.odd, .page-node-560 table tr.odd {
   background: rgba(139, 195, 74, 0.2);
 }
 /* line 56, ../sass/global/_mixin.scss */
-.page-node-100 table .header, .page-node-100 th .header, .page-node-100 td .header {
+.page-node-100 table .header, .page-node-100 th .header, .page-node-100 td .header, .page-node-560 table .header, .page-node-560 th .header, .page-node-560 td .header {
   background: none !important;
 }
 
@@ -5091,20 +5111,56 @@ td {
 }
 
 /* line 1, ../sass/partials/_schedule.scss */
+.page-node-560 {
+  padding: 0 10px;
+}
+/* line 3, ../sass/partials/_schedule.scss */
+.page-node-560 a {
+  color: #fff;
+}
+/* line 6, ../sass/partials/_schedule.scss */
+.page-node-560 .date-display-single {
+  color: #fff;
+}
+/* line 9, ../sass/partials/_schedule.scss */
+.page-node-560 .views-field.views-field-field-event-sponsors {
+  display: inline-block;
+  margin-right: 10px;
+  font-style: italic;
+  margin-top: 35px;
+}
+@media (min-width: 1080px) {
+  /* line 16, ../sass/partials/_schedule.scss */
+  .page-node-560 .view-id-schedule {
+    padding-left: 250px;
+    padding-right: 10px;
+  }
+}
+/* line 21, ../sass/partials/_schedule.scss */
+.page-node-560 .view-dom-id-1e75c01c4504e61e9d65e7bd3411df23 {
+  display: none;
+}
+
+/* line 26, ../sass/partials/_schedule.scss */
 .schedule-block {
   width: 100%;
   box-shadow: 0px 0px 9px #37474F;
   margin-bottom: 1em;
-  min-height: 75px;
+  min-height: 100px;
 }
-/* line 6, ../sass/partials/_schedule.scss */
+/* line 31, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__title {
   float: left;
   width: 50%;
   font-weight: 900;
-  padding: 1em;
 }
-/* line 12, ../sass/partials/_schedule.scss */
+/* line 35, ../sass/partials/_schedule.scss */
+.schedule-block .schedule-block__title a {
+  display: block;
+  padding: 1em;
+  height: 1em;
+}
+/* line 41, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__tagline {
   float: left;
   width: 44%;
@@ -5113,28 +5169,28 @@ td {
   margin-top: 21px;
   padding: 1em;
 }
-/* line 20, ../sass/partials/_schedule.scss */
+/* line 49, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__sponsors {
   float: left;
   width: 41.6666%;
   padding: 1em;
 }
-/* line 24, ../sass/partials/_schedule.scss */
+/* line 53, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__sponsors .italic {
   float: left;
   margin-left: 5px;
 }
-/* line 29, ../sass/partials/_schedule.scss */
+/* line 58, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__time {
   float: right;
-  height: 75px;
+  height: 100px;
   width: 50px;
   text-align: center;
 }
-/* line 34, ../sass/partials/_schedule.scss */
+/* line 63, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__time .date-display-single {
   display: block;
-  margin-top: 25px;
+  margin-top: 40px;
 }
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Art-Crafts .schedule-block__title a {
@@ -5157,6 +5213,10 @@ td {
   color: #fff;
   background-color: #E91E63;
 }
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Art-Crafts .views-field-field-event-sponsors {
+  color: #E91E63;
+}
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Attraction .schedule-block__title a {
   color: #9C27B0;
@@ -5177,6 +5237,10 @@ td {
 .schedule-block.Attraction .schedule-block__time {
   color: #fff;
   background-color: #9C27B0;
+}
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Attraction .views-field-field-event-sponsors {
+  color: #9C27B0;
 }
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Concert .schedule-block__title a {
@@ -5199,6 +5263,10 @@ td {
   color: #fff;
   background-color: #5E35B1;
 }
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Concert .views-field-field-event-sponsors {
+  color: #5E35B1;
+}
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Contests .schedule-block__title a {
   color: #3F51B5;
@@ -5219,6 +5287,10 @@ td {
 .schedule-block.Contests .schedule-block__time {
   color: #fff;
   background-color: #3F51B5;
+}
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Contests .views-field-field-event-sponsors {
+  color: #3F51B5;
 }
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Cullinary .schedule-block__title a {
@@ -5241,6 +5313,10 @@ td {
   color: #fff;
   background-color: #219653;
 }
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Cullinary .views-field-field-event-sponsors {
+  color: #219653;
+}
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Educational .schedule-block__title a {
   color: #03A9F4;
@@ -5261,6 +5337,10 @@ td {
 .schedule-block.Educational .schedule-block__time {
   color: #fff;
   background-color: #03A9F4;
+}
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Educational .views-field-field-event-sponsors {
+  color: #03A9F4;
 }
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Entertainment .schedule-block__title a {
@@ -5283,6 +5363,10 @@ td {
   color: #fff;
   background-color: #00BCD4;
 }
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Entertainment .views-field-field-event-sponsors {
+  color: #00BCD4;
+}
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Equestrian .schedule-block__title a {
   color: #009688;
@@ -5303,6 +5387,10 @@ td {
 .schedule-block.Equestrian .schedule-block__time {
   color: #fff;
   background-color: #009688;
+}
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Equestrian .views-field-field-event-sponsors {
+  color: #009688;
 }
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Exhibits .schedule-block__title a {
@@ -5325,6 +5413,10 @@ td {
   color: #fff;
   background-color: #26a69a;
 }
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Exhibits .views-field-field-event-sponsors {
+  color: #26a69a;
+}
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Farming .schedule-block__title a {
   color: #4CAF50;
@@ -5345,6 +5437,10 @@ td {
 .schedule-block.Farming .schedule-block__time {
   color: #fff;
   background-color: #4CAF50;
+}
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Farming .views-field-field-event-sponsors {
+  color: #4CAF50;
 }
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Music .schedule-block__title a {
@@ -5367,6 +5463,10 @@ td {
   color: #fff;
   background-color: #8BC34A;
 }
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Music .views-field-field-event-sponsors {
+  color: #8BC34A;
+}
 /* line 65, ../sass/global/_mixin.scss */
 .schedule-block.Performance .schedule-block__title a {
   color: #CDDC39;
@@ -5388,13 +5488,18 @@ td {
   color: #fff;
   background-color: #CDDC39;
 }
-
-/* line 79, ../sass/partials/_schedule.scss */
-.quicktabs-tabs.quicktabs-style-nostyle {
-  background-color: purple;
+/* line 82, ../sass/global/_mixin.scss */
+.schedule-block.Performance .views-field-field-event-sponsors {
+  color: #CDDC39;
 }
-/* line 83, ../sass/partials/_schedule.scss */
-.quicktabs-tabs.quicktabs-style-nostyle ul li a {
+
+/* line 108, ../sass/partials/_schedule.scss */
+.quicktabs-tabs.quicktabs-style-nostyle {
+  background-color: #8bc34a;
+  text-align: center;
+}
+/* line 111, ../sass/partials/_schedule.scss */
+.quicktabs-tabs.quicktabs-style-nostyle a {
   color: #fff;
 }
 
@@ -5500,6 +5605,7 @@ td {
   margin: 0;
 }
 /* line 25, ../sass/partials/_colorbox.scss */
+<<<<<<< HEAD
 #cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-image {
   height: 220px;
   overflow: hidden;
@@ -5768,3 +5874,8 @@ td {
 .Thrill .rides__height-alone {
   color: #f44336;
 }
+=======
+#cboxLoadedContent .field-type-image {
+  background-color: none;
+}
+>>>>>>> 6d3eecf9c7c61920be01fe1e0cd25163d46c5af1

@@ -22,6 +22,12 @@
 	& h2 {
 		margin:0;
 	}
+	.field-type-image {
+		background-color: none;
+		& img.panopoly-image-full {
+			opacity: 1;
+		}
+	}
 	.panel-pane.pane-entity-field.pane-node-field-event-image {
 	  height: 220px;
 	  overflow: hidden;
@@ -31,6 +37,9 @@
 	}
 	.col-md-12.internal-header.panel-panel {
 	    display: none;
+	}
+	.date-display-single {
+		color: #000;
 	}
 
 	.share {

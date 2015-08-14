@@ -1,13 +1,42 @@
+.page-node-560 {
+    padding: 0 10px;
+    a {
+        color: #fff;
+    }
+    .date-display-single {
+        color: #fff;
+    }
+    .views-field.views-field-field-event-sponsors {
+      display: inline-block;
+      margin-right: 10px;
+      font-style: italic;
+      margin-top: 35px;
+    }
+    @media (min-width: 1080px) {
+        .view-id-schedule {
+            padding-left: 250px;
+            padding-right: 10px;
+        }
+    }
+    .view-dom-id-1e75c01c4504e61e9d65e7bd3411df23 {
+        display: none;
+    }
+}
+
 .schedule-block {
     width: 100%;
     box-shadow: 0px 0px 9px #37474F;
     margin-bottom: 1em;
-    min-height: 75px;
+    min-height: 100px;
     .schedule-block__title {
         float: left;
         width: 50%;
         font-weight: 900;
-        padding: 1em;
+        a {
+            display: block;
+            padding: 1em;
+            height: 1em;
+        }
     }
     .schedule-block__tagline {
         float: left;
@@ -28,12 +57,12 @@
     }
     .schedule-block__time {
         float: right;
-        height: 75px;
+        height: 100px;
         width: 50px;
         text-align: center;
         .date-display-single {
             display: block;
-            margin-top: 25px;
+            margin-top: 40px;
         }
     }
     //Lets set the colors for the cats.
@@ -77,12 +106,9 @@
 
 //Quick Tabs
 .quicktabs-tabs.quicktabs-style-nostyle {
-    background-color: purple;
-    ul {
-        li {
-            a {
-                color: #fff;
-            }
-        }
+    background-color: $tickets;
+    text-align: center;
+    a {
+        color: #fff;
     }
 }
