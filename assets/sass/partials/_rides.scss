@@ -36,6 +36,11 @@
         float: right;
         padding: 0;
         color: #ffffff;
+        text-align: center;
+
+        span {
+            display: block;
+        }
     }
 
     .rides__description p {
