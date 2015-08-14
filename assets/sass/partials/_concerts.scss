@@ -21,6 +21,11 @@
   }
 }
 
+.panel-pane.pane-entity-field.pane-node-field-event-image {
+    height: 250px;
+    overflow: hidden;
+}
+
 .pane-node-field-event-image img {
     max-width: 100%;     
     width: 100% !important;    

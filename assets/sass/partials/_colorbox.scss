@@ -1,0 +1,90 @@
+#cboxLoadedContent {
+	& h2 {
+		margin:0;
+	}
+	.panel-pane.pane-entity-field.pane-node-field-event-image {
+	  height: 220px;
+	  overflow: hidden;
+	}
+	#wrapper.toggled {
+		padding:0;
+	}
+	.col-md-12.internal-header.panel-panel {
+	    display: none;
+	}
+
+	div#cboxMiddleLeft {
+	    width: 0;
+	}
+
+	.col-md-12.internal-content.panel-panel.nosub {
+	    padding: 0;
+	}
+
+	#cboxMiddleRight {
+	    width: 0;
+	}
+
+	#cboxContent {
+	    margin-top: -45px;
+	}
+
+	#cboxWrapper {
+	    width: 604px !important;
+	    border-radius: 0;
+	}
+	.col-md-12.internal-header.panel-panel {
+		display: none;
+	}
+	.col-md-12.internal-content.panel-panel.nosub {
+		padding:0;
+	}
+	.panel-pane.pane-node-title {
+	    padding: 0 20px;
+	}
+
+	.panel-pane.pane-entity-field.pane-node-field-repeating-dates-and-time {
+	    padding: 0 20px;
+	}
+
+	.panel-pane.pane-entity-field.pane-node-field-event-description {
+	    padding: 20px;
+	}
+	.field-name-title {
+		padding-left: 5px;   
+	}
+	.field-name-field-repeating-dates-and-time.field-type-field-collection {
+	//padding-left:5px;
+	}
+	.nosub {
+		padding-left:5px
+	}
+	@media (min-width: 1080px) {
+		.field-name-title{
+		  //padding-left:250px;
+		}
+		.field-name-field-repeating-dates-and-time.field-type-field-collection {
+		  //padding-left:250px;
+		}
+		.nosub {
+		  padding-left:0px
+		}
+	}
+	.top-footer {
+		display: none;
+	}
+	.internal-sponsors {
+		display: none;
+	}
+}
+#cboxMiddleLeft {
+    width: 0;
+}
+
+#cboxWrapper {
+    width: 600px !important;
+    border-radius:0;
+}
+#cboxContent {
+	margin-top: -45px;
+}
