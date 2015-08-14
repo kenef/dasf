@@ -13043,31 +13043,53 @@ table tr.odd {
 }
 
 /* line 5, ../sass/partials/_block.scss */
+.share {
+  position: absolute;
+  display: block;
+  text-align: right;
+  float: right;
+  right: 20px;
+  top: 200px;
+}
+/* line 12, ../sass/partials/_block.scss */
+.share ul {
+  margin: 0;
+}
+/* line 15, ../sass/partials/_block.scss */
+.share li {
+  display: inline;
+}
+/* line 18, ../sass/partials/_block.scss */
+.share img {
+  width: 8%;
+}
+
+/* line 24, ../sass/partials/_block.scss */
 .front-large-block {
   padding: 0;
 }
-/* line 10, ../sass/partials/_block.scss */
+/* line 29, ../sass/partials/_block.scss */
 .front-large-block.alpha {
   border-top: none;
   border-bottom: none;
   border-right: none;
   border-left: 1px solid #fff;
 }
-/* line 16, ../sass/partials/_block.scss */
+/* line 35, ../sass/partials/_block.scss */
 .front-large-block.bravo {
   border-top: none;
   border-bottom: none;
   border-left: 1px solid #fff;
   border-right: none;
 }
-/* line 22, ../sass/partials/_block.scss */
+/* line 41, ../sass/partials/_block.scss */
 .front-large-block.charlie {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   border-left: none;
   border-right: none;
 }
-/* line 28, ../sass/partials/_block.scss */
+/* line 47, ../sass/partials/_block.scss */
 .front-large-block.delta {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -13075,47 +13097,47 @@ table tr.odd {
   border-right: none;
 }
 
-/* line 41, ../sass/partials/_block.scss */
+/* line 60, ../sass/partials/_block.scss */
 .front-little-block {
   padding: 0;
   border: 1px solid #fff;
 }
-/* line 46, ../sass/partials/_block.scss */
+/* line 65, ../sass/partials/_block.scss */
 .front-little-block.echo {
   border-top: none;
   border-bottom: none;
 }
-/* line 50, ../sass/partials/_block.scss */
+/* line 69, ../sass/partials/_block.scss */
 .front-little-block.foxtrot {
   border-left: none;
   border-top: none;
   border-bottom: none;
 }
-/* line 55, ../sass/partials/_block.scss */
+/* line 74, ../sass/partials/_block.scss */
 .front-little-block.golf {
   border-bottom: none;
 }
-/* line 58, ../sass/partials/_block.scss */
+/* line 77, ../sass/partials/_block.scss */
 .front-little-block.hotel {
   border-left: none;
   border-bottom: none;
 }
-/* line 66, ../sass/partials/_block.scss */
+/* line 85, ../sass/partials/_block.scss */
 .front-little-block p {
   margin: 0;
 }
 
-/* line 71, ../sass/partials/_block.scss */
+/* line 90, ../sass/partials/_block.scss */
 .purple-caption {
   background: rgba(190, 18, 208, 0.6);
 }
 
-/* line 75, ../sass/partials/_block.scss */
+/* line 94, ../sass/partials/_block.scss */
 .caption.orange {
   background: rgba(255, 167, 38, 0.8);
 }
 
-/* line 79, ../sass/partials/_block.scss */
+/* line 98, ../sass/partials/_block.scss */
 .caption.green {
   background: rgba(102, 187, 106, 0.91);
 }
