@@ -10,9 +10,9 @@
     height: 50px;
     background-size: contain;
     background-position: 0px 2px;
-	-ms-transform: rotate(47deg); /* IE 9 */
-    -webkit-transform: rotate(47deg); /* Chrome, Safari, Opera */
-    transform: rotate(47deg);
+	-ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
     &:hover {
     	background-position: 0px 2px;
     }
