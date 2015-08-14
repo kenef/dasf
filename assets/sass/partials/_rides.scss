@@ -60,7 +60,7 @@
         padding-right: 12px;
     }
 
-    &.rides__tickets.Kiddy {
+    .Kiddy .rides__tickets {
         background-color: #673ab7;
         color: #673ab7;
         width: 80px;
@@ -68,7 +68,7 @@
         margin-top: -12px;
     }
 
-    &.rides__tickets.Family {
+    .Family .rides__tickets{
         background-color: #8bc34a;
         color: #8bc34a;
         width: 80px;
@@ -76,7 +76,7 @@
         margin-top: -12px;
     }
 
-    &.rides__tickets.Thrill {
+    .Thrill .rides__tickets {
         background-color: #f44336;
         color: #f44336;
         width: 80px;
