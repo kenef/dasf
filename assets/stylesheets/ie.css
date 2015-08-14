@@ -4240,16 +4240,15 @@ table tr.odd {
   display: inline-block;
   margin: 0;
   text-align: center;
-  background: #9C51A1;
-  background-color: #9C51A1;
+  background: #5E35B1;
   height: 200px;
   border: 1px solid #ffffff;
 }
-/* line 27, ../sass/partials/_sponsors.scss */
+/* line 26, ../sass/partials/_sponsors.scss */
 .event-sponsor a {
   color: #fff;
 }
-/* line 30, ../sass/partials/_sponsors.scss */
+/* line 29, ../sass/partials/_sponsors.scss */
 .event-sponsor h3 {
   color: #fff;
   font-size: 18px;
@@ -4258,18 +4257,18 @@ table tr.odd {
   margin-top: 25px;
 }
 
-/* line 38, ../sass/partials/_sponsors.scss */
+/* line 37, ../sass/partials/_sponsors.scss */
 .event-price--lawn {
   display: inline-block;
   width: 30%;
   margin: 0;
   text-align: center;
   background: #9C51A1;
-  background-color: #9C51A1;
+  background: #5E35B1;
   height: 200px;
   border: 1px solid #ffffff;
 }
-/* line 47, ../sass/partials/_sponsors.scss */
+/* line 46, ../sass/partials/_sponsors.scss */
 .event-price--lawn a {
   color: #fff;
   padding: 10px 25px;
@@ -4278,25 +4277,25 @@ table tr.odd {
   font-size: 22px;
   background: #7E4784;
 }
-/* line 54, ../sass/partials/_sponsors.scss */
+/* line 53, ../sass/partials/_sponsors.scss */
 .event-price--lawn a:hover {
   color: #fff;
 }
-/* line 58, ../sass/partials/_sponsors.scss */
+/* line 57, ../sass/partials/_sponsors.scss */
 .event-price--lawn h3, .event-price--lawn h4 {
   color: #fff;
 }
 @media (max-width: 2000px) {
-  /* line 62, ../sass/partials/_sponsors.scss */
+  /* line 61, ../sass/partials/_sponsors.scss */
   .event-price--lawn a {
     padding: 5px 10px;
     margin: 0;
     border: 1px solid #fff;
     font-size: 14px;
-    background: #7E4784;
+    background: #5E35B1;
     width: auto;
   }
-  /* line 70, ../sass/partials/_sponsors.scss */
+  /* line 69, ../sass/partials/_sponsors.scss */
   .event-price--lawn h3 {
     margin-top: 30px;
     margin-bottom: 0;
@@ -4305,19 +4304,19 @@ table tr.odd {
   }
 }
 @media (max-width: 1036px) {
-  /* line 38, ../sass/partials/_sponsors.scss */
+  /* line 37, ../sass/partials/_sponsors.scss */
   .event-price--lawn {
     display: inline-block;
     width: 100%;
     margin: 0;
     text-align: center;
-    background: #9C51A1;
+    background: #5E35B1;
     background-color: #9C51A1;
     height: 200px;
     border: 1px solid #ffffff;
   }
 }
-/* line 87, ../sass/partials/_sponsors.scss */
+/* line 86, ../sass/partials/_sponsors.scss */
 .event-price--lawn a {
   padding: 5px 10px;
   margin: 0;
@@ -4326,7 +4325,7 @@ table tr.odd {
   background: #7E4784;
   width: auto;
 }
-/* line 95, ../sass/partials/_sponsors.scss */
+/* line 94, ../sass/partials/_sponsors.scss */
 .event-price--lawn h3 {
   margin-top: 30px;
   margin-bottom: 0;
@@ -4334,17 +4333,16 @@ table tr.odd {
   font-weight: 400 !important;
 }
 
-/* line 103, ../sass/partials/_sponsors.scss */
+/* line 102, ../sass/partials/_sponsors.scss */
 .event-price--reserved {
   display: inline-block;
   margin: 0;
   text-align: center;
-  background: #9C51A1;
-  background-color: #9C51A1;
+  background: #5E35B1;
   height: 200px;
   border: 1px solid #ffffff;
 }
-/* line 112, ../sass/partials/_sponsors.scss */
+/* line 110, ../sass/partials/_sponsors.scss */
 .event-price--reserved a {
   color: #fff;
   padding: 5px 10px;
@@ -4354,18 +4352,18 @@ table tr.odd {
   background: #7E4784;
   width: auto;
 }
-/* line 120, ../sass/partials/_sponsors.scss */
+/* line 118, ../sass/partials/_sponsors.scss */
 .event-price--reserved a:hover {
   color: #fff;
 }
-/* line 124, ../sass/partials/_sponsors.scss */
+/* line 122, ../sass/partials/_sponsors.scss */
 .event-price--reserved h4 {
   color: #fff;
   margin-top: 8px;
   margin-bottom: 25px;
   font-size: 32px;
 }
-/* line 130, ../sass/partials/_sponsors.scss */
+/* line 128, ../sass/partials/_sponsors.scss */
 .event-price--reserved h3 {
   color: #fff;
   margin-top: 30px;
@@ -4374,7 +4372,7 @@ table tr.odd {
   font-weight: 400 !important;
 }
 @media (max-width: 2000px) {
-  /* line 138, ../sass/partials/_sponsors.scss */
+  /* line 136, ../sass/partials/_sponsors.scss */
   .event-price--reserved a {
     padding: 5px 10px;
     margin: 0;
@@ -4383,7 +4381,7 @@ table tr.odd {
     background: #7E4784;
     width: auto;
   }
-  /* line 146, ../sass/partials/_sponsors.scss */
+  /* line 144, ../sass/partials/_sponsors.scss */
   .event-price--reserved h3 {
     margin-top: 30px;
     margin-bottom: 0;
@@ -4392,17 +4390,16 @@ table tr.odd {
   }
 }
 @media (max-width: 1036px) {
-  /* line 103, ../sass/partials/_sponsors.scss */
+  /* line 102, ../sass/partials/_sponsors.scss */
   .event-price--reserved {
     display: inline-block;
     margin: 0;
     text-align: center;
-    background: #9C51A1;
-    background-color: #9C51A1;
+    background: #5E35B1;
     height: 200px;
     border: 1px solid #ffffff;
   }
-  /* line 162, ../sass/partials/_sponsors.scss */
+  /* line 159, ../sass/partials/_sponsors.scss */
   .event-price--reserved a {
     padding: 5px 10px;
     margin: 0;
@@ -4411,7 +4408,7 @@ table tr.odd {
     background: #7E4784;
     width: auto;
   }
-  /* line 170, ../sass/partials/_sponsors.scss */
+  /* line 167, ../sass/partials/_sponsors.scss */
   .event-price--reserved h3 {
     margin-top: 30px;
     margin-bottom: 0;
@@ -4420,44 +4417,43 @@ table tr.odd {
   }
 }
 @media (max-width: 850px) {
-  /* line 103, ../sass/partials/_sponsors.scss */
+  /* line 102, ../sass/partials/_sponsors.scss */
   .event-price--reserved {
     min-height: 295px;
   }
 }
 @media (max-width: 767px) {
-  /* line 103, ../sass/partials/_sponsors.scss */
+  /* line 102, ../sass/partials/_sponsors.scss */
   .event-price--reserved {
     min-height: 200px;
   }
 }
 
 @media (max-width: 1036px) {
-  /* line 187, ../sass/partials/_sponsors.scss */
+  /* line 184, ../sass/partials/_sponsors.scss */
   .row > .col-md-4.event-sponsor {
     display: inline-block;
     margin: 0;
     text-align: center;
-    background: #9C51A1;
-    background-color: #9C51A1;
+    background: #5E35B1;
     height: 200px;
     border: 1px solid #ffffff;
   }
 }
-/* line 199, ../sass/partials/_sponsors.scss */
+/* line 195, ../sass/partials/_sponsors.scss */
 .row > .event-price--lawn, .row > .event-sponsor {
   display: inline-block;
   margin-left: none;
   margin-right: none;
 }
 
-/* line 206, ../sass/partials/_sponsors.scss */
+/* line 202, ../sass/partials/_sponsors.scss */
 .field.field-name-field-additional-information {
   width: 106%;
 }
 
 @media (max-width: 1036px) {
-  /* line 211, ../sass/partials/_sponsors.scss */
+  /* line 207, ../sass/partials/_sponsors.scss */
   .field.field-name-field-additional-information {
     width: 114%;
     margin-left: -7%;
@@ -5303,62 +5299,4 @@ td {
 /* line 34, ../sass/partials/_food-block.scss */
 .food-block .food-block__cabin {
   margin-left: 10px;
-}
-/* line 38, ../sass/partials/_food-block.scss */
-.food-block.food-block.Purple {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
-  color: #673ab7;
-}
-/* line 43, ../sass/partials/_food-block.scss */
-.food-block.food-block.Green {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
-  color: #8bc34a;
-}
-/* line 48, ../sass/partials/_food-block.scss */
-.food-block.food-block.Red {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
-  color: #f44336;
-}
-/* line 53, ../sass/partials/_food-block.scss */
-.food-block.food-block.Yellow {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffc107 90%, #ffc107 100%);
-  color: #ffc107;
-}
-
-/* line 62, ../sass/partials/_food-block.scss */
-.Purple .food-block__title {
-  color: #673ab7;
-}
-
-/* line 69, ../sass/partials/_food-block.scss */
-.Green .food-block__title {
-  color: #8bc34a;
-}
-
-/* line 75, ../sass/partials/_food-block.scss */
-.Red .food-block__title {
-  color: #f44336;
-}
-
-/* line 81, ../sass/partials/_food-block.scss */
-.Yellow .food-block__title {
-  color: #ffc107;
-}
-
-/* line 2, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent h2 {
-  margin: 0;
-}
-/* line 5, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-image {
-  height: 220px;
-  overflow: hidden;
-}
-/* line 9, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent #wrapper.toggled {
-  padding: 0;
-}
-/* line 12, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
-  display: none;
 }

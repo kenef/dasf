@@ -20,8 +20,7 @@
     //width: 40%;
     margin: 0;
     text-align: center;
-    background: #9C51A1;
-    background-color: #9C51A1;
+    background: $concerts;
     height: 200px;
     border: 1px solid #ffffff;
     a {
@@ -41,7 +40,7 @@
     margin: 0;
     text-align: center;
     background: #9C51A1;
-    background-color: #9C51A1;
+    background: $concerts;
     height: 200px;
     border: 1px solid #ffffff;
     a {
@@ -64,7 +63,7 @@
 	        margin: 0;
 	        border: 1px solid #fff;
 	        font-size: 14px;
-	        background: #7E4784;
+    		background: $concerts;
 	        width: auto;
 	    }
 	    & h3 {
@@ -79,7 +78,7 @@
         width: 100%;
         margin: 0;
         text-align:center;
-        background: #9C51A1;
+    	background: $concerts;
         background-color: #9C51A1;
         height: 200px;
         border: 1px solid #ffffff;
@@ -105,8 +104,7 @@
     //width: 30%;
     margin: 0;
     text-align:center;
-    background: #9C51A1;
-    background-color: #9C51A1;
+    background: $concerts;
     height: 200px;
     border: 1px solid #ffffff;
     a {
@@ -155,8 +153,7 @@
         //width: 100%;
         margin: 0;
         text-align:center;
-        background: #9C51A1;
-        background-color: #9C51A1;
+    	background: $concerts;
         height: 200px;
         border: 1px solid #ffffff;
 	    a {
@@ -189,8 +186,7 @@
         //width: 100%;
         margin: 0;
         text-align:center;
-        background: #9C51A1;
-        background-color: #9C51A1;
+   		background: $concerts;
         height: 200px;
         border: 1px solid #ffffff;
     }
