@@ -19,26 +19,29 @@
             line-height: 18px;
         }
     }
-    .food-block__cabin {//margining cabin to look groovy
-  		margin-left: 10px;
-        padding-right: 25px;
+    .food-block__cabin {//defining the color tab on right side of div
+        float: right;
+        width: 100px;
+        height: auto;
     }
     &.Purple {//establishing purple trail color as 10% width of screen and on the right
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
-        color: #673ab7;
         .food-block__title,
         .food-block__description,
         .food-block__cabin {
             color: #673ab7;
         }
+        .food-block__cabin {
+            background-color: #673ab7;
+        }
 	}
 	&.Green {//establishing green trail color as 10% width of screen and on the right
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
-        color: #8bc34a;
         .food-block__title,
         .food-block__description,
         .food-block__cabin {
             color: #8bc34a;
+        }
+        .food-block__cabin {
+            background-color: #8bc34a;
         }
 	}
 	&.Red {//establishing red trail color as 10% width of screen and on the right
@@ -49,6 +52,9 @@
         .food-block__cabin {
             color: #f44336;
         }
+        .food-block__cabin {
+            background-color: #f44336;
+        }
 	}
 	&.Yellow {//establishing yellow trail color as 10% width of screen and on the right
     	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffc107 90%, #ffc107 100%);
@@ -58,4 +64,8 @@
         .food-block__cabin {
             color: #ffc107;
         }
+        .food-block__cabin {
+            background-color: #ffc107;
+        }
 	}
+}

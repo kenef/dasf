@@ -5522,24 +5522,19 @@ td {
 }
 /* line 22, ../sass/partials/_food-block.scss */
 .food-block .food-block__cabin {
-  margin-left: 10px;
-  padding-right: 25px;
+  float: right;
+  width: 100px;
+  height: auto;
 }
-/* line 26, ../sass/partials/_food-block.scss */
-.food-block.Purple {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
-  color: #673ab7;
-}
-/* line 29, ../sass/partials/_food-block.scss */
+/* line 28, ../sass/partials/_food-block.scss */
 .food-block.Purple .food-block__title,
 .food-block.Purple .food-block__description,
 .food-block.Purple .food-block__cabin {
   color: #673ab7;
 }
-/* line 35, ../sass/partials/_food-block.scss */
-.food-block.Green {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
-  color: #8bc34a;
+/* line 33, ../sass/partials/_food-block.scss */
+.food-block.Purple .food-block__cabin {
+  background-color: #673ab7;
 }
 /* line 38, ../sass/partials/_food-block.scss */
 .food-block.Green .food-block__title,
@@ -5547,27 +5542,39 @@ td {
 .food-block.Green .food-block__cabin {
   color: #8bc34a;
 }
-/* line 44, ../sass/partials/_food-block.scss */
+/* line 43, ../sass/partials/_food-block.scss */
+.food-block.Green .food-block__cabin {
+  background-color: #8bc34a;
+}
+/* line 47, ../sass/partials/_food-block.scss */
 .food-block.Red {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
   color: #f44336;
 }
-/* line 47, ../sass/partials/_food-block.scss */
+/* line 50, ../sass/partials/_food-block.scss */
 .food-block.Red .food-block__title,
 .food-block.Red .food-block__description,
 .food-block.Red .food-block__cabin {
   color: #f44336;
 }
-/* line 53, ../sass/partials/_food-block.scss */
+/* line 55, ../sass/partials/_food-block.scss */
+.food-block.Red .food-block__cabin {
+  background-color: #f44336;
+}
+/* line 59, ../sass/partials/_food-block.scss */
 .food-block.Yellow {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffc107 90%, #ffc107 100%);
   color: #ffc107;
 }
-/* line 56, ../sass/partials/_food-block.scss */
+/* line 62, ../sass/partials/_food-block.scss */
 .food-block.Yellow .food-block__title,
 .food-block.Yellow .food-block__description,
 .food-block.Yellow .food-block__cabin {
   color: #ffc107;
+}
+/* line 67, ../sass/partials/_food-block.scss */
+.food-block.Yellow .food-block__cabin {
+  background-color: #ffc107;
 }
 
 /* line 1, ../sass/partials/_colorbox.scss */
@@ -5587,210 +5594,4 @@ td {
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-}
-/* line 16, ../sass/partials/_colorbox.scss */
-#cboxClose:hover {
-  background-position: 0px 2px;
-}
-
-/* line 22, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent h2 {
-  margin: 0;
-}
-/* line 25, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .field-type-image {
-  background-color: none;
-}
-/* line 27, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .field-type-image img.panopoly-image-full {
-  opacity: 1;
-}
-/* line 31, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-image {
-  height: 220px;
-  overflow: hidden;
-}
-/* line 35, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent #wrapper.toggled {
-  padding: 0;
-}
-/* line 38, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
-  display: none;
-}
-/* line 41, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .date-display-single {
-  color: #000;
-}
-/* line 45, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .share {
-  position: absolute;
-  display: block;
-  text-align: right;
-  float: right;
-  right: 20px;
-  top: 200px;
-}
-/* line 52, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .share ul {
-  margin: 0;
-}
-/* line 55, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .share li {
-  display: inline;
-}
-/* line 58, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .share img {
-  width: 8%;
-}
-/* line 64, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent #cboxMiddleLeft {
-  width: 0;
-}
-/* line 68, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
-  padding: 0;
-}
-/* line 72, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent #cboxMiddleRight {
-  width: 0;
-}
-/* line 76, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent #cboxContent {
-  margin-top: -45px;
-}
-/* line 80, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent #cboxWrapper {
-  width: 604px !important;
-  border-radius: 0;
-}
-/* line 84, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
-  display: none;
-}
-/* line 87, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
-  padding: 0;
-}
-/* line 90, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .panel-pane.pane-node-title {
-  padding: 0 20px;
-}
-/* line 94, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-repeating-dates-and-time {
-  padding: 0 20px;
-}
-/* line 98, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-description {
-  padding: 20px;
-}
-/* line 101, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .field-name-title {
-  padding-left: 5px;
-}
-/* line 107, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .nosub {
-  padding-left: 5px;
-}
-@media (min-width: 1080px) {
-  /* line 117, ../sass/partials/_colorbox.scss */
-  #cboxLoadedContent .nosub {
-    padding-left: 0px;
-  }
-}
-/* line 121, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .top-footer {
-  display: none;
-}
-/* line 124, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .bottom-footer {
-  display: none;
-}
-/* line 127, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .internal-sponsors {
-  display: none;
-}
-
-/* line 131, ../sass/partials/_colorbox.scss */
-#cboxMiddleLeft {
-  width: 0;
-}
-
-/* line 135, ../sass/partials/_colorbox.scss */
-#cboxWrapper {
-  width: 600px !important;
-  border-radius: 0;
-}
-
-/* line 139, ../sass/partials/_colorbox.scss */
-#cboxContent {
-  margin-top: -45px;
-}
-
-/* line 143, ../sass/partials/_colorbox.scss */
-.field.field-name-field-additional-information {
-  width: 100%;
-}
-
-/* line 1, ../sass/partials/_rides.scss */
-.rides {
-  display: block;
-  width: 100%;
-  min-height: 200px;
-  margin: 6px 0;
-  box-shadow: 0px 0px 5px #666;
-}
-/* line 7, ../sass/partials/_rides.scss */
-.rides .rides__tickets {
-  display: block;
-  float: right;
-  width: 10%;
-  min-height: 200px;
-  color: #fff;
-  text-align: center;
-  padding-top: 100px;
-}
-/* line 16, ../sass/partials/_rides.scss */
-.rides.Kiddy {
-  color: #673ab7;
-}
-/* line 18, ../sass/partials/_rides.scss */
-.rides.Kiddy .rides__tickets {
-  background-color: #673ab7;
-}
-/* line 22, ../sass/partials/_rides.scss */
-.rides.Family {
-  color: #8bc34a;
-}
-/* line 24, ../sass/partials/_rides.scss */
-.rides.Family .rides__tickets {
-  background-color: #8bc34a;
-}
-/* line 28, ../sass/partials/_rides.scss */
-.rides.Thrill {
-  color: #f44336;
-}
-/* line 30, ../sass/partials/_rides.scss */
-.rides.Thrill .rides__tickets {
-  background-color: #f44336;
-}
-/* line 34, ../sass/partials/_rides.scss */
-.rides .rides__title {
-  font-size: 24px;
-  padding: 15px 10px;
-  font-weight: 900;
-}
-/* line 39, ../sass/partials/_rides.scss */
-.rides .rides__description,
-.rides .rides__height-adult,
-.rides .rides__height-alone,
-.rides .rides__thrill {
-  width: 90%;
-  line-height: 18px;
-  padding: 5px 10px;
-}
-/* line 48, ../sass/partials/_rides.scss */
-.rides .rides__description p {
-  line-height: 18px;
-  padding-right: 15px;
 }
