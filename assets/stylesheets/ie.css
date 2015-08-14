@@ -5127,7 +5127,7 @@ td {
   display: inline-block;
   margin-right: 10px;
   font-style: italic;
-  padding-top: 50px;
+  margin-top: 35px;
 }
 @media (min-width: 1080px) {
   /* line 16, ../sass/partials/_schedule.scss */
@@ -5158,8 +5158,9 @@ td {
 .schedule-block .schedule-block__title a {
   display: block;
   padding: 1em;
+  height: 1em;
 }
-/* line 40, ../sass/partials/_schedule.scss */
+/* line 41, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__tagline {
   float: left;
   width: 44%;
@@ -5168,25 +5169,25 @@ td {
   margin-top: 21px;
   padding: 1em;
 }
-/* line 48, ../sass/partials/_schedule.scss */
+/* line 49, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__sponsors {
   float: left;
   width: 41.6666%;
   padding: 1em;
 }
-/* line 52, ../sass/partials/_schedule.scss */
+/* line 53, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__sponsors .italic {
   float: left;
   margin-left: 5px;
 }
-/* line 57, ../sass/partials/_schedule.scss */
+/* line 58, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__time {
   float: right;
   height: 100px;
   width: 50px;
   text-align: center;
 }
-/* line 62, ../sass/partials/_schedule.scss */
+/* line 63, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__time .date-display-single {
   display: block;
   margin-top: 40px;
@@ -5492,12 +5493,12 @@ td {
   color: #CDDC39;
 }
 
-/* line 107, ../sass/partials/_schedule.scss */
+/* line 108, ../sass/partials/_schedule.scss */
 .quicktabs-tabs.quicktabs-style-nostyle {
   background-color: #8bc34a;
   text-align: center;
 }
-/* line 110, ../sass/partials/_schedule.scss */
+/* line 111, ../sass/partials/_schedule.scss */
 .quicktabs-tabs.quicktabs-style-nostyle a {
   color: #fff;
 }
