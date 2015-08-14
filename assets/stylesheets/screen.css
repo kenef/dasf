@@ -14397,27 +14397,31 @@ td {
   display: none;
 }
 /* line 80, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .bottom-footer {
+  display: none;
+}
+/* line 83, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .internal-sponsors {
   display: none;
 }
 
-/* line 84, ../sass/partials/_colorbox.scss */
+/* line 87, ../sass/partials/_colorbox.scss */
 #cboxMiddleLeft {
   width: 0;
 }
 
-/* line 88, ../sass/partials/_colorbox.scss */
+/* line 91, ../sass/partials/_colorbox.scss */
 #cboxWrapper {
   width: 600px !important;
   border-radius: 0;
 }
 
-/* line 92, ../sass/partials/_colorbox.scss */
+/* line 95, ../sass/partials/_colorbox.scss */
 #cboxContent {
   margin-top: -45px;
 }
 
-/* line 96, ../sass/partials/_colorbox.scss */
+/* line 99, ../sass/partials/_colorbox.scss */
 .field.field-name-field-additional-information {
   width: 100%;
 }
