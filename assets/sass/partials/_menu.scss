@@ -311,6 +311,14 @@ img.logo {
   background:$contets;
 }
 
+#sidebar-wrapper .menu.nav li.menu-link-rides a:hover{
+  background:$rides;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-food-guide a:hover{
+  background:$food;
+}
+
 #sidebar-wrapper .menu.nav li.menu-link-buy-tickets a:hover {
   background:$tickets;
 }
@@ -447,10 +455,10 @@ table .header-purple, th .header-purple, td .header-purple {
 }
 
 #sidebar-wrapper .menu.nav li.menu-link-food-guide a.active {
-  background:$red;
+  background:$food;
 }
 
-#sidebar-wrapper .menu.nav li.menu-link-buy-tickets a.active {
+#sidebar-wrapper .menu.nav li.menu-link-rides a.active {
   background:$rides;
 }
 
