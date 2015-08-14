@@ -2,6 +2,10 @@
     display: none;
 }
 
+#cboxClose {
+	background: url(../images/closeicon.png) no-repeat;
+}
+
 #cboxLoadedContent {
 	& h2 {
 		margin:0;

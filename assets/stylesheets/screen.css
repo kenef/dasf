@@ -14320,108 +14320,113 @@ td {
   display: none;
 }
 
-/* line 6, ../sass/partials/_colorbox.scss */
+/* line 5, ../sass/partials/_colorbox.scss */
+#cboxClose {
+  background: url(../images/closeicon.png) no-repeat;
+}
+
+/* line 10, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent h2 {
   margin: 0;
 }
-/* line 9, ../sass/partials/_colorbox.scss */
+/* line 13, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-image {
   height: 220px;
   overflow: hidden;
 }
-/* line 13, ../sass/partials/_colorbox.scss */
+/* line 17, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent #wrapper.toggled {
   padding: 0;
 }
-/* line 16, ../sass/partials/_colorbox.scss */
+/* line 20, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
   display: none;
 }
-/* line 20, ../sass/partials/_colorbox.scss */
+/* line 24, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent div#cboxMiddleLeft {
   width: 0;
 }
-/* line 24, ../sass/partials/_colorbox.scss */
+/* line 28, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
   padding: 0;
 }
-/* line 28, ../sass/partials/_colorbox.scss */
+/* line 32, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent #cboxMiddleRight {
   width: 0;
 }
-/* line 32, ../sass/partials/_colorbox.scss */
+/* line 36, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent #cboxContent {
   margin-top: -45px;
 }
-/* line 36, ../sass/partials/_colorbox.scss */
+/* line 40, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent #cboxWrapper {
   width: 604px !important;
   border-radius: 0;
 }
-/* line 40, ../sass/partials/_colorbox.scss */
+/* line 44, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
   display: none;
 }
-/* line 43, ../sass/partials/_colorbox.scss */
+/* line 47, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
   padding: 0;
 }
-/* line 46, ../sass/partials/_colorbox.scss */
+/* line 50, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .panel-pane.pane-node-title {
   padding: 0 20px;
 }
-/* line 50, ../sass/partials/_colorbox.scss */
+/* line 54, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-repeating-dates-and-time {
   padding: 0 20px;
 }
-/* line 54, ../sass/partials/_colorbox.scss */
+/* line 58, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-description {
   padding: 20px;
 }
-/* line 57, ../sass/partials/_colorbox.scss */
+/* line 61, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .field-name-title {
   padding-left: 5px;
 }
-/* line 63, ../sass/partials/_colorbox.scss */
+/* line 67, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .nosub {
   padding-left: 5px;
 }
 @media (min-width: 1080px) {
-  /* line 73, ../sass/partials/_colorbox.scss */
+  /* line 77, ../sass/partials/_colorbox.scss */
   #cboxLoadedContent .nosub {
     padding-left: 0px;
   }
 }
-/* line 77, ../sass/partials/_colorbox.scss */
+/* line 81, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .top-footer {
   display: none;
 }
-/* line 80, ../sass/partials/_colorbox.scss */
+/* line 84, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .bottom-footer {
   display: none;
 }
-/* line 83, ../sass/partials/_colorbox.scss */
+/* line 87, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .internal-sponsors {
   display: none;
 }
 
-/* line 87, ../sass/partials/_colorbox.scss */
+/* line 91, ../sass/partials/_colorbox.scss */
 #cboxMiddleLeft {
   width: 0;
 }
 
-/* line 91, ../sass/partials/_colorbox.scss */
+/* line 95, ../sass/partials/_colorbox.scss */
 #cboxWrapper {
   width: 600px !important;
   border-radius: 0;
 }
 
-/* line 95, ../sass/partials/_colorbox.scss */
+/* line 99, ../sass/partials/_colorbox.scss */
 #cboxContent {
   margin-top: -45px;
 }
 
-/* line 99, ../sass/partials/_colorbox.scss */
+/* line 103, ../sass/partials/_colorbox.scss */
 .field.field-name-field-additional-information {
   width: 100%;
 }
