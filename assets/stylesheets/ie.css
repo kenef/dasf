@@ -5061,206 +5061,254 @@ td {
   display: block;
   margin-top: 25px;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Art-Crafts .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Art-Crafts .schedule-block__title a {
   color: #E91E63;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Art-Crafts .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Art-Crafts .schedule-block__tagline {
   color: #E91E63;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Art-Crafts .schedule-block__sponsors {
   color: #E91E63;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Art-Crafts .schedule-block__time {
   color: #fff;
   background-color: #E91E63;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Attraction .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Attraction .schedule-block__title a {
   color: #9C27B0;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Attraction .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Attraction .schedule-block__tagline {
   color: #9C27B0;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Attraction .schedule-block__sponsors {
   color: #9C27B0;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Attraction .schedule-block__time {
   color: #fff;
   background-color: #9C27B0;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Concert .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Concert .schedule-block__title a {
   color: #5E35B1;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Concert .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Concert .schedule-block__tagline {
   color: #5E35B1;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Concert .schedule-block__sponsors {
   color: #5E35B1;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Concert .schedule-block__time {
   color: #fff;
   background-color: #5E35B1;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Contests .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Contests .schedule-block__title a {
   color: #3F51B5;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Contests .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Contests .schedule-block__tagline {
   color: #3F51B5;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Contests .schedule-block__sponsors {
   color: #3F51B5;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Contests .schedule-block__time {
   color: #fff;
   background-color: #3F51B5;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Cullinary .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Cullinary .schedule-block__title a {
   color: #219653;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Cullinary .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Cullinary .schedule-block__tagline {
   color: #219653;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Cullinary .schedule-block__sponsors {
   color: #219653;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Cullinary .schedule-block__time {
   color: #fff;
   background-color: #219653;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Educational .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Educational .schedule-block__title a {
   color: #03A9F4;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Educational .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Educational .schedule-block__tagline {
   color: #03A9F4;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Educational .schedule-block__sponsors {
   color: #03A9F4;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Educational .schedule-block__time {
   color: #fff;
   background-color: #03A9F4;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Entertainment .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Entertainment .schedule-block__title a {
   color: #00BCD4;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Entertainment .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Entertainment .schedule-block__tagline {
   color: #00BCD4;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Entertainment .schedule-block__sponsors {
   color: #00BCD4;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Entertainment .schedule-block__time {
   color: #fff;
   background-color: #00BCD4;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Equestrian .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Equestrian .schedule-block__title a {
   color: #009688;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Equestrian .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Equestrian .schedule-block__tagline {
   color: #009688;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Equestrian .schedule-block__sponsors {
   color: #009688;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Equestrian .schedule-block__time {
   color: #fff;
   background-color: #009688;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Exhibits .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Exhibits .schedule-block__title a {
   color: #26a69a;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Exhibits .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Exhibits .schedule-block__tagline {
   color: #26a69a;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Exhibits .schedule-block__sponsors {
   color: #26a69a;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Exhibits .schedule-block__time {
   color: #fff;
   background-color: #26a69a;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Farming .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Farming .schedule-block__title a {
   color: #4CAF50;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Farming .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Farming .schedule-block__tagline {
   color: #4CAF50;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Farming .schedule-block__sponsors {
   color: #4CAF50;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Farming .schedule-block__time {
   color: #fff;
   background-color: #4CAF50;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Music .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Music .schedule-block__title a {
   color: #8BC34A;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Music .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Music .schedule-block__tagline {
   color: #8BC34A;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Music .schedule-block__sponsors {
   color: #8BC34A;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Music .schedule-block__time {
   color: #fff;
   background-color: #8BC34A;
 }
-/* line 64, ../sass/global/_mixin.scss */
-.schedule-block.Performance .schedule-block__title {
+/* line 65, ../sass/global/_mixin.scss */
+.schedule-block.Performance .schedule-block__title a {
   color: #CDDC39;
 }
 /* line 67, ../sass/global/_mixin.scss */
+.schedule-block.Performance .schedule-block__title a:hover {
+  text-decoration: none;
+}
+/* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Performance .schedule-block__tagline {
   color: #CDDC39;
 }
-/* line 70, ../sass/global/_mixin.scss */
+/* line 75, ../sass/global/_mixin.scss */
 .schedule-block.Performance .schedule-block__sponsors {
   color: #CDDC39;
 }
-/* line 73, ../sass/global/_mixin.scss */
+/* line 78, ../sass/global/_mixin.scss */
 .schedule-block.Performance .schedule-block__time {
   color: #fff;
   background-color: #CDDC39;
@@ -5307,4 +5355,222 @@ td {
 /* line 34, ../sass/partials/_food-block.scss */
 .food-block .food-block__cabin {
   margin-left: 10px;
+}
+/* line 38, ../sass/partials/_food-block.scss */
+.food-block.food-block.Purple {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
+  color: #673ab7;
+}
+/* line 43, ../sass/partials/_food-block.scss */
+.food-block.food-block.Green {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
+  color: #8bc34a;
+}
+/* line 48, ../sass/partials/_food-block.scss */
+.food-block.food-block.Red {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
+  color: #f44336;
+}
+/* line 53, ../sass/partials/_food-block.scss */
+.food-block.food-block.Yellow {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffc107 90%, #ffc107 100%);
+  color: #ffc107;
+}
+
+/* line 62, ../sass/partials/_food-block.scss */
+.Purple .food-block__title {
+  color: #673ab7;
+}
+
+/* line 69, ../sass/partials/_food-block.scss */
+.Green .food-block__title {
+  color: #8bc34a;
+}
+
+/* line 75, ../sass/partials/_food-block.scss */
+.Red .food-block__title {
+  color: #f44336;
+}
+
+/* line 81, ../sass/partials/_food-block.scss */
+.Yellow .food-block__title {
+  color: #ffc107;
+}
+
+/* line 1, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 5, ../sass/partials/_colorbox.scss */
+#cboxClose {
+  background: url(../images/closeicon.png) no-repeat;
+  top: 3px;
+  right: 7px;
+  width: 32px;
+  height: 50px;
+  background-size: contain;
+  background-position: 0px 2px;
+}
+
+/* line 16, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent h2 {
+  margin: 0;
+}
+/* line 19, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-image {
+  height: 220px;
+  overflow: hidden;
+}
+/* line 23, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent #wrapper.toggled {
+  padding: 0;
+}
+/* line 26, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
+  display: none;
+}
+/* line 30, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent div#cboxMiddleLeft {
+  width: 0;
+}
+/* line 34, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
+  padding: 0;
+}
+/* line 38, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent #cboxMiddleRight {
+  width: 0;
+}
+/* line 42, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent #cboxContent {
+  margin-top: -45px;
+}
+/* line 46, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent #cboxWrapper {
+  width: 604px !important;
+  border-radius: 0;
+}
+/* line 50, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
+  display: none;
+}
+/* line 53, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
+  padding: 0;
+}
+/* line 56, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-node-title {
+  padding: 0 20px;
+}
+/* line 60, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-repeating-dates-and-time {
+  padding: 0 20px;
+}
+/* line 64, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-description {
+  padding: 20px;
+}
+/* line 67, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .field-name-title {
+  padding-left: 5px;
+}
+/* line 73, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .nosub {
+  padding-left: 5px;
+}
+@media (min-width: 1080px) {
+  /* line 83, ../sass/partials/_colorbox.scss */
+  #cboxLoadedContent .nosub {
+    padding-left: 0px;
+  }
+}
+/* line 87, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .top-footer {
+  display: none;
+}
+/* line 90, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .bottom-footer {
+  display: none;
+}
+/* line 93, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .internal-sponsors {
+  display: none;
+}
+
+/* line 97, ../sass/partials/_colorbox.scss */
+#cboxMiddleLeft {
+  width: 0;
+}
+
+/* line 101, ../sass/partials/_colorbox.scss */
+#cboxWrapper {
+  width: 600px !important;
+  border-radius: 0;
+}
+
+/* line 105, ../sass/partials/_colorbox.scss */
+#cboxContent {
+  margin-top: -45px;
+}
+
+/* line 109, ../sass/partials/_colorbox.scss */
+.field.field-name-field-additional-information {
+  width: 100%;
+}
+
+/* line 6, ../sass/partials/_rides.scss */
+.rides {
+  display: block;
+  width: 85%;
+  height: 100%;
+  margin: 6px 0;
+  padding: 12px 20px;
+  box-shadow: 0px 0px 5px #666666;
+}
+/* line 14, ../sass/partials/_rides.scss */
+.rides .rides__title {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  margin-right: 10%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* line 23, ../sass/partials/_rides.scss */
+.rides .rides__title a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* line 29, ../sass/partials/_rides.scss */
+.rides .rides__description, .rides .rides__height-adult, .rides .rides__height-alone, .rides .rides__thrill {
+  line-height: 18px;
+  width: 85%;
+  margin-left: 10px;
+}
+/* line 35, ../sass/partials/_rides.scss */
+.rides .rides__tickets {
+  float: right;
+  padding: 0;
+  color: #ffffff;
+}
+/* line 41, ../sass/partials/_rides.scss */
+.rides .rides__description p {
+  line-height: 18px;
+}
+/* line 45, ../sass/partials/_rides.scss */
+.rides.rides.Kiddy {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #673ab7 85%, #673ab7 100%);
+  color: #673ab7;
+}
+/* line 50, ../sass/partials/_rides.scss */
+.rides.rides.Family {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #8bc34a 85%, #8bc34a 100%);
+  color: #8bc34a;
+}
+/* line 55, ../sass/partials/_rides.scss */
+.rides.rides.Thrill {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #f44336 85%, #f44336 100%);
+  color: #f44336;
 }
