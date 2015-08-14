@@ -5,7 +5,7 @@
 
 .rides {
     display: block;
-    width: 90%;
+    width: 85%;
     height: 100%;
     margin: 6px 0;
     padding: 12px 20px;
@@ -28,15 +28,14 @@
 
     .rides__description, .rides__height-adult, .rides__height-alone, .rides__thrill {
 	    line-height: 18px;
-	    width: 90%;
+	    width: 85%;
 	    margin-left: 10px;
     }
 
     .rides__tickets {
         float: right;
-        margin: 0;
         padding: 0;
-        width: 100%;
+        color: #ffffff;
     }
 
     .rides__description p {
@@ -44,17 +43,17 @@
     }
 
     &.rides.Kiddy {
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
+    	background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #673ab7 85%, #673ab7 100%);
         color: #673ab7;
 	}
 
 	&.rides.Family {
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
+    	background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #8bc34a 85%, #8bc34a 100%);
         color: #8bc34a;
 	}
 
 	&.rides.Thrill {
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
+    	background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #f44336 85%, #f44336 100%);
         color: #f44336;
 	}
 }
