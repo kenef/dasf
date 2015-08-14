@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400|Cinzel:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
+
+
+
+.rides {
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin: 6px 0;
+    padding: 12px 20px;
+    box-shadow: 0px 0px 5px #666666;
+
+    .rides__title {
+	    font-family: $font-family-open-sans;
+		margin-top: 10px;
+        margin-right: 10%;
+        margin-left: 10px;
+	    font-weight: 500;
+	    font-size: 20px;
+    }
+
+    .rides__title a {
+        font-family: $font-family-open-sans;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .rides__description, .rides__height-adult, .rides__height-alone, .rides__tickets, .rides__thrill {
+	    line-height: 18px;
+	    width: 90%;
+	    margin-left: 10px;
+    }
+
+    .rides__description p {
+        line-height: 18px;
+    }
+
+    &.rides.Kiddy {
+    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
+        color: #673ab7;
+	}
+
+	&.rides.Family {
+    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
+        color: #8bc34a;
+	}
+
+	&.rides.Thrill {
+    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
+        color: #f44336;
+	}
+}
+
+.Kiddy {
+
+    .rides__title a {
+        color: #673ab7;
+    }
+
+    .rides__thrill a {
+        color: #673ab7;
+    }
+}
+
+.Family {
+
+    .rides__title a {
+        color: #8bc34a;
+    }
+
+    .rides__thrill a {
+        color: #8bc34a;
+    }
+}
+
+.Thrill {
+    .rides__title a {
+        color: #f44336;
+    }
+
+    .rides__thrill a {
+        color: #f44336;
+    }
+}
