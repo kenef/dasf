@@ -2863,7 +2863,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -5407,6 +5407,14 @@ td {
   background-size: contain;
   background-position: 0px 2px;
 }
+<<<<<<< HEAD
+
+/* line 16, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent h2 {
+  margin: 0;
+}
+/* line 19, ../sass/partials/_colorbox.scss */
+=======
 /* line 13, ../sass/partials/_colorbox.scss */
 #cboxClose:hover {
   background-position: 0px 2px;
@@ -5417,10 +5425,38 @@ td {
   margin: 0;
 }
 /* line 22, ../sass/partials/_colorbox.scss */
+>>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
 #cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-image {
   height: 220px;
   overflow: hidden;
 }
+<<<<<<< HEAD
+/* line 23, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent #wrapper.toggled {
+  padding: 0;
+}
+/* line 26, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
+  display: none;
+}
+/* line 30, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent div#cboxMiddleLeft {
+  width: 0;
+}
+/* line 34, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
+  padding: 0;
+}
+/* line 38, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent #cboxMiddleRight {
+  width: 0;
+}
+/* line 42, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent #cboxContent {
+  margin-top: -45px;
+}
+/* line 46, ../sass/partials/_colorbox.scss */
+=======
 /* line 26, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent #wrapper.toggled {
   padding: 0;
@@ -5466,12 +5502,48 @@ td {
 #cboxLoadedContent #cboxContent {
   margin-top: -45px;
 }
+<<<<<<< HEAD
 /* line 68, ../sass/partials/_colorbox.scss */
+=======
+/* line 49, ../sass/partials/_colorbox.scss */
+>>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
+>>>>>>> 39c7d2123d0ebb4195f50a130b7f76417cecc21d
 #cboxLoadedContent #cboxWrapper {
   width: 604px !important;
   border-radius: 0;
 }
+<<<<<<< HEAD
 /* line 72, ../sass/partials/_colorbox.scss */
+=======
+<<<<<<< HEAD
+/* line 50, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
+  display: none;
+}
+/* line 53, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
+  padding: 0;
+}
+/* line 56, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-node-title {
+  padding: 0 20px;
+}
+/* line 60, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-repeating-dates-and-time {
+  padding: 0 20px;
+}
+/* line 64, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-description {
+  padding: 20px;
+}
+/* line 67, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .field-name-title {
+  padding-left: 5px;
+}
+/* line 73, ../sass/partials/_colorbox.scss */
+=======
+/* line 53, ../sass/partials/_colorbox.scss */
+>>>>>>> 39c7d2123d0ebb4195f50a130b7f76417cecc21d
 #cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
   display: none;
 }
@@ -5495,17 +5567,45 @@ td {
 #cboxLoadedContent .field-name-title {
   padding-left: 5px;
 }
+<<<<<<< HEAD
 /* line 95, ../sass/partials/_colorbox.scss */
+=======
+/* line 76, ../sass/partials/_colorbox.scss */
+>>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
+>>>>>>> 39c7d2123d0ebb4195f50a130b7f76417cecc21d
 #cboxLoadedContent .nosub {
   padding-left: 5px;
 }
 @media (min-width: 1080px) {
+<<<<<<< HEAD
   /* line 105, ../sass/partials/_colorbox.scss */
+=======
+<<<<<<< HEAD
+  /* line 83, ../sass/partials/_colorbox.scss */
+=======
+  /* line 86, ../sass/partials/_colorbox.scss */
+>>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
+>>>>>>> 39c7d2123d0ebb4195f50a130b7f76417cecc21d
   #cboxLoadedContent .nosub {
     padding-left: 0px;
   }
 }
+<<<<<<< HEAD
 /* line 109, ../sass/partials/_colorbox.scss */
+=======
+<<<<<<< HEAD
+/* line 87, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .top-footer {
+  display: none;
+}
+/* line 90, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .bottom-footer {
+  display: none;
+}
+/* line 93, ../sass/partials/_colorbox.scss */
+=======
+/* line 90, ../sass/partials/_colorbox.scss */
+>>>>>>> 39c7d2123d0ebb4195f50a130b7f76417cecc21d
 #cboxLoadedContent .top-footer {
   display: none;
 }
@@ -5513,28 +5613,67 @@ td {
 #cboxLoadedContent .bottom-footer {
   display: none;
 }
+<<<<<<< HEAD
 /* line 115, ../sass/partials/_colorbox.scss */
+=======
+/* line 96, ../sass/partials/_colorbox.scss */
+>>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
+>>>>>>> 39c7d2123d0ebb4195f50a130b7f76417cecc21d
 #cboxLoadedContent .internal-sponsors {
   display: none;
 }
 
+<<<<<<< HEAD
 /* line 119, ../sass/partials/_colorbox.scss */
+=======
+<<<<<<< HEAD
+/* line 97, ../sass/partials/_colorbox.scss */
+=======
+/* line 100, ../sass/partials/_colorbox.scss */
+>>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
+>>>>>>> 39c7d2123d0ebb4195f50a130b7f76417cecc21d
 #cboxMiddleLeft {
   width: 0;
 }
 
+<<<<<<< HEAD
 /* line 123, ../sass/partials/_colorbox.scss */
+=======
+<<<<<<< HEAD
+/* line 101, ../sass/partials/_colorbox.scss */
+=======
+/* line 104, ../sass/partials/_colorbox.scss */
+>>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
+>>>>>>> 39c7d2123d0ebb4195f50a130b7f76417cecc21d
 #cboxWrapper {
   width: 600px !important;
   border-radius: 0;
 }
 
+<<<<<<< HEAD
 /* line 127, ../sass/partials/_colorbox.scss */
+=======
+<<<<<<< HEAD
+/* line 105, ../sass/partials/_colorbox.scss */
+=======
+/* line 108, ../sass/partials/_colorbox.scss */
+>>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
+>>>>>>> 39c7d2123d0ebb4195f50a130b7f76417cecc21d
 #cboxContent {
   margin-top: -45px;
 }
 
+<<<<<<< HEAD
 /* line 131, ../sass/partials/_colorbox.scss */
+=======
+<<<<<<< HEAD
+/* line 109, ../sass/partials/_colorbox.scss */
+.field.field-name-field-additional-information {
+  width: 100%;
+}
+=======
+/* line 112, ../sass/partials/_colorbox.scss */
+>>>>>>> 39c7d2123d0ebb4195f50a130b7f76417cecc21d
 .field.field-name-field-additional-information {
   width: 100%;
 }
@@ -5578,4 +5717,24 @@ td {
 /* line 41, ../sass/partials/_rides.scss */
 .rides .rides__description p {
   line-height: 18px;
+<<<<<<< HEAD
 }
+=======
+}
+/* line 45, ../sass/partials/_rides.scss */
+.rides.rides.Kiddy {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #673ab7 85%, #673ab7 100%);
+  color: #673ab7;
+}
+/* line 50, ../sass/partials/_rides.scss */
+.rides.rides.Family {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #8bc34a 85%, #8bc34a 100%);
+  color: #8bc34a;
+}
+/* line 55, ../sass/partials/_rides.scss */
+.rides.rides.Thrill {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #f44336 85%, #f44336 100%);
+  color: #f44336;
+}
+>>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
+>>>>>>> 39c7d2123d0ebb4195f50a130b7f76417cecc21d
