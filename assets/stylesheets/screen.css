@@ -14404,11 +14404,9 @@ td {
   height: 50px;
   background-size: contain;
   background-position: 0px 2px;
-  -ms-transform: rotate(7deg);
-  /* IE 9 */
-  -webkit-transform: rotate(7deg);
-  /* Chrome, Safari, Opera */
-  transform: rotate(7deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 /* line 16, ../sass/partials/_colorbox.scss */
 #cboxClose:hover {
