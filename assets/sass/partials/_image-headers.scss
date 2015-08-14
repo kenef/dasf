@@ -18,6 +18,11 @@
 	@include page-header($tickets);
 }
 
+//Food Guide
+.page-node-576 {
+	@include page-header($food);
+}
+
 //Concerts 
 .page-node-274 {
 	nav.secondary ul {
