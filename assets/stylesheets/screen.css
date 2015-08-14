@@ -13728,7 +13728,65 @@ td {
   background: none !important;
 }
 
-/* line 28, ../sass/partials/_image-headers.scss */
+/* line 5, ../sass/global/_mixin.scss */
+.page-node-608 #sidebar-wrapper .menu.nav > .leaf a {
+  color: #F44336;
+}
+/* line 8, ../sass/global/_mixin.scss */
+.page-node-608 #sidebar-wrapper .menu.nav li a.active {
+  color: #fff;
+}
+/* line 11, ../sass/global/_mixin.scss */
+.page-node-608 #sidebar-wrapper .menu.nav > .leaf a:hover {
+  color: #fff;
+}
+/* line 15, ../sass/global/_mixin.scss */
+.page-node-608 nav.secondary ul {
+  background: #F44336;
+}
+/* line 19, ../sass/global/_mixin.scss */
+.page-node-608 .field-type-image {
+  background-color: #F44336;
+}
+/* line 21, ../sass/global/_mixin.scss */
+.page-node-608 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+/* line 26, ../sass/global/_mixin.scss */
+.page-node-608 .pane-bundle-image {
+  max-height: 240px;
+  overflow: hidden;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-608 .pane-node-field-fair-content h2 {
+  color: #F44336;
+}
+/* line 36, ../sass/global/_mixin.scss */
+.page-node-608 .pane-node-field-fair-content h3 {
+  color: #F44336;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-608 .pane-node-field-fair-content h4 {
+  color: #F44336;
+}
+/* line 42, ../sass/global/_mixin.scss */
+.page-node-608 .pane-node-field-fair-content h5 {
+  color: #F44336;
+}
+/* line 48, ../sass/global/_mixin.scss */
+.page-node-608 .pane-node-field-fair-content a {
+  color: #F44336;
+}
+/* line 52, ../sass/global/_mixin.scss */
+.page-node-608 table tr.odd {
+  background: rgba(244, 67, 54, 0.2);
+}
+/* line 56, ../sass/global/_mixin.scss */
+.page-node-608 table .header, .page-node-608 th .header, .page-node-608 td .header {
+  background: none !important;
+}
+
+/* line 33, ../sass/partials/_image-headers.scss */
 .page-node-274 nav.secondary ul {
   background: #5E35B1;
 }

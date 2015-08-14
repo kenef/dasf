@@ -4752,7 +4752,65 @@ td {
   background: none !important;
 }
 
-/* line 28, ../sass/partials/_image-headers.scss */
+/* line 5, ../sass/global/_mixin.scss */
+.page-node-608 #sidebar-wrapper .menu.nav > .leaf a {
+  color: #F44336;
+}
+/* line 8, ../sass/global/_mixin.scss */
+.page-node-608 #sidebar-wrapper .menu.nav li a.active {
+  color: #fff;
+}
+/* line 11, ../sass/global/_mixin.scss */
+.page-node-608 #sidebar-wrapper .menu.nav > .leaf a:hover {
+  color: #fff;
+}
+/* line 15, ../sass/global/_mixin.scss */
+.page-node-608 nav.secondary ul {
+  background: #F44336;
+}
+/* line 19, ../sass/global/_mixin.scss */
+.page-node-608 .field-type-image {
+  background-color: #F44336;
+}
+/* line 21, ../sass/global/_mixin.scss */
+.page-node-608 .field-type-image img.panopoly-image-full {
+  opacity: 0.1;
+}
+/* line 26, ../sass/global/_mixin.scss */
+.page-node-608 .pane-bundle-image {
+  max-height: 240px;
+  overflow: hidden;
+}
+/* line 33, ../sass/global/_mixin.scss */
+.page-node-608 .pane-node-field-fair-content h2 {
+  color: #F44336;
+}
+/* line 36, ../sass/global/_mixin.scss */
+.page-node-608 .pane-node-field-fair-content h3 {
+  color: #F44336;
+}
+/* line 39, ../sass/global/_mixin.scss */
+.page-node-608 .pane-node-field-fair-content h4 {
+  color: #F44336;
+}
+/* line 42, ../sass/global/_mixin.scss */
+.page-node-608 .pane-node-field-fair-content h5 {
+  color: #F44336;
+}
+/* line 48, ../sass/global/_mixin.scss */
+.page-node-608 .pane-node-field-fair-content a {
+  color: #F44336;
+}
+/* line 52, ../sass/global/_mixin.scss */
+.page-node-608 table tr.odd {
+  background: rgba(244, 67, 54, 0.2);
+}
+/* line 56, ../sass/global/_mixin.scss */
+.page-node-608 table .header, .page-node-608 th .header, .page-node-608 td .header {
+  background: none !important;
+}
+
+/* line 33, ../sass/partials/_image-headers.scss */
 .page-node-274 nav.secondary ul {
   background: #5E35B1;
 }
@@ -5507,81 +5565,4 @@ td {
 /* line 81, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .panel-pane.pane-node-title {
   padding: 0 20px;
-}
-/* line 85, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-repeating-dates-and-time {
-  padding: 0 20px;
-}
-/* line 89, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-description {
-  padding: 20px;
-}
-/* line 92, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .field-name-title {
-  padding-left: 5px;
-}
-/* line 98, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .nosub {
-  padding-left: 5px;
-}
-@media (min-width: 1080px) {
-  /* line 108, ../sass/partials/_colorbox.scss */
-  #cboxLoadedContent .nosub {
-    padding-left: 0px;
-  }
-}
-/* line 112, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .top-footer {
-  display: none;
-}
-/* line 115, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .bottom-footer {
-  display: none;
-}
-/* line 118, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .internal-sponsors {
-  display: none;
-}
-
-/* line 122, ../sass/partials/_colorbox.scss */
-#cboxMiddleLeft {
-  width: 0;
-}
-
-/* line 126, ../sass/partials/_colorbox.scss */
-#cboxWrapper {
-  width: 600px !important;
-  border-radius: 0;
-}
-
-/* line 130, ../sass/partials/_colorbox.scss */
-#cboxContent {
-  margin-top: -45px;
-}
-
-/* line 134, ../sass/partials/_colorbox.scss */
-.field.field-name-field-additional-information {
-  width: 100%;
-}
-
-/* line 6, ../sass/partials/_rides.scss */
-.rides {
-  display: block;
-  width: 100%;
-  min-height: 199px;
-  margin: 6px 0;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-right: 0;
-  padding-left: 20px;
-  box-shadow: 0px 0px 5px #666666;
-}
-/* line 17, ../sass/partials/_rides.scss */
-.rides .rides__title {
-  font-family: "Open Sans", sans-serif;
-  margin-top: 10px;
-  margin-right: 10%;
-  margin-left: 10px;
-  font-weight: 500;
-  font-size: 20px;
 }
