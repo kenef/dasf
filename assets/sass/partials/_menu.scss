@@ -303,6 +303,11 @@ img.logo {
   background:$red;
 }
 
+#sidebar-wrapper .menu.nav li.menu-link-schedule a:hover {
+  background:$tickets;
+}
+
+
 #sidebar-wrapper .menu.nav li.menu-link-exhibits a:hover {
   background:$teal;
 }
@@ -444,6 +449,11 @@ table .header-purple, th .header-purple, td .header-purple {
 
 #sidebar-wrapper .menu.nav li.menu-link-contests a.active {
   background:$contets;
+}
+
+
+#sidebar-wrapper .menu.nav li.menu-link-schedule a.active {
+  background:$tickets;
 }
 
 #sidebar-wrapper .menu.nav li.menu-link-buy-tickets a.active {
