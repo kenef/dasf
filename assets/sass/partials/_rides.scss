@@ -6,9 +6,12 @@
 .rides {
     display: block;
     width: 100%;
-    height: 100%;
+    min-height: 185px;
     margin: 6px 0;
-    padding: 12px 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 0;
+    padding-left: 20px;
     box-shadow: 0px 0px 5px #666666;
 
     .rides__title {
@@ -36,6 +39,20 @@
         float: right;
         padding: 0;
         color: #ffffff;
+        text-align: center;
+        font-size: 32px;
+
+        span {
+            display: block;
+        }
+
+        .rides__tickets-label {
+            font-size: 14px;
+        }
+    }
+
+    .rides__height-label {
+        font-weight: 600;
     }
 
     .rides__description p {
@@ -43,19 +60,28 @@
         padding-right: 12px;
     }
 
-    &.rides.Kiddy {
-        background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #673ab7 85%, #673ab7 100%);
-        color: #673ab7;
+    &.Kiddy .rides__tickets {
+        background-color: #673ab7;
+        color: #ffffff;
+        width: 80px;
+        min-height: 185px;
+        margin-top: -12px;
     }
 
-    &.rides.Family {
-        background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #8bc34a 85%, #8bc34a 100%);
-        color: #8bc34a;
+    &.Family .rides__tickets {
+        background-color: #8bc34a;
+        color: #ffffff;
+        width: 80px;
+        min-height: 185px;
+        margin-top: -12px;
     }
 
-    &.rides.Thrill {
-        background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #f44336 85%, #f44336 100%);
-        color: #f44336;
+    &.Thrill .rides__tickets {
+        background-color: #f44336;
+        color: #ffffff;
+        width: 80px;
+        min-height: 185px;
+        margin-top: -12px;
     }
 }
 
@@ -66,6 +92,18 @@
     }
 
     .rides__thrill a {
+        color: #673ab7;
+    }
+
+    .rides__description {
+        color: #673ab7;
+    }
+
+    .rides__height-adult {
+        color: #673ab7;
+    }
+
+    .rides__height-alone {
         color: #673ab7;
     }
 }
@@ -79,6 +117,18 @@
     .rides__thrill a {
         color: #8bc34a;
     }
+
+    .rides__description {
+        color: #8bc34a;
+    }
+
+    .rides__height-adult {
+        color: #8bc34a;
+    }
+
+    .rides__height-alone {
+        color: #8bc34a;
+    }
 }
 
 .Thrill {
@@ -87,6 +137,18 @@
     }
 
     .rides__thrill a {
+        color: #f44336;
+    }
+
+    .rides__description {
+        color: #f44336;
+    }
+
+    .rides__height-adult {
+        color: #f44336;
+    }
+
+    .rides__height-alone {
         color: #f44336;
     }
 }

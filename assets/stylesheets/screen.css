@@ -11839,7 +11839,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -14544,12 +14544,15 @@ td {
 .rides {
   display: block;
   width: 100%;
-  height: 100%;
+  min-height: 185px;
   margin: 6px 0;
-  padding: 12px 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 0;
+  padding-left: 20px;
   box-shadow: 0px 0px 5px #666666;
 }
-/* line 14, ../sass/partials/_rides.scss */
+/* line 17, ../sass/partials/_rides.scss */
 .rides .rides__title {
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
@@ -14558,68 +14561,127 @@ td {
   font-weight: 500;
   font-size: 20px;
 }
-/* line 23, ../sass/partials/_rides.scss */
+/* line 26, ../sass/partials/_rides.scss */
 .rides .rides__title a {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
-/* line 29, ../sass/partials/_rides.scss */
+/* line 32, ../sass/partials/_rides.scss */
 .rides .rides__description, .rides .rides__height-adult, .rides .rides__height-alone, .rides .rides__thrill {
   line-height: 18px;
   width: 85%;
   margin-left: 10px;
 }
-/* line 35, ../sass/partials/_rides.scss */
+/* line 38, ../sass/partials/_rides.scss */
 .rides .rides__tickets {
   float: right;
   padding: 0;
   color: #ffffff;
+  text-align: center;
+  font-size: 32px;
 }
-/* line 41, ../sass/partials/_rides.scss */
+/* line 45, ../sass/partials/_rides.scss */
+.rides .rides__tickets span {
+  display: block;
+}
+/* line 49, ../sass/partials/_rides.scss */
+.rides .rides__tickets .rides__tickets-label {
+  font-size: 14px;
+}
+/* line 54, ../sass/partials/_rides.scss */
+.rides .rides__height-label {
+  font-weight: 600;
+}
+/* line 58, ../sass/partials/_rides.scss */
 .rides .rides__description p {
   line-height: 18px;
   padding-right: 12px;
 }
-/* line 46, ../sass/partials/_rides.scss */
-.rides.rides.Kiddy {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #673ab7 85%, #673ab7 100%);
-  color: #673ab7;
+/* line 63, ../sass/partials/_rides.scss */
+.rides.Kiddy .rides__tickets {
+  background-color: #673ab7;
+  color: #ffffff;
+  width: 80px;
+  min-height: 185px;
+  margin-top: -12px;
 }
-/* line 51, ../sass/partials/_rides.scss */
-.rides.rides.Family {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #8bc34a 85%, #8bc34a 100%);
-  color: #8bc34a;
+/* line 71, ../sass/partials/_rides.scss */
+.rides.Family .rides__tickets {
+  background-color: #8bc34a;
+  color: #ffffff;
+  width: 80px;
+  min-height: 185px;
+  margin-top: -12px;
 }
-/* line 56, ../sass/partials/_rides.scss */
-.rides.rides.Thrill {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #f44336 85%, #f44336 100%);
-  color: #f44336;
+/* line 79, ../sass/partials/_rides.scss */
+.rides.Thrill .rides__tickets {
+  background-color: #f44336;
+  color: #ffffff;
+  width: 80px;
+  min-height: 185px;
+  margin-top: -12px;
 }
 
-/* line 64, ../sass/partials/_rides.scss */
+/* line 90, ../sass/partials/_rides.scss */
 .Kiddy .rides__title a {
   color: #673ab7;
 }
-/* line 68, ../sass/partials/_rides.scss */
+/* line 94, ../sass/partials/_rides.scss */
 .Kiddy .rides__thrill a {
   color: #673ab7;
 }
+/* line 98, ../sass/partials/_rides.scss */
+.Kiddy .rides__description {
+  color: #673ab7;
+}
+/* line 102, ../sass/partials/_rides.scss */
+.Kiddy .rides__height-adult {
+  color: #673ab7;
+}
+/* line 106, ../sass/partials/_rides.scss */
+.Kiddy .rides__height-alone {
+  color: #673ab7;
+}
 
-/* line 75, ../sass/partials/_rides.scss */
+/* line 113, ../sass/partials/_rides.scss */
 .Family .rides__title a {
   color: #8bc34a;
 }
-/* line 79, ../sass/partials/_rides.scss */
+/* line 117, ../sass/partials/_rides.scss */
 .Family .rides__thrill a {
   color: #8bc34a;
 }
+/* line 121, ../sass/partials/_rides.scss */
+.Family .rides__description {
+  color: #8bc34a;
+}
+/* line 125, ../sass/partials/_rides.scss */
+.Family .rides__height-adult {
+  color: #8bc34a;
+}
+/* line 129, ../sass/partials/_rides.scss */
+.Family .rides__height-alone {
+  color: #8bc34a;
+}
 
-/* line 85, ../sass/partials/_rides.scss */
+/* line 135, ../sass/partials/_rides.scss */
 .Thrill .rides__title a {
   color: #f44336;
 }
-/* line 89, ../sass/partials/_rides.scss */
+/* line 139, ../sass/partials/_rides.scss */
 .Thrill .rides__thrill a {
+  color: #f44336;
+}
+/* line 143, ../sass/partials/_rides.scss */
+.Thrill .rides__description {
+  color: #f44336;
+}
+/* line 147, ../sass/partials/_rides.scss */
+.Thrill .rides__height-adult {
+  color: #f44336;
+}
+/* line 151, ../sass/partials/_rides.scss */
+.Thrill .rides__height-alone {
   color: #f44336;
 }
