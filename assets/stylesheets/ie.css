@@ -5572,10 +5572,13 @@ td {
   width: 100%;
   height: 100%;
   margin: 6px 0;
-  padding: 12px 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 0;
+  padding-left: 20px;
   box-shadow: 0px 0px 5px #666666;
 }
-/* line 14, ../sass/partials/_rides.scss */
+/* line 17, ../sass/partials/_rides.scss */
 .rides .rides__title {
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
@@ -5584,19 +5587,19 @@ td {
   font-weight: 500;
   font-size: 20px;
 }
-/* line 23, ../sass/partials/_rides.scss */
+/* line 26, ../sass/partials/_rides.scss */
 .rides .rides__title a {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
-/* line 29, ../sass/partials/_rides.scss */
+/* line 32, ../sass/partials/_rides.scss */
 .rides .rides__description, .rides .rides__height-adult, .rides .rides__height-alone, .rides .rides__thrill {
   line-height: 18px;
   width: 85%;
   margin-left: 10px;
 }
-/* line 35, ../sass/partials/_rides.scss */
+/* line 38, ../sass/partials/_rides.scss */
 .rides .rides__tickets {
   float: right;
   padding: 0;
@@ -5604,64 +5607,64 @@ td {
   text-align: center;
   font-size: 32px;
 }
-/* line 42, ../sass/partials/_rides.scss */
+/* line 45, ../sass/partials/_rides.scss */
 .rides .rides__tickets span {
   display: block;
 }
-/* line 46, ../sass/partials/_rides.scss */
+/* line 49, ../sass/partials/_rides.scss */
 .rides .rides__tickets .rides__tickets-label {
   font-size: 14px;
 }
-/* line 51, ../sass/partials/_rides.scss */
+/* line 54, ../sass/partials/_rides.scss */
 .rides .rides__height-label {
   font-weight: 600;
 }
-/* line 55, ../sass/partials/_rides.scss */
+/* line 58, ../sass/partials/_rides.scss */
 .rides .rides__description p {
   line-height: 18px;
   padding-right: 12px;
 }
-/* line 60, ../sass/partials/_rides.scss */
+/* line 63, ../sass/partials/_rides.scss */
 .rides.rides__tickets.Kiddy {
   background-color: #673ab7;
   color: #673ab7;
   width: 80px;
   height: 80px;
 }
-/* line 67, ../sass/partials/_rides.scss */
+/* line 70, ../sass/partials/_rides.scss */
 .rides.rides__tickets.Family {
   background-color: #8bc34a;
   color: #8bc34a;
 }
-/* line 72, ../sass/partials/_rides.scss */
+/* line 75, ../sass/partials/_rides.scss */
 .rides.rides__tickets.Thrill {
   background-color: #f44336;
   color: #f44336;
 }
 
-/* line 80, ../sass/partials/_rides.scss */
+/* line 83, ../sass/partials/_rides.scss */
 .Kiddy .rides__title a {
   color: #673ab7;
 }
-/* line 84, ../sass/partials/_rides.scss */
+/* line 87, ../sass/partials/_rides.scss */
 .Kiddy .rides__thrill a {
   color: #673ab7;
 }
 
-/* line 91, ../sass/partials/_rides.scss */
+/* line 94, ../sass/partials/_rides.scss */
 .Family .rides__title a {
   color: #8bc34a;
 }
-/* line 95, ../sass/partials/_rides.scss */
+/* line 98, ../sass/partials/_rides.scss */
 .Family .rides__thrill a {
   color: #8bc34a;
 }
 
-/* line 101, ../sass/partials/_rides.scss */
+/* line 104, ../sass/partials/_rides.scss */
 .Thrill .rides__title a {
   color: #f44336;
 }
-/* line 105, ../sass/partials/_rides.scss */
+/* line 108, ../sass/partials/_rides.scss */
 .Thrill .rides__thrill a {
   color: #f44336;
 }
