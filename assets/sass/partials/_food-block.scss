@@ -1,83 +1,61 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400|Cinzel:400,700);
-@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
-
-
-
-.food-block {
+.food-block {//food block wraps each field
     display: block;
     height: 100%;
     margin: 6px 0;
     padding: 12px 20px;
     box-shadow: 0px 0px 5px #666666;
-
-    .food-block__title {
-	    font-family: $font-family-open-sans;
-		color:$info;
+    .food-block__title {//margining title to look groovy
 		margin-top: 10px;
-        margin-right: 10%;
+        padding-right: 25px;
         margin-left: 10px;
 	    font-weight: 500;
 	    font-size: 20px;
     }
-
-    .food-block__description {
+    .food-block__description {// margining discription to look groovy
 	    line-height: 18px;
-	    width: 90%;
+	    padding-right: 25px;
 	    margin-left: 10px;
+        p {
+            line-height: 18px;
+        }
     }
-
-    .food-block__description p {
-        line-height: 18px;
-    }
-
-    .food-block__cabin {
+    .food-block__cabin {//margining cabin to look groovy
   		margin-left: 10px;
+        padding-right: 25px;
     }
-
-    &.food-block.Purple {
+    &.Purple {//establishing purple trail color as 10% width of screen and on the right
     	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
         color: #673ab7;
+        .food-block__title,
+        .food-block__description,
+        .food-block__cabin {
+            color: #673ab7;
+        }
 	}
-
-	&.food-block.Green {
+	&.Green {//establishing green trail color as 10% width of screen and on the right
     	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
         color: #8bc34a;
+        .food-block__title,
+        .food-block__description,
+        .food-block__cabin {
+            color: #8bc34a;
+        }
 	}
-
-	&.food-block.Red {
+	&.Red {//establishing red trail color as 10% width of screen and on the right
     	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
         color: #f44336;
+        .food-block__title,
+        .food-block__description,
+        .food-block__cabin {
+            color: #f44336;
+        }
 	}
-
-	&.food-block.Yellow {
+	&.Yellow {//establishing yellow trail color as 10% width of screen and on the right
     	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffc107 90%, #ffc107 100%);
         color: #ffc107;
+        .food-block__title,
+        .food-block__description,
+        .food-block__cabin {
+            color: #ffc107;
+        }
 	}
-
-}
-
-.Purple {
-
-    .food-block__title {
-        color: #673ab7;
-    }
-}
-
-.Green {
-
-    .food-block__title {
-        color: #8bc34a;
-    }
-}
-
-.Red {
-    .food-block__title {
-        color: #f44336;
-    }
-}
-
-.Yellow {
-    .food-block__title {
-        color: #ffc107;
-    }
-}
