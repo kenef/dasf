@@ -1,3 +1,7 @@
+#cboxLoadedContent::-webkit-scrollbar {
+    display: none;
+}
+
 #cboxLoadedContent {
 	& h2 {
 		margin:0;
