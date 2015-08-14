@@ -26,10 +26,17 @@
         font-size: 20px;
     }
 
-    .rides__description, .rides__height-adult, .rides__height-alone, .rides__tickets, .rides__thrill {
+    .rides__description, .rides__height-adult, .rides__height-alone, .rides__thrill {
 	    line-height: 18px;
 	    width: 90%;
 	    margin-left: 10px;
+    }
+
+    .rides__tickets {
+        float: right;
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
 
     .rides__description p {
