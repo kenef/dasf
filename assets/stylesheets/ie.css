@@ -3185,7 +3185,7 @@ body {
 /* line 15, ../sass/global/_typography.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Open Sans", sans-serif;
-  color: #43b3e6;
+  color: #5E35B1;
 }
 
 /* line 20, ../sass/global/_typography.scss */
@@ -4023,16 +4023,21 @@ span.views-label.views-label-field-event-sponsors {
 }
 
 /* line 86, ../sass/partials/_page.scss */
+.date-display-single {
+  color: #5E35B1;
+}
+
+/* line 90, ../sass/partials/_page.scss */
 .field-content {
   display: inline;
 }
 
-/* line 90, ../sass/partials/_page.scss */
+/* line 94, ../sass/partials/_page.scss */
 .views-field.views-field-field-event-sponsors.concert-landing-sponsors {
   margin-bottom: 1em;
 }
 
-/* line 94, ../sass/partials/_page.scss */
+/* line 98, ../sass/partials/_page.scss */
 .field.field-name-field-venue.field-type-taxonomy-term-reference.field-label-above a {
   font-size: 19px;
 }
@@ -5292,6 +5297,9 @@ td {
 /* line 34, ../sass/partials/_food-block.scss */
 .food-block .food-block__cabin {
   margin-left: 10px;
+<<<<<<< HEAD
+}
+=======
 }
 /* line 38, ../sass/partials/_food-block.scss */
 .food-block.food-block.Purple {
@@ -5517,3 +5525,4 @@ td {
 .Thrill .rides__thrill a {
   color: #f44336;
 }
+>>>>>>> de709477cf4f114952868e26f92eb021084060e0
