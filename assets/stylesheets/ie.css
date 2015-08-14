@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-/* line 101, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
-.fa-ban:before {
-  content: "";
-}
-
-/* line 102, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
-.fa-arrow-left:before {
-  content: "";
-}
-
 /* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/fontawesome/_icons.scss */
 .fa-arrow-right:before {
   content: "";
@@ -5588,4 +5578,12 @@ td {
 /* line 75, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
   display: none;
+}
+/* line 78, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
+  padding: 0;
+}
+/* line 81, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-node-title {
+  padding: 0 20px;
 }
