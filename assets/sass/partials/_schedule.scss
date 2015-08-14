@@ -88,12 +88,9 @@
 
 //Quick Tabs
 .quicktabs-tabs.quicktabs-style-nostyle {
-    background-color: purple;
-    ul {
-        li {
-            a {
-                color: #fff;
-            }
-        }
+    background-color: $tickets;
+    text-align: center;
+    a {
+        color: #fff;
     }
 }
