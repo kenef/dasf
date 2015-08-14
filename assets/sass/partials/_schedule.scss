@@ -1,3 +1,14 @@
+.page-node-560 {
+    @media (min-width: 1080px) {
+        &.view-id-schedule {
+            padding-left: 250px;
+        }
+    }
+    .internal-content {
+        display: none;
+    }
+}
+
 .schedule-block {
     width: 100%;
     box-shadow: 0px 0px 9px #37474F;
