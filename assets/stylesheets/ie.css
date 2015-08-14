@@ -5407,14 +5407,6 @@ td {
   background-size: contain;
   background-position: 0px 2px;
 }
-<<<<<<< HEAD
-
-/* line 16, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent h2 {
-  margin: 0;
-}
-/* line 19, ../sass/partials/_colorbox.scss */
-=======
 /* line 13, ../sass/partials/_colorbox.scss */
 #cboxClose:hover {
   background-position: 0px 2px;
@@ -5425,38 +5417,10 @@ td {
   margin: 0;
 }
 /* line 22, ../sass/partials/_colorbox.scss */
->>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
 #cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-image {
   height: 220px;
   overflow: hidden;
 }
-<<<<<<< HEAD
-/* line 23, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent #wrapper.toggled {
-  padding: 0;
-}
-/* line 26, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
-  display: none;
-}
-/* line 30, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent div#cboxMiddleLeft {
-  width: 0;
-}
-/* line 34, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
-  padding: 0;
-}
-/* line 38, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent #cboxMiddleRight {
-  width: 0;
-}
-/* line 42, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent #cboxContent {
-  margin-top: -45px;
-}
-/* line 46, ../sass/partials/_colorbox.scss */
-=======
 /* line 26, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent #wrapper.toggled {
   padding: 0;
@@ -5482,38 +5446,10 @@ td {
   margin-top: -45px;
 }
 /* line 49, ../sass/partials/_colorbox.scss */
->>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
 #cboxLoadedContent #cboxWrapper {
   width: 604px !important;
   border-radius: 0;
 }
-<<<<<<< HEAD
-/* line 50, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
-  display: none;
-}
-/* line 53, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
-  padding: 0;
-}
-/* line 56, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .panel-pane.pane-node-title {
-  padding: 0 20px;
-}
-/* line 60, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-repeating-dates-and-time {
-  padding: 0 20px;
-}
-/* line 64, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-description {
-  padding: 20px;
-}
-/* line 67, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .field-name-title {
-  padding-left: 5px;
-}
-/* line 73, ../sass/partials/_colorbox.scss */
-=======
 /* line 53, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
   display: none;
@@ -5539,31 +5475,15 @@ td {
   padding-left: 5px;
 }
 /* line 76, ../sass/partials/_colorbox.scss */
->>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
 #cboxLoadedContent .nosub {
   padding-left: 5px;
 }
 @media (min-width: 1080px) {
-<<<<<<< HEAD
-  /* line 83, ../sass/partials/_colorbox.scss */
-=======
   /* line 86, ../sass/partials/_colorbox.scss */
->>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
   #cboxLoadedContent .nosub {
     padding-left: 0px;
   }
 }
-<<<<<<< HEAD
-/* line 87, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .top-footer {
-  display: none;
-}
-/* line 90, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .bottom-footer {
-  display: none;
-}
-/* line 93, ../sass/partials/_colorbox.scss */
-=======
 /* line 90, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .top-footer {
   display: none;
@@ -5573,45 +5493,26 @@ td {
   display: none;
 }
 /* line 96, ../sass/partials/_colorbox.scss */
->>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
 #cboxLoadedContent .internal-sponsors {
   display: none;
 }
 
-<<<<<<< HEAD
-/* line 97, ../sass/partials/_colorbox.scss */
-=======
 /* line 100, ../sass/partials/_colorbox.scss */
->>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
 #cboxMiddleLeft {
   width: 0;
 }
 
-<<<<<<< HEAD
-/* line 101, ../sass/partials/_colorbox.scss */
-=======
 /* line 104, ../sass/partials/_colorbox.scss */
->>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
 #cboxWrapper {
   width: 600px !important;
   border-radius: 0;
 }
 
-<<<<<<< HEAD
-/* line 105, ../sass/partials/_colorbox.scss */
-=======
 /* line 108, ../sass/partials/_colorbox.scss */
->>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
 #cboxContent {
   margin-top: -45px;
 }
 
-<<<<<<< HEAD
-/* line 109, ../sass/partials/_colorbox.scss */
-.field.field-name-field-additional-information {
-  width: 100%;
-}
-=======
 /* line 112, ../sass/partials/_colorbox.scss */
 .field.field-name-field-additional-information {
   width: 100%;
@@ -5672,4 +5573,30 @@ td {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #f44336 85%, #f44336 100%);
   color: #f44336;
 }
->>>>>>> 74beeb082d480b688e99a7b206d0d45c1c4d502c
+
+/* line 63, ../sass/partials/_rides.scss */
+.Kiddy .rides__title a {
+  color: #673ab7;
+}
+/* line 67, ../sass/partials/_rides.scss */
+.Kiddy .rides__thrill a {
+  color: #673ab7;
+}
+
+/* line 74, ../sass/partials/_rides.scss */
+.Family .rides__title a {
+  color: #8bc34a;
+}
+/* line 78, ../sass/partials/_rides.scss */
+.Family .rides__thrill a {
+  color: #8bc34a;
+}
+
+/* line 84, ../sass/partials/_rides.scss */
+.Thrill .rides__title a {
+  color: #f44336;
+}
+/* line 88, ../sass/partials/_rides.scss */
+.Thrill .rides__thrill a {
+  color: #f44336;
+}
