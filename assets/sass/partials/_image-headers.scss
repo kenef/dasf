@@ -23,6 +23,11 @@
 	@include page-header($food);
 }
 
+//Rides Guide
+.page-node-608 {
+		@include page-header($rides);
+}
+
 //Concerts 
 .page-node-274 {
 	nav.secondary ul {
