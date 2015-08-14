@@ -2863,7 +2863,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -5363,4 +5363,160 @@ td {
 /* line 12, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
   display: none;
+}
+/* line 16, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent div#cboxMiddleLeft {
+  width: 0;
+}
+/* line 20, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
+  padding: 0;
+}
+/* line 24, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent #cboxMiddleRight {
+  width: 0;
+}
+/* line 28, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent #cboxContent {
+  margin-top: -45px;
+}
+/* line 32, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent #cboxWrapper {
+  width: 604px !important;
+  border-radius: 0;
+}
+/* line 36, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
+  display: none;
+}
+/* line 39, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .col-md-12.internal-content.panel-panel.nosub, #cboxLoadedContent .internal-content.panel-panel.nosub.calendar-calendar, #cboxLoadedContent .view .row > .internal-content.panel-panel.nosub.list-group, .view #cboxLoadedContent .row > .internal-content.panel-panel.nosub.list-group {
+  padding: 0;
+}
+/* line 42, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-node-title {
+  padding: 0 20px;
+}
+/* line 46, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-repeating-dates-and-time {
+  padding: 0 20px;
+}
+/* line 50, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-description {
+  padding: 20px;
+}
+/* line 53, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .field-name-title {
+  padding-left: 5px;
+}
+/* line 59, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .nosub {
+  padding-left: 5px;
+}
+@media (min-width: 1080px) {
+  /* line 69, ../sass/partials/_colorbox.scss */
+  #cboxLoadedContent .nosub {
+    padding-left: 0px;
+  }
+}
+/* line 73, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .top-footer {
+  display: none;
+}
+/* line 76, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .internal-sponsors {
+  display: none;
+}
+
+/* line 80, ../sass/partials/_colorbox.scss */
+#cboxMiddleLeft {
+  width: 0;
+}
+
+/* line 84, ../sass/partials/_colorbox.scss */
+#cboxWrapper {
+  width: 600px !important;
+  border-radius: 0;
+}
+
+/* line 88, ../sass/partials/_colorbox.scss */
+#cboxContent {
+  margin-top: -45px;
+}
+
+/* line 6, ../sass/partials/_rides.scss */
+.rides {
+  display: block;
+  width: 90%;
+  height: 100%;
+  margin: 6px 0;
+  padding: 12px 20px;
+  box-shadow: 0px 0px 5px #666666;
+}
+/* line 14, ../sass/partials/_rides.scss */
+.rides .rides__title {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  margin-right: 10%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* line 23, ../sass/partials/_rides.scss */
+.rides .rides__title a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* line 29, ../sass/partials/_rides.scss */
+.rides .rides__description, .rides .rides__height-adult, .rides .rides__height-alone, .rides .rides__tickets, .rides .rides__thrill {
+  line-height: 18px;
+  width: 90%;
+  margin-left: 10px;
+}
+/* line 35, ../sass/partials/_rides.scss */
+.rides .rides__description p {
+  line-height: 18px;
+}
+/* line 39, ../sass/partials/_rides.scss */
+.rides.rides.Kiddy {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
+  color: #673ab7;
+}
+/* line 44, ../sass/partials/_rides.scss */
+.rides.rides.Family {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
+  color: #8bc34a;
+}
+/* line 49, ../sass/partials/_rides.scss */
+.rides.rides.Thrill {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
+  color: #f44336;
+}
+
+/* line 57, ../sass/partials/_rides.scss */
+.Kiddy .rides__title a {
+  color: #673ab7;
+}
+/* line 61, ../sass/partials/_rides.scss */
+.Kiddy .rides__thrill a {
+  color: #673ab7;
+}
+
+/* line 68, ../sass/partials/_rides.scss */
+.Family .rides__title a {
+  color: #8bc34a;
+}
+/* line 72, ../sass/partials/_rides.scss */
+.Family .rides__thrill a {
+  color: #8bc34a;
+}
+
+/* line 78, ../sass/partials/_rides.scss */
+.Thrill .rides__title a {
+  color: #f44336;
+}
+/* line 82, ../sass/partials/_rides.scss */
+.Thrill .rides__thrill a {
+  color: #f44336;
 }
