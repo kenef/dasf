@@ -1,3 +1,13 @@
+.view-concert-landing {
+  a {
+    color:$concerts;
+    &:hover {
+      color:$concerts;
+      text-decoration: underline;
+    }
+  }
+}
+
 .node-type-events {
   .field-name-title {
     padding-left: 5px;   
