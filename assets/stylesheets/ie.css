@@ -5067,7 +5067,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Art-Crafts .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Art-Crafts .schedule-block__tagline {
@@ -5088,7 +5088,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Attraction .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Attraction .schedule-block__tagline {
@@ -5109,7 +5109,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Concert .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Concert .schedule-block__tagline {
@@ -5130,7 +5130,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Contests .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Contests .schedule-block__tagline {
@@ -5151,7 +5151,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Cullinary .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Cullinary .schedule-block__tagline {
@@ -5172,7 +5172,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Educational .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Educational .schedule-block__tagline {
@@ -5193,7 +5193,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Entertainment .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Entertainment .schedule-block__tagline {
@@ -5214,7 +5214,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Equestrian .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Equestrian .schedule-block__tagline {
@@ -5235,7 +5235,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Exhibits .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Exhibits .schedule-block__tagline {
@@ -5256,7 +5256,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Farming .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Farming .schedule-block__tagline {
@@ -5277,7 +5277,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Music .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Music .schedule-block__tagline {
@@ -5298,7 +5298,7 @@ td {
 }
 /* line 67, ../sass/global/_mixin.scss */
 .schedule-block.Performance .schedule-block__title a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 72, ../sass/global/_mixin.scss */
 .schedule-block.Performance .schedule-block__tagline {
