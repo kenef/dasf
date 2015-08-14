@@ -57,18 +57,20 @@
         padding-right: 12px;
     }
 
-    &.rides.Kiddy {
-        background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #673ab7 85%, #673ab7 100%);
+    &.rides__tickets.Kiddy {
+        background-color: #673ab7;
         color: #673ab7;
+        width: 80px;
+        height: 80px;
     }
 
-    &.rides.Family {
-        background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #8bc34a 85%, #8bc34a 100%);
+    &.rides__tickets.Family {
+        background-color: #8bc34a;
         color: #8bc34a;
     }
 
-    &.rides.Thrill {
-        background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #f44336 85%, #f44336 100%);
+    &.rides__tickets.Thrill {
+        background-color: #f44336;
         color: #f44336;
     }
 }
