@@ -446,6 +446,14 @@ table .header-purple, th .header-purple, td .header-purple {
   background:$red;
 }
 
+#sidebar-wrapper .menu.nav li.menu-link-food-guide a.active {
+  background:$red;
+}
+
+#sidebar-wrapper .menu.nav li.menu-link-buy-tickets a.active {
+  background:$rides;
+}
+
 
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a.active {
   background:$france;

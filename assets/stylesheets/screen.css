@@ -12833,76 +12833,86 @@ table .header-purple, th .header-purple, td .header-purple {
   background: #ef5350;
 }
 
-/* line 450, ../sass/partials/_menu.scss */
+/* line 449, ../sass/partials/_menu.scss */
+#sidebar-wrapper .menu.nav li.menu-link-food-guide a.active {
+  background: #ef5350;
+}
+
+/* line 453, ../sass/partials/_menu.scss */
+#sidebar-wrapper .menu.nav li.menu-link-buy-tickets a.active {
+  background: #F44336;
+}
+
+/* line 458, ../sass/partials/_menu.scss */
 #sidebar-wrapper .menu.nav li.menu-link-france-equestrian- a.active {
   background: #4caf50;
 }
 
-/* line 454, ../sass/partials/_menu.scss */
+/* line 462, ../sass/partials/_menu.scss */
 a#menu-toggle {
   width: 100%;
   border-radius: 0;
 }
 
-/* line 461, ../sass/partials/_menu.scss */
+/* line 469, ../sass/partials/_menu.scss */
 .internal-footmenu {
   padding: 25px 0;
 }
 
-/* line 465, ../sass/partials/_menu.scss */
+/* line 473, ../sass/partials/_menu.scss */
 .footer-menu {
   margin: 0;
   padding: 0;
   text-align: left;
 }
-/* line 469, ../sass/partials/_menu.scss */
+/* line 477, ../sass/partials/_menu.scss */
 .footer-menu li {
   list-style: none;
   margin: 0;
 }
 
-/* line 476, ../sass/partials/_menu.scss */
+/* line 484, ../sass/partials/_menu.scss */
 nav.secondary ul li a {
   display: inline !important;
   color: white;
   font-size: 12px;
 }
-/* line 480, ../sass/partials/_menu.scss */
+/* line 488, ../sass/partials/_menu.scss */
 nav.secondary ul li a:hover {
   color: #37474f;
 }
 
-/* line 486, ../sass/partials/_menu.scss */
+/* line 494, ../sass/partials/_menu.scss */
 nav.secondary ul {
   background: #ffa726;
   text-align: center;
 }
 
-/* line 491, ../sass/partials/_menu.scss */
+/* line 499, ../sass/partials/_menu.scss */
 nav.secondary ul li {
   display: inline;
 }
 
-/* line 495, ../sass/partials/_menu.scss */
+/* line 503, ../sass/partials/_menu.scss */
 .col-md-3.internal-subnav.panel-panel {
   margin-top: 0px;
   padding: 0;
 }
 
-/* line 501, ../sass/partials/_menu.scss */
+/* line 509, ../sass/partials/_menu.scss */
 .internal-subnav li {
   line-height: 25px;
   padding-top: 10px;
 }
 
 /* overwriting Exibitor sub nav for hover effect */
-/* line 507, ../sass/partials/_menu.scss */
+/* line 515, ../sass/partials/_menu.scss */
 .pane-menu-menu-exhibitor-sub-menu a:hover {
   color: #1FA79B;
   font-weight: 600;
 }
 
-/* line 512, ../sass/partials/_menu.scss */
+/* line 520, ../sass/partials/_menu.scss */
 .responsive-menus.responsified span.toggler {
   padding: 10px;
   font-size: 14px;
