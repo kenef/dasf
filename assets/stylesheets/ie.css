@@ -5578,46 +5578,47 @@ td {
 /* line 41, ../sass/partials/_rides.scss */
 .rides .rides__description p {
   line-height: 18px;
+  padding-right: 12px;
 }
-/* line 45, ../sass/partials/_rides.scss */
+/* line 46, ../sass/partials/_rides.scss */
 .rides.rides.Kiddy {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #673ab7 85%, #673ab7 100%);
   color: #673ab7;
 }
-/* line 50, ../sass/partials/_rides.scss */
+/* line 51, ../sass/partials/_rides.scss */
 .rides.rides.Family {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #8bc34a 85%, #8bc34a 100%);
   color: #8bc34a;
 }
-/* line 55, ../sass/partials/_rides.scss */
+/* line 56, ../sass/partials/_rides.scss */
 .rides.rides.Thrill {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 85%, #f44336 85%, #f44336 100%);
   color: #f44336;
 }
 
-/* line 63, ../sass/partials/_rides.scss */
+/* line 64, ../sass/partials/_rides.scss */
 .Kiddy .rides__title a {
   color: #673ab7;
 }
-/* line 67, ../sass/partials/_rides.scss */
+/* line 68, ../sass/partials/_rides.scss */
 .Kiddy .rides__thrill a {
   color: #673ab7;
 }
 
-/* line 74, ../sass/partials/_rides.scss */
+/* line 75, ../sass/partials/_rides.scss */
 .Family .rides__title a {
   color: #8bc34a;
 }
-/* line 78, ../sass/partials/_rides.scss */
+/* line 79, ../sass/partials/_rides.scss */
 .Family .rides__thrill a {
   color: #8bc34a;
 }
 
-/* line 84, ../sass/partials/_rides.scss */
+/* line 85, ../sass/partials/_rides.scss */
 .Thrill .rides__title a {
   color: #f44336;
 }
-/* line 88, ../sass/partials/_rides.scss */
+/* line 89, ../sass/partials/_rides.scss */
 .Thrill .rides__thrill a {
   color: #f44336;
 }
