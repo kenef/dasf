@@ -89,8 +89,7 @@
     display: inline-block;
     margin: 0;
     text-align: center;
-    background: #9C51A1;
-    background-color: #9C51A1;
+    background: $concerts;
     height: 160px;
     border: 1px solid #ffffff;
 
@@ -121,8 +120,7 @@
   .event-price--lawn, .event-price--reserved {
     margin: 0;
     text-align: center;
-    background: #9C51A1;
-    background-color: #9C51A1;
+    background-color: $concerts;
     height: 160px;
     border: 1px solid #ffffff;
 

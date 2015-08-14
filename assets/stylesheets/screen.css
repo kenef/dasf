@@ -12291,12 +12291,11 @@ em {
   display: inline-block;
   margin: 0;
   text-align: center;
-  background: #9C51A1;
-  background-color: #9C51A1;
+  background: #5E35B1;
   height: 160px;
   border: 1px solid #ffffff;
 }
-/* line 97, ../sass/partials/_concerts.scss */
+/* line 96, ../sass/partials/_concerts.scss */
 .node-type-events .event-sponsor h3 {
   color: #fff;
   font-size: 12px;
@@ -12304,7 +12303,7 @@ em {
   margin-top: 25px;
   font-weight: 400;
 }
-/* line 105, ../sass/partials/_concerts.scss */
+/* line 104, ../sass/partials/_concerts.scss */
 .node-type-events .event-sponsor img {
   width: 50%;
   max-height: 85px;
@@ -12322,38 +12321,37 @@ em {
     height: auto;
   }
 }
-/* line 121, ../sass/partials/_concerts.scss */
+/* line 120, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn, .node-type-events .event-price--reserved {
   margin: 0;
   text-align: center;
-  background: #9C51A1;
-  background-color: #9C51A1;
+  background-color: #5E35B1;
   height: 160px;
   border: 1px solid #ffffff;
 }
 @media (max-width: 1200px) {
-  /* line 121, ../sass/partials/_concerts.scss */
+  /* line 120, ../sass/partials/_concerts.scss */
   .node-type-events .event-price--lawn, .node-type-events .event-price--reserved {
     display: inline-block;
     margin: none;
     width: 100%;
   }
 }
-/* line 135, ../sass/partials/_concerts.scss */
+/* line 133, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn h3, .node-type-events .event-price--reserved h3 {
   margin-top: 30px;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 400 !important;
 }
-/* line 142, ../sass/partials/_concerts.scss */
+/* line 140, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn h4, .node-type-events .event-price--reserved h4 {
   color: #fff;
   font-size: 20px;
   margin-top: 5px;
   margin-bottom: 16px;
 }
-/* line 149, ../sass/partials/_concerts.scss */
+/* line 147, ../sass/partials/_concerts.scss */
 .node-type-events .event-price--lawn a, .node-type-events .event-price--reserved a {
   padding: 5px 10px;
   margin: 0;
@@ -13218,16 +13216,15 @@ table tr.odd {
   display: inline-block;
   margin: 0;
   text-align: center;
-  background: #9C51A1;
-  background-color: #9C51A1;
+  background: #5E35B1;
   height: 200px;
   border: 1px solid #ffffff;
 }
-/* line 27, ../sass/partials/_sponsors.scss */
+/* line 26, ../sass/partials/_sponsors.scss */
 .event-sponsor a {
   color: #fff;
 }
-/* line 30, ../sass/partials/_sponsors.scss */
+/* line 29, ../sass/partials/_sponsors.scss */
 .event-sponsor h3 {
   color: #fff;
   font-size: 18px;
@@ -13236,45 +13233,43 @@ table tr.odd {
   margin-top: 25px;
 }
 
-/* line 38, ../sass/partials/_sponsors.scss */
+/* line 37, ../sass/partials/_sponsors.scss */
 .event-price--lawn {
   display: inline-block;
-  width: 30%;
   margin: 0;
   text-align: center;
   background: #9C51A1;
-  background-color: #9C51A1;
+  background: #5E35B1;
   height: 200px;
   border: 1px solid #ffffff;
 }
-/* line 47, ../sass/partials/_sponsors.scss */
+/* line 46, ../sass/partials/_sponsors.scss */
 .event-price--lawn a {
   color: #fff;
   padding: 10px 25px;
   margin: 0;
   border: 1px solid #fff;
   font-size: 22px;
-  background: #7E4784;
 }
-/* line 54, ../sass/partials/_sponsors.scss */
+/* line 52, ../sass/partials/_sponsors.scss */
 .event-price--lawn a:hover {
   color: #fff;
 }
-/* line 58, ../sass/partials/_sponsors.scss */
+/* line 56, ../sass/partials/_sponsors.scss */
 .event-price--lawn h3, .event-price--lawn h4 {
   color: #fff;
 }
 @media (max-width: 2000px) {
-  /* line 62, ../sass/partials/_sponsors.scss */
+  /* line 60, ../sass/partials/_sponsors.scss */
   .event-price--lawn a {
     padding: 5px 10px;
     margin: 0;
     border: 1px solid #fff;
     font-size: 14px;
-    background: #7E4784;
+    background: #5E35B1;
     width: auto;
   }
-  /* line 70, ../sass/partials/_sponsors.scss */
+  /* line 68, ../sass/partials/_sponsors.scss */
   .event-price--lawn h3 {
     margin-top: 30px;
     margin-bottom: 0;
@@ -13283,28 +13278,26 @@ table tr.odd {
   }
 }
 @media (max-width: 1036px) {
-  /* line 38, ../sass/partials/_sponsors.scss */
+  /* line 37, ../sass/partials/_sponsors.scss */
   .event-price--lawn {
     display: inline-block;
     width: 100%;
     margin: 0;
     text-align: center;
-    background: #9C51A1;
-    background-color: #9C51A1;
+    background: #5E35B1;
     height: 200px;
     border: 1px solid #ffffff;
   }
 }
-/* line 87, ../sass/partials/_sponsors.scss */
+/* line 84, ../sass/partials/_sponsors.scss */
 .event-price--lawn a {
   padding: 5px 10px;
   margin: 0;
   border: 1px solid #fff;
   font-size: 14px;
-  background: #7E4784;
   width: auto;
 }
-/* line 95, ../sass/partials/_sponsors.scss */
+/* line 91, ../sass/partials/_sponsors.scss */
 .event-price--lawn h3 {
   margin-top: 30px;
   margin-bottom: 0;
@@ -13312,38 +13305,36 @@ table tr.odd {
   font-weight: 400 !important;
 }
 
-/* line 103, ../sass/partials/_sponsors.scss */
+/* line 99, ../sass/partials/_sponsors.scss */
 .event-price--reserved {
   display: inline-block;
   margin: 0;
   text-align: center;
-  background: #9C51A1;
-  background-color: #9C51A1;
+  background: #5E35B1;
   height: 200px;
   border: 1px solid #ffffff;
 }
-/* line 112, ../sass/partials/_sponsors.scss */
+/* line 107, ../sass/partials/_sponsors.scss */
 .event-price--reserved a {
   color: #fff;
   padding: 5px 10px;
   margin: 0;
   border: 1px solid #fff;
   font-size: 14px;
-  background: #7E4784;
   width: auto;
 }
-/* line 120, ../sass/partials/_sponsors.scss */
+/* line 114, ../sass/partials/_sponsors.scss */
 .event-price--reserved a:hover {
   color: #fff;
 }
-/* line 124, ../sass/partials/_sponsors.scss */
+/* line 118, ../sass/partials/_sponsors.scss */
 .event-price--reserved h4 {
   color: #fff;
   margin-top: 8px;
   margin-bottom: 25px;
   font-size: 32px;
 }
-/* line 130, ../sass/partials/_sponsors.scss */
+/* line 124, ../sass/partials/_sponsors.scss */
 .event-price--reserved h3 {
   color: #fff;
   margin-top: 30px;
@@ -13352,16 +13343,15 @@ table tr.odd {
   font-weight: 400 !important;
 }
 @media (max-width: 2000px) {
-  /* line 138, ../sass/partials/_sponsors.scss */
+  /* line 132, ../sass/partials/_sponsors.scss */
   .event-price--reserved a {
     padding: 5px 10px;
     margin: 0;
     border: 1px solid #fff;
     font-size: 14px;
-    background: #7E4784;
     width: auto;
   }
-  /* line 146, ../sass/partials/_sponsors.scss */
+  /* line 139, ../sass/partials/_sponsors.scss */
   .event-price--reserved h3 {
     margin-top: 30px;
     margin-bottom: 0;
@@ -13370,26 +13360,24 @@ table tr.odd {
   }
 }
 @media (max-width: 1036px) {
-  /* line 103, ../sass/partials/_sponsors.scss */
+  /* line 99, ../sass/partials/_sponsors.scss */
   .event-price--reserved {
     display: inline-block;
     margin: 0;
     text-align: center;
-    background: #9C51A1;
-    background-color: #9C51A1;
+    background: #5E35B1;
     height: 200px;
     border: 1px solid #ffffff;
   }
-  /* line 162, ../sass/partials/_sponsors.scss */
+  /* line 154, ../sass/partials/_sponsors.scss */
   .event-price--reserved a {
     padding: 5px 10px;
     margin: 0;
     border: 1px solid #fff;
     font-size: 14px;
-    background: #7E4784;
     width: auto;
   }
-  /* line 170, ../sass/partials/_sponsors.scss */
+  /* line 161, ../sass/partials/_sponsors.scss */
   .event-price--reserved h3 {
     margin-top: 30px;
     margin-bottom: 0;
@@ -13398,44 +13386,43 @@ table tr.odd {
   }
 }
 @media (max-width: 850px) {
-  /* line 103, ../sass/partials/_sponsors.scss */
+  /* line 99, ../sass/partials/_sponsors.scss */
   .event-price--reserved {
     min-height: 295px;
   }
 }
 @media (max-width: 767px) {
-  /* line 103, ../sass/partials/_sponsors.scss */
+  /* line 99, ../sass/partials/_sponsors.scss */
   .event-price--reserved {
     min-height: 200px;
   }
 }
 
 @media (max-width: 1036px) {
-  /* line 187, ../sass/partials/_sponsors.scss */
+  /* line 178, ../sass/partials/_sponsors.scss */
   .row > .col-md-4.event-sponsor {
     display: inline-block;
     margin: 0;
     text-align: center;
-    background: #9C51A1;
-    background-color: #9C51A1;
+    background: #5E35B1;
     height: 200px;
     border: 1px solid #ffffff;
   }
 }
-/* line 199, ../sass/partials/_sponsors.scss */
+/* line 189, ../sass/partials/_sponsors.scss */
 .row > .event-price--lawn, .row > .event-sponsor {
   display: inline-block;
   margin-left: none;
   margin-right: none;
 }
 
-/* line 206, ../sass/partials/_sponsors.scss */
+/* line 196, ../sass/partials/_sponsors.scss */
 .field.field-name-field-additional-information {
   width: 106%;
 }
 
 @media (max-width: 1036px) {
-  /* line 211, ../sass/partials/_sponsors.scss */
+  /* line 201, ../sass/partials/_sponsors.scss */
   .field.field-name-field-additional-information {
     width: 114%;
     margin-left: -7%;
@@ -14418,6 +14405,11 @@ td {
 /* line 88, ../sass/partials/_colorbox.scss */
 #cboxContent {
   margin-top: -45px;
+}
+
+/* line 92, ../sass/partials/_colorbox.scss */
+.field.field-name-field-additional-information {
+  width: 100%;
 }
 
 /* line 6, ../sass/partials/_rides.scss */
