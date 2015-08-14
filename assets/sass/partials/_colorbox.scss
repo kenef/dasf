@@ -1,4 +1,11 @@
 #cboxLoadedContent {
+	& h2 {
+		margin:0;
+	}
+	.panel-pane.pane-entity-field.pane-node-field-event-image {
+	  height: 220px;
+	  overflow: hidden;
+	}
 	#wrapper.toggled {
 		padding:0;
 	}
@@ -33,11 +40,11 @@
 		padding:0;
 	}
 	.panel-pane.pane-node-title {
-	    padding: 20px;
+	    padding: 0 20px;
 	}
 
 	.panel-pane.pane-entity-field.pane-node-field-repeating-dates-and-time {
-	    padding: 20px;
+	    padding: 0 20px;
 	}
 
 	.panel-pane.pane-entity-field.pane-node-field-event-description {

@@ -5290,14 +5290,19 @@ td {
 }
 
 /* line 2, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent h2 {
+  margin: 0;
+}
+/* line 5, ../sass/partials/_colorbox.scss */
+#cboxLoadedContent .panel-pane.pane-entity-field.pane-node-field-event-image {
+  height: 220px;
+  overflow: hidden;
+}
+/* line 9, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent #wrapper.toggled {
   padding: 0;
 }
-/* line 5, ../sass/partials/_colorbox.scss */
+/* line 12, ../sass/partials/_colorbox.scss */
 #cboxLoadedContent .col-md-12.internal-header.panel-panel, #cboxLoadedContent .internal-header.panel-panel.calendar-calendar, #cboxLoadedContent .view .row > .internal-header.panel-panel.list-group, .view #cboxLoadedContent .row > .internal-header.panel-panel.list-group {
   display: none;
-}
-/* line 9, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent div#cboxMiddleLeft {
-  width: 0;
 }
