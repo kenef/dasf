@@ -3,7 +3,13 @@
 }
 
 #cboxClose {
-	background: url(../images/closeicon.png) no-repeat;
+    background: url(../images/closeicon.png) no-repeat;
+    top: 3px;
+    right: 7px;
+    width: 32px;
+    height: 50px;
+    background-size: contain;
+    background-position: 0px 2px;
 }
 
 #cboxLoadedContent {
