@@ -14068,12 +14068,12 @@ td {
 
 @media (min-width: 1080px) {
   /* line 3, ../sass/partials/_schedule.scss */
-  .page-node-560.view-id-schedule {
+  .page-node-560 .view-id-schedule {
     padding-left: 250px;
   }
 }
 /* line 7, ../sass/partials/_schedule.scss */
-.page-node-560 .internal-content {
+.page-node-560 .view-dom-id-1e75c01c4504e61e9d65e7bd3411df23 {
   display: none;
 }
 
