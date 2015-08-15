@@ -11835,7 +11835,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -12363,7 +12363,7 @@ em {
   margin: 0;
   border: 1px solid #fff;
   font-size: 14px;
-  background: #7E4784;
+  background: #5E35B1;
   width: auto;
   color: #fff;
 }
@@ -14124,26 +14124,26 @@ td {
   display: none;
 }
 
-/* line 27, ../sass/partials/_schedule.scss */
+/* line 26, ../sass/partials/_schedule.scss */
 .schedule-block {
   width: 100%;
   box-shadow: 0px 0px 9px #37474F;
   margin-bottom: 1em;
   min-height: 100px;
 }
-/* line 32, ../sass/partials/_schedule.scss */
+/* line 31, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__title {
   float: left;
   width: 50%;
   font-weight: 900;
 }
-/* line 36, ../sass/partials/_schedule.scss */
+/* line 35, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__title a {
   display: block;
   padding: 1em;
   height: 1em;
 }
-/* line 42, ../sass/partials/_schedule.scss */
+/* line 41, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__tagline {
   float: left;
   width: 44%;
@@ -14152,25 +14152,25 @@ td {
   margin-top: 21px;
   padding: 1em;
 }
-/* line 50, ../sass/partials/_schedule.scss */
+/* line 49, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__sponsors {
   float: left;
   width: 41.6666%;
   padding: 1em;
 }
-/* line 54, ../sass/partials/_schedule.scss */
+/* line 53, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__sponsors .italic {
   float: left;
   margin-left: 5px;
 }
-/* line 59, ../sass/partials/_schedule.scss */
+/* line 58, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__time {
   float: right;
   height: 100px;
   width: 50px;
   text-align: center;
 }
-/* line 64, ../sass/partials/_schedule.scss */
+/* line 63, ../sass/partials/_schedule.scss */
 .schedule-block .schedule-block__time .date-display-single {
   display: block;
   margin-top: 40px;
@@ -14476,12 +14476,12 @@ td {
   color: #CDDC39;
 }
 
-/* line 109, ../sass/partials/_schedule.scss */
+/* line 107, ../sass/partials/_schedule.scss */
 .quicktabs-tabs.quicktabs-style-nostyle {
   background-color: #8bc34a;
   text-align: center;
 }
-/* line 112, ../sass/partials/_schedule.scss */
+/* line 110, ../sass/partials/_schedule.scss */
 .quicktabs-tabs.quicktabs-style-nostyle a {
   color: #fff;
 }

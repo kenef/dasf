@@ -23,7 +23,6 @@
         display: none;
     }
 }
-
 .schedule-block {
     width: 100%;
     box-shadow: 0px 0px 9px #37474F;
@@ -104,7 +103,6 @@
         @include schedule-color($performance);
     }
 }
-
 //Quick Tabs
 .quicktabs-tabs.quicktabs-style-nostyle {
     background-color: $tickets;
