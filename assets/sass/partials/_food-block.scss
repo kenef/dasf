@@ -1,84 +1,64 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400|Cinzel:400,700);
-@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
-
-
-
 .food-block {
     display: block;
-    width: 90%;
-    height: 100%;
+    width: 100%;
+    min-height: 200px;
     margin: 6px 0;
-    padding: 12px 20px;
-    box-shadow: 0px 0px 5px #666666;
-
+    box-shadow: 0px 0px 5px #666;
+    .food-block__trail {
+        display: block;
+        float: right;
+        min-width: 100px;;
+        min-height: 200px;
+        color: #fff;
+        a {
+            display: none;
+        }
+    }
     .food-block__title {
-	    font-family: $font-family-open-sans;
-		color:$info;
-		margin-top: 10px;
-        margin-right: 10%;
-        margin-left: 10px;
-	    font-weight: 500;
-	    font-size: 20px;
+        font-size: 24px;
+        padding: 15px 10px;
+        font-weight: 900;
     }
-
-    .food-block__description {
-	    line-height: 18px;
-	    width: 90%;
-	    margin-left: 10px;
-    }
-
-    .food-block__description p {
-        line-height: 18px;
-    }
-
+    .food-block__description,
     .food-block__cabin {
-  		margin-left: 10px;
+        width: 90%;
+        line-height: 18px;
+        padding: 15px 10px;
     }
-
-    &.food-block.Purple {
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #673ab7 90%, #673ab7 100%);
-        color: #673ab7;
-	}
-
-	&.food-block.Green {
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #8bc34a 90%, #8bc34a 100%);
-        color: #8bc34a;
-	}
-
-	&.food-block.Red {
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
-        color: #f44336;
-	}
-
-	&.food-block.Yellow {
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffc107 90%, #ffc107 100%);
-        color: #ffc107;
-	}
-
 }
-
 .Purple {
-
-    .food-block__title {
-        color: #673ab7;
+    .food-block__trail {
+        background-color: $purpleTrail;
+    }
+    .food-block__title,
+    .food-block__description {
+        color: $purpleTrail;
     }
 }
-
 .Green {
-
-    .food-block__title {
-        color: #8bc34a;
+    .food-block__trail {
+        background-color: $greenTrail;
+    }
+    .food-block__title,
+    .food-block__description {
+        color: $greenTrail;
     }
 }
-
 .Red {
-    .food-block__title {
-        color: #f44336;
+    .food-block__trail {
+        background-color: $redTrail;
     }
-}
-
+    .food-block__title,
+    .food-block__description {
+        color: $redTrail;
+    }
+}   
 .Yellow {
-    .food-block__title {
-        color: #ffc107;
+    .food-block__trail {
+        background-color: $yellowTrail;
+    }
+    .food-block__title,
+    .food-block__description {
+        color: $yellowTrail;
     }
 }
