@@ -5508,7 +5508,13 @@ td {
     min-height: 214px;
   }
 }
-/* line 11, ../sass/partials/_food-block.scss */
+@media (max-width: 1286px) {
+  /* line 1, ../sass/partials/_food-block.scss */
+  .food-block {
+    min-height: 273px;
+  }
+}
+/* line 13, ../sass/partials/_food-block.scss */
 .food-block .food-block__trail {
   display: block;
   float: right;
@@ -5516,23 +5522,29 @@ td {
   min-height: 200px;
   color: #fff;
 }
-/* line 17, ../sass/partials/_food-block.scss */
+/* line 19, ../sass/partials/_food-block.scss */
 .food-block .food-block__trail a {
   display: none;
 }
 @media (max-width: 1389px) {
-  /* line 11, ../sass/partials/_food-block.scss */
+  /* line 13, ../sass/partials/_food-block.scss */
   .food-block .food-block__trail {
     min-height: 214px;
   }
 }
-/* line 25, ../sass/partials/_food-block.scss */
+@media (max-width: 1286px) {
+  /* line 13, ../sass/partials/_food-block.scss */
+  .food-block .food-block__trail {
+    min-height: 273px;
+  }
+}
+/* line 29, ../sass/partials/_food-block.scss */
 .food-block .food-block__title {
   font-size: 24px;
   padding: 15px 10px;
   font-weight: 900;
 }
-/* line 30, ../sass/partials/_food-block.scss */
+/* line 34, ../sass/partials/_food-block.scss */
 .food-block .food-block__description,
 .food-block .food-block__cabin {
   width: 90%;
@@ -5540,41 +5552,41 @@ td {
   padding: 15px 10px;
 }
 
-/* line 38, ../sass/partials/_food-block.scss */
+/* line 42, ../sass/partials/_food-block.scss */
 .Purple .food-block__trail {
   background-color: #673ab7;
 }
-/* line 41, ../sass/partials/_food-block.scss */
+/* line 45, ../sass/partials/_food-block.scss */
 .Purple .food-block__title,
 .Purple .food-block__description {
   color: #673ab7;
 }
 
-/* line 47, ../sass/partials/_food-block.scss */
+/* line 51, ../sass/partials/_food-block.scss */
 .Green .food-block__trail {
   background-color: #8bc34a;
 }
-/* line 50, ../sass/partials/_food-block.scss */
+/* line 54, ../sass/partials/_food-block.scss */
 .Green .food-block__title,
 .Green .food-block__description {
   color: #8bc34a;
 }
 
-/* line 56, ../sass/partials/_food-block.scss */
+/* line 60, ../sass/partials/_food-block.scss */
 .Red .food-block__trail {
   background-color: #f44336;
 }
-/* line 59, ../sass/partials/_food-block.scss */
+/* line 63, ../sass/partials/_food-block.scss */
 .Red .food-block__title,
 .Red .food-block__description {
   color: #f44336;
 }
 
-/* line 65, ../sass/partials/_food-block.scss */
+/* line 69, ../sass/partials/_food-block.scss */
 .Yellow .food-block__trail {
   background-color: #ffc107;
 }
-/* line 68, ../sass/partials/_food-block.scss */
+/* line 72, ../sass/partials/_food-block.scss */
 .Yellow .food-block__title,
 .Yellow .food-block__description {
   color: #ffc107;
@@ -5597,17 +5609,4 @@ td {
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-}
-/* line 16, ../sass/partials/_colorbox.scss */
-#cboxClose:hover {
-  background-position: 0px 2px;
-}
-
-/* line 22, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent h2 {
-  margin: 0;
-}
-/* line 25, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent .field-type-image {
-  background-color: none;
 }

@@ -7,7 +7,9 @@
     @media (max-width: 1389px){
         min-height: 214px;
     }
-    
+    @media (max-width: 1286px){
+        min-height: 273px;
+    }
     .food-block__trail {
         display: block;
         float: right;
@@ -20,7 +22,9 @@
         @media (max-width: 1389px){
             min-height: 214px;
         }
-        
+        @media (max-width: 1286px){
+            min-height: 273px;
+        } 
     }
     .food-block__title {
         font-size: 24px;
