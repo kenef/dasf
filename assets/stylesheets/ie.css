@@ -5501,6 +5501,7 @@ td {
   min-height: 200px;
   margin: 6px 0;
   box-shadow: 0px 0px 5px #666;
+  padding-left: 5px;
 }
 @media (max-width: 1389px) {
   /* line 1, ../sass/partials/_food-block.scss */
@@ -5514,7 +5515,13 @@ td {
     min-height: 273px;
   }
 }
-/* line 13, ../sass/partials/_food-block.scss */
+@media (max-width: 1083px) {
+  /* line 1, ../sass/partials/_food-block.scss */
+  .food-block {
+    min-height: 299px;
+  }
+}
+/* line 17, ../sass/partials/_food-block.scss */
 .food-block .food-block__trail {
   display: block;
   float: right;
@@ -5522,91 +5529,84 @@ td {
   min-height: 200px;
   color: #fff;
 }
-/* line 19, ../sass/partials/_food-block.scss */
+/* line 23, ../sass/partials/_food-block.scss */
 .food-block .food-block__trail a {
   display: none;
 }
 @media (max-width: 1389px) {
-  /* line 13, ../sass/partials/_food-block.scss */
+  /* line 17, ../sass/partials/_food-block.scss */
   .food-block .food-block__trail {
     min-height: 214px;
   }
 }
 @media (max-width: 1286px) {
-  /* line 13, ../sass/partials/_food-block.scss */
+  /* line 17, ../sass/partials/_food-block.scss */
   .food-block .food-block__trail {
     min-height: 273px;
   }
 }
-/* line 29, ../sass/partials/_food-block.scss */
+@media (max-width: 1083px) {
+  /* line 17, ../sass/partials/_food-block.scss */
+  .food-block .food-block__trail {
+    min-height: 299px;
+  }
+}
+/* line 36, ../sass/partials/_food-block.scss */
 .food-block .food-block__title {
   font-size: 24px;
-  padding: 15px 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 65px;
   font-weight: 900;
 }
-/* line 34, ../sass/partials/_food-block.scss */
+/* line 44, ../sass/partials/_food-block.scss */
 .food-block .food-block__description,
 .food-block .food-block__cabin {
   width: 90%;
   line-height: 18px;
-  padding: 15px 10px;
+  padding-top: none;
+  padding-bottom: none;
+  padding-left: 15px;
+  padding-right: 65px;
 }
 
-/* line 42, ../sass/partials/_food-block.scss */
+/* line 55, ../sass/partials/_food-block.scss */
 .Purple .food-block__trail {
   background-color: #673ab7;
 }
-/* line 45, ../sass/partials/_food-block.scss */
+/* line 58, ../sass/partials/_food-block.scss */
 .Purple .food-block__title,
 .Purple .food-block__description {
   color: #673ab7;
 }
 
-/* line 51, ../sass/partials/_food-block.scss */
+/* line 64, ../sass/partials/_food-block.scss */
 .Green .food-block__trail {
   background-color: #8bc34a;
 }
-/* line 54, ../sass/partials/_food-block.scss */
+/* line 67, ../sass/partials/_food-block.scss */
 .Green .food-block__title,
 .Green .food-block__description {
   color: #8bc34a;
 }
 
-/* line 60, ../sass/partials/_food-block.scss */
+/* line 73, ../sass/partials/_food-block.scss */
 .Red .food-block__trail {
   background-color: #f44336;
 }
-/* line 63, ../sass/partials/_food-block.scss */
+/* line 76, ../sass/partials/_food-block.scss */
 .Red .food-block__title,
 .Red .food-block__description {
   color: #f44336;
 }
 
-/* line 69, ../sass/partials/_food-block.scss */
+/* line 82, ../sass/partials/_food-block.scss */
 .Yellow .food-block__trail {
   background-color: #ffc107;
 }
-/* line 72, ../sass/partials/_food-block.scss */
+/* line 85, ../sass/partials/_food-block.scss */
 .Yellow .food-block__title,
 .Yellow .food-block__description {
   color: #ffc107;
-}
-
-/* line 1, ../sass/partials/_colorbox.scss */
-#cboxLoadedContent::-webkit-scrollbar {
-  display: none;
-}
-
-/* line 5, ../sass/partials/_colorbox.scss */
-#cboxClose {
-  background: url(../images/closeicon.png) no-repeat;
-  top: 3px;
-  right: 7px;
-  width: 32px;
-  height: 50px;
-  background-size: contain;
-  background-position: 0px 2px;
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
 }

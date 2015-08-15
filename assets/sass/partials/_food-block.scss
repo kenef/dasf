@@ -4,11 +4,15 @@
     min-height: 200px;
     margin: 6px 0;
     box-shadow: 0px 0px 5px #666;
+    padding-left: 5px;
     @media (max-width: 1389px){
         min-height: 214px;
     }
     @media (max-width: 1286px){
         min-height: 273px;
+    }
+    @media (max-width: 1083px){
+        min-height: 299px;
     }
     .food-block__trail {
         display: block;
@@ -24,18 +28,27 @@
         }
         @media (max-width: 1286px){
             min-height: 273px;
+        }
+        @media (max-width: 1083px){
+            min-height: 299px;
         } 
     }
     .food-block__title {
         font-size: 24px;
-        padding: 15px 10px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 65px;
         font-weight: 900;
     }
     .food-block__description,
     .food-block__cabin {
         width: 90%;
         line-height: 18px;
-        padding: 15px 10px;
+        padding-top: none;
+        padding-bottom: none;
+        padding-left: 15px;
+        padding-right: 65px;
     }
 }
 .Purple {
