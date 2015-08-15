@@ -1,14 +1,17 @@
 .food-block {
     display: block;
     width: 100%;
-    min-height: 200px;
+    min-height: 213px;
     margin: 6px 0;
     box-shadow: 0px 0px 5px #666;
+    @media (max-width: 1389px){
+
+    }
     .food-block__trail {
         display: block;
         float: right;
         min-width: 100px;;
-        min-height: 200px;
+        min-height: 213px;
         color: #fff;
         a {
             display: none;
