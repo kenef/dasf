@@ -14734,7 +14734,7 @@ td {
 .rides .rides__tickets {
   display: block;
   float: right;
-  width: 10%;
+  width: 100px;
   min-height: 200px;
   color: #fff;
   text-align: center;
@@ -14775,11 +14775,14 @@ td {
 .rides .rides__height-adult,
 .rides .rides__height-alone,
 .rides .rides__thrill {
-  width: 90%;
+  width: 100px;
   line-height: 18px;
-  padding: 5px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 55px;
 }
-/* line 48, ../sass/partials/_rides.scss */
+/* line 51, ../sass/partials/_rides.scss */
 .rides .rides__description p {
   line-height: 18px;
   padding-right: 15px;

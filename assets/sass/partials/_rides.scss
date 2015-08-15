@@ -7,7 +7,7 @@
     .rides__tickets {
         display: block;
         float: right;
-        width: 10%;
+        width: 100px;
         min-height: 200px;
         color: #fff;
         text-align: center;
@@ -40,9 +40,12 @@
     .rides__height-adult, 
     .rides__height-alone, 
     .rides__thrill {
-      width: 90%;
+      width: 100px;
       line-height: 18px;
-      padding: 5px 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 55px;
     }
     .rides__description {
         p {
