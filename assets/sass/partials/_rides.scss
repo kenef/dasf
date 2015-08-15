@@ -4,6 +4,9 @@
     min-height: 200px;
     margin: 6px 0;
     box-shadow: 0px 0px 5px #666;
+    @media (max-width: 1242px){
+        min-height: 216px;
+    }
     @media (max-width: 1124px) {
         min-height: 235px;
     }
@@ -16,9 +19,12 @@
         color: #fff;
         text-align: center;
         padding-top: 92px;
-
+        @media (max-width: 1242px){
+            min-height: 216px;
+        }
         @media (max-width: 1124px) {
             min-height: 235px;
+            padding-top: 105px;
         }
     }
     &.Kiddy {
@@ -45,16 +51,18 @@
         font-weight: 900;
     }
     .rides__description, 
-    .rides__height-adult, 
-    .rides__height-alone, 
     .rides__thrill {
       line-height: 18px;
       padding: 5px 10px;
     }
+    .rides__height-alone,
+    .rides__height-adult {
+        padding: 0px 10px;
+    }
     .rides__description {
         p {
             line-height: 18px;
-            padding-right: 15px;
+            padding-right: 115px;
         }
     }
 }
