@@ -11835,7 +11835,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -14490,29 +14490,41 @@ td {
 .food-block {
   display: block;
   width: 100%;
-  min-height: 213px;
+  min-height: 200px;
   margin: 6px 0;
   box-shadow: 0px 0px 5px #666;
 }
-/* line 10, ../sass/partials/_food-block.scss */
+@media (max-width: 1389px) {
+  /* line 1, ../sass/partials/_food-block.scss */
+  .food-block {
+    min-height: 214px;
+  }
+}
+/* line 11, ../sass/partials/_food-block.scss */
 .food-block .food-block__trail {
   display: block;
   float: right;
   min-width: 100px;
-  min-height: 213px;
+  min-height: 200px;
   color: #fff;
 }
-/* line 16, ../sass/partials/_food-block.scss */
+/* line 17, ../sass/partials/_food-block.scss */
 .food-block .food-block__trail a {
   display: none;
 }
-/* line 20, ../sass/partials/_food-block.scss */
+@media (max-width: 1389px) {
+  /* line 11, ../sass/partials/_food-block.scss */
+  .food-block .food-block__trail {
+    min-height: 214px;
+  }
+}
+/* line 25, ../sass/partials/_food-block.scss */
 .food-block .food-block__title {
   font-size: 24px;
   padding: 15px 10px;
   font-weight: 900;
 }
-/* line 25, ../sass/partials/_food-block.scss */
+/* line 30, ../sass/partials/_food-block.scss */
 .food-block .food-block__description,
 .food-block .food-block__cabin {
   width: 90%;
@@ -14520,41 +14532,41 @@ td {
   padding: 15px 10px;
 }
 
-/* line 33, ../sass/partials/_food-block.scss */
+/* line 38, ../sass/partials/_food-block.scss */
 .Purple .food-block__trail {
   background-color: #673ab7;
 }
-/* line 36, ../sass/partials/_food-block.scss */
+/* line 41, ../sass/partials/_food-block.scss */
 .Purple .food-block__title,
 .Purple .food-block__description {
   color: #673ab7;
 }
 
-/* line 42, ../sass/partials/_food-block.scss */
+/* line 47, ../sass/partials/_food-block.scss */
 .Green .food-block__trail {
   background-color: #8bc34a;
 }
-/* line 45, ../sass/partials/_food-block.scss */
+/* line 50, ../sass/partials/_food-block.scss */
 .Green .food-block__title,
 .Green .food-block__description {
   color: #8bc34a;
 }
 
-/* line 51, ../sass/partials/_food-block.scss */
+/* line 56, ../sass/partials/_food-block.scss */
 .Red .food-block__trail {
   background-color: #f44336;
 }
-/* line 54, ../sass/partials/_food-block.scss */
+/* line 59, ../sass/partials/_food-block.scss */
 .Red .food-block__title,
 .Red .food-block__description {
   color: #f44336;
 }
 
-/* line 60, ../sass/partials/_food-block.scss */
+/* line 65, ../sass/partials/_food-block.scss */
 .Yellow .food-block__trail {
   background-color: #ffc107;
 }
-/* line 63, ../sass/partials/_food-block.scss */
+/* line 68, ../sass/partials/_food-block.scss */
 .Yellow .food-block__title,
 .Yellow .food-block__description {
   color: #ffc107;
