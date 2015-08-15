@@ -11835,7 +11835,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1438741477') no-repeat right 8px #fff !important;
+  background: url('../images/throbber.gif?1438979138') no-repeat right 8px #fff !important;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass_radix-3.1.5/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -12363,7 +12363,7 @@ em {
   margin: 0;
   border: 1px solid #fff;
   font-size: 14px;
-  background: #7E4784;
+  background: #5E35B1;
   width: auto;
   color: #fff;
 }
@@ -14746,11 +14746,7 @@ td {
 .rides .rides__tickets {
   display: block;
   float: right;
-<<<<<<< HEAD
-  width: 100px;
-=======
   min-width: 100px;
->>>>>>> ce051d5bbf53bf501907f77ce136d5911499a31d
   min-height: 200px;
   color: #fff;
   text-align: center;
