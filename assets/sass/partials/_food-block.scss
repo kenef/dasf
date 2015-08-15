@@ -1,71 +1,64 @@
-.food-block {//food block wraps each field
+.food-block {
     display: block;
-    height: 100%;
+    width: 100%;
+    min-height: 200px;
     margin: 6px 0;
-    padding: 12px 20px;
-    box-shadow: 0px 0px 5px #666666;
-    .food-block__title {//margining title to look groovy
-		margin-top: 10px;
-        padding-right: 25px;
-        margin-left: 10px;
-	    font-weight: 500;
-	    font-size: 20px;
-    }
-    .food-block__description {// margining discription to look groovy
-	    line-height: 18px;
-	    padding-right: 25px;
-	    margin-left: 10px;
-        p {
-            line-height: 18px;
-        }
-    }
-    .food-block__cabin {//defining the color tab on right side of div
+    box-shadow: 0px 0px 5px #666;
+    .food-block__trail {
+        display: block;
         float: right;
-        width: 100px;
-        height: auto;
+        min-width: 100px;;
+        min-height: 200px;
+        color: #fff;
+        a {
+            display: none;
+        }
     }
-    &.Purple {//establishing purple trail color as 10% width of screen and on the right
-        .food-block__title,
-        .food-block__description,
-        .food-block__cabin {
-            color: #673ab7;
-        }
-        .food-block__cabin {
-            background-color: #673ab7;
-        }
-	}
-	&.Green {//establishing green trail color as 10% width of screen and on the right
-        .food-block__title,
-        .food-block__description,
-        .food-block__cabin {
-            color: #8bc34a;
-        }
-        .food-block__cabin {
-            background-color: #8bc34a;
-        }
-	}
-	&.Red {//establishing red trail color as 10% width of screen and on the right
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
-        color: #f44336;
-        .food-block__title,
-        .food-block__description,
-        .food-block__cabin {
-            color: #f44336;
-        }
-        .food-block__cabin {
-            background-color: #f44336;
-        }
-	}
-	&.Yellow {//establishing yellow trail color as 10% width of screen and on the right
-    	background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffc107 90%, #ffc107 100%);
-        color: #ffc107;
-        .food-block__title,
-        .food-block__description,
-        .food-block__cabin {
-            color: #ffc107;
-        }
-        .food-block__cabin {
-            background-color: #ffc107;
-        }
-	}
+    .food-block__title {
+        font-size: 24px;
+        padding: 15px 10px;
+        font-weight: 900;
+    }
+    .food-block__description,
+    .food-block__cabin {
+        width: 90%;
+        line-height: 18px;
+        padding: 5px 10px;
+    }
+}
+.Purple {
+    .food-block__trail {
+        background-color: $purpleTrail;
+    }
+    .food-block__title,
+    .food-block__description {
+        color: $purpleTrail;
+    }
+}
+.Green {
+    .food-block__trail {
+        background-color: $greenTrail;
+    }
+    .food-block__title,
+    .food-block__description {
+        color: $greenTrail;
+    }
+}
+.Red {
+    .food-block__trail {
+        background-color: $redTrail;
+    }
+    .food-block__title,
+    .food-block__description {
+        color: $redTrail;
+    }
+}   
+.Yellow {
+    .food-block__trail {
+        background-color: $yellowTrail;
+    }
+    .food-block__title,
+    .food-block__description {
+        color: $yellowTrail;
+    }
 }

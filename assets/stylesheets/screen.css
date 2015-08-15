@@ -14489,84 +14489,75 @@ td {
 /* line 1, ../sass/partials/_food-block.scss */
 .food-block {
   display: block;
-  height: 100%;
+  width: 100%;
+  min-height: 200px;
   margin: 6px 0;
-  padding: 12px 20px;
-  box-shadow: 0px 0px 5px #666666;
+  box-shadow: 0px 0px 5px #666;
 }
 /* line 7, ../sass/partials/_food-block.scss */
+.food-block .food-block__trail {
+  display: block;
+  float: right;
+  min-width: 100px;
+  min-height: 200px;
+  color: #fff;
+}
+/* line 13, ../sass/partials/_food-block.scss */
+.food-block .food-block__trail a {
+  display: none;
+}
+/* line 17, ../sass/partials/_food-block.scss */
 .food-block .food-block__title {
-  margin-top: 10px;
-  padding-right: 25px;
-  margin-left: 10px;
-  font-weight: 500;
-  font-size: 20px;
-}
-/* line 14, ../sass/partials/_food-block.scss */
-.food-block .food-block__description {
-  line-height: 18px;
-  padding-right: 25px;
-  margin-left: 10px;
-}
-/* line 18, ../sass/partials/_food-block.scss */
-.food-block .food-block__description p {
-  line-height: 18px;
+  font-size: 24px;
+  padding: 15px 10px;
+  font-weight: 900;
 }
 /* line 22, ../sass/partials/_food-block.scss */
+.food-block .food-block__description,
 .food-block .food-block__cabin {
-  float: right;
-  width: 100px;
-  height: auto;
+  width: 90%;
+  line-height: 18px;
+  padding: 5px 10px;
 }
-/* line 28, ../sass/partials/_food-block.scss */
-.food-block.Purple .food-block__title,
-.food-block.Purple .food-block__description,
-.food-block.Purple .food-block__cabin {
-  color: #673ab7;
-}
-/* line 33, ../sass/partials/_food-block.scss */
-.food-block.Purple .food-block__cabin {
+
+/* line 30, ../sass/partials/_food-block.scss */
+.Purple .food-block__trail {
   background-color: #673ab7;
 }
-/* line 38, ../sass/partials/_food-block.scss */
-.food-block.Green .food-block__title,
-.food-block.Green .food-block__description,
-.food-block.Green .food-block__cabin {
-  color: #8bc34a;
+/* line 33, ../sass/partials/_food-block.scss */
+.Purple .food-block__title,
+.Purple .food-block__description {
+  color: #673ab7;
 }
-/* line 43, ../sass/partials/_food-block.scss */
-.food-block.Green .food-block__cabin {
+
+/* line 39, ../sass/partials/_food-block.scss */
+.Green .food-block__trail {
   background-color: #8bc34a;
 }
-/* line 47, ../sass/partials/_food-block.scss */
-.food-block.Red {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #f44336 90%, #f44336 100%);
-  color: #f44336;
+/* line 42, ../sass/partials/_food-block.scss */
+.Green .food-block__title,
+.Green .food-block__description {
+  color: #8bc34a;
 }
-/* line 50, ../sass/partials/_food-block.scss */
-.food-block.Red .food-block__title,
-.food-block.Red .food-block__description,
-.food-block.Red .food-block__cabin {
-  color: #f44336;
-}
-/* line 55, ../sass/partials/_food-block.scss */
-.food-block.Red .food-block__cabin {
+
+/* line 48, ../sass/partials/_food-block.scss */
+.Red .food-block__trail {
   background-color: #f44336;
 }
-/* line 59, ../sass/partials/_food-block.scss */
-.food-block.Yellow {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #ffc107 90%, #ffc107 100%);
-  color: #ffc107;
+/* line 51, ../sass/partials/_food-block.scss */
+.Red .food-block__title,
+.Red .food-block__description {
+  color: #f44336;
 }
-/* line 62, ../sass/partials/_food-block.scss */
-.food-block.Yellow .food-block__title,
-.food-block.Yellow .food-block__description,
-.food-block.Yellow .food-block__cabin {
-  color: #ffc107;
-}
-/* line 67, ../sass/partials/_food-block.scss */
-.food-block.Yellow .food-block__cabin {
+
+/* line 57, ../sass/partials/_food-block.scss */
+.Yellow .food-block__trail {
   background-color: #ffc107;
+}
+/* line 60, ../sass/partials/_food-block.scss */
+.Yellow .food-block__title,
+.Yellow .food-block__description {
+  color: #ffc107;
 }
 
 /* line 1, ../sass/partials/_colorbox.scss */
